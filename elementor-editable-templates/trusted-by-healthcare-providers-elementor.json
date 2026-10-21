@@ -1,18 +1,14 @@
 {
   "version": "0.4",
-  "title": "Trusted by Healthcare Providers (ElementsKit Native Carousel Slider - Zero Code)",
+  "title": "Trusted by Healthcare Providers (ElementsKit Native Carousel Slider - Zero Code) (Flexbox Container)",
   "type": "section",
   "content": [
     {
       "id": "6djbddu",
-      "elType": "section",
+      "elType": "container",
+      "isInner": false,
       "settings": {
-        "layout": "boxed",
-        "content_width": {
-          "unit": "px",
-          "size": 1220,
-          "sizes": []
-        },
+        "content_width": "boxed",
         "padding": {
           "unit": "px",
           "top": "85",
@@ -38,400 +34,406 @@
           "isLinked": false
         },
         "background_background": "classic",
-        "background_color": "#F4F9FB"
+        "background_color": "#F4F9FB",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1220,
+          "sizes": []
+        },
+        "flex_direction": "column"
       },
       "elements": [
         {
-          "id": "ozufi3t",
-          "elType": "column",
+          "id": "btxjjx7",
+          "elType": "widget",
+          "widgetType": "heading",
           "settings": {
-            "_column_size": 100
+            "title": "<span style=\"display:inline-flex;align-items:center;gap:6px;padding:6px 16px;background-color:rgba(23,154,158,0.1);border:1px solid rgba(23,154,158,0.28);border-radius:50px;color:#179A9E;font-size:12px;font-weight:800;letter-spacing:1px;text-transform:uppercase;\">🩺 HEALTHCARE PROVIDER FEEDBACK</span>",
+            "header_size": "span",
+            "align": "center",
+            "title_color": "#179A9E",
+            "typography_typography": "custom",
+            "typography_font_family": "Plus Jakarta Sans",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 12,
+              "sizes": []
+            },
+            "typography_font_weight": "800",
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": 1,
+              "sizes": []
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "16",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "m81m57p",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Trusted by Healthcare <span style=\"color: #179A9E;\">Providers Nationwide</span>",
+            "header_size": "h2",
+            "align": "center",
+            "title_color": "#102C40",
+            "typography_typography": "custom",
+            "typography_font_family": "Plus Jakarta Sans",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 42,
+              "sizes": []
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 34,
+              "sizes": []
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 28,
+              "sizes": []
+            },
+            "typography_font_weight": "800",
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.2,
+              "sizes": []
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "16",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "gwlcxqp",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Discover how independent practices, medical groups, and clinics across the United States partner with StelleMed to conquer billing complexity.</p>",
+            "align": "center",
+            "text_color": "#475D70",
+            "typography_typography": "custom",
+            "typography_font_family": "Inter",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 15.5,
+              "sizes": []
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 14,
+              "sizes": []
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.6,
+              "sizes": []
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "auto",
+              "bottom": "40",
+              "left": "auto",
+              "isLinked": false
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "z01j9if",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "auto",
+              "bottom": "20",
+              "left": "auto",
+              "isLinked": false
+            },
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_direction_mobile": "column"
           },
           "elements": [
             {
-              "id": "btxjjx7",
-              "elType": "widget",
-              "widgetType": "heading",
+              "id": "gpc46l5",
+              "elType": "container",
+              "isInner": true,
               "settings": {
-                "title": "<span style=\"display:inline-flex;align-items:center;gap:6px;padding:6px 16px;background-color:rgba(23,154,158,0.1);border:1px solid rgba(23,154,158,0.28);border-radius:50px;color:#179A9E;font-size:12px;font-weight:800;letter-spacing:1px;text-transform:uppercase;\">🩺 HEALTHCARE PROVIDER FEEDBACK</span>",
-                "header_size": "span",
-                "align": "center",
-                "title_color": "#179A9E",
-                "typography_typography": "custom",
-                "typography_font_family": "Plus Jakarta Sans",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 12,
+                "width": {
+                  "unit": "%",
+                  "size": 100,
                   "sizes": []
                 },
-                "typography_font_weight": "800",
-                "typography_letter_spacing": {
-                  "unit": "px",
-                  "size": 1,
-                  "sizes": []
-                },
-                "_margin": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "16",
-                  "left": "0",
-                  "isLinked": false
-                }
-              }
-            },
-            {
-              "id": "m81m57p",
-              "elType": "widget",
-              "widgetType": "heading",
-              "settings": {
-                "title": "Trusted by Healthcare <span style=\"color: #179A9E;\">Providers Nationwide</span>",
-                "header_size": "h2",
-                "align": "center",
-                "title_color": "#102C40",
-                "typography_typography": "custom",
-                "typography_font_family": "Plus Jakarta Sans",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 42,
-                  "sizes": []
-                },
-                "typography_font_size_tablet": {
-                  "unit": "px",
-                  "size": 34,
-                  "sizes": []
-                },
-                "typography_font_size_mobile": {
-                  "unit": "px",
-                  "size": 28,
-                  "sizes": []
-                },
-                "typography_font_weight": "800",
-                "typography_line_height": {
-                  "unit": "em",
-                  "size": 1.2,
-                  "sizes": []
-                },
-                "_margin": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "16",
-                  "left": "0",
-                  "isLinked": false
-                }
-              }
-            },
-            {
-              "id": "gwlcxqp",
-              "elType": "widget",
-              "widgetType": "text-editor",
-              "settings": {
-                "editor": "<p>Discover how independent practices, medical groups, and clinics across the United States partner with StelleMed to conquer billing complexity.</p>",
-                "align": "center",
-                "text_color": "#475D70",
-                "typography_typography": "custom",
-                "typography_font_family": "Inter",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 15.5,
-                  "sizes": []
-                },
-                "typography_font_size_mobile": {
-                  "unit": "px",
-                  "size": 14,
-                  "sizes": []
-                },
-                "typography_line_height": {
-                  "unit": "em",
-                  "size": 1.6,
-                  "sizes": []
-                },
-                "_margin": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "auto",
-                  "bottom": "40",
-                  "left": "auto",
-                  "isLinked": false
-                }
-              }
-            },
-            {
-              "id": "z01j9if",
-              "elType": "section",
-              "settings": {
-                "content_width": "boxed",
-                "content_width_custom": {
-                  "unit": "px",
-                  "size": 860,
-                  "sizes": []
-                },
-                "gap": "default",
-                "_margin": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "auto",
-                  "bottom": "20",
-                  "left": "auto",
-                  "isLinked": false
-                }
+                "flex_direction": "column"
               },
               "elements": [
                 {
-                  "id": "gpc46l5",
-                  "elType": "column",
+                  "id": "ni05gkv",
+                  "elType": "widget",
+                  "widgetType": "elementskit-testimonial",
                   "settings": {
-                    "_column_size": 100
-                  },
-                  "elements": [
-                    {
-                      "id": "ni05gkv",
-                      "elType": "widget",
-                      "widgetType": "elementskit-testimonial",
-                      "settings": {
-                        "ekit_testimonial_style": "style5",
-                        "ekit_testimonial_rating_enable": "yes",
-                        "ekit_testimonial_wartermark_enable": "yes",
-                        "ekit_testimonial_wartermark_position": "top",
-                        "ekit_testimonial_wartermarks": {
-                          "value": "icon icon-quote",
-                          "library": "ekiticons"
+                    "ekit_testimonial_style": "style5",
+                    "ekit_testimonial_rating_enable": "yes",
+                    "ekit_testimonial_wartermark_enable": "yes",
+                    "ekit_testimonial_wartermark_position": "top",
+                    "ekit_testimonial_wartermarks": {
+                      "value": "icon icon-quote",
+                      "library": "ekiticons"
+                    },
+                    "ekit_testimonial_data": [
+                      {
+                        "_id": "ekit_rev_1",
+                        "client_name": "Maria Lopez",
+                        "designation": "Practice Administrator • Summit Regional Medical Group<br><span style=\"color:#718096;font-size:12px;font-weight:500;\">Multi-Specialty Care</span>",
+                        "review": "<span style=\"display:inline-block;float:right;background:#EAF8F8;color:#179A9E;font-size:11px;font-weight:700;padding:4px 12px;border-radius:20px;letter-spacing:0.5px;text-transform:uppercase;margin-bottom:12px;\">REDUCED A/R DAYS FROM 54 TO 26 DAYS</span><div style=\"clear:both;\"></div>“Having one dedicated account manager instead of an impersonal support queue changed everything for our practice. They actually know our providers, understand our specialty, and turn claims around in days.”",
+                        "rating": "5",
+                        "link": {
+                          "url": "",
+                          "is_external": "",
+                          "nofollow": ""
                         },
-                        "ekit_testimonial_data": [
-                          {
-                            "_id": "ekit_rev_1",
-                            "client_name": "Maria Lopez",
-                            "designation": "Practice Administrator • Summit Regional Medical Group<br><span style=\"color:#718096;font-size:12px;font-weight:500;\">Multi-Specialty Care</span>",
-                            "review": "<span style=\"display:inline-block;float:right;background:#EAF8F8;color:#179A9E;font-size:11px;font-weight:700;padding:4px 12px;border-radius:20px;letter-spacing:0.5px;text-transform:uppercase;margin-bottom:12px;\">REDUCED A/R DAYS FROM 54 TO 26 DAYS</span><div style=\"clear:both;\"></div>“Having one dedicated account manager instead of an impersonal support queue changed everything for our practice. They actually know our providers, understand our specialty, and turn claims around in days.”",
-                            "rating": "5",
-                            "link": {
-                              "url": "",
-                              "is_external": "",
-                              "nofollow": ""
-                            },
-                            "client_photo": {
-                              "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=160&auto=format&fit=crop&q=80",
-                              "id": ""
-                            },
-                            "client_logo": {
-                              "url": "",
-                              "id": ""
-                            },
-                            "use_hover_logo": "no",
-                            "ekit_testimonial_active": "yes",
-                            "ekit_testimonial_item_text_colors_popover": "yes",
-                            "ekit_testimonial_item_description_color": "#2D3748",
-                            "ekit_testimonial_item_client_name_color": "#102C40",
-                            "ekit_testimonial_item_client_designation_color": "#179A9E",
-                            "ekit_testimonial_item_rating_color": "#F59E0B"
-                          },
-                          {
-                            "_id": "ekit_rev_2",
-                            "client_name": "Dr. Sarah Bennett, MD",
-                            "designation": "Medical Director • Coastal Orthopedic & Spine Center<br><span style=\"color:#718096;font-size:12px;font-weight:500;\">Orthopedic Surgery</span>",
-                            "review": "<span style=\"display:inline-block;float:right;background:#EAF8F8;color:#179A9E;font-size:11px;font-weight:700;padding:4px 12px;border-radius:20px;letter-spacing:0.5px;text-transform:uppercase;margin-bottom:12px;\">CLEAN CLAIM RATE STEADY AT 98.6%</span><div style=\"clear:both;\"></div>“Patient billing used to consume hours of our front-desk staff’s time every single day. With StelleMed and StelleCloud handling patient statements and digital collections, our staff can focus 100% on patients in the waiting room.”",
-                            "rating": "5",
-                            "link": {
-                              "url": "",
-                              "is_external": "",
-                              "nofollow": ""
-                            },
-                            "client_photo": {
-                              "url": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=160&auto=format&fit=crop&q=80",
-                              "id": ""
-                            },
-                            "client_logo": {
-                              "url": "",
-                              "id": ""
-                            },
-                            "use_hover_logo": "no",
-                            "ekit_testimonial_active": "",
-                            "ekit_testimonial_item_text_colors_popover": "yes",
-                            "ekit_testimonial_item_description_color": "#2D3748",
-                            "ekit_testimonial_item_client_name_color": "#102C40",
-                            "ekit_testimonial_item_client_designation_color": "#179A9E",
-                            "ekit_testimonial_item_rating_color": "#F59E0B"
-                          },
-                          {
-                            "_id": "ekit_rev_3",
-                            "client_name": "Lisa Alvarez",
-                            "designation": "Billing Coordinator • Harborview Cardiology Associates<br><span style=\"color:#718096;font-size:12px;font-weight:500;\">Cardiology</span>",
-                            "review": "<span style=\"display:inline-block;float:right;background:#EAF8F8;color:#179A9E;font-size:11px;font-weight:700;padding:4px 12px;border-radius:20px;letter-spacing:0.5px;text-transform:uppercase;margin-bottom:12px;\">99% PAYER CONTRACT COMPLIANCE</span><div style=\"clear:both;\"></div>“We used to spend hours every week on hold with commercial payers fighting over trivial modifier rejections. Our StelleMed account specialist tackles appeals aggressively and recovers funds we had written off.”",
-                            "rating": "5",
-                            "link": {
-                              "url": "",
-                              "is_external": "",
-                              "nofollow": ""
-                            },
-                            "client_photo": {
-                              "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=160&auto=format&fit=crop&q=80",
-                              "id": ""
-                            },
-                            "client_logo": {
-                              "url": "",
-                              "id": ""
-                            },
-                            "use_hover_logo": "no",
-                            "ekit_testimonial_active": "",
-                            "ekit_testimonial_item_text_colors_popover": "yes",
-                            "ekit_testimonial_item_description_color": "#2D3748",
-                            "ekit_testimonial_item_client_name_color": "#102C40",
-                            "ekit_testimonial_item_client_designation_color": "#179A9E",
-                            "ekit_testimonial_item_rating_color": "#F59E0B"
-                          },
-                          {
-                            "_id": "ekit_rev_4",
-                            "client_name": "David Chen, MHA",
-                            "designation": "Chief Operating Officer • Apex Family Medicine Network<br><span style=\"color:#718096;font-size:12px;font-weight:500;\">Primary Care & Pediatrics</span>",
-                            "review": "<span style=\"display:inline-block;float:right;background:#EAF8F8;color:#179A9E;font-size:11px;font-weight:700;padding:4px 12px;border-radius:20px;letter-spacing:0.5px;text-transform:uppercase;margin-bottom:12px;\">+22% INCREASE IN MONTHLY COLLECTIONS</span><div style=\"clear:both;\"></div>“The monthly reports finally gave our executive team a transparent, clear picture of where our revenue was going — and where denials were getting stuck. StelleMed cleaned up our aging A/R in under 60 days.”",
-                            "rating": "5",
-                            "link": {
-                              "url": "",
-                              "is_external": "",
-                              "nofollow": ""
-                            },
-                            "client_photo": {
-                              "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=160&auto=format&fit=crop&q=80",
-                              "id": ""
-                            },
-                            "client_logo": {
-                              "url": "",
-                              "id": ""
-                            },
-                            "use_hover_logo": "no",
-                            "ekit_testimonial_active": "",
-                            "ekit_testimonial_item_text_colors_popover": "yes",
-                            "ekit_testimonial_item_description_color": "#2D3748",
-                            "ekit_testimonial_item_client_name_color": "#102C40",
-                            "ekit_testimonial_item_client_designation_color": "#179A9E",
-                            "ekit_testimonial_item_rating_color": "#F59E0B"
-                          }
-                        ],
-                        "ekit_testimonial_slidetoshow": 1,
-                        "ekit_testimonial_slidetoshow_tablet": 1,
-                        "ekit_testimonial_slidetoshow_mobile": 1,
-                        "ekit_testimonial_slidesToScroll": 1,
-                        "ekit_testimonial_slidesToScroll_tablet": 1,
-                        "ekit_testimonial_slidesToScroll_mobile": 1,
-                        "ekit_testimonial_speed": 700,
-                        "ekit_testimonial_autoplay": "yes",
-                        "ekit_testimonial_show_arrow": "yes",
-                        "ekit_testimonial_show_dot": "yes",
-                        "ekit_testimonial_loop": "yes",
-                        "ekit_testimonial_pause_on_hover": "yes",
-                        "ekit_testimonial_left_right_spacing": {
-                          "unit": "px",
-                          "size": 0,
-                          "sizes": []
+                        "client_photo": {
+                          "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=160&auto=format&fit=crop&q=80",
+                          "id": ""
                         },
-                        "ekit_testimonial_layout_padding": {
-                          "unit": "px",
-                          "top": "36",
-                          "right": "36",
-                          "bottom": "32",
-                          "left": "36",
-                          "isLinked": false
+                        "client_logo": {
+                          "url": "",
+                          "id": ""
                         },
-                        "ekit_testimonial_layout_border_radius": {
-                          "unit": "px",
-                          "top": "22",
-                          "right": "22",
-                          "bottom": "22",
-                          "left": "22",
-                          "isLinked": true
+                        "use_hover_logo": "no",
+                        "ekit_testimonial_active": "yes",
+                        "ekit_testimonial_item_text_colors_popover": "yes",
+                        "ekit_testimonial_item_description_color": "#2D3748",
+                        "ekit_testimonial_item_client_name_color": "#102C40",
+                        "ekit_testimonial_item_client_designation_color": "#179A9E",
+                        "ekit_testimonial_item_rating_color": "#F59E0B"
+                      },
+                      {
+                        "_id": "ekit_rev_2",
+                        "client_name": "Dr. Sarah Bennett, MD",
+                        "designation": "Medical Director • Coastal Orthopedic & Spine Center<br><span style=\"color:#718096;font-size:12px;font-weight:500;\">Orthopedic Surgery</span>",
+                        "review": "<span style=\"display:inline-block;float:right;background:#EAF8F8;color:#179A9E;font-size:11px;font-weight:700;padding:4px 12px;border-radius:20px;letter-spacing:0.5px;text-transform:uppercase;margin-bottom:12px;\">CLEAN CLAIM RATE STEADY AT 98.6%</span><div style=\"clear:both;\"></div>“Patient billing used to consume hours of our front-desk staff’s time every single day. With StelleMed and StelleCloud handling patient statements and digital collections, our staff can focus 100% on patients in the waiting room.”",
+                        "rating": "5",
+                        "link": {
+                          "url": "",
+                          "is_external": "",
+                          "nofollow": ""
                         },
-                        "ekit_testimonial_layout_background_background": "classic",
-                        "ekit_testimonial_layout_background_color": "#FFFFFF",
-                        "ekit_testimonial_layout_box_shadow_box_shadow": {
-                          "horizontal": 0,
-                          "vertical": 10,
-                          "blur": 30,
-                          "spread": 0,
-                          "color": "rgba(16, 44, 64, 0.06)"
+                        "client_photo": {
+                          "url": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=160&auto=format&fit=crop&q=80",
+                          "id": ""
                         },
-                        "ekit_testimonial_review_ratting_color": "#F59E0B",
-                        "ekit_testimonial_description_color": "#2D3748",
-                        "ekit_testimonial_description_typography_typography": "custom",
-                        "ekit_testimonial_description_typography_font_family": "Inter",
-                        "ekit_testimonial_description_typography_font_size": {
-                          "unit": "px",
-                          "size": 17,
-                          "sizes": []
+                        "client_logo": {
+                          "url": "",
+                          "id": ""
                         },
-                        "ekit_testimonial_description_typography_font_style": "italic",
-                        "ekit_testimonial_description_typography_line_height": {
-                          "unit": "em",
-                          "size": 1.65,
-                          "sizes": []
+                        "use_hover_logo": "no",
+                        "ekit_testimonial_active": "",
+                        "ekit_testimonial_item_text_colors_popover": "yes",
+                        "ekit_testimonial_item_description_color": "#2D3748",
+                        "ekit_testimonial_item_client_name_color": "#102C40",
+                        "ekit_testimonial_item_client_designation_color": "#179A9E",
+                        "ekit_testimonial_item_rating_color": "#F59E0B"
+                      },
+                      {
+                        "_id": "ekit_rev_3",
+                        "client_name": "Lisa Alvarez",
+                        "designation": "Billing Coordinator • Harborview Cardiology Associates<br><span style=\"color:#718096;font-size:12px;font-weight:500;\">Cardiology</span>",
+                        "review": "<span style=\"display:inline-block;float:right;background:#EAF8F8;color:#179A9E;font-size:11px;font-weight:700;padding:4px 12px;border-radius:20px;letter-spacing:0.5px;text-transform:uppercase;margin-bottom:12px;\">99% PAYER CONTRACT COMPLIANCE</span><div style=\"clear:both;\"></div>“We used to spend hours every week on hold with commercial payers fighting over trivial modifier rejections. Our StelleMed account specialist tackles appeals aggressively and recovers funds we had written off.”",
+                        "rating": "5",
+                        "link": {
+                          "url": "",
+                          "is_external": "",
+                          "nofollow": ""
                         },
-                        "ekit_testimonial_client_name_color": "#102C40",
-                        "ekit_testimonial_client_name_typography_typography": "custom",
-                        "ekit_testimonial_client_name_typography_font_family": "Plus Jakarta Sans",
-                        "ekit_testimonial_client_name_typography_font_size": {
-                          "unit": "px",
-                          "size": 18,
-                          "sizes": []
+                        "client_photo": {
+                          "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=160&auto=format&fit=crop&q=80",
+                          "id": ""
                         },
-                        "ekit_testimonial_client_name_typography_font_weight": "700",
-                        "ekit_testimonial_client_designation_color": "#179A9E",
-                        "ekit_testimonial_client_designation_typography_typography": "custom",
-                        "ekit_testimonial_client_designation_typography_font_family": "Inter",
-                        "ekit_testimonial_client_designation_typography_font_size": {
-                          "unit": "px",
-                          "size": 13.5,
-                          "sizes": []
+                        "client_logo": {
+                          "url": "",
+                          "id": ""
                         },
-                        "ekit_testimonial_client_designation_typography_font_weight": "600",
-                        "ekit_testimonial_client_image_size": {
-                          "unit": "px",
-                          "size": 64,
-                          "sizes": []
+                        "use_hover_logo": "no",
+                        "ekit_testimonial_active": "",
+                        "ekit_testimonial_item_text_colors_popover": "yes",
+                        "ekit_testimonial_item_description_color": "#2D3748",
+                        "ekit_testimonial_item_client_name_color": "#102C40",
+                        "ekit_testimonial_item_client_designation_color": "#179A9E",
+                        "ekit_testimonial_item_rating_color": "#F59E0B"
+                      },
+                      {
+                        "_id": "ekit_rev_4",
+                        "client_name": "David Chen, MHA",
+                        "designation": "Chief Operating Officer • Apex Family Medicine Network<br><span style=\"color:#718096;font-size:12px;font-weight:500;\">Primary Care & Pediatrics</span>",
+                        "review": "<span style=\"display:inline-block;float:right;background:#EAF8F8;color:#179A9E;font-size:11px;font-weight:700;padding:4px 12px;border-radius:20px;letter-spacing:0.5px;text-transform:uppercase;margin-bottom:12px;\">+22% INCREASE IN MONTHLY COLLECTIONS</span><div style=\"clear:both;\"></div>“The monthly reports finally gave our executive team a transparent, clear picture of where our revenue was going — and where denials were getting stuck. StelleMed cleaned up our aging A/R in under 60 days.”",
+                        "rating": "5",
+                        "link": {
+                          "url": "",
+                          "is_external": "",
+                          "nofollow": ""
                         },
-                        "ekit_testimonial_client_image_border_radius": {
-                          "unit": "px",
-                          "top": "50",
-                          "right": "50",
-                          "bottom": "50",
-                          "left": "50",
-                          "isLinked": true
+                        "client_photo": {
+                          "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=160&auto=format&fit=crop&q=80",
+                          "id": ""
                         },
-                        "ekit_testimonial_left_arrows": {
-                          "value": "fas fa-chevron-left",
-                          "library": "fa-solid"
+                        "client_logo": {
+                          "url": "",
+                          "id": ""
                         },
-                        "ekit_testimonial_right_arrows": {
-                          "value": "fas fa-chevron-right",
-                          "library": "fa-solid"
-                        },
-                        "ekit_testimonial_arrow_color": "#102C40",
-                        "ekit_testimonial_arrow_background_color": "#FFFFFF",
-                        "ekit_testimonial_dot_color": "#179A9E",
-                        "ekit_testimonial_dot_active_color": "#179A9E"
+                        "use_hover_logo": "no",
+                        "ekit_testimonial_active": "",
+                        "ekit_testimonial_item_text_colors_popover": "yes",
+                        "ekit_testimonial_item_description_color": "#2D3748",
+                        "ekit_testimonial_item_client_name_color": "#102C40",
+                        "ekit_testimonial_item_client_designation_color": "#179A9E",
+                        "ekit_testimonial_item_rating_color": "#F59E0B"
                       }
-                    }
-                  ]
+                    ],
+                    "ekit_testimonial_slidetoshow": 1,
+                    "ekit_testimonial_slidetoshow_tablet": 1,
+                    "ekit_testimonial_slidetoshow_mobile": 1,
+                    "ekit_testimonial_slidesToScroll": 1,
+                    "ekit_testimonial_slidesToScroll_tablet": 1,
+                    "ekit_testimonial_slidesToScroll_mobile": 1,
+                    "ekit_testimonial_speed": 700,
+                    "ekit_testimonial_autoplay": "yes",
+                    "ekit_testimonial_show_arrow": "yes",
+                    "ekit_testimonial_show_dot": "yes",
+                    "ekit_testimonial_loop": "yes",
+                    "ekit_testimonial_pause_on_hover": "yes",
+                    "ekit_testimonial_left_right_spacing": {
+                      "unit": "px",
+                      "size": 0,
+                      "sizes": []
+                    },
+                    "ekit_testimonial_layout_padding": {
+                      "unit": "px",
+                      "top": "36",
+                      "right": "36",
+                      "bottom": "32",
+                      "left": "36",
+                      "isLinked": false
+                    },
+                    "ekit_testimonial_layout_border_radius": {
+                      "unit": "px",
+                      "top": "22",
+                      "right": "22",
+                      "bottom": "22",
+                      "left": "22",
+                      "isLinked": true
+                    },
+                    "ekit_testimonial_layout_background_background": "classic",
+                    "ekit_testimonial_layout_background_color": "#FFFFFF",
+                    "ekit_testimonial_layout_box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 10,
+                      "blur": 30,
+                      "spread": 0,
+                      "color": "rgba(16, 44, 64, 0.06)"
+                    },
+                    "ekit_testimonial_review_ratting_color": "#F59E0B",
+                    "ekit_testimonial_description_color": "#2D3748",
+                    "ekit_testimonial_description_typography_typography": "custom",
+                    "ekit_testimonial_description_typography_font_family": "Inter",
+                    "ekit_testimonial_description_typography_font_size": {
+                      "unit": "px",
+                      "size": 17,
+                      "sizes": []
+                    },
+                    "ekit_testimonial_description_typography_font_style": "italic",
+                    "ekit_testimonial_description_typography_line_height": {
+                      "unit": "em",
+                      "size": 1.65,
+                      "sizes": []
+                    },
+                    "ekit_testimonial_client_name_color": "#102C40",
+                    "ekit_testimonial_client_name_typography_typography": "custom",
+                    "ekit_testimonial_client_name_typography_font_family": "Plus Jakarta Sans",
+                    "ekit_testimonial_client_name_typography_font_size": {
+                      "unit": "px",
+                      "size": 18,
+                      "sizes": []
+                    },
+                    "ekit_testimonial_client_name_typography_font_weight": "700",
+                    "ekit_testimonial_client_designation_color": "#179A9E",
+                    "ekit_testimonial_client_designation_typography_typography": "custom",
+                    "ekit_testimonial_client_designation_typography_font_family": "Inter",
+                    "ekit_testimonial_client_designation_typography_font_size": {
+                      "unit": "px",
+                      "size": 13.5,
+                      "sizes": []
+                    },
+                    "ekit_testimonial_client_designation_typography_font_weight": "600",
+                    "ekit_testimonial_client_image_size": {
+                      "unit": "px",
+                      "size": 64,
+                      "sizes": []
+                    },
+                    "ekit_testimonial_client_image_border_radius": {
+                      "unit": "px",
+                      "top": "50",
+                      "right": "50",
+                      "bottom": "50",
+                      "left": "50",
+                      "isLinked": true
+                    },
+                    "ekit_testimonial_left_arrows": {
+                      "value": "fas fa-chevron-left",
+                      "library": "fa-solid"
+                    },
+                    "ekit_testimonial_right_arrows": {
+                      "value": "fas fa-chevron-right",
+                      "library": "fa-solid"
+                    },
+                    "ekit_testimonial_arrow_color": "#102C40",
+                    "ekit_testimonial_arrow_background_color": "#FFFFFF",
+                    "ekit_testimonial_dot_color": "#179A9E",
+                    "ekit_testimonial_dot_active_color": "#179A9E"
+                  },
+                  "elements": []
                 }
               ]
-            },
-            {
-              "id": "e2sebv9",
-              "elType": "widget",
-              "widgetType": "text-editor",
-              "settings": {
-                "editor": "<p style=\"text-align: center; color: #718096; font-size: 12.5px; margin: 0;\">ⓘ Illustrative client case scenarios representing common healthcare provider workflows and results.</p>",
-                "align": "center",
-                "_margin": {
-                  "unit": "px",
-                  "top": "16",
-                  "right": "0",
-                  "bottom": "0",
-                  "left": "0",
-                  "isLinked": false
-                }
-              }
             }
           ]
+        },
+        {
+          "id": "e2sebv9",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"text-align: center; color: #718096; font-size: 12.5px; margin: 0;\">ⓘ Illustrative client case scenarios representing common healthcare provider workflows and results.</p>",
+            "align": "center",
+            "_margin": {
+              "unit": "px",
+              "top": "16",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": []
         }
       ]
     }
