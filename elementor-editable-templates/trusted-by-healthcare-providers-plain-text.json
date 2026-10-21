@@ -1,10 +1,10 @@
 {
   "version": "0.4",
-  "title": "Trusted by Healthcare Providers - 100% Native Elementor Plain Text (ZERO Code)",
+  "title": "Trusted by Healthcare Providers (ElementsKit Native Carousel Slider - Plain Text)",
   "type": "section",
   "content": [
     {
-      "id": "m4j4edf",
+      "id": "al3k63p",
       "elType": "section",
       "settings": {
         "layout": "boxed",
@@ -42,14 +42,14 @@
       },
       "elements": [
         {
-          "id": "edhi74p",
+          "id": "2i2chzo",
           "elType": "column",
           "settings": {
             "_column_size": 100
           },
           "elements": [
             {
-              "id": "7f74bzc",
+              "id": "52dkhfr",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -81,7 +81,7 @@
               }
             },
             {
-              "id": "dt64yse",
+              "id": "zvp92ph",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -103,13 +103,13 @@
                 },
                 "typography_font_size_mobile": {
                   "unit": "px",
-                  "size": 26,
+                  "size": 28,
                   "sizes": []
                 },
                 "typography_font_weight": "800",
                 "typography_line_height": {
                   "unit": "em",
-                  "size": 1.25,
+                  "size": 1.2,
                   "sizes": []
                 },
                 "_margin": {
@@ -123,7 +123,7 @@
               }
             },
             {
-              "id": "75gm7tf",
+              "id": "vb80p4e",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
@@ -151,1589 +151,282 @@
                   "unit": "px",
                   "top": "0",
                   "right": "auto",
-                  "bottom": "46",
+                  "bottom": "40",
                   "left": "auto",
                   "isLinked": false
                 }
               }
             },
             {
-              "id": "g841uas",
+              "id": "hv670lo",
               "elType": "section",
               "settings": {
                 "content_width": "boxed",
+                "content_width_custom": {
+                  "unit": "px",
+                  "size": 860,
+                  "sizes": []
+                },
                 "gap": "default",
                 "_margin": {
                   "unit": "px",
                   "top": "0",
-                  "right": "0",
-                  "bottom": "0",
-                  "left": "0",
+                  "right": "auto",
+                  "bottom": "20",
+                  "left": "auto",
                   "isLinked": false
                 }
               },
               "elements": [
                 {
-                  "id": "bjpa24k",
+                  "id": "t1nzrmd",
                   "elType": "column",
                   "settings": {
-                    "_column_size": 50,
-                    "_column_size_tablet": 100,
-                    "_column_size_mobile": 100,
-                    "background_background": "classic",
-                    "background_color": "#FFFFFF",
-                    "border_border": "solid",
-                    "border_width": {
-                      "unit": "px",
-                      "top": "1",
-                      "right": "1",
-                      "bottom": "1",
-                      "left": "1",
-                      "isLinked": true
-                    },
-                    "border_color": "#E2E8F0",
-                    "border_radius": {
-                      "unit": "px",
-                      "top": "20",
-                      "right": "20",
-                      "bottom": "20",
-                      "left": "20",
-                      "isLinked": true
-                    },
-                    "padding": {
-                      "unit": "px",
-                      "top": "32",
-                      "right": "32",
-                      "bottom": "28",
-                      "left": "32",
-                      "isLinked": false
-                    },
-                    "padding_mobile": {
-                      "unit": "px",
-                      "top": "24",
-                      "right": "20",
-                      "bottom": "20",
-                      "left": "20",
-                      "isLinked": false
-                    },
-                    "box_shadow_box_shadow": {
-                      "horizontal": 0,
-                      "vertical": 10,
-                      "blur": 30,
-                      "spread": 0,
-                      "color": "rgba(16, 44, 64, 0.05)"
-                    },
-                    "margin": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "10",
-                      "bottom": "24",
-                      "left": "10",
-                      "isLinked": false
-                    }
+                    "_column_size": 100
                   },
                   "elements": [
                     {
-                      "id": "e92gmbb",
-                      "elType": "section",
-                      "settings": {
-                        "content_width": "full",
-                        "gap": "no",
-                        "_margin": {
-                          "unit": "px",
-                          "top": "0",
-                          "right": "0",
-                          "bottom": "16",
-                          "left": "0",
-                          "isLinked": false
-                        }
-                      },
-                      "elements": [
-                        {
-                          "id": "kts9b58",
-                          "elType": "column",
-                          "settings": {
-                            "_column_size": 40,
-                            "_column_size_mobile": 50
-                          },
-                          "elements": [
-                            {
-                              "id": "sy57kvj",
-                              "elType": "widget",
-                              "widgetType": "heading",
-                              "settings": {
-                                "title": "★★★★★",
-                                "header_size": "span",
-                                "align": "left",
-                                "title_color": "#F59E0B",
-                                "typography_typography": "custom",
-                                "typography_font_size": {
-                                  "unit": "px",
-                                  "size": 19,
-                                  "sizes": []
-                                },
-                                "typography_letter_spacing": {
-                                  "unit": "px",
-                                  "size": 2,
-                                  "sizes": []
-                                },
-                                "_margin": {
-                                  "unit": "px",
-                                  "top": "0",
-                                  "right": "0",
-                                  "bottom": "0",
-                                  "left": "0",
-                                  "isLinked": false
-                                }
-                              }
-                            }
-                          ]
-                        },
-                        {
-                          "id": "n6gejmn",
-                          "elType": "column",
-                          "settings": {
-                            "_column_size": 60,
-                            "_column_size_mobile": 50
-                          },
-                          "elements": [
-                            {
-                              "id": "fpwy7ws",
-                              "elType": "widget",
-                              "widgetType": "heading",
-                              "settings": {
-                                "title": "REDUCED A/R DAYS FROM 54 TO 26 DAYS",
-                                "header_size": "span",
-                                "align": "right",
-                                "title_color": "#179A9E",
-                                "typography_typography": "custom",
-                                "typography_font_family": "Inter",
-                                "typography_font_size": {
-                                  "unit": "px",
-                                  "size": 10.5,
-                                  "sizes": []
-                                },
-                                "typography_font_weight": "800",
-                                "_margin": {
-                                  "unit": "px",
-                                  "top": "0",
-                                  "right": "0",
-                                  "bottom": "0",
-                                  "left": "0",
-                                  "isLinked": false
-                                }
-                              }
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "id": "c0vqa1h",
+                      "id": "qcjy4xi",
                       "elType": "widget",
-                      "widgetType": "text-editor",
+                      "widgetType": "elementskit-testimonial",
                       "settings": {
-                        "editor": "<p style=\"font-style: italic; font-weight: 500; font-size: 16px; line-height: 1.65; color: #1E293B; margin: 0;\">“Having one dedicated account manager instead of an impersonal support queue changed everything for our practice. They actually know our providers, understand our specialty, and turn claims around in days.”</p>",
-                        "align": "left",
-                        "text_color": "#1E293B",
-                        "typography_typography": "custom",
-                        "typography_font_family": "Inter",
-                        "typography_font_size": {
+                        "ekit_testimonial_style": "style5",
+                        "ekit_testimonial_rating_enable": "yes",
+                        "ekit_testimonial_wartermark_enable": "yes",
+                        "ekit_testimonial_wartermark_position": "top",
+                        "ekit_testimonial_wartermarks": {
+                          "value": "icon icon-quote",
+                          "library": "ekiticons"
+                        },
+                        "ekit_testimonial_data": [
+                          {
+                            "_id": "ekit_rev_1",
+                            "client_name": "Maria Lopez",
+                            "designation": "Practice Administrator • Summit Regional Medical Group - Multi-Specialty Care",
+                            "review": "[REDUCED A/R DAYS FROM 54 TO 26 DAYS] “Having one dedicated account manager instead of an impersonal support queue changed everything for our practice. They actually know our providers, understand our specialty, and turn claims around in days.”",
+                            "rating": "5",
+                            "link": {
+                              "url": "",
+                              "is_external": "",
+                              "nofollow": ""
+                            },
+                            "client_photo": {
+                              "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=160&auto=format&fit=crop&q=80",
+                              "id": ""
+                            },
+                            "client_logo": {
+                              "url": "",
+                              "id": ""
+                            },
+                            "use_hover_logo": "no",
+                            "ekit_testimonial_active": "yes",
+                            "ekit_testimonial_item_text_colors_popover": "yes",
+                            "ekit_testimonial_item_description_color": "#2D3748",
+                            "ekit_testimonial_item_client_name_color": "#102C40",
+                            "ekit_testimonial_item_client_designation_color": "#179A9E",
+                            "ekit_testimonial_item_rating_color": "#F59E0B"
+                          },
+                          {
+                            "_id": "ekit_rev_2",
+                            "client_name": "Dr. Sarah Bennett, MD",
+                            "designation": "Medical Director • Coastal Orthopedic & Spine Center - Orthopedic Surgery",
+                            "review": "[CLEAN CLAIM RATE STEADY AT 98.6%] “Patient billing used to consume hours of our front-desk staff’s time every single day. With StelleMed and StelleCloud handling patient statements and digital collections, our staff can focus 100% on patients in the waiting room.”",
+                            "rating": "5",
+                            "link": {
+                              "url": "",
+                              "is_external": "",
+                              "nofollow": ""
+                            },
+                            "client_photo": {
+                              "url": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=160&auto=format&fit=crop&q=80",
+                              "id": ""
+                            },
+                            "client_logo": {
+                              "url": "",
+                              "id": ""
+                            },
+                            "use_hover_logo": "no",
+                            "ekit_testimonial_active": "",
+                            "ekit_testimonial_item_text_colors_popover": "yes",
+                            "ekit_testimonial_item_description_color": "#2D3748",
+                            "ekit_testimonial_item_client_name_color": "#102C40",
+                            "ekit_testimonial_item_client_designation_color": "#179A9E",
+                            "ekit_testimonial_item_rating_color": "#F59E0B"
+                          },
+                          {
+                            "_id": "ekit_rev_3",
+                            "client_name": "Lisa Alvarez",
+                            "designation": "Billing Coordinator • Harborview Cardiology Associates - Cardiology",
+                            "review": "[99% PAYER CONTRACT COMPLIANCE] “We used to spend hours every week on hold with commercial payers fighting over trivial modifier rejections. Our StelleMed account specialist tackles appeals aggressively and recovers funds we had written off.”",
+                            "rating": "5",
+                            "link": {
+                              "url": "",
+                              "is_external": "",
+                              "nofollow": ""
+                            },
+                            "client_photo": {
+                              "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=160&auto=format&fit=crop&q=80",
+                              "id": ""
+                            },
+                            "client_logo": {
+                              "url": "",
+                              "id": ""
+                            },
+                            "use_hover_logo": "no",
+                            "ekit_testimonial_active": "",
+                            "ekit_testimonial_item_text_colors_popover": "yes",
+                            "ekit_testimonial_item_description_color": "#2D3748",
+                            "ekit_testimonial_item_client_name_color": "#102C40",
+                            "ekit_testimonial_item_client_designation_color": "#179A9E",
+                            "ekit_testimonial_item_rating_color": "#F59E0B"
+                          },
+                          {
+                            "_id": "ekit_rev_4",
+                            "client_name": "David Chen, MHA",
+                            "designation": "Chief Operating Officer • Apex Family Medicine Network - Primary Care & Pediatrics",
+                            "review": "[+22% INCREASE IN MONTHLY COLLECTIONS] “The monthly reports finally gave our executive team a transparent, clear picture of where our revenue was going — and where denials were getting stuck. StelleMed cleaned up our aging A/R in under 60 days.”",
+                            "rating": "5",
+                            "link": {
+                              "url": "",
+                              "is_external": "",
+                              "nofollow": ""
+                            },
+                            "client_photo": {
+                              "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=160&auto=format&fit=crop&q=80",
+                              "id": ""
+                            },
+                            "client_logo": {
+                              "url": "",
+                              "id": ""
+                            },
+                            "use_hover_logo": "no",
+                            "ekit_testimonial_active": "",
+                            "ekit_testimonial_item_text_colors_popover": "yes",
+                            "ekit_testimonial_item_description_color": "#2D3748",
+                            "ekit_testimonial_item_client_name_color": "#102C40",
+                            "ekit_testimonial_item_client_designation_color": "#179A9E",
+                            "ekit_testimonial_item_rating_color": "#F59E0B"
+                          }
+                        ],
+                        "ekit_testimonial_slidetoshow": 1,
+                        "ekit_testimonial_slidetoshow_tablet": 1,
+                        "ekit_testimonial_slidetoshow_mobile": 1,
+                        "ekit_testimonial_slidesToScroll": 1,
+                        "ekit_testimonial_slidesToScroll_tablet": 1,
+                        "ekit_testimonial_slidesToScroll_mobile": 1,
+                        "ekit_testimonial_speed": 700,
+                        "ekit_testimonial_autoplay": "yes",
+                        "ekit_testimonial_show_arrow": "yes",
+                        "ekit_testimonial_show_dot": "yes",
+                        "ekit_testimonial_loop": "yes",
+                        "ekit_testimonial_pause_on_hover": "yes",
+                        "ekit_testimonial_left_right_spacing": {
                           "unit": "px",
-                          "size": 16,
+                          "size": 0,
                           "sizes": []
                         },
-                        "typography_font_size_mobile": {
+                        "ekit_testimonial_layout_padding": {
                           "unit": "px",
-                          "size": 15,
+                          "top": "36",
+                          "right": "36",
+                          "bottom": "32",
+                          "left": "36",
+                          "isLinked": false
+                        },
+                        "ekit_testimonial_layout_border_radius": {
+                          "unit": "px",
+                          "top": "22",
+                          "right": "22",
+                          "bottom": "22",
+                          "left": "22",
+                          "isLinked": true
+                        },
+                        "ekit_testimonial_layout_background_background": "classic",
+                        "ekit_testimonial_layout_background_color": "#FFFFFF",
+                        "ekit_testimonial_layout_box_shadow_box_shadow": {
+                          "horizontal": 0,
+                          "vertical": 10,
+                          "blur": 30,
+                          "spread": 0,
+                          "color": "rgba(16, 44, 64, 0.06)"
+                        },
+                        "ekit_testimonial_review_ratting_color": "#F59E0B",
+                        "ekit_testimonial_description_color": "#2D3748",
+                        "ekit_testimonial_description_typography_typography": "custom",
+                        "ekit_testimonial_description_typography_font_family": "Inter",
+                        "ekit_testimonial_description_typography_font_size": {
+                          "unit": "px",
+                          "size": 17,
                           "sizes": []
                         },
-                        "typography_line_height": {
+                        "ekit_testimonial_description_typography_font_style": "italic",
+                        "ekit_testimonial_description_typography_line_height": {
                           "unit": "em",
                           "size": 1.65,
                           "sizes": []
                         },
-                        "_margin": {
-                          "unit": "px",
-                          "top": "0",
-                          "right": "0",
-                          "bottom": "22",
-                          "left": "0",
-                          "isLinked": false
-                        }
-                      }
-                    },
-                    {
-                      "id": "99gnxfn",
-                      "elType": "widget",
-                      "widgetType": "divider",
-                      "settings": {
-                        "style": "solid",
-                        "weight": {
-                          "unit": "px",
-                          "size": 1,
-                          "sizes": []
-                        },
-                        "color": "#F1F5F9",
-                        "gap": {
+                        "ekit_testimonial_client_name_color": "#102C40",
+                        "ekit_testimonial_client_name_typography_typography": "custom",
+                        "ekit_testimonial_client_name_typography_font_family": "Plus Jakarta Sans",
+                        "ekit_testimonial_client_name_typography_font_size": {
                           "unit": "px",
                           "size": 18,
                           "sizes": []
                         },
-                        "_margin": {
+                        "ekit_testimonial_client_name_typography_font_weight": "700",
+                        "ekit_testimonial_client_designation_color": "#179A9E",
+                        "ekit_testimonial_client_designation_typography_typography": "custom",
+                        "ekit_testimonial_client_designation_typography_font_family": "Inter",
+                        "ekit_testimonial_client_designation_typography_font_size": {
                           "unit": "px",
-                          "top": "0",
-                          "right": "0",
-                          "bottom": "18",
-                          "left": "0",
-                          "isLinked": false
-                        }
+                          "size": 13.5,
+                          "sizes": []
+                        },
+                        "ekit_testimonial_client_designation_typography_font_weight": "600",
+                        "ekit_testimonial_client_image_size": {
+                          "unit": "px",
+                          "size": 64,
+                          "sizes": []
+                        },
+                        "ekit_testimonial_client_image_border_radius": {
+                          "unit": "px",
+                          "top": "50",
+                          "right": "50",
+                          "bottom": "50",
+                          "left": "50",
+                          "isLinked": true
+                        },
+                        "ekit_testimonial_left_arrows": {
+                          "value": "fas fa-chevron-left",
+                          "library": "fa-solid"
+                        },
+                        "ekit_testimonial_right_arrows": {
+                          "value": "fas fa-chevron-right",
+                          "library": "fa-solid"
+                        },
+                        "ekit_testimonial_arrow_color": "#102C40",
+                        "ekit_testimonial_arrow_background_color": "#FFFFFF",
+                        "ekit_testimonial_dot_color": "#179A9E",
+                        "ekit_testimonial_dot_active_color": "#179A9E"
                       }
-                    },
-                    {
-                      "id": "t7p2gs6",
-                      "elType": "section",
-                      "settings": {
-                        "content_width": "full",
-                        "gap": "no",
-                        "_margin": {
-                          "unit": "px",
-                          "top": "0",
-                          "right": "0",
-                          "bottom": "0",
-                          "left": "0",
-                          "isLinked": false
-                        }
-                      },
-                      "elements": [
-                        {
-                          "id": "n1enlqa",
-                          "elType": "column",
-                          "settings": {
-                            "_column_size": 18,
-                            "_column_size_mobile": 22
-                          },
-                          "elements": [
-                            {
-                              "id": "ijxcban",
-                              "elType": "widget",
-                              "widgetType": "image",
-                              "settings": {
-                                "image": {
-                                  "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
-                                  "id": ""
-                                },
-                                "image_size": "custom",
-                                "image_custom_dimension": {
-                                  "width": 50,
-                                  "height": 50
-                                },
-                                "border_border": "solid",
-                                "border_width": {
-                                  "unit": "px",
-                                  "top": "2",
-                                  "right": "2",
-                                  "bottom": "2",
-                                  "left": "2",
-                                  "isLinked": true
-                                },
-                                "border_color": "#179A9E",
-                                "border_radius": {
-                                  "unit": "px",
-                                  "top": "50",
-                                  "right": "50",
-                                  "bottom": "50",
-                                  "left": "50",
-                                  "isLinked": true
-                                },
-                                "_margin": {
-                                  "unit": "px",
-                                  "top": "2",
-                                  "right": "0",
-                                  "bottom": "0",
-                                  "left": "0",
-                                  "isLinked": false
-                                }
-                              }
-                            }
-                          ]
-                        },
-                        {
-                          "id": "5khmo11",
-                          "elType": "column",
-                          "settings": {
-                            "_column_size": 82,
-                            "_column_size_mobile": 78
-                          },
-                          "elements": [
-                            {
-                              "id": "gj0a3ql",
-                              "elType": "widget",
-                              "widgetType": "heading",
-                              "settings": {
-                                "title": "Maria Lopez",
-                                "header_size": "h4",
-                                "align": "left",
-                                "title_color": "#102C40",
-                                "typography_typography": "custom",
-                                "typography_font_family": "Plus Jakarta Sans",
-                                "typography_font_size": {
-                                  "unit": "px",
-                                  "size": 16,
-                                  "sizes": []
-                                },
-                                "typography_font_weight": "800",
-                                "_margin": {
-                                  "unit": "px",
-                                  "top": "0",
-                                  "right": "0",
-                                  "bottom": "3",
-                                  "left": "0",
-                                  "isLinked": false
-                                }
-                              }
-                            },
-                            {
-                              "id": "ccykeym",
-                              "elType": "widget",
-                              "widgetType": "heading",
-                              "settings": {
-                                "title": "Practice Administrator • Summit Regional Medical Group",
-                                "header_size": "span",
-                                "align": "left",
-                                "title_color": "#179A9E",
-                                "typography_typography": "custom",
-                                "typography_font_family": "Inter",
-                                "typography_font_size": {
-                                  "unit": "px",
-                                  "size": 13,
-                                  "sizes": []
-                                },
-                                "typography_font_weight": "600",
-                                "_margin": {
-                                  "unit": "px",
-                                  "top": "0",
-                                  "right": "0",
-                                  "bottom": "2",
-                                  "left": "0",
-                                  "isLinked": false
-                                }
-                              }
-                            },
-                            {
-                              "id": "6g696qn",
-                              "elType": "widget",
-                              "widgetType": "heading",
-                              "settings": {
-                                "title": "Multi-Specialty Care",
-                                "header_size": "span",
-                                "align": "left",
-                                "title_color": "#64748B",
-                                "typography_typography": "custom",
-                                "typography_font_family": "Inter",
-                                "typography_font_size": {
-                                  "unit": "px",
-                                  "size": 12,
-                                  "sizes": []
-                                },
-                                "typography_font_weight": "500",
-                                "_margin": {
-                                  "unit": "px",
-                                  "top": "0",
-                                  "right": "0",
-                                  "bottom": "0",
-                                  "left": "0",
-                                  "isLinked": false
-                                }
-                              }
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "id": "7oyihxp",
-                  "elType": "column",
-                  "settings": {
-                    "_column_size": 50,
-                    "_column_size_tablet": 100,
-                    "_column_size_mobile": 100,
-                    "background_background": "classic",
-                    "background_color": "#FFFFFF",
-                    "border_border": "solid",
-                    "border_width": {
-                      "unit": "px",
-                      "top": "1",
-                      "right": "1",
-                      "bottom": "1",
-                      "left": "1",
-                      "isLinked": true
-                    },
-                    "border_color": "#E2E8F0",
-                    "border_radius": {
-                      "unit": "px",
-                      "top": "20",
-                      "right": "20",
-                      "bottom": "20",
-                      "left": "20",
-                      "isLinked": true
-                    },
-                    "padding": {
-                      "unit": "px",
-                      "top": "32",
-                      "right": "32",
-                      "bottom": "28",
-                      "left": "32",
-                      "isLinked": false
-                    },
-                    "padding_mobile": {
-                      "unit": "px",
-                      "top": "24",
-                      "right": "20",
-                      "bottom": "20",
-                      "left": "20",
-                      "isLinked": false
-                    },
-                    "box_shadow_box_shadow": {
-                      "horizontal": 0,
-                      "vertical": 10,
-                      "blur": 30,
-                      "spread": 0,
-                      "color": "rgba(16, 44, 64, 0.05)"
-                    },
-                    "margin": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "10",
-                      "bottom": "24",
-                      "left": "10",
-                      "isLinked": false
-                    }
-                  },
-                  "elements": [
-                    {
-                      "id": "f45xwq5",
-                      "elType": "section",
-                      "settings": {
-                        "content_width": "full",
-                        "gap": "no",
-                        "_margin": {
-                          "unit": "px",
-                          "top": "0",
-                          "right": "0",
-                          "bottom": "16",
-                          "left": "0",
-                          "isLinked": false
-                        }
-                      },
-                      "elements": [
-                        {
-                          "id": "aib606k",
-                          "elType": "column",
-                          "settings": {
-                            "_column_size": 40,
-                            "_column_size_mobile": 50
-                          },
-                          "elements": [
-                            {
-                              "id": "uvo1jvg",
-                              "elType": "widget",
-                              "widgetType": "heading",
-                              "settings": {
-                                "title": "★★★★★",
-                                "header_size": "span",
-                                "align": "left",
-                                "title_color": "#F59E0B",
-                                "typography_typography": "custom",
-                                "typography_font_size": {
-                                  "unit": "px",
-                                  "size": 19,
-                                  "sizes": []
-                                },
-                                "typography_letter_spacing": {
-                                  "unit": "px",
-                                  "size": 2,
-                                  "sizes": []
-                                },
-                                "_margin": {
-                                  "unit": "px",
-                                  "top": "0",
-                                  "right": "0",
-                                  "bottom": "0",
-                                  "left": "0",
-                                  "isLinked": false
-                                }
-                              }
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lxtkiiz",
-                          "elType": "column",
-                          "settings": {
-                            "_column_size": 60,
-                            "_column_size_mobile": 50
-                          },
-                          "elements": [
-                            {
-                              "id": "qmsrp76",
-                              "elType": "widget",
-                              "widgetType": "heading",
-                              "settings": {
-                                "title": "CLEAN CLAIM RATE STEADY AT 98.6%",
-                                "header_size": "span",
-                                "align": "right",
-                                "title_color": "#179A9E",
-                                "typography_typography": "custom",
-                                "typography_font_family": "Inter",
-                                "typography_font_size": {
-                                  "unit": "px",
-                                  "size": 10.5,
-                                  "sizes": []
-                                },
-                                "typography_font_weight": "800",
-                                "_margin": {
-                                  "unit": "px",
-                                  "top": "0",
-                                  "right": "0",
-                                  "bottom": "0",
-                                  "left": "0",
-                                  "isLinked": false
-                                }
-                              }
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "id": "xooayoh",
-                      "elType": "widget",
-                      "widgetType": "text-editor",
-                      "settings": {
-                        "editor": "<p style=\"font-style: italic; font-weight: 500; font-size: 16px; line-height: 1.65; color: #1E293B; margin: 0;\">“Patient billing used to consume hours of our front-desk staff’s time every single day. With StelleMed and StelleCloud handling patient statements and digital collections, our staff can focus 100% on patients in the waiting room.”</p>",
-                        "align": "left",
-                        "text_color": "#1E293B",
-                        "typography_typography": "custom",
-                        "typography_font_family": "Inter",
-                        "typography_font_size": {
-                          "unit": "px",
-                          "size": 16,
-                          "sizes": []
-                        },
-                        "typography_font_size_mobile": {
-                          "unit": "px",
-                          "size": 15,
-                          "sizes": []
-                        },
-                        "typography_line_height": {
-                          "unit": "em",
-                          "size": 1.65,
-                          "sizes": []
-                        },
-                        "_margin": {
-                          "unit": "px",
-                          "top": "0",
-                          "right": "0",
-                          "bottom": "22",
-                          "left": "0",
-                          "isLinked": false
-                        }
-                      }
-                    },
-                    {
-                      "id": "6ck16qr",
-                      "elType": "widget",
-                      "widgetType": "divider",
-                      "settings": {
-                        "style": "solid",
-                        "weight": {
-                          "unit": "px",
-                          "size": 1,
-                          "sizes": []
-                        },
-                        "color": "#F1F5F9",
-                        "gap": {
-                          "unit": "px",
-                          "size": 18,
-                          "sizes": []
-                        },
-                        "_margin": {
-                          "unit": "px",
-                          "top": "0",
-                          "right": "0",
-                          "bottom": "18",
-                          "left": "0",
-                          "isLinked": false
-                        }
-                      }
-                    },
-                    {
-                      "id": "fxukco8",
-                      "elType": "section",
-                      "settings": {
-                        "content_width": "full",
-                        "gap": "no",
-                        "_margin": {
-                          "unit": "px",
-                          "top": "0",
-                          "right": "0",
-                          "bottom": "0",
-                          "left": "0",
-                          "isLinked": false
-                        }
-                      },
-                      "elements": [
-                        {
-                          "id": "sye67ke",
-                          "elType": "column",
-                          "settings": {
-                            "_column_size": 18,
-                            "_column_size_mobile": 22
-                          },
-                          "elements": [
-                            {
-                              "id": "ye1sqyx",
-                              "elType": "widget",
-                              "widgetType": "image",
-                              "settings": {
-                                "image": {
-                                  "url": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=150&auto=format&fit=crop&q=80",
-                                  "id": ""
-                                },
-                                "image_size": "custom",
-                                "image_custom_dimension": {
-                                  "width": 50,
-                                  "height": 50
-                                },
-                                "border_border": "solid",
-                                "border_width": {
-                                  "unit": "px",
-                                  "top": "2",
-                                  "right": "2",
-                                  "bottom": "2",
-                                  "left": "2",
-                                  "isLinked": true
-                                },
-                                "border_color": "#179A9E",
-                                "border_radius": {
-                                  "unit": "px",
-                                  "top": "50",
-                                  "right": "50",
-                                  "bottom": "50",
-                                  "left": "50",
-                                  "isLinked": true
-                                },
-                                "_margin": {
-                                  "unit": "px",
-                                  "top": "2",
-                                  "right": "0",
-                                  "bottom": "0",
-                                  "left": "0",
-                                  "isLinked": false
-                                }
-                              }
-                            }
-                          ]
-                        },
-                        {
-                          "id": "oxzy4wm",
-                          "elType": "column",
-                          "settings": {
-                            "_column_size": 82,
-                            "_column_size_mobile": 78
-                          },
-                          "elements": [
-                            {
-                              "id": "k9jlyok",
-                              "elType": "widget",
-                              "widgetType": "heading",
-                              "settings": {
-                                "title": "Dr. Sarah Bennett, MD",
-                                "header_size": "h4",
-                                "align": "left",
-                                "title_color": "#102C40",
-                                "typography_typography": "custom",
-                                "typography_font_family": "Plus Jakarta Sans",
-                                "typography_font_size": {
-                                  "unit": "px",
-                                  "size": 16,
-                                  "sizes": []
-                                },
-                                "typography_font_weight": "800",
-                                "_margin": {
-                                  "unit": "px",
-                                  "top": "0",
-                                  "right": "0",
-                                  "bottom": "3",
-                                  "left": "0",
-                                  "isLinked": false
-                                }
-                              }
-                            },
-                            {
-                              "id": "qzr65yb",
-                              "elType": "widget",
-                              "widgetType": "heading",
-                              "settings": {
-                                "title": "Medical Director • Coastal Orthopedic & Spine Center",
-                                "header_size": "span",
-                                "align": "left",
-                                "title_color": "#179A9E",
-                                "typography_typography": "custom",
-                                "typography_font_family": "Inter",
-                                "typography_font_size": {
-                                  "unit": "px",
-                                  "size": 13,
-                                  "sizes": []
-                                },
-                                "typography_font_weight": "600",
-                                "_margin": {
-                                  "unit": "px",
-                                  "top": "0",
-                                  "right": "0",
-                                  "bottom": "2",
-                                  "left": "0",
-                                  "isLinked": false
-                                }
-                              }
-                            },
-                            {
-                              "id": "aya7m1e",
-                              "elType": "widget",
-                              "widgetType": "heading",
-                              "settings": {
-                                "title": "Orthopedic Surgery",
-                                "header_size": "span",
-                                "align": "left",
-                                "title_color": "#64748B",
-                                "typography_typography": "custom",
-                                "typography_font_family": "Inter",
-                                "typography_font_size": {
-                                  "unit": "px",
-                                  "size": 12,
-                                  "sizes": []
-                                },
-                                "typography_font_weight": "500",
-                                "_margin": {
-                                  "unit": "px",
-                                  "top": "0",
-                                  "right": "0",
-                                  "bottom": "0",
-                                  "left": "0",
-                                  "isLinked": false
-                                }
-                              }
-                            }
-                          ]
-                        }
-                      ]
                     }
                   ]
                 }
               ]
             },
             {
-              "id": "2tmvccd",
-              "elType": "section",
-              "settings": {
-                "content_width": "boxed",
-                "gap": "default",
-                "_margin": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "0",
-                  "left": "0",
-                  "isLinked": false
-                }
-              },
-              "elements": [
-                {
-                  "id": "z7kzl8h",
-                  "elType": "column",
-                  "settings": {
-                    "_column_size": 50,
-                    "_column_size_tablet": 100,
-                    "_column_size_mobile": 100,
-                    "background_background": "classic",
-                    "background_color": "#FFFFFF",
-                    "border_border": "solid",
-                    "border_width": {
-                      "unit": "px",
-                      "top": "1",
-                      "right": "1",
-                      "bottom": "1",
-                      "left": "1",
-                      "isLinked": true
-                    },
-                    "border_color": "#E2E8F0",
-                    "border_radius": {
-                      "unit": "px",
-                      "top": "20",
-                      "right": "20",
-                      "bottom": "20",
-                      "left": "20",
-                      "isLinked": true
-                    },
-                    "padding": {
-                      "unit": "px",
-                      "top": "32",
-                      "right": "32",
-                      "bottom": "28",
-                      "left": "32",
-                      "isLinked": false
-                    },
-                    "padding_mobile": {
-                      "unit": "px",
-                      "top": "24",
-                      "right": "20",
-                      "bottom": "20",
-                      "left": "20",
-                      "isLinked": false
-                    },
-                    "box_shadow_box_shadow": {
-                      "horizontal": 0,
-                      "vertical": 10,
-                      "blur": 30,
-                      "spread": 0,
-                      "color": "rgba(16, 44, 64, 0.05)"
-                    },
-                    "margin": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "10",
-                      "bottom": "24",
-                      "left": "10",
-                      "isLinked": false
-                    }
-                  },
-                  "elements": [
-                    {
-                      "id": "e7fphmz",
-                      "elType": "section",
-                      "settings": {
-                        "content_width": "full",
-                        "gap": "no",
-                        "_margin": {
-                          "unit": "px",
-                          "top": "0",
-                          "right": "0",
-                          "bottom": "16",
-                          "left": "0",
-                          "isLinked": false
-                        }
-                      },
-                      "elements": [
-                        {
-                          "id": "0v2kqkc",
-                          "elType": "column",
-                          "settings": {
-                            "_column_size": 40,
-                            "_column_size_mobile": 50
-                          },
-                          "elements": [
-                            {
-                              "id": "x6qmowp",
-                              "elType": "widget",
-                              "widgetType": "heading",
-                              "settings": {
-                                "title": "★★★★★",
-                                "header_size": "span",
-                                "align": "left",
-                                "title_color": "#F59E0B",
-                                "typography_typography": "custom",
-                                "typography_font_size": {
-                                  "unit": "px",
-                                  "size": 19,
-                                  "sizes": []
-                                },
-                                "typography_letter_spacing": {
-                                  "unit": "px",
-                                  "size": 2,
-                                  "sizes": []
-                                },
-                                "_margin": {
-                                  "unit": "px",
-                                  "top": "0",
-                                  "right": "0",
-                                  "bottom": "0",
-                                  "left": "0",
-                                  "isLinked": false
-                                }
-                              }
-                            }
-                          ]
-                        },
-                        {
-                          "id": "x4vmvba",
-                          "elType": "column",
-                          "settings": {
-                            "_column_size": 60,
-                            "_column_size_mobile": 50
-                          },
-                          "elements": [
-                            {
-                              "id": "qweavsi",
-                              "elType": "widget",
-                              "widgetType": "heading",
-                              "settings": {
-                                "title": "99% PAYER CONTRACT COMPLIANCE",
-                                "header_size": "span",
-                                "align": "right",
-                                "title_color": "#179A9E",
-                                "typography_typography": "custom",
-                                "typography_font_family": "Inter",
-                                "typography_font_size": {
-                                  "unit": "px",
-                                  "size": 10.5,
-                                  "sizes": []
-                                },
-                                "typography_font_weight": "800",
-                                "_margin": {
-                                  "unit": "px",
-                                  "top": "0",
-                                  "right": "0",
-                                  "bottom": "0",
-                                  "left": "0",
-                                  "isLinked": false
-                                }
-                              }
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "id": "pw8o2fx",
-                      "elType": "widget",
-                      "widgetType": "text-editor",
-                      "settings": {
-                        "editor": "<p style=\"font-style: italic; font-weight: 500; font-size: 16px; line-height: 1.65; color: #1E293B; margin: 0;\">“We used to spend hours every week on hold with commercial payers fighting over trivial modifier rejections. Our StelleMed account specialist tackles appeals aggressively and recovers funds we had written off.”</p>",
-                        "align": "left",
-                        "text_color": "#1E293B",
-                        "typography_typography": "custom",
-                        "typography_font_family": "Inter",
-                        "typography_font_size": {
-                          "unit": "px",
-                          "size": 16,
-                          "sizes": []
-                        },
-                        "typography_font_size_mobile": {
-                          "unit": "px",
-                          "size": 15,
-                          "sizes": []
-                        },
-                        "typography_line_height": {
-                          "unit": "em",
-                          "size": 1.65,
-                          "sizes": []
-                        },
-                        "_margin": {
-                          "unit": "px",
-                          "top": "0",
-                          "right": "0",
-                          "bottom": "22",
-                          "left": "0",
-                          "isLinked": false
-                        }
-                      }
-                    },
-                    {
-                      "id": "hfmnbji",
-                      "elType": "widget",
-                      "widgetType": "divider",
-                      "settings": {
-                        "style": "solid",
-                        "weight": {
-                          "unit": "px",
-                          "size": 1,
-                          "sizes": []
-                        },
-                        "color": "#F1F5F9",
-                        "gap": {
-                          "unit": "px",
-                          "size": 18,
-                          "sizes": []
-                        },
-                        "_margin": {
-                          "unit": "px",
-                          "top": "0",
-                          "right": "0",
-                          "bottom": "18",
-                          "left": "0",
-                          "isLinked": false
-                        }
-                      }
-                    },
-                    {
-                      "id": "3msnrbb",
-                      "elType": "section",
-                      "settings": {
-                        "content_width": "full",
-                        "gap": "no",
-                        "_margin": {
-                          "unit": "px",
-                          "top": "0",
-                          "right": "0",
-                          "bottom": "0",
-                          "left": "0",
-                          "isLinked": false
-                        }
-                      },
-                      "elements": [
-                        {
-                          "id": "tqhnpdl",
-                          "elType": "column",
-                          "settings": {
-                            "_column_size": 18,
-                            "_column_size_mobile": 22
-                          },
-                          "elements": [
-                            {
-                              "id": "122esxs",
-                              "elType": "widget",
-                              "widgetType": "image",
-                              "settings": {
-                                "image": {
-                                  "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&auto=format&fit=crop&q=80",
-                                  "id": ""
-                                },
-                                "image_size": "custom",
-                                "image_custom_dimension": {
-                                  "width": 50,
-                                  "height": 50
-                                },
-                                "border_border": "solid",
-                                "border_width": {
-                                  "unit": "px",
-                                  "top": "2",
-                                  "right": "2",
-                                  "bottom": "2",
-                                  "left": "2",
-                                  "isLinked": true
-                                },
-                                "border_color": "#179A9E",
-                                "border_radius": {
-                                  "unit": "px",
-                                  "top": "50",
-                                  "right": "50",
-                                  "bottom": "50",
-                                  "left": "50",
-                                  "isLinked": true
-                                },
-                                "_margin": {
-                                  "unit": "px",
-                                  "top": "2",
-                                  "right": "0",
-                                  "bottom": "0",
-                                  "left": "0",
-                                  "isLinked": false
-                                }
-                              }
-                            }
-                          ]
-                        },
-                        {
-                          "id": "amfrqtr",
-                          "elType": "column",
-                          "settings": {
-                            "_column_size": 82,
-                            "_column_size_mobile": 78
-                          },
-                          "elements": [
-                            {
-                              "id": "lt73igv",
-                              "elType": "widget",
-                              "widgetType": "heading",
-                              "settings": {
-                                "title": "Lisa Alvarez",
-                                "header_size": "h4",
-                                "align": "left",
-                                "title_color": "#102C40",
-                                "typography_typography": "custom",
-                                "typography_font_family": "Plus Jakarta Sans",
-                                "typography_font_size": {
-                                  "unit": "px",
-                                  "size": 16,
-                                  "sizes": []
-                                },
-                                "typography_font_weight": "800",
-                                "_margin": {
-                                  "unit": "px",
-                                  "top": "0",
-                                  "right": "0",
-                                  "bottom": "3",
-                                  "left": "0",
-                                  "isLinked": false
-                                }
-                              }
-                            },
-                            {
-                              "id": "axscj72",
-                              "elType": "widget",
-                              "widgetType": "heading",
-                              "settings": {
-                                "title": "Billing Coordinator • Harborview Cardiology Associates",
-                                "header_size": "span",
-                                "align": "left",
-                                "title_color": "#179A9E",
-                                "typography_typography": "custom",
-                                "typography_font_family": "Inter",
-                                "typography_font_size": {
-                                  "unit": "px",
-                                  "size": 13,
-                                  "sizes": []
-                                },
-                                "typography_font_weight": "600",
-                                "_margin": {
-                                  "unit": "px",
-                                  "top": "0",
-                                  "right": "0",
-                                  "bottom": "2",
-                                  "left": "0",
-                                  "isLinked": false
-                                }
-                              }
-                            },
-                            {
-                              "id": "no0bi5t",
-                              "elType": "widget",
-                              "widgetType": "heading",
-                              "settings": {
-                                "title": "Cardiology",
-                                "header_size": "span",
-                                "align": "left",
-                                "title_color": "#64748B",
-                                "typography_typography": "custom",
-                                "typography_font_family": "Inter",
-                                "typography_font_size": {
-                                  "unit": "px",
-                                  "size": 12,
-                                  "sizes": []
-                                },
-                                "typography_font_weight": "500",
-                                "_margin": {
-                                  "unit": "px",
-                                  "top": "0",
-                                  "right": "0",
-                                  "bottom": "0",
-                                  "left": "0",
-                                  "isLinked": false
-                                }
-                              }
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "id": "7m6yymr",
-                  "elType": "column",
-                  "settings": {
-                    "_column_size": 50,
-                    "_column_size_tablet": 100,
-                    "_column_size_mobile": 100,
-                    "background_background": "classic",
-                    "background_color": "#FFFFFF",
-                    "border_border": "solid",
-                    "border_width": {
-                      "unit": "px",
-                      "top": "1",
-                      "right": "1",
-                      "bottom": "1",
-                      "left": "1",
-                      "isLinked": true
-                    },
-                    "border_color": "#E2E8F0",
-                    "border_radius": {
-                      "unit": "px",
-                      "top": "20",
-                      "right": "20",
-                      "bottom": "20",
-                      "left": "20",
-                      "isLinked": true
-                    },
-                    "padding": {
-                      "unit": "px",
-                      "top": "32",
-                      "right": "32",
-                      "bottom": "28",
-                      "left": "32",
-                      "isLinked": false
-                    },
-                    "padding_mobile": {
-                      "unit": "px",
-                      "top": "24",
-                      "right": "20",
-                      "bottom": "20",
-                      "left": "20",
-                      "isLinked": false
-                    },
-                    "box_shadow_box_shadow": {
-                      "horizontal": 0,
-                      "vertical": 10,
-                      "blur": 30,
-                      "spread": 0,
-                      "color": "rgba(16, 44, 64, 0.05)"
-                    },
-                    "margin": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "10",
-                      "bottom": "24",
-                      "left": "10",
-                      "isLinked": false
-                    }
-                  },
-                  "elements": [
-                    {
-                      "id": "kd4wnob",
-                      "elType": "section",
-                      "settings": {
-                        "content_width": "full",
-                        "gap": "no",
-                        "_margin": {
-                          "unit": "px",
-                          "top": "0",
-                          "right": "0",
-                          "bottom": "16",
-                          "left": "0",
-                          "isLinked": false
-                        }
-                      },
-                      "elements": [
-                        {
-                          "id": "b5rhngr",
-                          "elType": "column",
-                          "settings": {
-                            "_column_size": 40,
-                            "_column_size_mobile": 50
-                          },
-                          "elements": [
-                            {
-                              "id": "e4q8kiz",
-                              "elType": "widget",
-                              "widgetType": "heading",
-                              "settings": {
-                                "title": "★★★★★",
-                                "header_size": "span",
-                                "align": "left",
-                                "title_color": "#F59E0B",
-                                "typography_typography": "custom",
-                                "typography_font_size": {
-                                  "unit": "px",
-                                  "size": 19,
-                                  "sizes": []
-                                },
-                                "typography_letter_spacing": {
-                                  "unit": "px",
-                                  "size": 2,
-                                  "sizes": []
-                                },
-                                "_margin": {
-                                  "unit": "px",
-                                  "top": "0",
-                                  "right": "0",
-                                  "bottom": "0",
-                                  "left": "0",
-                                  "isLinked": false
-                                }
-                              }
-                            }
-                          ]
-                        },
-                        {
-                          "id": "mzho9uh",
-                          "elType": "column",
-                          "settings": {
-                            "_column_size": 60,
-                            "_column_size_mobile": 50
-                          },
-                          "elements": [
-                            {
-                              "id": "d7gfpjc",
-                              "elType": "widget",
-                              "widgetType": "heading",
-                              "settings": {
-                                "title": "+22% INCREASE IN MONTHLY COLLECTIONS",
-                                "header_size": "span",
-                                "align": "right",
-                                "title_color": "#179A9E",
-                                "typography_typography": "custom",
-                                "typography_font_family": "Inter",
-                                "typography_font_size": {
-                                  "unit": "px",
-                                  "size": 10.5,
-                                  "sizes": []
-                                },
-                                "typography_font_weight": "800",
-                                "_margin": {
-                                  "unit": "px",
-                                  "top": "0",
-                                  "right": "0",
-                                  "bottom": "0",
-                                  "left": "0",
-                                  "isLinked": false
-                                }
-                              }
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "id": "zl5mazb",
-                      "elType": "widget",
-                      "widgetType": "text-editor",
-                      "settings": {
-                        "editor": "<p style=\"font-style: italic; font-weight: 500; font-size: 16px; line-height: 1.65; color: #1E293B; margin: 0;\">“The monthly reports finally gave our executive team a transparent, clear picture of where our revenue was going — and where denials were getting stuck. StelleMed cleaned up our aging A/R in under 60 days.”</p>",
-                        "align": "left",
-                        "text_color": "#1E293B",
-                        "typography_typography": "custom",
-                        "typography_font_family": "Inter",
-                        "typography_font_size": {
-                          "unit": "px",
-                          "size": 16,
-                          "sizes": []
-                        },
-                        "typography_font_size_mobile": {
-                          "unit": "px",
-                          "size": 15,
-                          "sizes": []
-                        },
-                        "typography_line_height": {
-                          "unit": "em",
-                          "size": 1.65,
-                          "sizes": []
-                        },
-                        "_margin": {
-                          "unit": "px",
-                          "top": "0",
-                          "right": "0",
-                          "bottom": "22",
-                          "left": "0",
-                          "isLinked": false
-                        }
-                      }
-                    },
-                    {
-                      "id": "u8fw3kx",
-                      "elType": "widget",
-                      "widgetType": "divider",
-                      "settings": {
-                        "style": "solid",
-                        "weight": {
-                          "unit": "px",
-                          "size": 1,
-                          "sizes": []
-                        },
-                        "color": "#F1F5F9",
-                        "gap": {
-                          "unit": "px",
-                          "size": 18,
-                          "sizes": []
-                        },
-                        "_margin": {
-                          "unit": "px",
-                          "top": "0",
-                          "right": "0",
-                          "bottom": "18",
-                          "left": "0",
-                          "isLinked": false
-                        }
-                      }
-                    },
-                    {
-                      "id": "mfz9qi4",
-                      "elType": "section",
-                      "settings": {
-                        "content_width": "full",
-                        "gap": "no",
-                        "_margin": {
-                          "unit": "px",
-                          "top": "0",
-                          "right": "0",
-                          "bottom": "0",
-                          "left": "0",
-                          "isLinked": false
-                        }
-                      },
-                      "elements": [
-                        {
-                          "id": "m25odrm",
-                          "elType": "column",
-                          "settings": {
-                            "_column_size": 18,
-                            "_column_size_mobile": 22
-                          },
-                          "elements": [
-                            {
-                              "id": "po8ebit",
-                              "elType": "widget",
-                              "widgetType": "image",
-                              "settings": {
-                                "image": {
-                                  "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
-                                  "id": ""
-                                },
-                                "image_size": "custom",
-                                "image_custom_dimension": {
-                                  "width": 50,
-                                  "height": 50
-                                },
-                                "border_border": "solid",
-                                "border_width": {
-                                  "unit": "px",
-                                  "top": "2",
-                                  "right": "2",
-                                  "bottom": "2",
-                                  "left": "2",
-                                  "isLinked": true
-                                },
-                                "border_color": "#179A9E",
-                                "border_radius": {
-                                  "unit": "px",
-                                  "top": "50",
-                                  "right": "50",
-                                  "bottom": "50",
-                                  "left": "50",
-                                  "isLinked": true
-                                },
-                                "_margin": {
-                                  "unit": "px",
-                                  "top": "2",
-                                  "right": "0",
-                                  "bottom": "0",
-                                  "left": "0",
-                                  "isLinked": false
-                                }
-                              }
-                            }
-                          ]
-                        },
-                        {
-                          "id": "oloh4kr",
-                          "elType": "column",
-                          "settings": {
-                            "_column_size": 82,
-                            "_column_size_mobile": 78
-                          },
-                          "elements": [
-                            {
-                              "id": "27cr0gn",
-                              "elType": "widget",
-                              "widgetType": "heading",
-                              "settings": {
-                                "title": "David Chen, MHA",
-                                "header_size": "h4",
-                                "align": "left",
-                                "title_color": "#102C40",
-                                "typography_typography": "custom",
-                                "typography_font_family": "Plus Jakarta Sans",
-                                "typography_font_size": {
-                                  "unit": "px",
-                                  "size": 16,
-                                  "sizes": []
-                                },
-                                "typography_font_weight": "800",
-                                "_margin": {
-                                  "unit": "px",
-                                  "top": "0",
-                                  "right": "0",
-                                  "bottom": "3",
-                                  "left": "0",
-                                  "isLinked": false
-                                }
-                              }
-                            },
-                            {
-                              "id": "faqdzdk",
-                              "elType": "widget",
-                              "widgetType": "heading",
-                              "settings": {
-                                "title": "Chief Operating Officer • Apex Family Medicine Network",
-                                "header_size": "span",
-                                "align": "left",
-                                "title_color": "#179A9E",
-                                "typography_typography": "custom",
-                                "typography_font_family": "Inter",
-                                "typography_font_size": {
-                                  "unit": "px",
-                                  "size": 13,
-                                  "sizes": []
-                                },
-                                "typography_font_weight": "600",
-                                "_margin": {
-                                  "unit": "px",
-                                  "top": "0",
-                                  "right": "0",
-                                  "bottom": "2",
-                                  "left": "0",
-                                  "isLinked": false
-                                }
-                              }
-                            },
-                            {
-                              "id": "hu6wbzi",
-                              "elType": "widget",
-                              "widgetType": "heading",
-                              "settings": {
-                                "title": "Primary Care & Pediatrics",
-                                "header_size": "span",
-                                "align": "left",
-                                "title_color": "#64748B",
-                                "typography_typography": "custom",
-                                "typography_font_family": "Inter",
-                                "typography_font_size": {
-                                  "unit": "px",
-                                  "size": 12,
-                                  "sizes": []
-                                },
-                                "typography_font_weight": "500",
-                                "_margin": {
-                                  "unit": "px",
-                                  "top": "0",
-                                  "right": "0",
-                                  "bottom": "0",
-                                  "left": "0",
-                                  "isLinked": false
-                                }
-                              }
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "4ewuap0",
+              "id": "p5pr2cu",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "<p style=\"text-align: center; color: #94A3B8; font-size: 12px; margin: 24px 0 0;\">ⓘ Illustrative client case scenarios representing common healthcare provider workflows and results.</p>",
+                "editor": "<p style=\"text-align: center; color: #718096; font-size: 12.5px; margin: 0;\">ⓘ Illustrative client case scenarios representing common healthcare provider workflows and results.</p>",
                 "align": "center",
-                "text_color": "#94A3B8",
-                "typography_typography": "custom",
-                "typography_font_family": "Inter",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 12,
-                  "sizes": []
-                },
                 "_margin": {
                   "unit": "px",
-                  "top": "10",
-                  "right": "auto",
+                  "top": "16",
+                  "right": "0",
                   "bottom": "0",
-                  "left": "auto",
+                  "left": "0",
                   "isLinked": false
                 }
               }
