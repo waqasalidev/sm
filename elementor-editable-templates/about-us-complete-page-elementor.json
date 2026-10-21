@@ -1,0 +1,2231 @@
+{
+  "version": "0.4",
+  "title": "About Us - Complete Page (100% Flexbox Container)",
+  "type": "container",
+  "content": [
+    {
+      "id": "7c03jmw",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1220,
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": 0,
+          "column": "0",
+          "row": "0"
+        },
+        "background_background": "gradient",
+        "background_color": "#FFFFFF",
+        "background_color_b": "#EBF6F8",
+        "background_gradient_type": "radial",
+        "background_gradient_position": "center center",
+        "padding": {
+          "unit": "px",
+          "top": "70",
+          "right": "20",
+          "bottom": "70",
+          "left": "20",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "50",
+          "right": "20",
+          "bottom": "50",
+          "left": "20",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "35",
+          "right": "16",
+          "bottom": "35",
+          "left": "16",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "p2e031x",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "<nav style=\"font-size:13.5px;font-weight:600;color:#64748B;\"><a href=\"/\" style=\"color:#64748B;text-decoration:none;\">Home</a> <span style=\"margin:0 8px;color:#94A3B8;\">&gt;</span> <span style=\"color:#179A9E;\">About Us</span></nav>",
+            "header_size": "span",
+            "align": "center",
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "16",
+              "left": "0",
+              "isLinked": false
+            }
+          }
+        },
+        {
+          "id": "gg5zz5m",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "<span style=\"display:inline-flex;align-items:center;gap:6px;padding:6px 16px;background-color:#EAF8F8;border:1px solid #A7E8E9;border-radius:50px;color:#179A9E;font-size:12px;font-weight:800;letter-spacing:1px;text-transform:uppercase;\"><i class=\"fas fa-file-invoice\"></i> OFFICIAL COMPANY PROFILE</span>",
+            "header_size": "span",
+            "align": "center",
+            "title_color": "#179A9E",
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "16",
+              "left": "0",
+              "isLinked": false
+            }
+          }
+        },
+        {
+          "id": "3z81q36",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "About StelleMed",
+            "header_size": "h1",
+            "align": "center",
+            "title_color": "#0C2340",
+            "typography_typography": "custom",
+            "typography_font_family": "Plus Jakarta Sans",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 48
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 38
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 32
+            },
+            "typography_font_weight": "800",
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.15
+            },
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": -0.5
+            },
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "16",
+              "left": "0",
+              "isLinked": false
+            }
+          }
+        },
+        {
+          "id": "9glupj9",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"margin:0 auto;max-width:720px;font-size:16.5px;color:#4A5568;line-height:1.65;text-align:center;\">A medical billing and revenue cycle management company serving healthcare providers across the U.S. One partner for both billing and technology, backed by Corvit and StelleCloud.</p>",
+            "typography_typography": "custom",
+            "typography_font_family": "Plus Jakarta Sans",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 16.5
+            },
+            "typography_font_weight": "400",
+            "text_color": "#4A5568",
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "28",
+              "left": "0",
+              "isLinked": false
+            }
+          }
+        },
+        {
+          "id": "wdpiw7l",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_direction_mobile": "column",
+            "flex_justify_content": "center",
+            "flex_align_items": "center",
+            "flex_gap": {
+              "unit": "px",
+              "size": 14,
+              "column": "14",
+              "row": "12"
+            }
+          },
+          "elements": [
+            {
+              "id": "94kc934",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Schedule Consultation",
+                "link": {
+                  "url": "#contact",
+                  "is_external": false,
+                  "nofollow": false
+                },
+                "button_type": "default",
+                "selected_icon": {
+                  "value": "far fa-calendar-alt",
+                  "library": "fa-regular"
+                },
+                "icon_align": "left",
+                "icon_indent": {
+                  "unit": "px",
+                  "size": 8
+                },
+                "background_color": "#179A9E",
+                "button_text_color": "#FFFFFF",
+                "background_hover_color": "#0F7B7E",
+                "hover_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "10",
+                  "right": "10",
+                  "bottom": "10",
+                  "left": "10",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "13",
+                  "right": "24",
+                  "bottom": "13",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14.5
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "zmmk4g8",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Explore Our Services",
+                "link": {
+                  "url": "/services",
+                  "is_external": false,
+                  "nofollow": false
+                },
+                "button_type": "default",
+                "background_color": "#FFFFFF",
+                "button_text_color": "#0C2340",
+                "background_hover_color": "#F1F5F9",
+                "hover_color": "#0C2340",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1.5",
+                  "right": "1.5",
+                  "bottom": "1.5",
+                  "left": "1.5",
+                  "isLinked": true
+                },
+                "border_color": "#CBD5E1",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "10",
+                  "right": "10",
+                  "bottom": "10",
+                  "left": "10",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "13",
+                  "right": "24",
+                  "bottom": "13",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14.5
+                },
+                "typography_font_weight": "700"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jfrawej",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1220,
+          "sizes": []
+        },
+        "flex_direction": "row",
+        "flex_direction_tablet": "column",
+        "flex_direction_mobile": "column",
+        "flex_justify_content": "space-between",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": 50,
+          "column": "50",
+          "row": "40"
+        },
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "80",
+          "left": "20",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "60",
+          "right": "20",
+          "bottom": "60",
+          "left": "20",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "40",
+          "right": "16",
+          "bottom": "40",
+          "left": "16",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "wti7rii",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "width": {
+              "unit": "%",
+              "size": 52,
+              "sizes": []
+            },
+            "width_tablet": {
+              "unit": "%",
+              "size": 100,
+              "sizes": []
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100,
+              "sizes": []
+            },
+            "flex_direction": "column",
+            "flex_align_items": "flex-start",
+            "flex_gap": {
+              "unit": "px",
+              "size": 0,
+              "column": "0",
+              "row": "0"
+            }
+          },
+          "elements": [
+            {
+              "id": "5o2jcr5",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "<span style=\"display:inline-flex;align-items:center;gap:6px;padding:5px 14px;background-color:#EAF8F8;border:1px solid #A7E8E9;border-radius:50px;color:#179A9E;font-size:11.5px;font-weight:800;letter-spacing:1px;text-transform:uppercase;\">WHO WE ARE</span>",
+                "header_size": "span",
+                "title_color": "#179A9E",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "14",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "733h2l6",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "One Partner for Both Billing & Technology",
+                "header_size": "h2",
+                "title_color": "#0C2340",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 34
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 30
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 26
+                },
+                "typography_font_weight": "800",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.25
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "16",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "7zdx3wm",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"margin:0;font-size:15px;color:#4A5568;line-height:1.7;\">StelleMed provides medical billing and revenue cycle management services to healthcare practices across the United States. As one trusted partner for both billing operations and technology infrastructure, we are backed by the engineering excellence of Corvit and StelleCloud.</p>",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "typography_font_weight": "400",
+                "text_color": "#4A5568",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "24",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "g1twq4p",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 4,
+                  "column": "4",
+                  "row": "4"
+                },
+                "background_background": "classic",
+                "background_color": "#F0FBFB",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "4",
+                  "isLinked": false
+                },
+                "border_color": "#179A9E",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "12",
+                  "bottom": "12",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "18",
+                  "right": "20",
+                  "bottom": "18",
+                  "left": "20",
+                  "isLinked": false
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "24",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [
+                {
+                  "id": "rjz8wss",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "OUR MISSION",
+                    "header_size": "span",
+                    "title_color": "#179A9E",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 11
+                    },
+                    "typography_font_weight": "800",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 0.8
+                    }
+                  }
+                },
+                {
+                  "id": "zyz5kc7",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "\"To simplify the revenue cycle for healthcare providers, from insurance claims to patient payments, so they can focus on patient care.\"",
+                    "header_size": "h4",
+                    "title_color": "#0C2340",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "typography_font_weight": "700",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.45
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "fogpyil",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "row",
+                "flex_direction_mobile": "column",
+                "flex_justify_content": "space-between",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 16,
+                  "column": "16",
+                  "row": "12"
+                }
+              },
+              "elements": [
+                {
+                  "id": "ed1a5p4",
+                  "elType": "container",
+                  "isInner": true,
+                  "settings": {
+                    "content_width": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 48,
+                      "sizes": []
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    },
+                    "flex_direction": "column",
+                    "background_background": "classic",
+                    "background_color": "#F8FAFC",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "4",
+                      "isLinked": false
+                    },
+                    "border_color": "#0C2340",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "10",
+                      "bottom": "10",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "14",
+                      "right": "16",
+                      "bottom": "14",
+                      "left": "16",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "eqaceuo",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "25+ Years",
+                        "header_size": "h3",
+                        "title_color": "#0C2340",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Plus Jakarta Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 24
+                        },
+                        "typography_font_weight": "800",
+                        "margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "2",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      }
+                    },
+                    {
+                      "id": "d67ou43",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Technology experience backed by Corvit & StelleCloud",
+                        "header_size": "span",
+                        "title_color": "#64748B",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Plus Jakarta Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "typography_font_weight": "500",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.4
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "fal62w4",
+                  "elType": "container",
+                  "isInner": true,
+                  "settings": {
+                    "content_width": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 48,
+                      "sizes": []
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    },
+                    "flex_direction": "column",
+                    "background_background": "classic",
+                    "background_color": "#F8FAFC",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "4",
+                      "isLinked": false
+                    },
+                    "border_color": "#179A9E",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "10",
+                      "bottom": "10",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "14",
+                      "right": "16",
+                      "bottom": "14",
+                      "left": "16",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "6fzlq6m",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "350,000+",
+                        "header_size": "h3",
+                        "title_color": "#179A9E",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Plus Jakarta Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 24
+                        },
+                        "typography_font_weight": "800",
+                        "margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "2",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      }
+                    },
+                    {
+                      "id": "5lp1wks",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Professionals trained by parent group",
+                        "header_size": "span",
+                        "title_color": "#64748B",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Plus Jakarta Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "typography_font_weight": "500",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.4
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "d3r68u6",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "width": {
+              "unit": "%",
+              "size": 44,
+              "sizes": []
+            },
+            "width_tablet": {
+              "unit": "%",
+              "size": 100,
+              "sizes": []
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100,
+              "sizes": []
+            },
+            "flex_direction": "column",
+            "position": "relative"
+          },
+          "elements": [
+            {
+              "id": "91gszmy",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20",
+                  "isLinked": true
+                },
+                "overflow": "hidden",
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 16,
+                  "blur": 40,
+                  "spread": -5,
+                  "color": "rgba(12, 35, 64, 0.12)"
+                }
+              },
+              "elements": [
+                {
+                  "id": "st7vhuj",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://raw.githubusercontent.com/waqasalidev/sm/main/public/service1.jpg"
+                    },
+                    "image_size": "full"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "k3tqfsn",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "px",
+                  "size": 280,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 90,
+                  "sizes": []
+                },
+                "flex_direction": "column",
+                "background_background": "classic",
+                "background_color": "#0C2340",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "14",
+                  "right": "14",
+                  "bottom": "14",
+                  "left": "14",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 12,
+                  "blur": 30,
+                  "spread": 0,
+                  "color": "rgba(0, 0, 0, 0.25)"
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "18",
+                  "right": "20",
+                  "bottom": "18",
+                  "left": "20",
+                  "isLinked": true
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "-50",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "auto",
+                  "isLinked": false
+                },
+                "z_index": 2
+              },
+              "elements": [
+                {
+                  "id": "skfw0bv",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "<span style=\"display:inline-flex;align-items:center;gap:6px;color:#179A9E;font-size:13px;font-weight:700;\"><i class=\"fas fa-shield-alt\"></i> StelleCloud &amp; Corvit</span>",
+                    "header_size": "span",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "4",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "0ao391y",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"margin:0;font-size:12px;color:#CBD5E1;line-height:1.45;\">Parent group founded in 2000, delivering enterprise technology, cybersecurity, and solutions nationwide.</p>",
+                    "text_color": "#CBD5E1"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e2m1lem",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1220,
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": 0,
+          "column": "0",
+          "row": "0"
+        },
+        "background_background": "classic",
+        "background_color": "#F8FBFC",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "80",
+          "left": "20",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "60",
+          "right": "20",
+          "bottom": "60",
+          "left": "20",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "40",
+          "right": "16",
+          "bottom": "40",
+          "left": "16",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "7rh4ht5",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "width": {
+              "unit": "px",
+              "size": 820,
+              "sizes": []
+            },
+            "width_tablet": {
+              "unit": "%",
+              "size": 100,
+              "sizes": []
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100,
+              "sizes": []
+            },
+            "flex_direction": "column",
+            "flex_align_items": "center",
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "auto",
+              "bottom": "44",
+              "left": "auto",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "51pywyd",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "<span style=\"display:inline-flex;align-items:center;gap:6px;padding:6px 16px;background-color:#EAF8F8;border:1px solid #A7E8E9;border-radius:50px;color:#179A9E;font-size:12px;font-weight:800;letter-spacing:1px;text-transform:uppercase;\">ACCOUNTABILITY IN ACTION</span>",
+                "header_size": "span",
+                "align": "center",
+                "title_color": "#179A9E",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "16",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "o5rd3on",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Our <span style=\"color:#179A9E;\">Commitments</span>",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#0C2340",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 40
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 32
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 28
+                },
+                "typography_font_weight": "800",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.2
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": -0.5
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "14",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "h8y7neo",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"margin:0;font-size:16px;color:#4A5568;line-height:1.6;text-align:center;\">The four foundational operational promises that guide every client partnership at StelleMed.</p>",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "typography_font_weight": "400",
+                "text_color": "#4A5568"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ds7fuxy",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_justify_content": "space-between",
+            "flex_align_items": "stretch",
+            "flex_gap": {
+              "unit": "px",
+              "size": 20,
+              "column": "20",
+              "row": "20"
+            }
+          },
+          "elements": [
+            {
+              "id": "4bdnagd",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 23.2,
+                  "sizes": []
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 48,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_direction": "column",
+                "flex_align_items": "flex-start",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 0,
+                  "column": "0",
+                  "row": "0"
+                },
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#E2E8F0",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 4,
+                  "blur": 16,
+                  "spread": -2,
+                  "color": "rgba(12, 35, 64, 0.04)"
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "28",
+                  "right": "22",
+                  "bottom": "28",
+                  "left": "22",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "id": "0zgxo3z",
+                  "elType": "widget",
+                  "widgetType": "icon",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "far fa-clock",
+                      "library": "fa-regular"
+                    },
+                    "view": "default",
+                    "primary_color": "#179A9E",
+                    "size": {
+                      "unit": "px",
+                      "size": 24
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "14",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "u5tjqjo",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Within Seconds",
+                    "header_size": "h4",
+                    "title_color": "#179A9E",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "typography_font_weight": "800",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "4",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "ce7ly3i",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Eligibility Verifications",
+                    "header_size": "h3",
+                    "title_color": "#0C2340",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_font_weight": "700",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "8",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "c47vswe",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"margin:0;font-size:13.5px;color:#64748B;line-height:1.6;\">Real-time 270/271 electronic checks confirm patient coverage and copays before service delivery.</p>",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 13.5
+                    },
+                    "typography_font_weight": "400",
+                    "text_color": "#64748B"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "gyfjs0q",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 23.2,
+                  "sizes": []
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 48,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_direction": "column",
+                "flex_align_items": "flex-start",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 0,
+                  "column": "0",
+                  "row": "0"
+                },
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#E2E8F0",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 4,
+                  "blur": 16,
+                  "spread": -2,
+                  "color": "rgba(12, 35, 64, 0.04)"
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "28",
+                  "right": "22",
+                  "bottom": "28",
+                  "left": "22",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "id": "71s8l3r",
+                  "elType": "widget",
+                  "widgetType": "icon",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "fas fa-paper-plane",
+                      "library": "fa-solid"
+                    },
+                    "view": "default",
+                    "primary_color": "#179A9E",
+                    "size": {
+                      "unit": "px",
+                      "size": 24
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "14",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "yt60c5f",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "24–48 Hours",
+                    "header_size": "h4",
+                    "title_color": "#179A9E",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "typography_font_weight": "800",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "4",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "b3p8yoy",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Claims Submitted",
+                    "header_size": "h3",
+                    "title_color": "#0C2340",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_font_weight": "700",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "8",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "0053yaa",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"margin:0;font-size:13.5px;color:#64748B;line-height:1.6;\">Rapid clean-claim scrubbing and EDI clearinghouse dispatch to shorten days in accounts receivable.</p>",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 13.5
+                    },
+                    "typography_font_weight": "400",
+                    "text_color": "#64748B"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "5t7aa0b",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 23.2,
+                  "sizes": []
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 48,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_direction": "column",
+                "flex_align_items": "flex-start",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 0,
+                  "column": "0",
+                  "row": "0"
+                },
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#E2E8F0",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 4,
+                  "blur": 16,
+                  "spread": -2,
+                  "color": "rgba(12, 35, 64, 0.04)"
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "28",
+                  "right": "22",
+                  "bottom": "28",
+                  "left": "22",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "id": "z9qns4b",
+                  "elType": "widget",
+                  "widgetType": "icon",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "fas fa-dollar-sign",
+                      "library": "fa-solid"
+                    },
+                    "view": "default",
+                    "primary_color": "#179A9E",
+                    "size": {
+                      "unit": "px",
+                      "size": 24
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "14",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "027gsio",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Same-Day",
+                    "header_size": "h4",
+                    "title_color": "#179A9E",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "typography_font_weight": "800",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "4",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "jsyp1v9",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Payment Posting",
+                    "header_size": "h3",
+                    "title_color": "#0C2340",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_font_weight": "700",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "8",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "p47rysy",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"margin:0;font-size:13.5px;color:#64748B;line-height:1.6;\">Immediate reconciliation and posting of electronic remittance advices (ERAs) and patient copays.</p>",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 13.5
+                    },
+                    "typography_font_weight": "400",
+                    "text_color": "#64748B"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "hb7g0h5",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 23.2,
+                  "sizes": []
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 48,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_direction": "column",
+                "flex_align_items": "flex-start",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 0,
+                  "column": "0",
+                  "row": "0"
+                },
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#E2E8F0",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 4,
+                  "blur": 16,
+                  "spread": -2,
+                  "color": "rgba(12, 35, 64, 0.04)"
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "28",
+                  "right": "22",
+                  "bottom": "28",
+                  "left": "22",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "id": "q5pnm9f",
+                  "elType": "widget",
+                  "widgetType": "icon",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "fas fa-chart-line",
+                      "library": "fa-solid"
+                    },
+                    "view": "default",
+                    "primary_color": "#179A9E",
+                    "size": {
+                      "unit": "px",
+                      "size": 24
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "14",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "5ghpzza",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Monthly",
+                    "header_size": "h4",
+                    "title_color": "#179A9E",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "typography_font_weight": "800",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "4",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "iym0ta0",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Performance Review",
+                    "header_size": "h3",
+                    "title_color": "#0C2340",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_font_weight": "700",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "8",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "p0k7e1d",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"margin:0;font-size:13.5px;color:#64748B;line-height:1.6;\">Comprehensive executive meetings with your dedicated account manager analyzing financial KPIs.</p>",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 13.5
+                    },
+                    "typography_font_weight": "400",
+                    "text_color": "#64748B"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "agjvojk",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1220,
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": 0,
+          "column": "0",
+          "row": "0"
+        },
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "80",
+          "left": "20",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "60",
+          "right": "20",
+          "bottom": "60",
+          "left": "20",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "40",
+          "right": "16",
+          "bottom": "40",
+          "left": "16",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "dxcyb6s",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "width": {
+              "unit": "px",
+              "size": 820,
+              "sizes": []
+            },
+            "width_tablet": {
+              "unit": "%",
+              "size": 100,
+              "sizes": []
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100,
+              "sizes": []
+            },
+            "flex_direction": "column",
+            "flex_align_items": "center",
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "auto",
+              "bottom": "36",
+              "left": "auto",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "f70du2h",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "<span style=\"display:inline-flex;align-items:center;gap:6px;padding:6px 16px;background-color:#EAF8F8;border:1px solid #A7E8E9;border-radius:50px;color:#179A9E;font-size:12px;font-weight:800;letter-spacing:1px;text-transform:uppercase;\"><i class=\"fas fa-network-wired\"></i> PEDIGREE &amp; REACH</span>",
+                "header_size": "span",
+                "align": "center",
+                "title_color": "#179A9E",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "16",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "6jwh91k",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Backed by <span style=\"color:#179A9E;\">Corvit &amp; StelleCloud</span>",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#0C2340",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 40
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 32
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 28
+                },
+                "typography_font_weight": "800",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.2
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": -0.5
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "14",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "4jdrp4m",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"margin:0;font-size:16px;color:#4A5568;line-height:1.65;text-align:center;\">StelleMed is backed by StelleCloud and Corvit, an IT training and solutions company founded in 2000 that has trained more than 350,000 professionals. Through them, our group works with leading technology and business organizations.</p>",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "typography_font_weight": "400",
+                "text_color": "#4A5568"
+              }
+            }
+          ]
+        },
+        {
+          "id": "5vatht7",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_justify_content": "center",
+            "flex_align_items": "center",
+            "flex_gap": {
+              "unit": "px",
+              "size": 12,
+              "column": "12",
+              "row": "12"
+            },
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "12",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "jtvglde",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "<span style=\"display:inline-block;padding:8px 18px;background:#F8FAFC;border:1px solid #E2E8F0;border-radius:8px;font-size:13.5px;font-weight:600;color:#0C2340;box-shadow:0 1px 3px rgba(0,0,0,0.03);\">Cisco</span>",
+                "header_size": "span"
+              }
+            },
+            {
+              "id": "k2m03dy",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "<span style=\"display:inline-block;padding:8px 18px;background:#F8FAFC;border:1px solid #E2E8F0;border-radius:8px;font-size:13.5px;font-weight:600;color:#0C2340;box-shadow:0 1px 3px rgba(0,0,0,0.03);\">Microsoft</span>",
+                "header_size": "span"
+              }
+            },
+            {
+              "id": "k5275h6",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "<span style=\"display:inline-block;padding:8px 18px;background:#F8FAFC;border:1px solid #E2E8F0;border-radius:8px;font-size:13.5px;font-weight:600;color:#0C2340;box-shadow:0 1px 3px rgba(0,0,0,0.03);\">AWS</span>",
+                "header_size": "span"
+              }
+            },
+            {
+              "id": "9lvipu5",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "<span style=\"display:inline-block;padding:8px 18px;background:#F8FAFC;border:1px solid #E2E8F0;border-radius:8px;font-size:13.5px;font-weight:600;color:#0C2340;box-shadow:0 1px 3px rgba(0,0,0,0.03);\">VMware</span>",
+                "header_size": "span"
+              }
+            },
+            {
+              "id": "08ivscm",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "<span style=\"display:inline-block;padding:8px 18px;background:#F8FAFC;border:1px solid #E2E8F0;border-radius:8px;font-size:13.5px;font-weight:600;color:#0C2340;box-shadow:0 1px 3px rgba(0,0,0,0.03);\">Fortinet</span>",
+                "header_size": "span"
+              }
+            },
+            {
+              "id": "gsqj787",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "<span style=\"display:inline-block;padding:8px 18px;background:#F8FAFC;border:1px solid #E2E8F0;border-radius:8px;font-size:13.5px;font-weight:600;color:#0C2340;box-shadow:0 1px 3px rgba(0,0,0,0.03);\">Palo Alto Networks</span>",
+                "header_size": "span"
+              }
+            },
+            {
+              "id": "2vggpbw",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "<span style=\"display:inline-block;padding:8px 18px;background:#F8FAFC;border:1px solid #E2E8F0;border-radius:8px;font-size:13.5px;font-weight:600;color:#0C2340;box-shadow:0 1px 3px rgba(0,0,0,0.03);\">CompTIA</span>",
+                "header_size": "span"
+              }
+            },
+            {
+              "id": "3mosxec",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "<span style=\"display:inline-block;padding:8px 18px;background:#F8FAFC;border:1px solid #E2E8F0;border-radius:8px;font-size:13.5px;font-weight:600;color:#0C2340;box-shadow:0 1px 3px rgba(0,0,0,0.03);\">PECB</span>",
+                "header_size": "span"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b9tb9h9",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_justify_content": "center",
+            "flex_align_items": "center",
+            "flex_gap": {
+              "unit": "px",
+              "size": 12,
+              "column": "12",
+              "row": "12"
+            },
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "12",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "urrtdlj",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "<span style=\"display:inline-block;padding:8px 18px;background:#F8FAFC;border:1px solid #E2E8F0;border-radius:8px;font-size:13.5px;font-weight:600;color:#0C2340;box-shadow:0 1px 3px rgba(0,0,0,0.03);\">EC-Council</span>",
+                "header_size": "span"
+              }
+            },
+            {
+              "id": "6h3xgyl",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "<span style=\"display:inline-block;padding:8px 18px;background:#F8FAFC;border:1px solid #E2E8F0;border-radius:8px;font-size:13.5px;font-weight:600;color:#0C2340;box-shadow:0 1px 3px rgba(0,0,0,0.03);\">ISC2</span>",
+                "header_size": "span"
+              }
+            },
+            {
+              "id": "o95tlei",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "<span style=\"display:inline-block;padding:8px 18px;background:#F8FAFC;border:1px solid #E2E8F0;border-radius:8px;font-size:13.5px;font-weight:600;color:#0C2340;box-shadow:0 1px 3px rgba(0,0,0,0.03);\">SAP</span>",
+                "header_size": "span"
+              }
+            },
+            {
+              "id": "huf8uge",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "<span style=\"display:inline-block;padding:8px 18px;background:#F8FAFC;border:1px solid #E2E8F0;border-radius:8px;font-size:13.5px;font-weight:600;color:#0C2340;box-shadow:0 1px 3px rgba(0,0,0,0.03);\">IBM</span>",
+                "header_size": "span"
+              }
+            },
+            {
+              "id": "3dhq55f",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "<span style=\"display:inline-block;padding:8px 18px;background:#F8FAFC;border:1px solid #E2E8F0;border-radius:8px;font-size:13.5px;font-weight:600;color:#0C2340;box-shadow:0 1px 3px rgba(0,0,0,0.03);\">Dell EMC</span>",
+                "header_size": "span"
+              }
+            },
+            {
+              "id": "tt9dk9o",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "<span style=\"display:inline-block;padding:8px 18px;background:#F8FAFC;border:1px solid #E2E8F0;border-radius:8px;font-size:13.5px;font-weight:600;color:#0C2340;box-shadow:0 1px 3px rgba(0,0,0,0.03);\">CrowdStrike</span>",
+                "header_size": "span"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "euh3zo5",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1220,
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": 0,
+          "column": "0",
+          "row": "0"
+        },
+        "background_background": "classic",
+        "background_color": "#081D30",
+        "border_radius": {
+          "unit": "px",
+          "top": "20",
+          "right": "20",
+          "bottom": "20",
+          "left": "20",
+          "isLinked": true
+        },
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "24",
+          "bottom": "60",
+          "left": "24",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "40",
+          "right": "16",
+          "bottom": "40",
+          "left": "16",
+          "isLinked": false
+        },
+        "margin": {
+          "unit": "px",
+          "top": "20",
+          "right": "auto",
+          "bottom": "40",
+          "left": "auto",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "5vap6an",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Let's Find Your Missing Revenue",
+            "header_size": "h2",
+            "align": "center",
+            "title_color": "#FFFFFF",
+            "typography_typography": "custom",
+            "typography_font_family": "Plus Jakarta Sans",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 36
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 30
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 26
+            },
+            "typography_font_weight": "800",
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.2
+            },
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "14",
+              "left": "0",
+              "isLinked": false
+            }
+          }
+        },
+        {
+          "id": "84kz66h",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"margin:0 auto;max-width:680px;font-size:16px;color:#94A3B8;line-height:1.6;text-align:center;\">Schedule an initial consultation to meet your dedicated billing team and learn how we can simplify your revenue cycle.</p>",
+            "typography_typography": "custom",
+            "typography_font_family": "Plus Jakarta Sans",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 16
+            },
+            "typography_font_weight": "400",
+            "text_color": "#94A3B8",
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "28",
+              "left": "0",
+              "isLinked": false
+            }
+          }
+        },
+        {
+          "id": "6jjxyqs",
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+            "text": "Partner With StelleMed",
+            "link": {
+              "url": "#contact",
+              "is_external": false,
+              "nofollow": false
+            },
+            "button_type": "default",
+            "selected_icon": {
+              "value": "fas fa-arrow-right",
+              "library": "fa-solid"
+            },
+            "icon_align": "right",
+            "icon_indent": {
+              "unit": "px",
+              "size": 8
+            },
+            "background_color": "#179A9E",
+            "button_text_color": "#FFFFFF",
+            "background_hover_color": "#0F7B7E",
+            "hover_color": "#FFFFFF",
+            "border_radius": {
+              "unit": "px",
+              "top": "10",
+              "right": "10",
+              "bottom": "10",
+              "left": "10",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "14",
+              "right": "26",
+              "bottom": "14",
+              "left": "26",
+              "isLinked": false
+            },
+            "typography_typography": "custom",
+            "typography_font_family": "Plus Jakarta Sans",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 14.5
+            },
+            "typography_font_weight": "700"
+          }
+        }
+      ]
+    }
+  ]
+}
