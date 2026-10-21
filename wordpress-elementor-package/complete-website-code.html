@@ -1,0 +1,1480 @@
+<!-- ==========================================================================
+     STELLEMED HEALTHCARE - COMPLETE WEBSITE ELEMENTOR CANVAS CODE
+     Copy this entire code and paste it into an Elementor "HTML" Widget!
+     ========================================================================== -->
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap');
+
+:root {
+  --sm-navy: #102C40;
+  --sm-navy-dark: #0A1B28;
+  --sm-navy-light: #163C57;
+  --sm-teal: #179A9E;
+  --sm-teal-hover: #1EB2B7;
+  --sm-teal-light: #EAF8F8;
+  --sm-teal-accent: #38D4D8;
+  --sm-white: #FFFFFF;
+  --sm-bg-page: #F8FBFC;
+  --sm-text-primary: #0F202E;
+  --sm-text-secondary: #475D70;
+  --sm-text-muted: #738A9E;
+  --sm-border: #E2ECF2;
+  --sm-radius-sm: 6px;
+  --sm-radius-md: 10px;
+  --sm-radius-lg: 16px;
+  --sm-radius-xl: 24px;
+  --sm-font-heading: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --sm-font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.sm-site-wrap {
+  font-family: var(--sm-font-body);
+  color: var(--sm-text-primary);
+  background-color: var(--sm-bg-page);
+  line-height: 1.6;
+  width: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+.sm-container {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+/* 1. TOPBAR & NAVBAR */
+.sm-topbar {
+  background-color: #0A1B28;
+  color: #A3B9CC;
+  font-size: 0.8125rem;
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+.sm-topbar-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.sm-topbar-left, .sm-topbar-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.sm-topbar a {
+  color: #A3B9CC;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: color 0.2s;
+}
+.sm-topbar a:hover {
+  color: #38D4D8;
+}
+.sm-badge-pill {
+  background: rgba(23, 154, 158, 0.2);
+  color: #38D4D8;
+  padding: 2px 10px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.75rem;
+}
+
+.sm-header {
+  background: #FFFFFF;
+  box-shadow: 0 4px 20px rgba(16, 44, 64, 0.06);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  transition: all 0.3s ease;
+}
+.sm-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+}
+.sm-brand-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+}
+.sm-logo-icon {
+  width: 40px;
+  height: 40px;
+  background: #102C40;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #179A9E;
+}
+.sm-brand-name {
+  font-size: 1.45rem;
+  font-weight: 800;
+  color: #102C40;
+  line-height: 1.1;
+  font-family: var(--sm-font-heading);
+}
+.sm-brand-name span {
+  color: #179A9E;
+}
+.sm-brand-sub {
+  font-size: 0.72rem;
+  color: #738A9E;
+  display: block;
+  letter-spacing: 0.04em;
+  font-weight: 600;
+}
+
+.sm-nav-links {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.sm-nav-link {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: #102C40;
+  text-decoration: none;
+  transition: color 0.2s;
+  padding: 6px 0;
+}
+.sm-nav-link:hover, .sm-nav-link.active {
+  color: #179A9E;
+}
+
+.sm-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-weight: 700;
+  font-size: 0.9375rem;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+  transition: all 0.25s ease;
+}
+.sm-btn-primary {
+  background-color: var(--sm-teal);
+  color: #FFFFFF !important;
+  box-shadow: 0 4px 14px rgba(23, 154, 158, 0.3);
+}
+.sm-btn-primary:hover {
+  background-color: var(--sm-teal-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(23, 154, 158, 0.4);
+}
+.sm-btn-secondary {
+  background: #F1F6F8;
+  color: #102C40 !important;
+  border: 1px solid var(--sm-border);
+}
+.sm-btn-secondary:hover {
+  background: #E2ECF2;
+  transform: translateY(-2px);
+}
+
+/* 2. HERO SECTION */
+.sm-hero {
+  padding: 70px 0 60px 0;
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8FBFC 100%);
+  position: relative;
+  overflow: hidden;
+}
+.sm-hero-grid {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 48px;
+  align-items: center;
+}
+.sm-hero-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--sm-teal-light);
+  color: var(--sm-teal);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.sm-hero-title {
+  font-size: clamp(2.2rem, 4.2vw, 3.4rem);
+  font-weight: 800;
+  color: var(--sm-navy);
+  line-height: 1.2;
+  margin: 0 0 18px 0;
+  font-family: var(--sm-font-heading);
+}
+.sm-hero-title span {
+  color: var(--sm-teal);
+}
+.sm-hero-desc {
+  font-size: 1.1rem;
+  color: var(--sm-text-secondary);
+  line-height: 1.65;
+  margin: 0 0 24px 0;
+}
+.sm-hero-btns {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-bottom: 36px;
+}
+.sm-hero-trust {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  padding-top: 24px;
+  border-top: 1px solid var(--sm-border);
+}
+.sm-hero-trust-item {
+  display: flex;
+  flex-direction: column;
+}
+.sm-hero-trust-val {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--sm-navy);
+}
+.sm-hero-trust-sub {
+  font-size: 0.75rem;
+  color: var(--sm-text-muted);
+}
+.sm-hero-visual {
+  position: relative;
+  text-align: center;
+}
+.sm-hero-img {
+  width: 100%;
+  max-width: 460px;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(16, 44, 64, 0.12);
+  margin: 0 auto;
+  display: block;
+}
+.sm-hero-float-card {
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+  background: #FFFFFF;
+  padding: 14px 20px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(16, 44, 64, 0.15);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-left: 4px solid var(--sm-teal);
+  text-align: left;
+}
+
+/* 3. STATISTICS BAR */
+.sm-stats-bar {
+  background: #102C40;
+  color: #FFFFFF;
+  padding: 36px 0;
+}
+.sm-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  text-align: center;
+}
+.sm-stat-num {
+  font-size: clamp(2rem, 3.5vw, 2.7rem);
+  font-weight: 800;
+  color: #38D4D8;
+  line-height: 1;
+  font-family: var(--sm-font-heading);
+}
+.sm-stat-lbl {
+  font-size: 0.9375rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-top: 6px;
+}
+.sm-stat-sub {
+  font-size: 0.78rem;
+  color: #A3B9CC;
+}
+
+/* 4. SERVICES SECTION */
+.sm-section {
+  padding: 80px 0;
+}
+.sm-section-header {
+  margin-bottom: 44px;
+}
+.sm-section-header.text-center {
+  text-align: center;
+}
+.sm-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--sm-teal);
+  background: var(--sm-teal-light);
+  padding: 6px 14px;
+  border-radius: 9999px;
+  margin-bottom: 14px;
+}
+.sm-eyebrow.dark-theme {
+  background: rgba(56, 212, 216, 0.15);
+  color: var(--sm-teal-accent);
+}
+.sm-title {
+  font-size: clamp(1.8rem, 3.2vw, 2.5rem);
+  font-weight: 800;
+  color: var(--sm-navy);
+  line-height: 1.25;
+  margin: 0 0 14px 0;
+  font-family: var(--sm-font-heading);
+}
+.sm-title.dark-theme {
+  color: #FFFFFF;
+}
+.sm-title span {
+  color: var(--sm-teal);
+}
+.sm-desc {
+  font-size: 1.05rem;
+  color: var(--sm-text-secondary);
+  line-height: 1.6;
+  max-width: 680px;
+  margin: 0 auto;
+}
+.sm-desc.dark-theme {
+  color: #A3B9CC;
+}
+
+.sm-services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+.sm-service-card {
+  background: #FFFFFF;
+  border-radius: var(--sm-radius-xl);
+  border: 1px solid var(--sm-border);
+  border-top: 4px solid var(--sm-teal);
+  padding: 34px 26px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 8px rgba(16, 44, 64, 0.04);
+  transition: all 0.25s ease;
+}
+.sm-service-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 30px rgba(16, 44, 64, 0.08);
+  border-color: rgba(23, 154, 158, 0.4);
+}
+.sm-service-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 10px;
+  background: var(--sm-teal-light);
+  color: var(--sm-teal);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.35rem;
+  margin-bottom: 18px;
+}
+.sm-service-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--sm-navy);
+  margin: 0 0 10px 0;
+}
+.sm-service-desc {
+  font-size: 0.9375rem;
+  color: var(--sm-text-secondary);
+  line-height: 1.55;
+  margin-bottom: 20px;
+}
+.sm-service-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 24px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 0.875rem;
+  color: var(--sm-text-primary);
+}
+.sm-service-list li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.sm-service-list li span.dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--sm-teal);
+}
+
+/* 5. REVENUE LEAKS */
+.sm-leaks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  margin-bottom: 36px;
+}
+.sm-leak-card {
+  padding: 24px 20px;
+  border-radius: var(--sm-radius-md);
+  border: 1px solid var(--sm-border);
+  border-top: 3px solid var(--sm-teal);
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 6px rgba(16, 44, 64, 0.04);
+  transition: transform 0.2s ease;
+}
+.sm-leak-card:hover {
+  transform: translateY(-4px);
+}
+.sm-leak-badge {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #FEE2E2;
+  color: #DC2626;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: 800;
+  flex-shrink: 0;
+  margin-right: 10px;
+}
+.sm-leak-title {
+  font-size: 1.1rem;
+  color: var(--sm-navy);
+  margin: 0;
+  font-weight: 700;
+}
+.sm-leak-desc {
+  font-size: 0.875rem;
+  color: var(--sm-text-secondary);
+  line-height: 1.55;
+  margin: 10px 0 0 0;
+}
+.sm-leaks-banner {
+  background: linear-gradient(135deg, var(--sm-navy) 0%, #103456 100%);
+  color: #FFFFFF;
+  border-radius: var(--sm-radius-lg);
+  padding: 28px 32px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* 6. WORKFLOWS */
+.sm-workflow-header-bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+  padding: 12px 18px;
+  background: #FFFFFF;
+  border-radius: var(--sm-radius-md);
+  border-left: 4px solid var(--sm-teal);
+}
+.sm-workflow-header-bar.patient {
+  border-left-color: #7C3AED;
+}
+.sm-workflow-steps-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+}
+.sm-workflow-steps-grid.patient {
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+.sm-workflow-step-card {
+  background: #FFFFFF;
+  border: 1px solid var(--sm-border);
+  border-radius: var(--sm-radius-md);
+  padding: 16px 12px;
+  display: flex;
+  flex-direction: column;
+}
+.sm-workflow-step-card.patient {
+  border-color: #E9D5FF;
+}
+.sm-workflow-step-num {
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: var(--sm-teal);
+}
+.sm-workflow-step-num.patient {
+  color: #7C3AED;
+}
+.sm-workflow-step-title {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--sm-navy);
+  margin: 6px 0 4px 0;
+}
+.sm-workflow-step-desc {
+  font-size: 0.75rem;
+  color: var(--sm-text-secondary);
+  line-height: 1.4;
+  margin: 0;
+}
+
+/* 7. SIX CHECKS */
+.sm-six-checks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 24px;
+}
+.sm-check-card {
+  padding: 24px;
+  border-radius: var(--sm-radius-md);
+  background-color: #FFFFFF;
+  border: 1px solid var(--sm-border);
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  box-shadow: 0 2px 6px rgba(16, 44, 64, 0.04);
+}
+.sm-check-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: var(--sm-radius-sm);
+  background: var(--sm-teal-light);
+  color: var(--sm-teal);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 1.25rem;
+}
+
+/* 8. WHY US */
+.sm-why-section {
+  background: linear-gradient(135deg, #0A1B28 0%, #102C40 100%);
+  padding: 80px 0;
+  border-radius: var(--sm-radius-xl);
+  color: #FFFFFF;
+  margin: 40px 0;
+}
+.sm-why-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  margin-top: 40px;
+}
+.sm-why-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: var(--sm-radius-lg);
+  padding: 30px 22px;
+}
+.sm-why-icon {
+  font-size: 1.7rem;
+  margin-bottom: 16px;
+}
+.sm-why-card-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin: 0 0 10px 0;
+}
+.sm-why-card-desc {
+  font-size: 0.9rem;
+  color: #A3B9CC;
+  line-height: 1.6;
+}
+
+/* 9. ROI CALCULATOR */
+.sm-roi-section {
+  background: linear-gradient(135deg, #102C40 0%, #0D2333 100%);
+  color: var(--sm-white);
+  padding: 80px 0;
+  border-radius: var(--sm-radius-xl);
+  margin: 40px 0;
+}
+.sm-roi-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: var(--sm-radius-xl);
+  backdrop-filter: blur(14px);
+  padding: 40px;
+}
+.sm-roi-grid {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 40px;
+  align-items: center;
+}
+.sm-roi-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.sm-roi-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.sm-roi-label-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sm-roi-label {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: #F0F6FA;
+}
+.sm-roi-val {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #38D4D8;
+}
+.sm-roi-slider {
+  width: 100%;
+  height: 8px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.2);
+  outline: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+}
+.sm-roi-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #179A9E;
+  border: 2px solid #FFFFFF;
+  cursor: pointer;
+}
+.sm-roi-select {
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: var(--sm-radius-md);
+  background-color: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #FFFFFF;
+  font-size: 0.9375rem;
+}
+.sm-roi-select option {
+  background-color: #102C40;
+  color: #FFFFFF;
+}
+.sm-roi-results {
+  background: linear-gradient(135deg, rgba(23, 154, 158, 0.2) 0%, rgba(16, 44, 64, 0.6) 100%);
+  border: 1.5px solid rgba(56, 212, 216, 0.4);
+  border-radius: var(--sm-radius-lg);
+  padding: 32px 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.sm-roi-amount {
+  font-size: clamp(2rem, 3.5vw, 2.8rem);
+  font-weight: 800;
+  color: #38D4D8;
+  line-height: 1.1;
+}
+.sm-roi-metrics-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  padding: 14px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+/* 10. FAQ ACCORDION */
+.sm-faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 860px;
+  margin: 0 auto;
+}
+.sm-faq-item {
+  background: #FFFFFF;
+  border: 1px solid var(--sm-border);
+  border-radius: var(--sm-radius-md);
+  overflow: hidden;
+}
+.sm-faq-item.is-open {
+  border-color: rgba(23, 154, 158, 0.4);
+}
+.sm-faq-btn {
+  width: 100%;
+  padding: 20px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--sm-navy);
+}
+.sm-faq-content {
+  padding: 0 24px 20px 24px;
+  font-size: 0.9375rem;
+  color: var(--sm-text-secondary);
+  line-height: 1.6;
+  display: none;
+}
+.sm-faq-item.is-open .sm-faq-content {
+  display: block;
+}
+
+/* 11. FINAL CTA BANNER */
+.sm-cta-banner {
+  background: linear-gradient(135deg, #102C40 0%, #179A9E 100%);
+  padding: 70px 24px;
+  border-radius: var(--sm-radius-xl);
+  color: #FFFFFF;
+  text-align: center;
+  margin: 50px 0;
+}
+
+/* 12. FOOTER */
+.sm-footer {
+  background: #0A1B28;
+  color: #A3B9CC;
+  padding: 70px 0 30px 0;
+}
+.sm-footer-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1.2fr;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+.sm-footer-title {
+  color: #FFFFFF;
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin: 0 0 18px 0;
+}
+.sm-footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 0.875rem;
+}
+.sm-footer-links a {
+  color: #A3B9CC;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.sm-footer-links a:hover {
+  color: #38D4D8;
+}
+.sm-footer-bottom {
+  padding-top: 24px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  font-size: 0.8125rem;
+}
+
+/* 13. MODAL POPUP */
+.sm-modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(10, 27, 40, 0.7);
+  backdrop-filter: blur(8px);
+  z-index: 9999;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.sm-modal-backdrop.is-active {
+  display: flex;
+}
+.sm-modal-card {
+  background: #FFFFFF;
+  border-radius: var(--sm-radius-xl);
+  max-width: 540px;
+  width: 100%;
+  padding: 34px;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+.sm-modal-close {
+  position: absolute;
+  top: 16px;
+  right: 18px;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #738A9E;
+}
+.sm-input {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid var(--sm-border);
+  margin-bottom: 14px;
+  font-size: 0.9375rem;
+}
+
+/* Responsive */
+@media (max-width: 960px) {
+  .sm-hero-grid, .sm-roi-grid, .sm-footer-grid {
+    grid-template-columns: 1fr;
+  }
+  .sm-services-grid {
+    grid-template-columns: 1fr;
+  }
+  .sm-stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .sm-nav-links {
+    display: none;
+  }
+}
+</style>
+
+<div class="sm-site-wrap">
+  <!-- 1. TOPBAR -->
+  <aside class="sm-topbar">
+    <div class="sm-container sm-topbar-flex">
+      <div class="sm-topbar-left">
+        <span class="sm-badge-pill">&#128737; HIPAA Compliant</span>
+        <span>Trusted Medical Billing &amp; Healthcare Solutions | Powered by StelleCloud™</span>
+      </div>
+      <div class="sm-topbar-right">
+        <a href="mailto:info@stellemed.com">&#9993; info@stellemed.com</a>
+        <a href="tel:+15169797418">&#9742; +1 (516) 979-7418</a>
+        <a href="#contact" data-open-modal="consultation" style="color:#38D4D8; font-weight:700;">&#128274; Client Portal</a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- 2. NAVBAR (HEADER) -->
+  <header class="sm-header">
+    <div class="sm-container sm-navbar">
+      <a href="#home" class="sm-brand-logo">
+        <div class="sm-logo-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M12 2v20M2 12h20M7 12h2.5L11 8l2 8 1.5-4H17"/>
+          </svg>
+        </div>
+        <div>
+          <div class="sm-brand-name">Stelle<span>Med</span></div>
+          <span class="sm-brand-sub">Healthcare Billing Solutions</span>
+        </div>
+      </a>
+
+      <ul class="sm-nav-links">
+        <li><a href="#home" class="sm-nav-link active">Home</a></li>
+        <li><a href="#services" class="sm-nav-link">Services</a></li>
+        <li><a href="#revenue-leaks" class="sm-nav-link">Revenue Leaks</a></li>
+        <li><a href="#how-we-manage" class="sm-nav-link">Workflows</a></li>
+        <li><a href="#six-checks" class="sm-nav-link">6-Checks QA</a></li>
+        <li><a href="#why-us" class="sm-nav-link">Why Us</a></li>
+        <li><a href="#roi-calculator" class="sm-nav-link">ROI Calculator</a></li>
+        <li><a href="#faq" class="sm-nav-link">FAQ</a></li>
+      </ul>
+
+      <button type="button" class="sm-btn sm-btn-primary" data-open-modal="consultation">
+        <span>Book a Consultation</span>
+        <span>&rarr;</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- 3. HERO SECTION -->
+  <section class="sm-hero" id="home">
+    <div class="sm-container">
+      <div class="sm-hero-grid">
+        <div>
+          <div class="sm-hero-eyebrow">
+            <span>&#9829; Keep Your Revenue's Heartbeat Strong</span>
+          </div>
+          <h1 class="sm-hero-title">
+            Medical Billing &amp; <br />
+            <span>Revenue Cycle Management</span>
+          </h1>
+          <p class="sm-hero-desc">
+            StelleMed simplifies the revenue cycle for healthcare providers across the United States — from insurance claims to patient payments, so you can focus on patient care. One trusted partner for both billing and technology.
+          </p>
+          <div style="display:inline-flex; align-items:center; gap:8px; padding:6px 14px; background:rgba(23,154,158,0.1); border-radius:20px; color:#127A7D; font-size:0.8125rem; font-weight:600; margin-bottom:24px;">
+            <span>&#128737; Backed by Corvit &amp; StelleCloud (25+ years of tech experience)</span>
+          </div>
+          <div class="sm-hero-btns">
+            <button type="button" class="sm-btn sm-btn-primary" data-open-modal="consultation">
+              <span>Let’s Find Your Missing Revenue</span>
+              <span>&rarr;</span>
+            </button>
+            <a href="#services" class="sm-btn sm-btn-secondary">
+              <span>Explore Our Services</span>
+            </a>
+          </div>
+          <div class="sm-hero-trust">
+            <div class="sm-hero-trust-item">
+              <span class="sm-hero-trust-val">Instant Verifications</span>
+              <span class="sm-hero-trust-sub">Within seconds</span>
+            </div>
+            <div class="sm-hero-trust-item">
+              <span class="sm-hero-trust-val">Rapid Claim Dispatch</span>
+              <span class="sm-hero-trust-sub">Within 24–48 hours</span>
+            </div>
+            <div class="sm-hero-trust-item">
+              <span class="sm-hero-trust-val">Same-Day Posting</span>
+              <span class="sm-hero-trust-sub">Accurate ERA reconciliation</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="sm-hero-visual">
+          <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=800&q=80" alt="Healthcare Physician" class="sm-hero-img"/>
+          <div class="sm-hero-float-card">
+            <div style="font-size:1.6rem; color:#179A9E;">&#127891;</div>
+            <div>
+              <div style="font-weight:800; color:#102C40; font-size:1.05rem;">98.2% Clean Claim Rate</div>
+              <span style="font-size:0.75rem; color:#738A9E;">Backed by Corvit &amp; StelleCloud</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. KEY PERFORMANCE STATISTICS -->
+  <section class="sm-stats-bar">
+    <div class="sm-container sm-stats-grid">
+      <div>
+        <div class="sm-stat-num">98%</div>
+        <div class="sm-stat-lbl">Clean Claim Rate</div>
+        <div class="sm-stat-sub">First-pass acceptance rate</div>
+      </div>
+      <div>
+        <div class="sm-stat-num">50+</div>
+        <div class="sm-stat-lbl">Payer Partners</div>
+        <div class="sm-stat-sub">Direct electronic clearinghouse ties</div>
+      </div>
+      <div>
+        <div class="sm-stat-num">1,000+</div>
+        <div class="sm-stat-lbl">Healthcare Providers</div>
+        <div class="sm-stat-sub">Across 30+ medical specialties</div>
+      </div>
+      <div>
+        <div class="sm-stat-num">99%</div>
+        <div class="sm-stat-lbl">Client Retention</div>
+        <div class="sm-stat-sub">Provider trust &amp; satisfaction</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. THREE CORE PILLARS (SERVICES) -->
+  <section class="sm-section" id="services">
+    <div class="sm-container">
+      <div class="sm-section-header text-center">
+        <div class="sm-eyebrow">Healthcare Billing Expertise</div>
+        <h2 class="sm-title">Comprehensive Healthcare <span>Billing Solutions</span></h2>
+        <p class="sm-desc">We deliver the full spectrum of revenue cycle management — combining certified billing specialists, payer relationships, and modern software.</p>
+      </div>
+
+      <div class="sm-services-grid">
+        <div class="sm-service-card">
+          <div class="sm-service-icon">&#128203;</div>
+          <h3 class="sm-service-title">Insurance &amp; Payer Services</h3>
+          <p class="sm-service-desc">End-to-end payer management, insurance eligibility verifications, coding audits, credentialing, and fast-track claim submission.</p>
+          <ul class="sm-service-list">
+            <li><span class="dot"></span> Real-time 270/271 eligibility verification</li>
+            <li><span class="dot"></span> Provider Credentialing &amp; Re-attestation</li>
+            <li><span class="dot"></span> Payer Enrollment &amp; Contracting</li>
+            <li><span class="dot"></span> Aggressive Denial Tracking &amp; Appeals</li>
+          </ul>
+          <button type="button" class="sm-btn sm-btn-secondary" data-open-modal="consultation" style="margin-top:auto;">Explore Details &rarr;</button>
+        </div>
+
+        <div class="sm-service-card" style="border-top-color: #2563EB;">
+          <div class="sm-service-icon" style="background:#EAF3FF; color:#2563EB;">&#128101;</div>
+          <h3 class="sm-service-title">Patient &amp; Practice Services</h3>
+          <p class="sm-service-desc">Transparent patient billing, front-desk verification workflows, friendly self-pay recovery, flexible payment plans, and practice admin support.</p>
+          <ul class="sm-service-list">
+            <li><span class="dot" style="background:#2563EB;"></span> Patient Billing &amp; Clear Statements</li>
+            <li><span class="dot" style="background:#2563EB;"></span> Front-Desk Verification Workflows</li>
+            <li><span class="dot" style="background:#2563EB;"></span> Flexible Payment Plans &amp; Counseling</li>
+            <li><span class="dot" style="background:#2563EB;"></span> Practice Administrative Support</li>
+          </ul>
+          <button type="button" class="sm-btn sm-btn-secondary" data-open-modal="consultation" style="margin-top:auto;">Explore Details &rarr;</button>
+        </div>
+
+        <div class="sm-service-card" style="border-top-color: #7C3AED;">
+          <div class="sm-service-icon" style="background:#F1EDFF; color:#7C3AED;">&#128421;</div>
+          <h3 class="sm-service-title">Technology &amp; IT Support</h3>
+          <p class="sm-service-desc">State-of-the-art healthcare technology, automated claim scrubbing engines, executive financial dashboards, and seamless EHR integrations.</p>
+          <ul class="sm-service-list">
+            <li><span class="dot" style="background:#7C3AED;"></span> Seamless EHR / PM Integrations</li>
+            <li><span class="dot" style="background:#7C3AED;"></span> Automated Claim Scrubbing Engine</li>
+            <li><span class="dot" style="background:#7C3AED;"></span> 24/7 Client Financial Portal Access</li>
+            <li><span class="dot" style="background:#7C3AED;"></span> Dedicated Account Manager &amp; IT Support</li>
+          </ul>
+          <button type="button" class="sm-btn sm-btn-secondary" data-open-modal="consultation" style="margin-top:auto;">Explore Details &rarr;</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. REVENUE LEAKS SECTION -->
+  <section class="sm-section" id="revenue-leaks" style="background-color: #FFFFFF;">
+    <div class="sm-container">
+      <div class="sm-section-header text-center">
+        <div class="sm-eyebrow">Revenue Leak Prevention</div>
+        <h2 class="sm-title">Where Practices <span>Lose Money</span></h2>
+        <p class="sm-desc">Revenue leaks happen at many points across the care cycle. StelleMed checks for every one of these, so no revenue is left behind.</p>
+      </div>
+
+      <div class="sm-leaks-grid">
+        <div class="sm-leak-card"><div style="display:flex; align-items:center;"><span class="sm-leak-badge">1</span><h3 class="sm-leak-title">Unbilled Visits</h3></div><p class="sm-leak-desc">Patient encounters that take place but are never coded, billed, or submitted, leading to permanent revenue loss.</p></div>
+        <div class="sm-leak-card"><div style="display:flex; align-items:center;"><span class="sm-leak-badge">2</span><h3 class="sm-leak-title">Denials Not Appealed</h3></div><p class="sm-leak-desc">Legitimate clinical claims rejected by payers that staff simply write off instead of preparing clinical appeals.</p></div>
+        <div class="sm-leak-card"><div style="display:flex; align-items:center;"><span class="sm-leak-badge">3</span><h3 class="sm-leak-title">Underpayments</h3></div><p class="sm-leak-desc">Insurers reimbursing below contracted fee schedule rates without being audited or challenged by the practice.</p></div>
+        <div class="sm-leak-card"><div style="display:flex; align-items:center;"><span class="sm-leak-badge">4</span><h3 class="sm-leak-title">Patient Balances Unpaid</h3></div><p class="sm-leak-desc">High deductibles and co-pays left uncollected due to lack of upfront estimates and convenient digital payment options.</p></div>
+        <div class="sm-leak-card"><div style="display:flex; align-items:center;"><span class="sm-leak-badge">5</span><h3 class="sm-leak-title">Missed Filing Deadlines</h3></div><p class="sm-leak-desc">Claims delayed past payer timely filing limits, resulting in unappealable, total forfeiture of reimbursement.</p></div>
+        <div class="sm-leak-card"><div style="display:flex; align-items:center;"><span class="sm-leak-badge">6</span><h3 class="sm-leak-title">Payments Not Posted</h3></div><p class="sm-leak-desc">Checks and ERAs sitting unposted, distorting financial balances and preventing accurate secondary billing.</p></div>
+        <div class="sm-leak-card"><div style="display:flex; align-items:center;"><span class="sm-leak-badge">7</span><h3 class="sm-leak-title">Claims Rejected</h3></div><p class="sm-leak-desc">Clearinghouse front-end format and demographic rejections that stall before reaching the payer adjudicator.</p></div>
+        <div class="sm-leak-card"><div style="display:flex; align-items:center;"><span class="sm-leak-badge">8</span><h3 class="sm-leak-title">No Response on Claims</h3></div><p class="sm-leak-desc">Claims lost in payer black holes where no follow-up is initiated, allowing carrier statutory hold periods to lapse.</p></div>
+      </div>
+
+      <div class="sm-leaks-banner">
+        <div>
+          <div style="color:#38D4D8; font-weight:700; font-size:0.9rem; margin-bottom:4px;">&#128737; Full-Spectrum Financial Protection</div>
+          <div style="font-size:1.15rem; font-weight:600; color:#FFFFFF;">StelleMed checks for every one of these 8 points, so no revenue is left behind.</div>
+        </div>
+        <button type="button" class="sm-btn sm-btn-primary" data-open-modal="consultation">Let’s Find Your Missing Revenue &rarr;</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. REVENUE CYCLE WORKFLOWS -->
+  <section class="sm-section" id="how-we-manage">
+    <div class="sm-container">
+      <div class="sm-section-header text-center">
+        <div class="sm-eyebrow">Proven Workflow Sequences</div>
+        <h2 class="sm-title">How We Manage the <span>Revenue Cycle</span></h2>
+        <p class="sm-desc">We operate two distinct, synchronized revenue workflows to guarantee maximum reimbursement from both insurance carriers and patients.</p>
+      </div>
+
+      <!-- Payer sequence -->
+      <div style="margin-bottom: 40px;">
+        <div class="sm-workflow-header-bar">
+          <div style="width:28px; height:28px; border-radius:50%; background:var(--sm-teal); color:#fff; display:flex; align-items:center; justify-content:center; font-weight:800;">+</div>
+          <div>
+            <h3 style="font-size:1.15rem; color:var(--sm-navy); margin:0; font-weight:700;">Insurance / Payer Revenue Cycle</h3>
+            <span style="font-size:0.8rem; color:var(--sm-text-secondary);">7-Step Adjudication &amp; Payer Reimbursement Sequence</span>
+          </div>
+        </div>
+        <div class="sm-workflow-steps-grid">
+          <div class="sm-workflow-step-card"><span class="sm-workflow-step-num">STEP 01</span><div class="sm-workflow-step-title">Patient Visit</div><p class="sm-workflow-step-desc">Clinical encounter captured.</p></div>
+          <div class="sm-workflow-step-card"><span class="sm-workflow-step-num">STEP 02</span><div class="sm-workflow-step-title">Eligibility &amp; Auth</div><p class="sm-workflow-step-desc">Real-time coverage verification.</p></div>
+          <div class="sm-workflow-step-card"><span class="sm-workflow-step-num">STEP 03</span><div class="sm-workflow-step-title">Medical Coding</div><p class="sm-workflow-step-desc">Certified AAPC/AHIMA coding.</p></div>
+          <div class="sm-workflow-step-card"><span class="sm-workflow-step-num">STEP 04</span><div class="sm-workflow-step-title">Claim Submission</div><p class="sm-workflow-step-desc">Scrubbing &amp; EDI 837 dispatch.</p></div>
+          <div class="sm-workflow-step-card"><span class="sm-workflow-step-num">STEP 05</span><div class="sm-workflow-step-title">Denials &amp; Appeals</div><p class="sm-workflow-step-desc">Aggressive clinical appeals.</p></div>
+          <div class="sm-workflow-step-card"><span class="sm-workflow-step-num">STEP 06</span><div class="sm-workflow-step-title">Payer Payment</div><p class="sm-workflow-step-desc">Automated ERA 835 auto-posting.</p></div>
+          <div class="sm-workflow-step-card"><span class="sm-workflow-step-num">STEP 07</span><div class="sm-workflow-step-title">Practice Paid</div><p class="sm-workflow-step-desc">Clean deposits into bank.</p></div>
+        </div>
+      </div>
+
+      <!-- Patient sequence -->
+      <div>
+        <div class="sm-workflow-header-bar patient">
+          <div style="width:28px; height:28px; border-radius:50%; background:#7C3AED; color:#fff; display:flex; align-items:center; justify-content:center; font-weight:800;">&starf;</div>
+          <div>
+            <h3 style="font-size:1.15rem; color:var(--sm-navy); margin:0; font-weight:700;">Patient Billing Revenue Cycle</h3>
+            <span style="font-size:0.8rem; color:var(--sm-text-secondary);">5-Step Patient Financial Experience &amp; Self-Pay Recovery</span>
+          </div>
+        </div>
+        <div class="sm-workflow-steps-grid patient">
+          <div class="sm-workflow-step-card patient"><span class="sm-workflow-step-num patient">STEP 01</span><div class="sm-workflow-step-title">Patient Intake</div><p class="sm-workflow-step-desc">Good Faith Estimate provided.</p></div>
+          <div class="sm-workflow-step-card patient"><span class="sm-workflow-step-num patient">STEP 02</span><div class="sm-workflow-step-title">Statements</div><p class="sm-workflow-step-desc">Digital SMS &amp; paperless statements.</p></div>
+          <div class="sm-workflow-step-card patient"><span class="sm-workflow-step-num patient">STEP 03</span><div class="sm-workflow-step-title">Payment Plans</div><p class="sm-workflow-step-desc">Flexible installment options.</p></div>
+          <div class="sm-workflow-step-card patient"><span class="sm-workflow-step-num patient">STEP 04</span><div class="sm-workflow-step-title">Payment</div><p class="sm-workflow-step-desc">Secure 1-click online payments.</p></div>
+          <div class="sm-workflow-step-card patient"><span class="sm-workflow-step-num patient">STEP 05</span><div class="sm-workflow-step-title">Practice Paid</div><p class="sm-workflow-step-desc">Maximized self-pay recovery.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. SIX CHECKS QA -->
+  <section class="sm-section" id="six-checks" style="background-color: #FFFFFF;">
+    <div class="sm-container">
+      <div class="sm-section-header text-center">
+        <div class="sm-eyebrow">Pre-Submission Quality Assurance</div>
+        <h2 class="sm-title">Six Checks Before <span>Every Claim Goes Out</span></h2>
+        <p class="sm-desc">To protect your revenue and prevent delays, every single claim is evaluated against six vital quality gates.</p>
+      </div>
+
+      <div class="sm-six-checks-grid">
+        <div class="sm-check-card"><div class="sm-check-icon">&#10003;</div><div><span style="font-size:0.75rem; font-weight:800; color:var(--sm-teal);">CHECK 01</span><h3 style="font-size:1.05rem; color:var(--sm-navy); font-weight:700; margin:4px 0;">Patient Details Complete</h3><p style="font-size:0.875rem; color:var(--sm-text-secondary); margin:0;">Demographic fields, subscriber IDs, and group numbers verified 100% error-free.</p></div></div>
+        <div class="sm-check-card"><div class="sm-check-icon">&#10003;</div><div><span style="font-size:0.75rem; font-weight:800; color:var(--sm-teal);">CHECK 02</span><h3 style="font-size:1.05rem; color:var(--sm-navy); font-weight:700; margin:4px 0;">Coverage Confirmed</h3><p style="font-size:0.875rem; color:var(--sm-text-secondary); margin:0;">Active policy status, effective date windows, co-pays, and deductibles verified.</p></div></div>
+        <div class="sm-check-card"><div class="sm-check-icon">&#10003;</div><div><span style="font-size:0.75rem; font-weight:800; color:var(--sm-teal);">CHECK 03</span><h3 style="font-size:1.05rem; color:var(--sm-navy); font-weight:700; margin:4px 0;">Prior Auth on File</h3><p style="font-size:0.875rem; color:var(--sm-text-secondary); margin:0;">Auth reference numbers logged and attached directly to billing lines.</p></div></div>
+        <div class="sm-check-card"><div class="sm-check-icon">&#10003;</div><div><span style="font-size:0.75rem; font-weight:800; color:var(--sm-teal);">CHECK 04</span><h3 style="font-size:1.05rem; color:var(--sm-navy); font-weight:700; margin:4px 0;">Codes Match Documentation</h3><p style="font-size:0.875rem; color:var(--sm-text-secondary); margin:0;">CPT, ICD-10-CM, and modifiers aligned accurately with clinical notes.</p></div></div>
+        <div class="sm-check-card"><div class="sm-check-icon">&#10003;</div><div><span style="font-size:0.75rem; font-weight:800; color:var(--sm-teal);">CHECK 05</span><h3 style="font-size:1.05rem; color:var(--sm-navy); font-weight:700; margin:4px 0;">Claim Scrubber Edits Passed</h3><p style="font-size:0.875rem; color:var(--sm-text-secondary); margin:0;">Evaluated through StelleCloud™ rules engine to catch NCCI bundle conflicts.</p></div></div>
+        <div class="sm-check-card"><div class="sm-check-icon">&#10003;</div><div><span style="font-size:0.75rem; font-weight:800; color:var(--sm-teal);">CHECK 06</span><h3 style="font-size:1.05rem; color:var(--sm-navy); font-weight:700; margin:4px 0;">Payer-Specific Rules Applied</h3><p style="font-size:0.875rem; color:var(--sm-text-secondary); margin:0;">Carrier-specific billing guidelines applied so claims pass clearinghouse first pass.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. WHY CHOOSE STELLEMED -->
+  <section class="sm-why-section" id="why-us">
+    <div class="sm-container">
+      <div class="sm-section-header text-center">
+        <div class="sm-eyebrow dark-theme">The StelleMed Advantage</div>
+        <h2 class="sm-title dark-theme">Your Trusted Partner in <span style="color:#38D4D8;">Medical Billing</span></h2>
+        <p class="sm-desc dark-theme">We bridge clinical dedication with financial excellence. Here is why independent physicians choose StelleMed.</p>
+      </div>
+
+      <div class="sm-why-grid">
+        <div class="sm-why-card"><div class="sm-why-icon">&#127891;</div><h3 class="sm-why-card-title">Industry Expertise</h3><p class="sm-why-card-desc">Certified AAPC &amp; AHIMA billing specialists who master CPT, ICD-10, and modifier guidelines for your clinical specialty.</p></div>
+        <div class="sm-why-card"><div class="sm-why-icon">&#128100;</div><h3 class="sm-why-card-title">Dedicated Support</h3><p class="sm-why-card-desc">One assigned account manager who knows your practice inside and out. Direct phone and email access — zero frustrating ticket queues.</p></div>
+        <div class="sm-why-card"><div class="sm-why-icon">&#128737;</div><h3 class="sm-why-card-title">Advanced Technology</h3><p class="sm-why-card-desc">Powered by StelleCloud™: automated claim scrubbers, 256-bit HIPAA compliance, seamless EHR synchronization, and 24/7 client portal.</p></div>
+        <div class="sm-why-card"><div class="sm-why-icon">&#128202;</div><h3 class="sm-why-card-title">Transparent Reporting</h3><p class="sm-why-card-desc">Comprehensive monthly financial dashboards and quarterly performance reviews. Track every billed dollar and recovery milestone.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 10. ROI CALCULATOR -->
+  <section class="sm-roi-section" id="roi-calculator">
+    <div class="sm-container">
+      <div class="sm-section-header text-center">
+        <div class="sm-eyebrow dark-theme">Practice Revenue Recovery Estimator</div>
+        <h2 class="sm-title dark-theme">Calculate Your Practice’s <span style="color: #38D4D8;">Lost Revenue Recovery</span></h2>
+        <p class="sm-desc dark-theme">Average US practices lose 15% to 25% of legitimate billings to unresolved claim denials, coding inaccuracies, and delayed follow-ups.</p>
+      </div>
+
+      <div class="sm-roi-card">
+        <div class="sm-roi-grid">
+          <div class="sm-roi-controls">
+            <div class="sm-roi-group">
+              <div class="sm-roi-label-row">
+                <span class="sm-roi-label">Current Monthly Practice Billings</span>
+                <span class="sm-roi-val sm-roi-billing-display">$120,000 / mo</span>
+              </div>
+              <input type="range" min="30000" max="1000000" step="10000" value="120000" class="sm-roi-slider sm-roi-billing-slider"/>
+              <div style="display:flex; justify-content:space-between; font-size:0.75rem; color:#A3B9CC;">
+                <span>$30k/mo</span><span>$500k/mo</span><span>$1M+/mo</span>
+              </div>
+            </div>
+
+            <div class="sm-roi-group">
+              <label class="sm-roi-label">Primary Medical Specialty</label>
+              <select class="sm-roi-select sm-roi-specialty-select">
+                <option value="internal-medicine">Internal Medicine / Primary Care</option>
+                <option value="cardiology">Cardiology</option>
+                <option value="orthopedics">Orthopedics &amp; Sports Medicine</option>
+                <option value="pediatrics">Pediatrics</option>
+                <option value="surgery">General Surgery / ASC</option>
+                <option value="multi-specialty">Multi-Specialty Clinic</option>
+              </select>
+            </div>
+
+            <div class="sm-roi-group">
+              <div class="sm-roi-label-row">
+                <span class="sm-roi-label">Number of Billing Providers</span>
+                <span class="sm-roi-val sm-roi-provider-display">3 Providers</span>
+              </div>
+              <input type="range" min="1" max="25" step="1" value="3" class="sm-roi-slider sm-roi-provider-slider"/>
+            </div>
+          </div>
+
+          <div class="sm-roi-results">
+            <div>
+              <span style="font-size:0.8125rem; text-transform:uppercase; letter-spacing:0.08em; color:#A3B9CC; font-weight:700;">Estimated Annual Revenue Recaptured</span>
+              <div class="sm-roi-amount">$259,200</div>
+              <div style="font-size:0.8125rem; color:#EAF8F8; margin-top:4px;">*Based on average 18% - 22% denial recovery &amp; underpayment audits</div>
+            </div>
+            <div class="sm-roi-metrics-row">
+              <div><span style="font-size:0.75rem; color:#A3B9CC; text-transform:uppercase;">A/R Days Reduction</span><div style="font-size:1.15rem; font-weight:700; color:#fff;" class="sm-roi-ar-days">52d &rarr; <span style="color:#38D4D8;">26 days</span></div></div>
+              <div><span style="font-size:0.75rem; color:#A3B9CC; text-transform:uppercase;">Target Clean Claims</span><div style="font-size:1.15rem; font-weight:700; color:#38D4D8;">98.5%</div></div>
+            </div>
+            <button type="button" class="sm-btn sm-btn-primary" data-open-modal="consultation" style="width:100%;">
+              <span>Claim Your Detailed Practice Audit</span>
+              <span>&rarr;</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 11. FAQ ACCORDION -->
+  <section class="sm-section" id="faq" style="background-color: #FFFFFF;">
+    <div class="sm-container">
+      <div class="sm-section-header text-center">
+        <div class="sm-eyebrow">Got Questions? We Have Answers</div>
+        <h2 class="sm-title">Frequently Asked <span>Questions</span></h2>
+        <p class="sm-desc">Everything you need to know about our billing workflows, HIPAA security, EHR integrations, and pricing model.</p>
+      </div>
+
+      <div class="sm-faq-list">
+        <div class="sm-faq-item is-open">
+          <button type="button" class="sm-faq-btn"><span>What types of healthcare providers do you work with?</span><span class="sm-faq-icon">&#9660;</span></button>
+          <div class="sm-faq-content"><p>We partner with independent physician practices, ambulatory surgery centers (ASCs), urgent care clinics, mental health practices, and multi-specialty medical groups across all 50 US states.</p></div>
+        </div>
+        <div class="sm-faq-item">
+          <button type="button" class="sm-faq-btn"><span>How do you help reduce claim denials?</span><span class="sm-faq-icon">&#9660;</span></button>
+          <div class="sm-faq-content"><p>We deploy a multi-tier prevention protocol: real-time eligibility checks prior to appointments, automated claim scrubbing rules, certified coder audits, and immediate clinical appeals for rejections within 24 to 48 hours.</p></div>
+        </div>
+        <div class="sm-faq-item">
+          <button type="button" class="sm-faq-btn"><span>How do you maintain HIPAA compliance?</span><span class="sm-faq-icon">&#9660;</span></button>
+          <div class="sm-faq-content"><p>All data operates on StelleCloud™ infrastructure, featuring AES-256 bit encryption at rest and in transit, multi-factor authentication (MFA), and 24/7 security auditing with executed BAAs.</p></div>
+        </div>
+        <div class="sm-faq-item">
+          <button type="button" class="sm-faq-btn"><span>Do you require long-term contracts?</span><span class="sm-faq-icon">&#9660;</span></button>
+          <div class="sm-faq-content"><p>No. We operate primarily on flexible month-to-month service agreements with standard 30-day notice terms, so you never feel trapped in a rigid multi-year commitment.</p></div>
+        </div>
+        <div class="sm-faq-item">
+          <button type="button" class="sm-faq-btn"><span>Do we need to switch our existing Electronic Health Record (EHR)?</span><span class="sm-faq-icon">&#9660;</span></button>
+          <div class="sm-faq-content"><p>Not at all. StelleMed connects directly with your existing EHR and Practice Management system (such as Athenahealth, Epic, eClinicalWorks, Kareo, AdvancedMD, NextGen, and others).</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 12. FINAL CALL TO ACTION -->
+  <section class="sm-cta-banner">
+    <div class="sm-container" style="max-width: 780px;">
+      <h2 style="font-size: clamp(2rem, 3.5vw, 2.7rem); font-weight: 800; color: #FFFFFF; margin: 0 0 16px 0;">Ready to Elevate Your Practice Revenue?</h2>
+      <p style="font-size: 1.1rem; color: #EAF8F8; line-height: 1.6; margin: 0 0 32px 0;">Discover how much revenue your practice is leaving on the table. Request a complimentary, zero-obligation billing audit today.</p>
+      <button type="button" class="sm-btn" style="background:#FFFFFF; color:#102C40 !important; font-weight:800; padding:14px 32px;" data-open-modal="consultation">
+        <span>Request Free Practice Audit</span>
+        <span>&rarr;</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- 13. MODERN FOOTER -->
+  <footer class="sm-footer" id="contact">
+    <div class="sm-container">
+      <div class="sm-footer-grid">
+        <div>
+          <div class="sm-brand-name" style="color:#FFFFFF; margin-bottom:12px;">Stelle<span style="color:#179A9E;">Med</span></div>
+          <p style="font-size:0.875rem; color:#A3B9CC; line-height:1.6; margin-bottom:16px;">
+            StelleMed manages the complete revenue cycle for healthcare providers across the United States. Delivering accurate medical billing, certified coding, aggressive denial management, and transparent reporting.
+          </p>
+          <div style="font-size:0.8125rem; color:#38D4D8;">&#128737; 100% HIPAA Compliant Infrastructure</div>
+        </div>
+
+        <div>
+          <h4 class="sm-footer-title">Quick Links</h4>
+          <ul class="sm-footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Our Services</a></li>
+            <li><a href="#revenue-leaks">Revenue Leaks</a></li>
+            <li><a href="#how-we-manage">How We Manage RCM</a></li>
+            <li><a href="#why-us">Why Choose StelleMed</a></li>
+            <li><a href="#roi-calculator">ROI Calculator</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="sm-footer-title">Services</h4>
+          <ul class="sm-footer-links">
+            <li><a href="#services">Insurance &amp; Payer Services</a></li>
+            <li><a href="#services">Patient &amp; Practice Services</a></li>
+            <li><a href="#services">Technology &amp; IT Support</a></li>
+            <li><a href="#six-checks">Six Checks Quality Gates</a></li>
+            <li><a href="#faq">Billing FAQs</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="sm-footer-title">Contact &amp; Location</h4>
+          <ul class="sm-footer-links">
+            <li>&#9742; <a href="tel:+15169797418">+1 (516) 979-7418</a></li>
+            <li>&#9993; <a href="mailto:info@stellemed.com">info@stellemed.com</a></li>
+            <li>&#128338; Mon - Fri: 8:00 AM - 6:00 PM EST</li>
+            <li>&#128205; New York, United States</li>
+          </ul>
+          <button type="button" class="sm-btn sm-btn-primary" data-open-modal="consultation" style="margin-top:16px; padding:8px 18px; font-size:0.8125rem;">
+            <span>Book Consultation</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="sm-footer-bottom">
+        <div>&copy; 2026 StelleMed LLC. All Rights Reserved. Backed by Corvit &amp; StelleCloud.</div>
+        <div style="display:flex; gap:16px;">
+          <a href="#contact" data-open-modal="consultation">Privacy Policy</a>
+          <a href="#contact" data-open-modal="consultation">Terms of Service</a>
+          <a href="#contact" data-open-modal="consultation">HIPAA Compliance</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- 14. CONSULTATION BOOKING MODAL -->
+  <div class="sm-modal-backdrop" id="sm-consultation-modal">
+    <div class="sm-modal-card">
+      <button type="button" class="sm-modal-close" data-close-modal>&times;</button>
+      <div style="display:flex; align-items:center; gap:8px; color:var(--sm-teal); font-weight:700; font-size:0.85rem; margin-bottom:8px;">
+        <span>&#128197; Free Zero-Obligation Practice Audit</span>
+      </div>
+      <h3 style="font-size:1.45rem; color:var(--sm-navy); font-weight:800; margin:0 0 10px 0;">Request Your Practice Audit</h3>
+      <p style="font-size:0.875rem; color:var(--sm-text-secondary); margin:0 0 20px 0;">Fill in your details below and our healthcare billing directors will contact you within 24 hours.</p>
+
+      <form>
+        <input type="text" class="sm-input" placeholder="Your Full Name *" required />
+        <input type="text" class="sm-input" placeholder="Practice / Clinic Name *" required />
+        <input type="email" class="sm-input" placeholder="Work Email Address *" required />
+        <input type="tel" class="sm-input" placeholder="Phone Number *" required />
+        <select class="sm-input">
+          <option value="">Select Primary Clinical Specialty...</option>
+          <option value="internal-medicine">Internal Medicine / Primary Care</option>
+          <option value="cardiology">Cardiology</option>
+          <option value="orthopedics">Orthopedics &amp; Sports Medicine</option>
+          <option value="pediatrics">Pediatrics</option>
+          <option value="mental-health">Behavioral &amp; Mental Health</option>
+          <option value="surgery">General Surgery / ASC</option>
+          <option value="other">Other Specialty</option>
+        </select>
+        <button type="submit" class="sm-btn sm-btn-primary" style="width:100%; padding:14px; margin-top:6px;">
+          <span>Submit Audit Request</span>
+          <span>&rarr;</span>
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<script>
+(function() {
+  'use strict';
+
+  function formatCurrency(num) {
+    return '$' + Math.round(num).toLocaleString('en-US');
+  }
+
+  // 1. ROI Calculator
+  function initRoi() {
+    var cards = document.querySelectorAll('.sm-roi-card');
+    cards.forEach(function(card) {
+      var slider = card.querySelector('.sm-roi-billing-slider');
+      var display = card.querySelector('.sm-roi-billing-display');
+      var specialty = card.querySelector('.sm-roi-specialty-select');
+      var provider = card.querySelector('.sm-roi-provider-slider');
+      var provDisplay = card.querySelector('.sm-roi-provider-display');
+      var amount = card.querySelector('.sm-roi-amount');
+      var arDays = card.querySelector('.sm-roi-ar-days');
+
+      function calculate() {
+        if (!slider || !amount) return;
+        var bill = parseFloat(slider.value) || 120000;
+        var spec = specialty ? specialty.value : 'internal-medicine';
+        var prov = provider ? parseInt(provider.value, 10) : 3;
+
+        if (display) display.textContent = formatCurrency(bill) + ' / mo';
+        if (provDisplay) provDisplay.textContent = prov + (prov === 1 ? ' Provider' : ' Providers');
+
+        var rate = (spec === 'orthopedics' || spec === 'surgery') ? 0.22 : 0.18;
+        var recaptured = bill * 12 * rate;
+        var days = 48 + Math.round(prov * 1.5);
+
+        amount.textContent = formatCurrency(recaptured);
+        if (arDays) arDays.innerHTML = days + 'd &rarr; <span style="color:#38D4D8;">26 days</span>';
+      }
+
+      if (slider) slider.addEventListener('input', calculate);
+      if (specialty) specialty.addEventListener('change', calculate);
+      if (provider) provider.addEventListener('input', calculate);
+      calculate();
+    });
+  }
+
+  // 2. FAQ Accordion
+  function initFaq() {
+    var items = document.querySelectorAll('.sm-faq-item');
+    items.forEach(function(item) {
+      var btn = item.querySelector('.sm-faq-btn');
+      if (btn) {
+        btn.addEventListener('click', function() {
+          item.classList.toggle('is-open');
+        });
+      }
+    });
+  }
+
+  // 3. Modal Popup
+  function initModal() {
+    var modal = document.getElementById('sm-consultation-modal');
+    if (!modal) return;
+
+    var triggers = document.querySelectorAll('[data-open-modal="consultation"]');
+    triggers.forEach(function(trig) {
+      trig.addEventListener('click', function(e) {
+        e.preventDefault();
+        modal.classList.add('is-active');
+      });
+    });
+
+    var closes = modal.querySelectorAll('[data-close-modal]');
+    closes.forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        modal.classList.remove('is-active');
+      });
+    });
+
+    var form = modal.querySelector('form');
+    if (form) {
+      form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        alert('Thank you! Your practice audit request has been received. Our billing directors will contact you within 24 hours.');
+        modal.classList.remove('is-active');
+      });
+    }
+  }
+
+  // Run on DOM load
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', function() {
+      initRoi();
+      initFaq();
+      initModal();
+    });
+  } else {
+    initRoi();
+    initFaq();
+    initModal();
+  }
+})();
+</script>
