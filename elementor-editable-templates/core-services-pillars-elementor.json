@@ -1,0 +1,1313 @@
+{
+  "version": "0.4",
+  "title": "Comprehensive Healthcare Billing Solutions - 3 Core Pillars (100% Flexbox Container)",
+  "type": "container",
+  "content": [
+    {
+      "id": "w8ocvae",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1220,
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": 0,
+          "column": "0",
+          "row": "0"
+        },
+        "background_background": "classic",
+        "background_color": "#F8FBFC",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "80",
+          "left": "20",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "60",
+          "right": "20",
+          "bottom": "60",
+          "left": "20",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "40",
+          "right": "16",
+          "bottom": "40",
+          "left": "16",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "mhov3tk",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "width": {
+              "unit": "px",
+              "size": 800,
+              "sizes": []
+            },
+            "width_tablet": {
+              "unit": "%",
+              "size": 100,
+              "sizes": []
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100,
+              "sizes": []
+            },
+            "flex_direction": "column",
+            "flex_align_items": "center",
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "auto",
+              "bottom": "48",
+              "left": "auto",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "lumnm4v",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "<span style=\"display:inline-flex;align-items:center;gap:6px;padding:6px 16px;background-color:#EAF8F8;border:1px solid #A7E8E9;border-radius:50px;color:#179A9E;font-size:12px;font-weight:800;letter-spacing:1px;text-transform:uppercase;\"><i class=\"fas fa-stethoscope\" style=\"font-size:13px;\"></i> HEALTHCARE BILLING EXPERTISE</span>",
+                "header_size": "span",
+                "align": "center",
+                "title_color": "#179A9E",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "16",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "ayj4jza",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Comprehensive Healthcare <span style=\"color:#179A9E;\">Billing Solutions</span>",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#0C2340",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 40
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 32
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 28
+                },
+                "typography_font_weight": "800",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.2
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": -0.5
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "14",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "2ucdcmj",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"margin:0;font-size:16px;color:#4A5568;line-height:1.6;text-align:center;\">We deliver the full spectrum of revenue cycle management — combining certified billing specialists, payer relationships, and modern software to maximize your practice’s financial health.</p>",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "typography_font_weight": "400",
+                "text_color": "#4A5568"
+              }
+            }
+          ]
+        },
+        {
+          "id": "53srrgd",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_direction_tablet": "column",
+            "flex_direction_mobile": "column",
+            "flex_wrap": "wrap",
+            "flex_justify_content": "space-between",
+            "flex_align_items": "stretch",
+            "flex_gap": {
+              "unit": "px",
+              "size": 24,
+              "column": "24",
+              "row": "24"
+            },
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "44",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "i3bq3z5",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 31.8,
+                  "sizes": []
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_direction": "column",
+                "flex_align_items": "stretch",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 0,
+                  "column": "0",
+                  "row": "0"
+                },
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#E2E8F0",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 10,
+                  "blur": 30,
+                  "spread": -5,
+                  "color": "rgba(12, 35, 64, 0.05)"
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "32",
+                  "right": "28",
+                  "bottom": "32",
+                  "left": "28",
+                  "isLinked": true
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "24",
+                  "right": "20",
+                  "bottom": "24",
+                  "left": "20",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "id": "4npw3wf",
+                  "elType": "container",
+                  "isInner": true,
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "row",
+                    "flex_justify_content": "space-between",
+                    "flex_align_items": "center",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "20",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "87jwjfn",
+                      "elType": "container",
+                      "isInner": true,
+                      "settings": {
+                        "content_width": "full",
+                        "width": {
+                          "unit": "px",
+                          "size": 54,
+                          "sizes": []
+                        },
+                        "min_height": {
+                          "unit": "px",
+                          "size": 54
+                        },
+                        "background_background": "classic",
+                        "background_color": "#E8F6F7",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "14",
+                          "right": "14",
+                          "bottom": "14",
+                          "left": "14",
+                          "isLinked": true
+                        },
+                        "flex_direction": "column",
+                        "flex_justify_content": "center",
+                        "flex_align_items": "center"
+                      },
+                      "elements": [
+                        {
+                          "id": "qfbehpw",
+                          "elType": "widget",
+                          "widgetType": "icon",
+                          "settings": {
+                            "selected_icon": {
+                              "value": "fas fa-file-invoice-dollar",
+                              "library": "fa-solid"
+                            },
+                            "view": "default",
+                            "align": "center",
+                            "primary_color": "#179A9E",
+                            "size": {
+                              "unit": "px",
+                              "size": 24
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "5u0tj0n",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "<span style=\"display:inline-block;padding:5px 12px;background-color:#E6F7F7;border:1px solid #179A9E33;border-radius:50px;color:#179A9E;font-size:11px;font-weight:700;letter-spacing:0.5px;text-transform:uppercase;\">Core Insurance Engine</span>",
+                        "header_size": "span",
+                        "align": "right",
+                        "title_color": "#179A9E",
+                        "margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "5iykd8n",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Insurance & Payer Services",
+                    "header_size": "h3",
+                    "title_color": "#0C2340",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22
+                    },
+                    "typography_font_weight": "800",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.25
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "12",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "xioi7qd",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"margin:0;font-size:14px;color:#4A5568;line-height:1.6;\">End-to-end payer management, insurance eligibility verifications, coding audits, credentialing, and fast-track claim submission with aggressive denial appeals.</p>",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_font_weight": "400",
+                    "text_color": "#4A5568",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "20",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "7aq9fo1",
+                  "elType": "widget",
+                  "widgetType": "icon-list",
+                  "settings": {
+                    "icon_list": [
+                      {
+                        "text": "Insurance Eligibility Verification",
+                        "selected_icon": {
+                          "value": "fas fa-check-circle",
+                          "library": "fa-solid"
+                        }
+                      },
+                      {
+                        "text": "Provider Credentialing & Contracting",
+                        "selected_icon": {
+                          "value": "fas fa-check-circle",
+                          "library": "fa-solid"
+                        }
+                      },
+                      {
+                        "text": "Electronic Claim Scrubbing & 837 Dispatch",
+                        "selected_icon": {
+                          "value": "fas fa-check-circle",
+                          "library": "fa-solid"
+                        }
+                      },
+                      {
+                        "text": "Denials Management & Clinical Appeals",
+                        "selected_icon": {
+                          "value": "fas fa-check-circle",
+                          "library": "fa-solid"
+                        }
+                      }
+                    ],
+                    "icon_color": "#179A9E",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "space_between": {
+                      "unit": "px",
+                      "size": 10
+                    },
+                    "text_color": "#1E293B",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 13.5
+                    },
+                    "typography_font_weight": "600",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "24",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "4wg5x4e",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Explore Insurance Services",
+                    "link": {
+                      "url": "/services/insurance-payer",
+                      "is_external": false,
+                      "nofollow": false
+                    },
+                    "align": "justify",
+                    "button_type": "default",
+                    "selected_icon": {
+                      "value": "fas fa-arrow-right",
+                      "library": "fa-solid"
+                    },
+                    "icon_align": "right",
+                    "icon_indent": {
+                      "unit": "px",
+                      "size": 8
+                    },
+                    "background_color": "#F1F5F9",
+                    "button_text_color": "#0C2340",
+                    "background_hover_color": "#179A9E",
+                    "hover_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#CBD5E1",
+                    "border_hover_color": "#179A9E",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "12",
+                      "right": "12",
+                      "bottom": "12",
+                      "left": "12",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "12",
+                      "right": "18",
+                      "bottom": "12",
+                      "left": "18",
+                      "isLinked": false
+                    },
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 13.5
+                    },
+                    "typography_font_weight": "700"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "ui45i5a",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 31.8,
+                  "sizes": []
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_direction": "column",
+                "flex_align_items": "stretch",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 0,
+                  "column": "0",
+                  "row": "0"
+                },
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#E2E8F0",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 10,
+                  "blur": 30,
+                  "spread": -5,
+                  "color": "rgba(12, 35, 64, 0.05)"
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "32",
+                  "right": "28",
+                  "bottom": "32",
+                  "left": "28",
+                  "isLinked": true
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "24",
+                  "right": "20",
+                  "bottom": "24",
+                  "left": "20",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "id": "85jp1eo",
+                  "elType": "container",
+                  "isInner": true,
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "row",
+                    "flex_justify_content": "space-between",
+                    "flex_align_items": "center",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "20",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "o6u5l6g",
+                      "elType": "container",
+                      "isInner": true,
+                      "settings": {
+                        "content_width": "full",
+                        "width": {
+                          "unit": "px",
+                          "size": 54,
+                          "sizes": []
+                        },
+                        "min_height": {
+                          "unit": "px",
+                          "size": 54
+                        },
+                        "background_background": "classic",
+                        "background_color": "#EFF6FF",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "14",
+                          "right": "14",
+                          "bottom": "14",
+                          "left": "14",
+                          "isLinked": true
+                        },
+                        "flex_direction": "column",
+                        "flex_justify_content": "center",
+                        "flex_align_items": "center"
+                      },
+                      "elements": [
+                        {
+                          "id": "o63dhm4",
+                          "elType": "widget",
+                          "widgetType": "icon",
+                          "settings": {
+                            "selected_icon": {
+                              "value": "fas fa-users",
+                              "library": "fa-solid"
+                            },
+                            "view": "default",
+                            "align": "center",
+                            "primary_color": "#2563EB",
+                            "size": {
+                              "unit": "px",
+                              "size": 24
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "gmipynn",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "<span style=\"display:inline-block;padding:5px 12px;background-color:#EFF6FF;border:1px solid #2563EB33;border-radius:50px;color:#2563EB;font-size:11px;font-weight:700;letter-spacing:0.5px;text-transform:uppercase;\">Front-to-Back Office</span>",
+                        "header_size": "span",
+                        "align": "right",
+                        "title_color": "#2563EB",
+                        "margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "im3mrx7",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Patient & Practice Services",
+                    "header_size": "h3",
+                    "title_color": "#0C2340",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22
+                    },
+                    "typography_font_weight": "800",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.25
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "12",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "672x9aa",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"margin:0;font-size:14px;color:#4A5568;line-height:1.6;\">Transparent patient billing, front-desk verification workflows, friendly self-pay recovery, flexible payment plans, and practice administrative support.</p>",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_font_weight": "400",
+                    "text_color": "#4A5568",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "20",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "lfsa6fj",
+                  "elType": "widget",
+                  "widgetType": "icon-list",
+                  "settings": {
+                    "icon_list": [
+                      {
+                        "text": "Patient Digital Statements & SMS",
+                        "selected_icon": {
+                          "value": "fas fa-check-circle",
+                          "library": "fa-solid"
+                        }
+                      },
+                      {
+                        "text": "Point-of-Service Intake Check-in",
+                        "selected_icon": {
+                          "value": "fas fa-check-circle",
+                          "library": "fa-solid"
+                        }
+                      },
+                      {
+                        "text": "Customizable Installment Payment Plans",
+                        "selected_icon": {
+                          "value": "fas fa-check-circle",
+                          "library": "fa-solid"
+                        }
+                      },
+                      {
+                        "text": "Patient Billing Support & Inquiries",
+                        "selected_icon": {
+                          "value": "fas fa-check-circle",
+                          "library": "fa-solid"
+                        }
+                      }
+                    ],
+                    "icon_color": "#179A9E",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "space_between": {
+                      "unit": "px",
+                      "size": 10
+                    },
+                    "text_color": "#1E293B",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 13.5
+                    },
+                    "typography_font_weight": "600",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "24",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "onvn9bt",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Explore Patient Services",
+                    "link": {
+                      "url": "/services/patient-practice",
+                      "is_external": false,
+                      "nofollow": false
+                    },
+                    "align": "justify",
+                    "button_type": "default",
+                    "selected_icon": {
+                      "value": "fas fa-arrow-right",
+                      "library": "fa-solid"
+                    },
+                    "icon_align": "right",
+                    "icon_indent": {
+                      "unit": "px",
+                      "size": 8
+                    },
+                    "background_color": "#F1F5F9",
+                    "button_text_color": "#0C2340",
+                    "background_hover_color": "#179A9E",
+                    "hover_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#CBD5E1",
+                    "border_hover_color": "#179A9E",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "12",
+                      "right": "12",
+                      "bottom": "12",
+                      "left": "12",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "12",
+                      "right": "18",
+                      "bottom": "12",
+                      "left": "18",
+                      "isLinked": false
+                    },
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 13.5
+                    },
+                    "typography_font_weight": "700"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "vg1sj46",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 31.8,
+                  "sizes": []
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_direction": "column",
+                "flex_align_items": "stretch",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 0,
+                  "column": "0",
+                  "row": "0"
+                },
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#E2E8F0",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 10,
+                  "blur": 30,
+                  "spread": -5,
+                  "color": "rgba(12, 35, 64, 0.05)"
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "32",
+                  "right": "28",
+                  "bottom": "32",
+                  "left": "28",
+                  "isLinked": true
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "24",
+                  "right": "20",
+                  "bottom": "24",
+                  "left": "20",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "id": "qqardq5",
+                  "elType": "container",
+                  "isInner": true,
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "row",
+                    "flex_justify_content": "space-between",
+                    "flex_align_items": "center",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "20",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "5yzbawu",
+                      "elType": "container",
+                      "isInner": true,
+                      "settings": {
+                        "content_width": "full",
+                        "width": {
+                          "unit": "px",
+                          "size": 54,
+                          "sizes": []
+                        },
+                        "min_height": {
+                          "unit": "px",
+                          "size": 54
+                        },
+                        "background_background": "classic",
+                        "background_color": "#F5F3FF",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "14",
+                          "right": "14",
+                          "bottom": "14",
+                          "left": "14",
+                          "isLinked": true
+                        },
+                        "flex_direction": "column",
+                        "flex_justify_content": "center",
+                        "flex_align_items": "center"
+                      },
+                      "elements": [
+                        {
+                          "id": "2kqth0q",
+                          "elType": "widget",
+                          "widgetType": "icon",
+                          "settings": {
+                            "selected_icon": {
+                              "value": "fas fa-laptop-medical",
+                              "library": "fa-solid"
+                            },
+                            "view": "default",
+                            "align": "center",
+                            "primary_color": "#7C3AED",
+                            "size": {
+                              "unit": "px",
+                              "size": 24
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "rmw7go7",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "<span style=\"display:inline-block;padding:5px 12px;background-color:#F5F3FF;border:1px solid #7C3AED33;border-radius:50px;color:#7C3AED;font-size:11px;font-weight:700;letter-spacing:0.5px;text-transform:uppercase;\">Powered by StelleCloud™</span>",
+                        "header_size": "span",
+                        "align": "right",
+                        "title_color": "#7C3AED",
+                        "margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "cl3h7s5",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Technology & Support",
+                    "header_size": "h3",
+                    "title_color": "#0C2340",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22
+                    },
+                    "typography_font_weight": "800",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.25
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "12",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "zc70he8",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"margin:0;font-size:14px;color:#4A5568;line-height:1.6;\">State-of-the-art healthcare technology, automated claim scrubbing engines, real-time executive financial dashboards, EHR integrations, and dedicated technical support.</p>",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_font_weight": "400",
+                    "text_color": "#4A5568",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "20",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "7grcrt8",
+                  "elType": "widget",
+                  "widgetType": "icon-list",
+                  "settings": {
+                    "icon_list": [
+                      {
+                        "text": "Bi-directional EHR/PM API Integrations",
+                        "selected_icon": {
+                          "value": "fas fa-check-circle",
+                          "library": "fa-solid"
+                        }
+                      },
+                      {
+                        "text": "Automated Claim Scrubber Rules Engine",
+                        "selected_icon": {
+                          "value": "fas fa-check-circle",
+                          "library": "fa-solid"
+                        }
+                      },
+                      {
+                        "text": "Executive Financial KPI Analytics",
+                        "selected_icon": {
+                          "value": "fas fa-check-circle",
+                          "library": "fa-solid"
+                        }
+                      },
+                      {
+                        "text": "Dedicated Account Manager & IT Support",
+                        "selected_icon": {
+                          "value": "fas fa-check-circle",
+                          "library": "fa-solid"
+                        }
+                      }
+                    ],
+                    "icon_color": "#179A9E",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "space_between": {
+                      "unit": "px",
+                      "size": 10
+                    },
+                    "text_color": "#1E293B",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 13.5
+                    },
+                    "typography_font_weight": "600",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "24",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "orccllr",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Explore Tech & Support",
+                    "link": {
+                      "url": "/services/technology-support",
+                      "is_external": false,
+                      "nofollow": false
+                    },
+                    "align": "justify",
+                    "button_type": "default",
+                    "selected_icon": {
+                      "value": "fas fa-arrow-right",
+                      "library": "fa-solid"
+                    },
+                    "icon_align": "right",
+                    "icon_indent": {
+                      "unit": "px",
+                      "size": 8
+                    },
+                    "background_color": "#F1F5F9",
+                    "button_text_color": "#0C2340",
+                    "background_hover_color": "#179A9E",
+                    "hover_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#CBD5E1",
+                    "border_hover_color": "#179A9E",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "12",
+                      "right": "12",
+                      "bottom": "12",
+                      "left": "12",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "12",
+                      "right": "18",
+                      "bottom": "12",
+                      "left": "18",
+                      "isLinked": false
+                    },
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 13.5
+                    },
+                    "typography_font_weight": "700"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "r6q7tn0",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_justify_content": "center",
+            "flex_align_items": "center"
+          },
+          "elements": [
+            {
+              "id": "ur8c4dk",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "View All Services & Specializations",
+                "link": {
+                  "url": "/services",
+                  "is_external": false,
+                  "nofollow": false
+                },
+                "align": "center",
+                "button_type": "default",
+                "selected_icon": {
+                  "value": "fas fa-arrow-right",
+                  "library": "fa-solid"
+                },
+                "icon_align": "right",
+                "icon_indent": {
+                  "unit": "px",
+                  "size": 10
+                },
+                "background_color": "#FFFFFF",
+                "button_text_color": "#0C2340",
+                "background_hover_color": "#179A9E",
+                "hover_color": "#FFFFFF",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "2",
+                  "right": "2",
+                  "bottom": "2",
+                  "left": "2",
+                  "isLinked": true
+                },
+                "border_color": "#179A9E",
+                "border_hover_color": "#179A9E",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "14",
+                  "right": "14",
+                  "bottom": "14",
+                  "left": "14",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 6,
+                  "blur": 16,
+                  "spread": 0,
+                  "color": "rgba(23, 154, 158, 0.15)"
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "32",
+                  "bottom": "16",
+                  "left": "32",
+                  "isLinked": false
+                },
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "typography_font_weight": "700"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

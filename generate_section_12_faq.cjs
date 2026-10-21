@@ -1,0 +1,399 @@
+const fs = require('fs');
+const path = require('path');
+
+function createId() {
+  return Math.random().toString(36).substring(2, 9);
+}
+
+const faqs = [
+  {
+    question: "What types of healthcare providers do you work with?",
+    answer: "We partner with independent physician practices, ambulatory surgery centers (ASCs), urgent care clinics, mental and behavioral health practices, dental and oral surgery clinics, and multi-specialty medical groups across all 50 US states. Our certified billers adapt specifically to each clinical specialty’s coding requirements."
+  },
+  {
+    question: "How do you help reduce claim denials?",
+    answer: "We deploy a rigorous multi-tier prevention protocol: 1) Real-time insurance eligibility checks prior to patient appointments, 2) Specialty-specific automated clearinghouse claim scrubbing rules, 3) Certified AAPC/AHIMA coder charge audits, and 4) Immediate clinical appeals with supporting documentation for any unexpected rejections within 24 to 48 hours."
+  },
+  {
+    question: "How do you maintain HIPAA compliance?",
+    answer: "All client interactions and data exchange operate on StelleCloud™ infrastructure, featuring AES-256 bit encryption at rest and in transit, multi-factor authentication (MFA), role-based access restrictions, and 24/7 security auditing. We execute comprehensive Business Associate Agreements (BAAs) with every provider partner."
+  },
+  {
+    question: "What is the typical claims processing turnaround time?",
+    answer: "Charges received from your clinical practice are reviewed, scrubbed, and electronically submitted within 24 to 48 hours of service. Average reimbursement cycles for clean electronic claims typically range from 12 to 18 days, depending on payer adjudication timelines."
+  },
+  {
+    question: "Do you offer customized pricing?",
+    answer: "Yes. We offer transparent, percentage-of-collections pricing starting as low as 3.5% to 6%, meaning we only get paid when you get paid. For specialty surgical clinics or administrative credentialing projects, flat monthly retainer packages are also available. We never charge hidden software or setup fees."
+  },
+  {
+    question: "Do you require long-term contracts?",
+    answer: "No. StelleMed believes our performance should earn your business every month. We operate primarily on flexible month-to-month service agreements with standard 30-day notice terms, so you never feel trapped in a rigid multi-year commitment."
+  },
+  {
+    question: "Do we need to switch our existing Electronic Health Record (EHR)?",
+    answer: "Not at all. StelleMed connects directly with your existing EHR and Practice Management system (such as Athenahealth, Epic, eClinicalWorks, Kareo, AdvancedMD, NextGen, and others). Your clinical staff continues using the software they already know."
+  }
+];
+
+const faqSection = {
+  version: "0.4",
+  title: "Frequently Asked Questions - FAQ Accordion (100% Flexbox Container)",
+  type: "container",
+  content: [
+    {
+      id: createId(),
+      elType: "container",
+      isInner: false,
+      settings: {
+        content_width: "boxed",
+        boxed_width: {
+          unit: "px",
+          size: 1000,
+          sizes: []
+        },
+        flex_direction: "column",
+        flex_align_items: "center",
+        flex_gap: {
+          unit: "px",
+          size: 0,
+          column: "0",
+          row: "0"
+        },
+        background_background: "classic",
+        background_color: "#FFFFFF",
+        padding: {
+          unit: "px",
+          top: "80",
+          right: "20",
+          bottom: "80",
+          left: "20",
+          isLinked: false
+        },
+        padding_tablet: {
+          unit: "px",
+          top: "60",
+          right: "20",
+          bottom: "60",
+          left: "20",
+          isLinked: false
+        },
+        padding_mobile: {
+          unit: "px",
+          top: "40",
+          right: "16",
+          bottom: "40",
+          left: "16",
+          isLinked: false
+        }
+      },
+      elements: [
+        // Header
+        {
+          id: createId(),
+          elType: "container",
+          isInner: true,
+          settings: {
+            content_width: "full",
+            width: {
+              unit: "px",
+              size: 800,
+              sizes: []
+            },
+            width_tablet: {
+              unit: "%",
+              size: 100,
+              sizes: []
+            },
+            width_mobile: {
+              unit: "%",
+              size: 100,
+              sizes: []
+            },
+            flex_direction: "column",
+            flex_align_items: "center",
+            margin: {
+              unit: "px",
+              top: "0",
+              right: "auto",
+              bottom: "48",
+              left: "auto",
+              isLinked: false
+            }
+          },
+          elements: [
+            // Pill
+            {
+              id: createId(),
+              elType: "widget",
+              widgetType: "heading",
+              settings: {
+                title: `<span style="display:inline-flex;align-items:center;gap:6px;padding:6px 16px;background-color:#EAF8F8;border:1px solid #A7E8E9;border-radius:50px;color:#179A9E;font-size:12px;font-weight:800;letter-spacing:1px;text-transform:uppercase;"><i class=\"fas fa-question-circle\"></i> GOT QUESTIONS? WE HAVE ANSWERS</span>`,
+                header_size: "span",
+                align: "center",
+                title_color: "#179A9E",
+                margin: {
+                  unit: "px",
+                  top: "0",
+                  right: "0",
+                  bottom: "16",
+                  left: "0",
+                  isLinked: false
+                }
+              }
+            },
+            // Title
+            {
+              id: createId(),
+              elType: "widget",
+              widgetType: "heading",
+              settings: {
+                title: "Frequently Asked <span style=\"color:#179A9E;\">Questions</span>",
+                header_size: "h2",
+                align: "center",
+                title_color: "#0C2340",
+                typography_typography: "custom",
+                typography_font_family: "Plus Jakarta Sans",
+                typography_font_size: {
+                  unit: "px",
+                  size: 40
+                },
+                typography_font_size_tablet: {
+                  unit: "px",
+                  size: 32
+                },
+                typography_font_size_mobile: {
+                  unit: "px",
+                  size: 28
+                },
+                typography_font_weight: "800",
+                typography_line_height: {
+                  unit: "em",
+                  size: 1.2
+                },
+                typography_letter_spacing: {
+                  unit: "px",
+                  size: -0.5
+                },
+                margin: {
+                  unit: "px",
+                  top: "0",
+                  right: "0",
+                  bottom: "14",
+                  left: "0",
+                  isLinked: false
+                }
+              }
+            },
+            // Subtitle
+            {
+              id: createId(),
+              elType: "widget",
+              widgetType: "text-editor",
+              settings: {
+                editor: "<p style=\"margin:0;font-size:16px;color:#4A5568;line-height:1.6;text-align:center;\">Everything you need to know about our billing workflows, HIPAA security, EHR integrations, and pricing model.</p>",
+                typography_typography: "custom",
+                typography_font_family: "Plus Jakarta Sans",
+                typography_font_size: {
+                  unit: "px",
+                  size: 16
+                },
+                typography_font_weight: "400",
+                text_color: "#4A5568"
+              }
+            }
+          ]
+        },
+        // Native Elementor Accordion Widget
+        {
+          id: createId(),
+          elType: "widget",
+          widgetType: "accordion",
+          settings: {
+            tabs: faqs.map(f => ({
+              tab_title: f.question,
+              tab_content: f.answer
+            })),
+            selected_icon: {
+              value: "fas fa-chevron-down",
+              library: "fa-solid"
+            },
+            selected_active_icon: {
+              value: "fas fa-chevron-up",
+              library: "fa-solid"
+            },
+            icon_align: "right",
+            border_width: {
+              unit: "px",
+              size: 1
+            },
+            border_color: "#E2E8F0",
+            title_color: "#0C2340",
+            tab_active_color: "#179A9E",
+            title_background: "#F8FAFC",
+            title_active_background: "#F1F5F9",
+            title_typography_typography: "custom",
+            title_typography_font_family: "Plus Jakarta Sans",
+            title_typography_font_size: {
+              unit: "px",
+              size: 16
+            },
+            title_typography_font_weight: "700",
+            content_background_color: "#FFFFFF",
+            content_color: "#4A5568",
+            content_typography_typography: "custom",
+            content_typography_font_family: "Plus Jakarta Sans",
+            content_typography_font_size: {
+              unit: "px",
+              size: 14.5
+            },
+            content_typography_line_height: {
+              unit: "em",
+              size: 1.65
+            }
+          }
+        },
+        // Still have questions bottom callout
+        {
+          id: createId(),
+          elType: "container",
+          isInner: true,
+          settings: {
+            content_width: "full",
+            flex_direction: "row",
+            flex_direction_tablet: "column",
+            flex_direction_mobile: "column",
+            flex_justify_content: "center",
+            flex_align_items: "center",
+            flex_gap: {
+              unit: "px",
+              size: 16,
+              column: "16",
+              row: "12"
+            },
+            background_background: "classic",
+            background_color: "#F8FAFC",
+            border_border: "solid",
+            border_width: {
+              unit: "px",
+              top: "1",
+              right: "1",
+              bottom: "1",
+              left: "1",
+              isLinked: true
+            },
+            border_color: "#E2E8F0",
+            border_radius: {
+              unit: "px",
+              top: "14",
+              right: "14",
+              bottom: "14",
+              left: "14",
+              isLinked: true
+            },
+            padding: {
+              unit: "px",
+              top: "20",
+              right: "28",
+              bottom: "20",
+              left: "28",
+              isLinked: false
+            },
+            margin: {
+              unit: "px",
+              top: "40",
+              right: "0",
+              bottom: "0",
+              left: "0",
+              isLinked: false
+            }
+          },
+          elements: [
+            {
+              id: createId(),
+              elType: "widget",
+              widgetType: "heading",
+              settings: {
+                title: "Still have questions about how StelleMed can support your practice?",
+                header_size: "span",
+                title_color: "#0C2340",
+                typography_typography: "custom",
+                typography_font_family: "Plus Jakarta Sans",
+                typography_font_size: {
+                  unit: "px",
+                  size: 14.5
+                },
+                typography_font_weight: "600"
+              }
+            },
+            {
+              id: createId(),
+              elType: "widget",
+              widgetType: "button",
+              settings: {
+                text: "Speak with a Specialist",
+                link: {
+                  url: "#contact",
+                  is_external: false,
+                  nofollow: false
+                },
+                button_type: "default",
+                selected_icon: {
+                  value: "fas fa-arrow-right",
+                  library: "fa-solid"
+                },
+                icon_align: "right",
+                icon_indent: {
+                  unit: "px",
+                  size: 8
+                },
+                background_color: "#179A9E",
+                button_text_color: "#FFFFFF",
+                background_hover_color: "#0F7B7E",
+                hover_color: "#FFFFFF",
+                border_radius: {
+                  unit: "px",
+                  top: "10",
+                  right: "10",
+                  bottom: "10",
+                  left: "10",
+                  isLinked: true
+                },
+                padding: {
+                  unit: "px",
+                  top: "10",
+                  right: "20",
+                  bottom: "10",
+                  left: "20",
+                  isLinked: false
+                },
+                typography_typography: "custom",
+                typography_font_family: "Plus Jakarta Sans",
+                typography_font_size: {
+                  unit: "px",
+                  size: 13.5
+                },
+                typography_font_weight: "700"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+};
+
+const outDir = path.join(__dirname, 'elementor-editable-templates');
+fs.writeFileSync(
+  path.join(outDir, 'faq-accordion-elementor.json'),
+  JSON.stringify(faqSection, null, 2),
+  'utf8'
+);
+
+fs.writeFileSync(
+  path.join(outDir, 'faq-accordion-plain-text.json'),
+  JSON.stringify(faqSection),
+  'utf8'
+);
+
+console.log('Successfully generated Section 12 (FAQ Accordion) with 100% Flexbox Containers!');

@@ -1,0 +1,182 @@
+{
+  "version": "0.4",
+  "title": "StelleMed - Global Header & Sticky Navbar (100% Flexbox Container)",
+  "type": "container",
+  "content": [
+    {
+      "id": "poakowx",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": 0,
+          "column": "0",
+          "row": "0"
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "box_shadow_box_shadow_type": "yes",
+        "box_shadow_box_shadow": {
+          "horizontal": 0,
+          "vertical": 4,
+          "blur": 20,
+          "spread": -5,
+          "color": "rgba(12, 35, 64, 0.06)"
+        }
+      },
+      "elements": [
+        {
+          "id": "otllchv",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1220,
+              "sizes": []
+            },
+            "flex_direction": "row",
+            "flex_justify_content": "space-between",
+            "flex_align_items": "center",
+            "background_background": "classic",
+            "background_color": "#0C2340",
+            "padding": {
+              "unit": "px",
+              "top": "8",
+              "right": "20",
+              "bottom": "8",
+              "left": "20",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "q06seht",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "<span style=\"display:inline-flex;align-items:center;gap:6px;color:#94A3B8;font-size:12px;font-weight:600;\"><i class=\"fas fa-shield-alt\" style=\"color:#179A9E;\"></i> HIPAA Compliant Infrastructure • Powered by StelleCloud™</span>",
+                "header_size": "span"
+              }
+            },
+            {
+              "id": "hcspdgk",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "<span style=\"display:inline-flex;align-items:center;gap:16px;color:#94A3B8;font-size:12px;font-weight:600;\"><a href=\"mailto:info@stellemed.com\" style=\"color:#CBD5E1;text-decoration:none;\"><i class=\"far fa-envelope\" style=\"color:#179A9E;margin-right:5px;\"></i>info@stellemed.com</a><span style=\"color:#334155;\">|</span><a href=\"tel:15169797418\" style=\"color:#CBD5E1;text-decoration:none;\"><i class=\"fas fa-phone-alt\" style=\"color:#179A9E;margin-right:5px;\"></i>+1 (516) 979-7418</a><span style=\"color:#334155;\">|</span><a href=\"#login\" style=\"color:#38D4D8;text-decoration:none;\"><i class=\"fas fa-lock\" style=\"margin-right:5px;\"></i>Client Login</a></span>",
+                "header_size": "span",
+                "align": "right"
+              }
+            }
+          ]
+        },
+        {
+          "id": "z88s2m5",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1220,
+              "sizes": []
+            },
+            "flex_direction": "row",
+            "flex_justify_content": "space-between",
+            "flex_align_items": "center",
+            "padding": {
+              "unit": "px",
+              "top": "16",
+              "right": "20",
+              "bottom": "16",
+              "left": "20",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "kpalfkm",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "<a href=\"/\" style=\"display:inline-flex;align-items:center;gap:8px;text-decoration:none;\"><span style=\"font-size:24px;font-weight:800;color:#0C2340;letter-spacing:-0.5px;\">Stelle<span style=\"color:#179A9E;\">Med</span></span></a>",
+                "header_size": "span"
+              }
+            },
+            {
+              "id": "sy1ei8a",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "<nav style=\"display:inline-flex;align-items:center;gap:28px;font-size:14.5px;font-weight:600;\"><a href=\"/\" style=\"color:#0C2340;text-decoration:none;\">Home</a><a href=\"/about\" style=\"color:#475569;text-decoration:none;\">About Us</a><a href=\"/services\" style=\"color:#475569;text-decoration:none;\">Services</a><a href=\"/specialties\" style=\"color:#475569;text-decoration:none;\">Specialties</a><a href=\"/calculator\" style=\"color:#475569;text-decoration:none;\">ROI Estimator</a><a href=\"/contact\" style=\"color:#475569;text-decoration:none;\">Contact</a></nav>",
+                "header_size": "span"
+              }
+            },
+            {
+              "id": "ysvg3cx",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Book Free Consultation",
+                "link": {
+                  "url": "#contact",
+                  "is_external": false,
+                  "nofollow": false
+                },
+                "selected_icon": {
+                  "value": "fas fa-arrow-right",
+                  "library": "fa-solid"
+                },
+                "icon_align": "right",
+                "icon_indent": {
+                  "unit": "px",
+                  "size": 8
+                },
+                "background_color": "#179A9E",
+                "button_text_color": "#FFFFFF",
+                "background_hover_color": "#0F7B7E",
+                "hover_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "10",
+                  "right": "10",
+                  "bottom": "10",
+                  "left": "10",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "12",
+                  "right": "20",
+                  "bottom": "12",
+                  "left": "20",
+                  "isLinked": false
+                },
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13.5
+                },
+                "typography_font_weight": "700"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
