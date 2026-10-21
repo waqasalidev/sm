@@ -1,96 +1,92 @@
-/**
- * StelleMed Elementor Addon - Core JavaScript
- * Handles real-time interactive calculations and UI toggles
- */
-
-(function () {
+(function() {
   'use strict';
 
   function formatCurrency(num) {
     return '$' + Math.round(num).toLocaleString('en-US');
   }
 
-  // 1. Initialize ROI Calculator
-  function initRoiCalculator(scope) {
-    var container = scope ? scope.querySelector('.sm-roi-card') : document.querySelector('.sm-roi-card');
-    if (!container) return;
+  // 1. ROI Calculator
+  function initRoi() {
+    var cards = document.querySelectorAll('.sm-roi-card');
+    cards.forEach(function(card) {
+      var slider = card.querySelector('.sm-roi-billing-slider');
+      var display = card.querySelector('.sm-roi-billing-display');
+      var specialty = card.querySelector('.sm-roi-specialty-select');
+      var provider = card.querySelector('.sm-roi-provider-slider');
+      var provDisplay = card.querySelector('.sm-roi-provider-display');
+      var amount = card.querySelector('.sm-roi-amount');
+      var arDays = card.querySelector('.sm-roi-ar-days');
 
-    var billingSlider = container.querySelector('.sm-roi-billing-slider');
-    var billingDisplay = container.querySelector('.sm-roi-billing-display');
-    var specialtySelect = container.querySelector('.sm-roi-specialty-select');
-    var providerSlider = container.querySelector('.sm-roi-provider-slider');
-    var providerDisplay = container.querySelector('.sm-roi-provider-display');
-    var recoveredAmount = container.querySelector('.sm-roi-amount');
-    var arDaysDisplay = container.querySelector('.sm-roi-ar-days');
+      function calculate() {
+        if (!slider || !amount) return;
+        var bill = parseFloat(slider.value) || 120000;
+        var spec = specialty ? specialty.value : 'internal-medicine';
+        var prov = provider ? parseInt(provider.value, 10) : 3;
 
-    function updateCalculations() {
-      if (!billingSlider || !recoveredAmount) return;
+        if (display) display.textContent = formatCurrency(bill) + ' / mo';
+        if (provDisplay) provDisplay.textContent = prov + (prov === 1 ? ' Provider' : ' Providers');
 
-      var monthlyBilling = parseFloat(billingSlider.value) || 120000;
-      var specialty = specialtySelect ? specialtySelect.value : 'internal-medicine';
-      var providerCount = providerSlider ? parseInt(providerSlider.value, 10) : 3;
+        var rate = (spec === 'orthopedics' || spec === 'surgery') ? 0.22 : 0.18;
+        var recaptured = bill * 12 * rate;
+        var days = 48 + Math.round(prov * 1.5);
 
-      // Update slider display labels
-      if (billingDisplay) {
-        billingDisplay.textContent = formatCurrency(monthlyBilling) + ' / mo';
+        amount.textContent = formatCurrency(recaptured);
+        if (arDays) arDays.innerHTML = days + 'd &rarr; <span style="color:#38D4D8;">26 days</span>';
       }
-      if (providerDisplay) {
-        providerDisplay.textContent = providerCount + (providerCount === 1 ? ' Provider' : ' Providers');
-      }
 
-      // Calculation logic
-      var recoveryRate = (specialty === 'orthopedics' || specialty === 'surgery') ? 0.22 : 0.18;
-      var annualRecaptured = monthlyBilling * 12 * recoveryRate;
-      var currentArDays = 48 + Math.round(providerCount * 1.5);
-
-      recoveredAmount.textContent = formatCurrency(annualRecaptured);
-
-      if (arDaysDisplay) {
-        arDaysDisplay.innerHTML = currentArDays + 'd &rarr; <span style="color:#38D4D8;">26 days</span>';
-      }
-    }
-
-    if (billingSlider) billingSlider.addEventListener('input', updateCalculations);
-    if (specialtySelect) specialtySelect.addEventListener('change', updateCalculations);
-    if (providerSlider) providerSlider.addEventListener('input', updateCalculations);
-
-    // Initial calculation run
-    updateCalculations();
+      if (slider) slider.addEventListener('input', calculate);
+      if (specialty) specialty.addEventListener('change', calculate);
+      if (provider) provider.addEventListener('input', calculate);
+      calculate();
+    });
   }
 
-  // 2. Initialize FAQ Accordion
-  function initFaqAccordion(scope) {
-    var root = scope || document;
-    var faqItems = root.querySelectorAll('.sm-faq-item');
-    if (!faqItems.length) return;
-
-    faqItems.forEach(function (item) {
+  // 2. FAQ Accordion
+  function initFaq() {
+    var items = document.querySelectorAll('.sm-faq-item');
+    items.forEach(function(item) {
       var btn = item.querySelector('.sm-faq-btn');
-      if (!btn) return;
-
-      btn.addEventListener('click', function () {
-        var isOpen = item.classList.contains('is-open');
-        // Close siblings if desired or simply toggle
-        item.classList.toggle('is-open', !isOpen);
-      });
+      if (btn) {
+        btn.addEventListener('click', function() {
+          item.classList.toggle('is-open');
+        });
+      }
     });
   }
 
-  // DOM Ready initialization
-  document.addEventListener('DOMContentLoaded', function () {
-    initRoiCalculator(document);
-    initFaqAccordion(document);
+  // 3. Modal Popup
+  function initModal() {
+    var modal = document.getElementById('sm-consultation-modal');
+    if (!modal) return;
+
+    var triggers = document.querySelectorAll('[data-open-modal="consultation"]');
+    triggers.forEach(function(trig) {
+      trig.addEventListener('click', function(e) {
+        e.preventDefault();
+        modal.classList.add('is-active');
+      });
+    });
+
+    var closes = modal.querySelectorAll('[data-close-modal]');
+    closes.forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        modal.classList.remove('is-active');
+      });
+    });
+
+    var form = modal.querySelector('form');
+    if (form) {
+      form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        alert('Thank you! Your consultation request has been submitted. Our billing team will contact you within 24 hours.');
+        modal.classList.remove('is-active');
+      });
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', function() {
+    initRoi();
+    initFaq();
+    initModal();
   });
-
-  // Elementor Frontend hooks (for live editor compatibility)
-  if (window.elementorFrontend && window.elementorFrontend.hooks) {
-    window.addEventListener('elementor/frontend/init', function () {
-      window.elementorFrontend.hooks.addAction('frontend/element_ready/sm_roi_calculator.default', function ($scope) {
-        initRoiCalculator($scope[0]);
-      });
-      window.elementorFrontend.hooks.addAction('frontend/element_ready/sm_faq.default', function ($scope) {
-        initFaqAccordion($scope[0]);
-      });
-    });
-  }
 })();

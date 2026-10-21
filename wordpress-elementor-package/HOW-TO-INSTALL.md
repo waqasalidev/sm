@@ -1,63 +1,78 @@
-# StelleMed - WordPress Elementor Drag & Drop Package
-**Compatible with:** WordPress 6.x / 7.x + Elementor & Hello Elementor Theme  
-**Designed for:** `https://lawngreen-tarsier-925369.hostingersite.com/`
+# StelleMed - Complete Website Drag & Drop Replacement Guide
+**Target Site:** `https://lawngreen-tarsier-925369.hostingersite.com/`  
+**Goal:** Purane (old) Header, Footer aur sections ko mukammal khatam karke is nayi modern website ko 100% drag-and-drop editable banana.
 
 ---
 
-## 📦 Package Contents (Files Included)
+## 🌟 Sab se Asaan Tareeqa: Purana Header & Footer Khatam karna
 
-1. **`stellemed-elementor-addon.zip` (Only ~19 KB!)**
-   - Lightweight WordPress plugin that adds 7 dedicated drag-and-drop widgets into your Elementor sidebar under **"StelleMed Medical Billing"**.
-   - Zero bloat, no extra dependencies, 100% fast.
-
-2. **`elementor-templates/` (Direct JSON Imports)**
-   - `stellemed-full-home-template.json` - Complete landing page in 1 single import.
-   - `stellemed-roi-calculator.json` - Interactive ROI Calculator section.
-   - `stellemed-six-checks.json` - Six Checks Pre-Submission Quality Gates.
-   - `stellemed-revenue-leaks.json` - 8 Revenue Leaks Prevention Grid.
-   - `stellemed-workflow.json` - Dual Synchronized Revenue Workflows.
+WordPress mein Elementor ka aik feature hota hai jise **"Elementor Canvas"** kehte hain. 
+Jab aap page layout ko **Elementor Canvas** karte hain, to purana ElementsKit ka header aur footer **1 second mein gayab** ho jata hai aur poora page top to bottom is nayi website jaisa modern ban jata hai!
 
 ---
 
-## 🚀 Tareeqa 1: Plugin Upload karna (Sab se Aasan - Drag & Drop)
+### Step-by-Step Guide (Sirf 3 Steps):
 
-### Step 1: Plugin Install karein
-1. Apne WordPress Admin Dashboard mein login karein:  
-   `https://lawngreen-tarsier-925369.hostingersite.com/wp-admin`
-2. Left menu mein **Plugins** -> **Add New Plugin** par click karein.
-3. Upar **Upload Plugin** button par click karein.
-4. `stellemed-elementor-addon.zip` file select karein aur **Install Now** par click karein.
-5. Installation ke baad **Activate Plugin** par click karein.
-
-### Step 2: Elementor mein Drag & Drop karein
-1. Left menu mein **Pages** par jayein aur jis page par lagana ho (e.g. "Home" ya "Insurance & Payer Services"), us par **Edit with Elementor** click karein.
-2. Elementor ke left sidebar mein search bar mein likhein **StelleMed** ya scroll karke **"StelleMed Medical Billing"** category open karein.
-3. Wahan aapko ye 7 widgets milenge:
-   - **StelleMed ROI Calculator** (Sliders & live calculations)
-   - **StelleMed 6-Checks QA** (Quality gates cards)
-   - **StelleMed Revenue Leaks** (8 leakage warnings & bottom badge)
-   - **StelleMed Revenue Workflows** (Payer & patient step sequences)
-   - **StelleMed Why Choose Us** (Modern dark cards with highlights)
-   - **StelleMed FAQs Accordion** (Smooth clickable accordion)
-   - **StelleMed Final CTA Banner** (High-converting gradient banner)
-4. Kisi bhi widget ko pakad kar page par jahan dil chahay **Drag & Drop** karein.
-5. Left sidebar se text, links, aur colors easily change karein aur **Update / Publish** daba dein!
+### Step 1: Template Upload karein
+1. WordPress Dashboard mein login karein:  
+   👉 `https://lawngreen-tarsier-925369.hostingersite.com/wp-admin`
+2. Left menu mein **Templates** -> **Saved Templates** par jayein.
+3. Upar **Import Templates** button par click karein.
+4. Ye file select karein:  
+   📁 `wordpress-elementor-package/elementor-templates/stellemed-complete-website-canvas.json`
+5. **Import Now** click kar dein. Ab ye template aapke Elementor mein save ho gaya hai.
 
 ---
 
-## 📁 Tareeqa 2: Direct Elementor Templates Import karna (Bina Plugin)
-
-Agar aap koi plugin install nahi karna chahte aur direct template import karna chahte hain:
-
-1. WordPress Dashboard mein **Templates** -> **Saved Templates** par jayein.
-2. Upar **Import Templates** button par click karein.
-3. `elementor-templates/stellemed-full-home-template.json` select karein aur **Import Now** karein.
-4. Ab Elementor mein apna page open karein.
-5. Page par jahan new section add karte hain, wahan **Grey Folder Icon (Add Template)** par click karein.
-6. **My Templates** tab mein jayein aur **"StelleMed - Complete Modern Landing Page"** ke samne **Insert** par click kar dein!
+### Step 2: Page ka Layout "Elementor Canvas" karein (Purana Header/Footer hatane ke liye)
+1. WordPress dashboard mein **Pages** par jayein.
+2. Apne **Home** page par hover karein aur **"Edit with Elementor"** par click karein.
+   *(Agar aap safe rehna chahte hain to "Add New Page" karke uska naam "Home New" rakh kar bhi test kar sakte hain!)*
+3. Jab Elementor Editor khul jaye:
+   - Purane sections par `X` (Delete) click karke saara purana content delete kar dein.
+   - Screen ke **Bottom-Left corner** (neeche baayein taraf) mein **Gear Icon ⚙️ (Settings)** par click karein.
+   - Wahan **"Page Layout"** ka option hoga.
+   - Usko change karke **"Elementor Canvas"** select karein!
+   - 👉 **Jaise hi aap Elementor Canvas select karenge, purana Header aur purana Footer foran khatam ho jayenge!**
 
 ---
 
-## ⚡ Speed & Performance Advice
-- Ye package sirf **~19 KB** ka hai, is se aapki website **0% slow** hogi.
-- Hostinger dashboard mein check karein ke **LiteSpeed Cache** plugin active ho, is se site 1 second mein open hogi!
+### Step 3: Nayi Website Insert karein
+1. Page ke center mein **Grey Folder Icon 📁 ("Add Template")** par click karein.
+2. **"My Templates"** tab par jayein.
+3. Wahan aapko **"StelleMed - Full Complete Website (Drag & Drop Canvas)"** dikhayi dega.
+4. Uske samne **"Insert"** par click karein (agar prompt aaye to "Apply" karein).
+5. **Boom! 🎉** Poori website aa jayegi:
+   - ✅ Modern TopBar (Phone, Email, Client Portal)
+   - ✅ Modern Sticky Header (StelleMed Logo & Navigation Menu)
+   - ✅ Hero Section (Doctor Image, Trust indicators, Badges)
+   - ✅ Performance Statistics Bar (98% Clean claim, 50+ Payers, 1000+ Providers)
+   - ✅ 3 Core Service Pillars (Cards with hover animations)
+   - ✅ 8 Revenue Leaks Prevention Section
+   - ✅ Dual Revenue Cycle Workflows (Payer & Patient sequences)
+   - ✅ Six Checks Quality Assurance Gateways
+   - ✅ Why Choose StelleMed Section
+   - ✅ Interactive Practice ROI Calculator (Live Sliders)
+   - ✅ Frequently Asked Questions (Clickable Accordion)
+   - ✅ Final Call to Action Banner
+   - ✅ Modern Complete Footer (Links, Contact, Copyright)
+   - ✅ Interactive Consultation Booking Popup Modal!
+6. Ab aap kisi bhi text par click karke text badal sakte hain, section ko pakad kar upar ya neeche **Drag & Drop** kar sakte hain!
+7. Upar/Neeche **Update / Publish** daba dein!
+
+---
+
+## 🧩 Option B: Sidebar se Widgets Drag & Drop karna
+
+Agar aap Elementor ke left sidebar se khud aik aik section drag & drop karna chahte hain:
+1. `wp-admin` -> **Plugins** -> **Add New Plugin** -> **Upload Plugin**.
+2. `stellemed-elementor-addon.zip` upload aur activate karein.
+3. Elementor editor mein left panel mein **"StelleMed Medical Billing"** category se:
+   - `StelleMed ROI Calculator`
+   - `StelleMed 6-Checks QA`
+   - `StelleMed Revenue Leaks`
+   - `StelleMed Revenue Workflows`
+   - `StelleMed Why Choose Us`
+   - `StelleMed FAQs Accordion`
+   - `StelleMed Final CTA Banner`
+   utha kar page par drag & drop kar lein!
