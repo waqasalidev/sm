@@ -90,21 +90,33 @@ final class StelleMed_Elementor_Addon {
     }
 
     public function register_widgets( $widgets_manager ) {
-        require_once( __DIR__ . '/widgets/class-roi-calculator-widget.php' );
-        require_once( __DIR__ . '/widgets/class-six-checks-widget.php' );
+        require_once( __DIR__ . '/widgets/class-header-widget.php' );
+        require_once( __DIR__ . '/widgets/class-hero-widget.php' );
+        require_once( __DIR__ . '/widgets/class-statistics-widget.php' );
+        require_once( __DIR__ . '/widgets/class-services-widget.php' );
         require_once( __DIR__ . '/widgets/class-revenue-leaks-widget.php' );
         require_once( __DIR__ . '/widgets/class-workflow-widget.php' );
+        require_once( __DIR__ . '/widgets/class-six-checks-widget.php' );
         require_once( __DIR__ . '/widgets/class-why-us-widget.php' );
+        require_once( __DIR__ . '/widgets/class-roi-calculator-widget.php' );
         require_once( __DIR__ . '/widgets/class-faq-widget.php' );
         require_once( __DIR__ . '/widgets/class-cta-widget.php' );
+        require_once( __DIR__ . '/widgets/class-footer-widget.php' );
+        require_once( __DIR__ . '/widgets/class-consultation-form-widget.php' );
 
-        $widgets_manager->register( new \SM_ROI_Calculator_Widget() );
-        $widgets_manager->register( new \SM_Six_Checks_Widget() );
+        $widgets_manager->register( new \SM_Header_Widget() );
+        $widgets_manager->register( new \SM_Hero_Widget() );
+        $widgets_manager->register( new \SM_Statistics_Widget() );
+        $widgets_manager->register( new \SM_Services_Widget() );
         $widgets_manager->register( new \SM_Revenue_Leaks_Widget() );
         $widgets_manager->register( new \SM_Workflow_Widget() );
+        $widgets_manager->register( new \SM_Six_Checks_Widget() );
         $widgets_manager->register( new \SM_Why_Us_Widget() );
+        $widgets_manager->register( new \SM_ROI_Calculator_Widget() );
         $widgets_manager->register( new \SM_FAQ_Widget() );
         $widgets_manager->register( new \SM_CTA_Widget() );
+        $widgets_manager->register( new \SM_Footer_Widget() );
+        $widgets_manager->register( new \SM_Consultation_Form_Widget() );
     }
 }
 
