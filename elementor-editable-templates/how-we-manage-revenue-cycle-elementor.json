@@ -1,14 +1,18 @@
 {
   "version": "0.4",
-  "title": "How We Manage the Revenue Cycle - Responsive Elementor (Flexbox Container)",
+  "title": "How We Manage the Revenue Cycle - Responsive Elementor",
   "type": "section",
   "content": [
     {
       "id": "awjlvfl",
-      "elType": "container",
-      "isInner": false,
+      "elType": "section",
       "settings": {
-        "content_width": "boxed",
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1220,
+          "sizes": []
+        },
         "padding": {
           "unit": "px",
           "top": "80",
@@ -34,286 +38,163 @@
           "isLinked": false
         },
         "background_background": "classic",
-        "background_color": "#F8FBFC",
-        "boxed_width": {
-          "unit": "px",
-          "size": 1220,
-          "sizes": []
-        },
-        "flex_direction": "column"
+        "background_color": "#F8FBFC"
       },
       "elements": [
         {
-          "id": "obfhevg",
-          "elType": "widget",
-          "widgetType": "heading",
+          "id": "8lw0t5i",
+          "elType": "column",
           "settings": {
-            "title": "<span style=\"display:inline-flex;align-items:center;gap:6px;padding:6px 16px;background-color:#EAF8F8;border:1px solid #A7E8E9;border-radius:50px;color:#179A9E;font-size:12px;font-weight:800;letter-spacing:1px;text-transform:uppercase;\">⚗ PROVEN WORKFLOW SEQUENCES</span>",
-            "header_size": "span",
-            "align": "center",
-            "title_color": "#179A9E",
-            "typography_typography": "custom",
-            "typography_font_family": "Plus Jakarta Sans",
-            "typography_font_size": {
-              "unit": "px",
-              "size": 12,
-              "sizes": []
-            },
-            "typography_font_weight": "800",
-            "typography_letter_spacing": {
-              "unit": "px",
-              "size": 1,
-              "sizes": []
-            },
-            "_margin": {
-              "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "16",
-              "left": "0",
-              "isLinked": false
-            },
-            "_margin_mobile": {
-              "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "12",
-              "left": "0",
-              "isLinked": false
-            }
-          },
-          "elements": []
-        },
-        {
-          "id": "d5d0oos",
-          "elType": "widget",
-          "widgetType": "heading",
-          "settings": {
-            "title": "How We Manage the <span style=\"color: #179A9E;\">Revenue Cycle</span>",
-            "header_size": "h2",
-            "align": "center",
-            "title_color": "#102C40",
-            "typography_typography": "custom",
-            "typography_font_family": "Plus Jakarta Sans",
-            "typography_font_size": {
-              "unit": "px",
-              "size": 40,
-              "sizes": []
-            },
-            "typography_font_size_tablet": {
-              "unit": "px",
-              "size": 32,
-              "sizes": []
-            },
-            "typography_font_size_mobile": {
-              "unit": "px",
-              "size": 26,
-              "sizes": []
-            },
-            "typography_font_weight": "800",
-            "typography_line_height": {
-              "unit": "em",
-              "size": 1.2,
-              "sizes": []
-            },
-            "_margin": {
-              "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "14",
-              "left": "0",
-              "isLinked": false
-            },
-            "_margin_mobile": {
-              "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "10",
-              "left": "0",
-              "isLinked": false
-            }
-          },
-          "elements": []
-        },
-        {
-          "id": "147ndem",
-          "elType": "widget",
-          "widgetType": "text-editor",
-          "settings": {
-            "editor": "<p>We operate two distinct, synchronized revenue workflows to guarantee maximum reimbursement from both insurance carriers and patients.</p>",
-            "align": "center",
-            "text_color": "#475D70",
-            "typography_typography": "custom",
-            "typography_font_family": "Inter",
-            "typography_font_size": {
-              "unit": "px",
-              "size": 16,
-              "sizes": []
-            },
-            "typography_font_size_mobile": {
-              "unit": "px",
-              "size": 14.5,
-              "sizes": []
-            },
-            "typography_line_height": {
-              "unit": "em",
-              "size": 1.6,
-              "sizes": []
-            },
-            "_margin": {
-              "unit": "px",
-              "top": "0",
-              "right": "auto",
-              "bottom": "44",
-              "left": "auto",
-              "isLinked": false
-            },
-            "_margin_tablet": {
-              "unit": "px",
-              "top": "0",
-              "right": "auto",
-              "bottom": "36",
-              "left": "auto",
-              "isLinked": false
-            },
-            "_margin_mobile": {
-              "unit": "px",
-              "top": "0",
-              "right": "auto",
-              "bottom": "26",
-              "left": "auto",
-              "isLinked": false
-            }
-          },
-          "elements": []
-        },
-        {
-          "id": "vdsbjmx",
-          "elType": "container",
-          "isInner": true,
-          "settings": {
-            "background_background": "classic",
-            "background_color": "#FFFFFF",
-            "border_border": "solid",
-            "border_width": {
-              "unit": "px",
-              "top": "1",
-              "right": "1",
-              "bottom": "1",
-              "left": "4",
-              "isLinked": false
-            },
-            "border_color": "#E2ECF2",
-            "border_left_color": "#179A9E",
-            "border_radius": {
-              "unit": "px",
-              "top": "10",
-              "right": "10",
-              "bottom": "10",
-              "left": "10",
-              "isLinked": true
-            },
-            "padding": {
-              "unit": "px",
-              "top": "14",
-              "right": "20",
-              "bottom": "14",
-              "left": "20",
-              "isLinked": false
-            },
-            "padding_mobile": {
-              "unit": "px",
-              "top": "12",
-              "right": "16",
-              "bottom": "12",
-              "left": "16",
-              "isLinked": false
-            },
-            "margin": {
-              "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "16",
-              "left": "0",
-              "isLinked": false
-            },
-            "content_width": "full",
-            "flex_direction": "row",
-            "flex_wrap": "wrap",
-            "flex_direction_mobile": "column"
+            "_column_size": 100
           },
           "elements": [
             {
-              "id": "pkg3j1i",
-              "elType": "container",
-              "isInner": true,
+              "id": "obfhevg",
+              "elType": "widget",
+              "widgetType": "heading",
               "settings": {
-                "width": {
-                  "unit": "%",
-                  "size": 100,
+                "title": "<span style=\"display:inline-flex;align-items:center;gap:6px;padding:6px 16px;background-color:#EAF8F8;border:1px solid #A7E8E9;border-radius:50px;color:#179A9E;font-size:12px;font-weight:800;letter-spacing:1px;text-transform:uppercase;\">⚗ PROVEN WORKFLOW SEQUENCES</span>",
+                "header_size": "span",
+                "align": "center",
+                "title_color": "#179A9E",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 12,
                   "sizes": []
                 },
-                "flex_direction": "column"
-              },
-              "elements": [
-                {
-                  "id": "ftct2b8",
-                  "elType": "widget",
-                  "widgetType": "heading",
-                  "settings": {
-                    "title": "<div style=\"display:flex;align-items:center;gap:12px;\"><span style=\"display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;border-radius:50%;background-color:#179A9E;color:#FFFFFF;font-size:18px;font-weight:bold;flex-shrink:0;\">+</span><div><div style=\"font-size:18px;font-weight:700;color:#102C40;line-height:1.2;\">Insurance / Payer Revenue Cycle</div><div style=\"font-size:13px;font-weight:500;color:#738A9E;margin-top:2px;\">7-Step Adjudication & Payer Reimbursement Sequence</div></div></div>",
-                    "header_size": "h3",
-                    "align": "left",
-                    "_margin": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
-                    }
-                  },
-                  "elements": []
+                "typography_font_weight": "800",
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 1,
+                  "sizes": []
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "16",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "_margin_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "12",
+                  "left": "0",
+                  "isLinked": false
                 }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "q0am3u8",
-          "elType": "container",
-          "isInner": true,
-          "settings": {
-            "margin": {
-              "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "40",
-              "left": "0",
-              "isLinked": false
+              }
             },
-            "margin_mobile": {
-              "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "24",
-              "left": "0",
-              "isLinked": false
-            },
-            "content_width": "full",
-            "flex_direction": "row",
-            "flex_wrap": "wrap",
-            "flex_direction_mobile": "column"
-          },
-          "elements": [
             {
-              "id": "n1z1oh1",
-              "elType": "container",
+              "id": "d5d0oos",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "How We Manage the <span style=\"color: #179A9E;\">Revenue Cycle</span>",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#102C40",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 40,
+                  "sizes": []
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 32,
+                  "sizes": []
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 26,
+                  "sizes": []
+                },
+                "typography_font_weight": "800",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.2,
+                  "sizes": []
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "14",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "_margin_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "10",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "147ndem",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>We operate two distinct, synchronized revenue workflows to guarantee maximum reimbursement from both insurance carriers and patients.</p>",
+                "align": "center",
+                "text_color": "#475D70",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16,
+                  "sizes": []
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 14.5,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.6,
+                  "sizes": []
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "auto",
+                  "bottom": "44",
+                  "left": "auto",
+                  "isLinked": false
+                },
+                "_margin_tablet": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "auto",
+                  "bottom": "36",
+                  "left": "auto",
+                  "isLinked": false
+                },
+                "_margin_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "auto",
+                  "bottom": "26",
+                  "left": "auto",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "vdsbjmx",
+              "elType": "section",
               "isInner": true,
               "settings": {
-                "_inline_size": 14.285,
-                "_inline_size_tablet": 33.333,
-                "_inline_size_mobile": 100,
+                "layout": "boxed",
                 "background_background": "classic",
                 "background_color": "#FFFFFF",
                 "border_border": "solid",
@@ -322,10 +203,11 @@
                   "top": "1",
                   "right": "1",
                   "bottom": "1",
-                  "left": "1",
-                  "isLinked": true
+                  "left": "4",
+                  "isLinked": false
                 },
                 "border_color": "#E2ECF2",
+                "border_left_color": "#179A9E",
                 "border_radius": {
                   "unit": "px",
                   "top": "10",
@@ -334,67 +216,73 @@
                   "left": "10",
                   "isLinked": true
                 },
-                "box_shadow_box_shadow_type": "yes",
-                "box_shadow_box_shadow": {
-                  "horizontal": 0,
-                  "vertical": 2,
-                  "blur": 6,
-                  "spread": 0,
-                  "color": "rgba(16, 44, 64, 0.04)"
-                },
-                "border_hover_border": "solid",
-                "border_hover_color": "#179A9E",
-                "box_shadow_hover_box_shadow_type": "yes",
-                "box_shadow_hover_box_shadow": {
-                  "horizontal": 0,
-                  "vertical": 10,
-                  "blur": 20,
-                  "spread": 0,
-                  "color": "rgba(23, 154, 158, 0.16)"
-                },
-                "background_hover_background": "classic",
-                "background_hover_color": "#FFFFFF",
-                "border_hover_transition": {
-                  "unit": "s",
-                  "size": 0.3
-                },
                 "padding": {
                   "unit": "px",
-                  "top": "18",
-                  "right": "14",
-                  "bottom": "18",
-                  "left": "14",
-                  "isLinked": false
-                },
-                "padding_tablet": {
-                  "unit": "px",
-                  "top": "16",
-                  "right": "12",
-                  "bottom": "16",
-                  "left": "12",
+                  "top": "14",
+                  "right": "20",
+                  "bottom": "14",
+                  "left": "20",
                   "isLinked": false
                 },
                 "padding_mobile": {
                   "unit": "px",
-                  "top": "16",
-                  "right": "14",
-                  "bottom": "16",
-                  "left": "14",
+                  "top": "12",
+                  "right": "16",
+                  "bottom": "12",
+                  "left": "16",
                   "isLinked": false
                 },
                 "margin": {
                   "unit": "px",
                   "top": "0",
                   "right": "0",
-                  "bottom": "14",
+                  "bottom": "16",
                   "left": "0",
                   "isLinked": false
-                },
-                "margin_tablet": {
+                }
+              },
+              "elements": [
+                {
+                  "id": "pkg3j1i",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 100
+                  },
+                  "elements": [
+                    {
+                      "id": "ftct2b8",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "<div style=\"display:flex;align-items:center;gap:12px;\"><span style=\"display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;border-radius:50%;background-color:#179A9E;color:#FFFFFF;font-size:18px;font-weight:bold;flex-shrink:0;\">+</span><div><div style=\"font-size:18px;font-weight:700;color:#102C40;line-height:1.2;\">Insurance / Payer Revenue Cycle</div><div style=\"font-size:13px;font-weight:500;color:#738A9E;margin-top:2px;\">7-Step Adjudication & Payer Reimbursement Sequence</div></div></div>",
+                        "header_size": "h3",
+                        "align": "left",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "q0am3u8",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "layout": "boxed",
+                "gap": "extended",
+                "margin": {
                   "unit": "px",
                   "top": "0",
                   "right": "0",
-                  "bottom": "14",
+                  "bottom": "40",
                   "left": "0",
                   "isLinked": false
                 },
@@ -402,97 +290,1217 @@
                   "unit": "px",
                   "top": "0",
                   "right": "0",
-                  "bottom": "12",
+                  "bottom": "24",
                   "left": "0",
                   "isLinked": false
-                },
-                "width": {
-                  "unit": "%",
-                  "size": 14,
-                  "sizes": []
-                },
-                "flex_direction": "column"
+                }
               },
               "elements": [
                 {
-                  "id": "bp8v050",
-                  "elType": "widget",
-                  "widgetType": "heading",
+                  "id": "n1z1oh1",
+                  "elType": "column",
                   "settings": {
-                    "title": "<div style=\"display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;\"><span style=\"font-size:11px;font-weight:800;color:#179A9E;letter-spacing:0.5px;text-transform:uppercase;\">STEP 01</span><span style=\"color:#179A9E;font-size:13px;font-weight:bold;\">&#10003;</span></div>Patient Visit",
-                    "header_size": "h4",
-                    "align": "left",
-                    "title_color": "#102C40",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Plus Jakarta Sans",
-                    "typography_font_size": {
+                    "_column_size": 14,
+                    "_inline_size": 14.285,
+                    "_inline_size_tablet": 33.333,
+                    "_inline_size_mobile": 100,
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": {
                       "unit": "px",
-                      "size": 15,
-                      "sizes": []
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
                     },
-                    "typography_font_size_mobile": {
+                    "border_color": "#E2ECF2",
+                    "border_radius": {
                       "unit": "px",
-                      "size": 15,
-                      "sizes": []
+                      "top": "10",
+                      "right": "10",
+                      "bottom": "10",
+                      "left": "10",
+                      "isLinked": true
                     },
-                    "typography_font_weight": "700",
-                    "typography_line_height": {
-                      "unit": "em",
-                      "size": 1.3,
-                      "sizes": []
+                    "box_shadow_box_shadow_type": "yes",
+                    "box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 2,
+                      "blur": 6,
+                      "spread": 0,
+                      "color": "rgba(16, 44, 64, 0.04)"
                     },
-                    "_margin": {
+                    "border_hover_border": "solid",
+                    "border_hover_color": "#179A9E",
+                    "box_shadow_hover_box_shadow_type": "yes",
+                    "box_shadow_hover_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 10,
+                      "blur": 20,
+                      "spread": 0,
+                      "color": "rgba(23, 154, 158, 0.16)"
+                    },
+                    "background_hover_background": "classic",
+                    "background_hover_color": "#FFFFFF",
+                    "border_hover_transition": {
+                      "unit": "s",
+                      "size": 0.3
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "18",
+                      "right": "14",
+                      "bottom": "18",
+                      "left": "14",
+                      "isLinked": false
+                    },
+                    "padding_tablet": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "12",
+                      "bottom": "16",
+                      "left": "12",
+                      "isLinked": false
+                    },
+                    "padding_mobile": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "14",
+                      "bottom": "16",
+                      "left": "14",
+                      "isLinked": false
+                    },
+                    "margin": {
                       "unit": "px",
                       "top": "0",
                       "right": "0",
-                      "bottom": "8",
+                      "bottom": "14",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "margin_tablet": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "14",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "margin_mobile": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "12",
                       "left": "0",
                       "isLinked": false
                     }
                   },
-                  "elements": []
+                  "elements": [
+                    {
+                      "id": "bp8v050",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "<div style=\"display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;\"><span style=\"font-size:11px;font-weight:800;color:#179A9E;letter-spacing:0.5px;text-transform:uppercase;\">STEP 01</span><span style=\"color:#179A9E;font-size:13px;font-weight:bold;\">&#10003;</span></div>Patient Visit",
+                        "header_size": "h4",
+                        "align": "left",
+                        "title_color": "#102C40",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Plus Jakarta Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15,
+                          "sizes": []
+                        },
+                        "typography_font_size_mobile": {
+                          "unit": "px",
+                          "size": 15,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "700",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.3,
+                          "sizes": []
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "8",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      }
+                    },
+                    {
+                      "id": "wlhw5gw",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Clinical encounter and encounter documentation captured.</p>",
+                        "align": "left",
+                        "text_color": "#475D70",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12.5,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.45,
+                          "sizes": []
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      }
+                    }
+                  ]
                 },
                 {
-                  "id": "wlhw5gw",
-                  "elType": "widget",
-                  "widgetType": "text-editor",
+                  "id": "pmu753u",
+                  "elType": "column",
                   "settings": {
-                    "editor": "<p>Clinical encounter and encounter documentation captured.</p>",
-                    "align": "left",
-                    "text_color": "#475D70",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Inter",
-                    "typography_font_size": {
+                    "_column_size": 14,
+                    "_inline_size": 14.285,
+                    "_inline_size_tablet": 33.333,
+                    "_inline_size_mobile": 100,
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": {
                       "unit": "px",
-                      "size": 12.5,
-                      "sizes": []
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
                     },
-                    "typography_line_height": {
-                      "unit": "em",
-                      "size": 1.45,
-                      "sizes": []
+                    "border_color": "#E2ECF2",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "10",
+                      "right": "10",
+                      "bottom": "10",
+                      "left": "10",
+                      "isLinked": true
                     },
-                    "_margin": {
+                    "box_shadow_box_shadow_type": "yes",
+                    "box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 2,
+                      "blur": 6,
+                      "spread": 0,
+                      "color": "rgba(16, 44, 64, 0.04)"
+                    },
+                    "border_hover_border": "solid",
+                    "border_hover_color": "#179A9E",
+                    "box_shadow_hover_box_shadow_type": "yes",
+                    "box_shadow_hover_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 10,
+                      "blur": 20,
+                      "spread": 0,
+                      "color": "rgba(23, 154, 158, 0.16)"
+                    },
+                    "background_hover_background": "classic",
+                    "background_hover_color": "#FFFFFF",
+                    "border_hover_transition": {
+                      "unit": "s",
+                      "size": 0.3
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "18",
+                      "right": "14",
+                      "bottom": "18",
+                      "left": "14",
+                      "isLinked": false
+                    },
+                    "padding_tablet": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "12",
+                      "bottom": "16",
+                      "left": "12",
+                      "isLinked": false
+                    },
+                    "padding_mobile": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "14",
+                      "bottom": "16",
+                      "left": "14",
+                      "isLinked": false
+                    },
+                    "margin": {
                       "unit": "px",
                       "top": "0",
                       "right": "0",
-                      "bottom": "0",
+                      "bottom": "14",
                       "left": "0",
-                      "isLinked": true
+                      "isLinked": false
+                    },
+                    "margin_tablet": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "14",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "margin_mobile": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "12",
+                      "left": "0",
+                      "isLinked": false
                     }
                   },
-                  "elements": []
+                  "elements": [
+                    {
+                      "id": "jdlzopt",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "<div style=\"display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;\"><span style=\"font-size:11px;font-weight:800;color:#179A9E;letter-spacing:0.5px;text-transform:uppercase;\">STEP 02</span><span style=\"color:#179A9E;font-size:13px;font-weight:bold;\">&#10003;</span></div>Eligibility & Authorization",
+                        "header_size": "h4",
+                        "align": "left",
+                        "title_color": "#102C40",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Plus Jakarta Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15,
+                          "sizes": []
+                        },
+                        "typography_font_size_mobile": {
+                          "unit": "px",
+                          "size": 15,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "700",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.3,
+                          "sizes": []
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "8",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      }
+                    },
+                    {
+                      "id": "6yq9pjq",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Real-time coverage verification & prior auth on file.</p>",
+                        "align": "left",
+                        "text_color": "#475D70",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12.5,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.45,
+                          "sizes": []
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "cvlimqz",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 14,
+                    "_inline_size": 14.285,
+                    "_inline_size_tablet": 33.333,
+                    "_inline_size_mobile": 100,
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#E2ECF2",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "10",
+                      "right": "10",
+                      "bottom": "10",
+                      "left": "10",
+                      "isLinked": true
+                    },
+                    "box_shadow_box_shadow_type": "yes",
+                    "box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 2,
+                      "blur": 6,
+                      "spread": 0,
+                      "color": "rgba(16, 44, 64, 0.04)"
+                    },
+                    "border_hover_border": "solid",
+                    "border_hover_color": "#179A9E",
+                    "box_shadow_hover_box_shadow_type": "yes",
+                    "box_shadow_hover_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 10,
+                      "blur": 20,
+                      "spread": 0,
+                      "color": "rgba(23, 154, 158, 0.16)"
+                    },
+                    "background_hover_background": "classic",
+                    "background_hover_color": "#FFFFFF",
+                    "border_hover_transition": {
+                      "unit": "s",
+                      "size": 0.3
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "18",
+                      "right": "14",
+                      "bottom": "18",
+                      "left": "14",
+                      "isLinked": false
+                    },
+                    "padding_tablet": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "12",
+                      "bottom": "16",
+                      "left": "12",
+                      "isLinked": false
+                    },
+                    "padding_mobile": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "14",
+                      "bottom": "16",
+                      "left": "14",
+                      "isLinked": false
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "14",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "margin_tablet": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "14",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "margin_mobile": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "12",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "eccz6vt",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "<div style=\"display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;\"><span style=\"font-size:11px;font-weight:800;color:#179A9E;letter-spacing:0.5px;text-transform:uppercase;\">STEP 03</span><span style=\"color:#179A9E;font-size:13px;font-weight:bold;\">&#10003;</span></div>Medical Coding",
+                        "header_size": "h4",
+                        "align": "left",
+                        "title_color": "#102C40",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Plus Jakarta Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15,
+                          "sizes": []
+                        },
+                        "typography_font_size_mobile": {
+                          "unit": "px",
+                          "size": 15,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "700",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.3,
+                          "sizes": []
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "8",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      }
+                    },
+                    {
+                      "id": "ocoqsks",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Certified AAPC/AHIMA CPT, ICD-10, and modifier coding.</p>",
+                        "align": "left",
+                        "text_color": "#475D70",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12.5,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.45,
+                          "sizes": []
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "bh1j9xl",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 14,
+                    "_inline_size": 14.285,
+                    "_inline_size_tablet": 33.333,
+                    "_inline_size_mobile": 100,
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#E2ECF2",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "10",
+                      "right": "10",
+                      "bottom": "10",
+                      "left": "10",
+                      "isLinked": true
+                    },
+                    "box_shadow_box_shadow_type": "yes",
+                    "box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 2,
+                      "blur": 6,
+                      "spread": 0,
+                      "color": "rgba(16, 44, 64, 0.04)"
+                    },
+                    "border_hover_border": "solid",
+                    "border_hover_color": "#179A9E",
+                    "box_shadow_hover_box_shadow_type": "yes",
+                    "box_shadow_hover_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 10,
+                      "blur": 20,
+                      "spread": 0,
+                      "color": "rgba(23, 154, 158, 0.16)"
+                    },
+                    "background_hover_background": "classic",
+                    "background_hover_color": "#FFFFFF",
+                    "border_hover_transition": {
+                      "unit": "s",
+                      "size": 0.3
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "18",
+                      "right": "14",
+                      "bottom": "18",
+                      "left": "14",
+                      "isLinked": false
+                    },
+                    "padding_tablet": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "12",
+                      "bottom": "16",
+                      "left": "12",
+                      "isLinked": false
+                    },
+                    "padding_mobile": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "14",
+                      "bottom": "16",
+                      "left": "14",
+                      "isLinked": false
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "14",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "margin_tablet": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "14",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "margin_mobile": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "12",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "k6pn598",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "<div style=\"display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;\"><span style=\"font-size:11px;font-weight:800;color:#179A9E;letter-spacing:0.5px;text-transform:uppercase;\">STEP 04</span><span style=\"color:#179A9E;font-size:13px;font-weight:bold;\">&#10003;</span></div>Claim Submission",
+                        "header_size": "h4",
+                        "align": "left",
+                        "title_color": "#102C40",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Plus Jakarta Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15,
+                          "sizes": []
+                        },
+                        "typography_font_size_mobile": {
+                          "unit": "px",
+                          "size": 15,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "700",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.3,
+                          "sizes": []
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "8",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      }
+                    },
+                    {
+                      "id": "lxtgr29",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Electronic scrubbing and EDI 837 dispatch within 24–48h.</p>",
+                        "align": "left",
+                        "text_color": "#475D70",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12.5,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.45,
+                          "sizes": []
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "i5ji0jd",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 14,
+                    "_inline_size": 14.285,
+                    "_inline_size_tablet": 33.333,
+                    "_inline_size_mobile": 100,
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#E2ECF2",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "10",
+                      "right": "10",
+                      "bottom": "10",
+                      "left": "10",
+                      "isLinked": true
+                    },
+                    "box_shadow_box_shadow_type": "yes",
+                    "box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 2,
+                      "blur": 6,
+                      "spread": 0,
+                      "color": "rgba(16, 44, 64, 0.04)"
+                    },
+                    "border_hover_border": "solid",
+                    "border_hover_color": "#179A9E",
+                    "box_shadow_hover_box_shadow_type": "yes",
+                    "box_shadow_hover_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 10,
+                      "blur": 20,
+                      "spread": 0,
+                      "color": "rgba(23, 154, 158, 0.16)"
+                    },
+                    "background_hover_background": "classic",
+                    "background_hover_color": "#FFFFFF",
+                    "border_hover_transition": {
+                      "unit": "s",
+                      "size": 0.3
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "18",
+                      "right": "14",
+                      "bottom": "18",
+                      "left": "14",
+                      "isLinked": false
+                    },
+                    "padding_tablet": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "12",
+                      "bottom": "16",
+                      "left": "12",
+                      "isLinked": false
+                    },
+                    "padding_mobile": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "14",
+                      "bottom": "16",
+                      "left": "14",
+                      "isLinked": false
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "14",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "margin_tablet": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "14",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "margin_mobile": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "12",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "ur7tt23",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "<div style=\"display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;\"><span style=\"font-size:11px;font-weight:800;color:#179A9E;letter-spacing:0.5px;text-transform:uppercase;\">STEP 05</span><span style=\"color:#179A9E;font-size:13px;font-weight:bold;\">&#10003;</span></div>Denials & Appeals",
+                        "header_size": "h4",
+                        "align": "left",
+                        "title_color": "#102C40",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Plus Jakarta Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15,
+                          "sizes": []
+                        },
+                        "typography_font_size_mobile": {
+                          "unit": "px",
+                          "size": 15,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "700",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.3,
+                          "sizes": []
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "8",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      }
+                    },
+                    {
+                      "id": "7d4dtn8",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Fast root-cause investigation and aggressive clinical appeals.</p>",
+                        "align": "left",
+                        "text_color": "#475D70",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12.5,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.45,
+                          "sizes": []
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "48y05gg",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 14,
+                    "_inline_size": 14.285,
+                    "_inline_size_tablet": 33.333,
+                    "_inline_size_mobile": 100,
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#E2ECF2",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "10",
+                      "right": "10",
+                      "bottom": "10",
+                      "left": "10",
+                      "isLinked": true
+                    },
+                    "box_shadow_box_shadow_type": "yes",
+                    "box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 2,
+                      "blur": 6,
+                      "spread": 0,
+                      "color": "rgba(16, 44, 64, 0.04)"
+                    },
+                    "border_hover_border": "solid",
+                    "border_hover_color": "#179A9E",
+                    "box_shadow_hover_box_shadow_type": "yes",
+                    "box_shadow_hover_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 10,
+                      "blur": 20,
+                      "spread": 0,
+                      "color": "rgba(23, 154, 158, 0.16)"
+                    },
+                    "background_hover_background": "classic",
+                    "background_hover_color": "#FFFFFF",
+                    "border_hover_transition": {
+                      "unit": "s",
+                      "size": 0.3
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "18",
+                      "right": "14",
+                      "bottom": "18",
+                      "left": "14",
+                      "isLinked": false
+                    },
+                    "padding_tablet": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "12",
+                      "bottom": "16",
+                      "left": "12",
+                      "isLinked": false
+                    },
+                    "padding_mobile": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "14",
+                      "bottom": "16",
+                      "left": "14",
+                      "isLinked": false
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "14",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "margin_tablet": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "14",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "margin_mobile": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "12",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "xb1w8sx",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "<div style=\"display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;\"><span style=\"font-size:11px;font-weight:800;color:#179A9E;letter-spacing:0.5px;text-transform:uppercase;\">STEP 06</span><span style=\"color:#179A9E;font-size:13px;font-weight:bold;\">&#10003;</span></div>Payer Payment",
+                        "header_size": "h4",
+                        "align": "left",
+                        "title_color": "#102C40",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Plus Jakarta Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15,
+                          "sizes": []
+                        },
+                        "typography_font_size_mobile": {
+                          "unit": "px",
+                          "size": 15,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "700",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.3,
+                          "sizes": []
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "8",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      }
+                    },
+                    {
+                      "id": "hjh9yog",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Automated ERA (835) electronic remittance and auto-posting.</p>",
+                        "align": "left",
+                        "text_color": "#475D70",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12.5,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.45,
+                          "sizes": []
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "a86pyi2",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 14,
+                    "_inline_size": 14.285,
+                    "_inline_size_tablet": 33.333,
+                    "_inline_size_mobile": 100,
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#E2ECF2",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "10",
+                      "right": "10",
+                      "bottom": "10",
+                      "left": "10",
+                      "isLinked": true
+                    },
+                    "box_shadow_box_shadow_type": "yes",
+                    "box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 2,
+                      "blur": 6,
+                      "spread": 0,
+                      "color": "rgba(16, 44, 64, 0.04)"
+                    },
+                    "border_hover_border": "solid",
+                    "border_hover_color": "#179A9E",
+                    "box_shadow_hover_box_shadow_type": "yes",
+                    "box_shadow_hover_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 10,
+                      "blur": 20,
+                      "spread": 0,
+                      "color": "rgba(23, 154, 158, 0.16)"
+                    },
+                    "background_hover_background": "classic",
+                    "background_hover_color": "#FFFFFF",
+                    "border_hover_transition": {
+                      "unit": "s",
+                      "size": 0.3
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "18",
+                      "right": "14",
+                      "bottom": "18",
+                      "left": "14",
+                      "isLinked": false
+                    },
+                    "padding_tablet": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "12",
+                      "bottom": "16",
+                      "left": "12",
+                      "isLinked": false
+                    },
+                    "padding_mobile": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "14",
+                      "bottom": "16",
+                      "left": "14",
+                      "isLinked": false
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "14",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "margin_tablet": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "14",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "margin_mobile": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "12",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "mrxx1sn",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "<div style=\"display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;\"><span style=\"font-size:11px;font-weight:800;color:#179A9E;letter-spacing:0.5px;text-transform:uppercase;\">STEP 07</span><span style=\"color:#179A9E;font-size:13px;font-weight:bold;\">&#10003;</span></div>Practice Paid",
+                        "header_size": "h4",
+                        "align": "left",
+                        "title_color": "#102C40",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Plus Jakarta Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15,
+                          "sizes": []
+                        },
+                        "typography_font_size_mobile": {
+                          "unit": "px",
+                          "size": 15,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "700",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.3,
+                          "sizes": []
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "8",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      }
+                    },
+                    {
+                      "id": "7ghbf2a",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Funds deposited cleanly into practice bank accounts.</p>",
+                        "align": "left",
+                        "text_color": "#475D70",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12.5,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.45,
+                          "sizes": []
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      }
+                    }
+                  ]
                 }
               ]
             },
             {
-              "id": "pmu753u",
-              "elType": "container",
+              "id": "j3zcuvx",
+              "elType": "section",
               "isInner": true,
               "settings": {
-                "_inline_size": 14.285,
-                "_inline_size_tablet": 33.333,
-                "_inline_size_mobile": 100,
+                "layout": "boxed",
                 "background_background": "classic",
                 "background_color": "#FFFFFF",
                 "border_border": "solid",
@@ -501,10 +1509,11 @@
                   "top": "1",
                   "right": "1",
                   "bottom": "1",
-                  "left": "1",
-                  "isLinked": true
+                  "left": "4",
+                  "isLinked": false
                 },
                 "border_color": "#E2ECF2",
+                "border_left_color": "#7C3AED",
                 "border_radius": {
                   "unit": "px",
                   "top": "10",
@@ -513,2057 +1522,932 @@
                   "left": "10",
                   "isLinked": true
                 },
-                "box_shadow_box_shadow_type": "yes",
-                "box_shadow_box_shadow": {
-                  "horizontal": 0,
-                  "vertical": 2,
-                  "blur": 6,
-                  "spread": 0,
-                  "color": "rgba(16, 44, 64, 0.04)"
-                },
-                "border_hover_border": "solid",
-                "border_hover_color": "#179A9E",
-                "box_shadow_hover_box_shadow_type": "yes",
-                "box_shadow_hover_box_shadow": {
-                  "horizontal": 0,
-                  "vertical": 10,
-                  "blur": 20,
-                  "spread": 0,
-                  "color": "rgba(23, 154, 158, 0.16)"
-                },
-                "background_hover_background": "classic",
-                "background_hover_color": "#FFFFFF",
-                "border_hover_transition": {
-                  "unit": "s",
-                  "size": 0.3
-                },
                 "padding": {
                   "unit": "px",
-                  "top": "18",
-                  "right": "14",
-                  "bottom": "18",
-                  "left": "14",
-                  "isLinked": false
-                },
-                "padding_tablet": {
-                  "unit": "px",
-                  "top": "16",
-                  "right": "12",
-                  "bottom": "16",
-                  "left": "12",
+                  "top": "14",
+                  "right": "20",
+                  "bottom": "14",
+                  "left": "20",
                   "isLinked": false
                 },
                 "padding_mobile": {
                   "unit": "px",
-                  "top": "16",
-                  "right": "14",
-                  "bottom": "16",
-                  "left": "14",
+                  "top": "12",
+                  "right": "16",
+                  "bottom": "12",
+                  "left": "16",
                   "isLinked": false
                 },
                 "margin": {
                   "unit": "px",
                   "top": "0",
                   "right": "0",
-                  "bottom": "14",
+                  "bottom": "16",
                   "left": "0",
                   "isLinked": false
-                },
-                "margin_tablet": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "14",
-                  "left": "0",
-                  "isLinked": false
-                },
-                "margin_mobile": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "12",
-                  "left": "0",
-                  "isLinked": false
-                },
-                "width": {
-                  "unit": "%",
-                  "size": 14,
-                  "sizes": []
-                },
-                "flex_direction": "column"
+                }
               },
               "elements": [
                 {
-                  "id": "jdlzopt",
-                  "elType": "widget",
-                  "widgetType": "heading",
+                  "id": "cl4tjj8",
+                  "elType": "column",
                   "settings": {
-                    "title": "<div style=\"display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;\"><span style=\"font-size:11px;font-weight:800;color:#179A9E;letter-spacing:0.5px;text-transform:uppercase;\">STEP 02</span><span style=\"color:#179A9E;font-size:13px;font-weight:bold;\">&#10003;</span></div>Eligibility & Authorization",
-                    "header_size": "h4",
-                    "align": "left",
-                    "title_color": "#102C40",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Plus Jakarta Sans",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 15,
-                      "sizes": []
-                    },
-                    "typography_font_size_mobile": {
-                      "unit": "px",
-                      "size": 15,
-                      "sizes": []
-                    },
-                    "typography_font_weight": "700",
-                    "typography_line_height": {
-                      "unit": "em",
-                      "size": 1.3,
-                      "sizes": []
-                    },
-                    "_margin": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "8",
-                      "left": "0",
-                      "isLinked": false
-                    }
+                    "_column_size": 100
                   },
-                  "elements": []
-                },
-                {
-                  "id": "6yq9pjq",
-                  "elType": "widget",
-                  "widgetType": "text-editor",
-                  "settings": {
-                    "editor": "<p>Real-time coverage verification & prior auth on file.</p>",
-                    "align": "left",
-                    "text_color": "#475D70",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Inter",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 12.5,
-                      "sizes": []
-                    },
-                    "typography_line_height": {
-                      "unit": "em",
-                      "size": 1.45,
-                      "sizes": []
-                    },
-                    "_margin": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
+                  "elements": [
+                    {
+                      "id": "k45gz6d",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "<div style=\"display:flex;align-items:center;gap:12px;\"><span style=\"display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;border-radius:50%;background-color:#7C3AED;color:#FFFFFF;font-size:16px;font-weight:bold;flex-shrink:0;\">★</span><div><div style=\"font-size:18px;font-weight:700;color:#102C40;line-height:1.2;\">Patient Billing Revenue Cycle</div><div style=\"font-size:13px;font-weight:500;color:#738A9E;margin-top:2px;\">5-Step Patient Financial Experience & Self-Pay Recovery Sequence</div></div></div>",
+                        "header_size": "h3",
+                        "align": "left",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      }
                     }
-                  },
-                  "elements": []
+                  ]
                 }
               ]
             },
             {
-              "id": "cvlimqz",
-              "elType": "container",
+              "id": "kmkwpd9",
+              "elType": "section",
               "isInner": true,
               "settings": {
-                "_inline_size": 14.285,
-                "_inline_size_tablet": 33.333,
-                "_inline_size_mobile": 100,
-                "background_background": "classic",
-                "background_color": "#FFFFFF",
-                "border_border": "solid",
-                "border_width": {
-                  "unit": "px",
-                  "top": "1",
-                  "right": "1",
-                  "bottom": "1",
-                  "left": "1",
-                  "isLinked": true
-                },
-                "border_color": "#E2ECF2",
-                "border_radius": {
-                  "unit": "px",
-                  "top": "10",
-                  "right": "10",
-                  "bottom": "10",
-                  "left": "10",
-                  "isLinked": true
-                },
-                "box_shadow_box_shadow_type": "yes",
-                "box_shadow_box_shadow": {
-                  "horizontal": 0,
-                  "vertical": 2,
-                  "blur": 6,
-                  "spread": 0,
-                  "color": "rgba(16, 44, 64, 0.04)"
-                },
-                "border_hover_border": "solid",
-                "border_hover_color": "#179A9E",
-                "box_shadow_hover_box_shadow_type": "yes",
-                "box_shadow_hover_box_shadow": {
-                  "horizontal": 0,
-                  "vertical": 10,
-                  "blur": 20,
-                  "spread": 0,
-                  "color": "rgba(23, 154, 158, 0.16)"
-                },
-                "background_hover_background": "classic",
-                "background_hover_color": "#FFFFFF",
-                "border_hover_transition": {
-                  "unit": "s",
-                  "size": 0.3
-                },
-                "padding": {
-                  "unit": "px",
-                  "top": "18",
-                  "right": "14",
-                  "bottom": "18",
-                  "left": "14",
-                  "isLinked": false
-                },
-                "padding_tablet": {
-                  "unit": "px",
-                  "top": "16",
-                  "right": "12",
-                  "bottom": "16",
-                  "left": "12",
-                  "isLinked": false
-                },
-                "padding_mobile": {
-                  "unit": "px",
-                  "top": "16",
-                  "right": "14",
-                  "bottom": "16",
-                  "left": "14",
-                  "isLinked": false
-                },
+                "layout": "boxed",
+                "gap": "extended",
                 "margin": {
                   "unit": "px",
                   "top": "0",
                   "right": "0",
-                  "bottom": "14",
+                  "bottom": "0",
                   "left": "0",
-                  "isLinked": false
-                },
-                "margin_tablet": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "14",
-                  "left": "0",
-                  "isLinked": false
-                },
-                "margin_mobile": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "12",
-                  "left": "0",
-                  "isLinked": false
-                },
-                "width": {
-                  "unit": "%",
-                  "size": 14,
-                  "sizes": []
-                },
-                "flex_direction": "column"
+                  "isLinked": true
+                }
               },
               "elements": [
                 {
-                  "id": "eccz6vt",
-                  "elType": "widget",
-                  "widgetType": "heading",
+                  "id": "jnp7s78",
+                  "elType": "column",
                   "settings": {
-                    "title": "<div style=\"display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;\"><span style=\"font-size:11px;font-weight:800;color:#179A9E;letter-spacing:0.5px;text-transform:uppercase;\">STEP 03</span><span style=\"color:#179A9E;font-size:13px;font-weight:bold;\">&#10003;</span></div>Medical Coding",
-                    "header_size": "h4",
-                    "align": "left",
-                    "title_color": "#102C40",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Plus Jakarta Sans",
-                    "typography_font_size": {
+                    "_column_size": 20,
+                    "_inline_size": 20,
+                    "_inline_size_tablet": 33.333,
+                    "_inline_size_mobile": 100,
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": {
                       "unit": "px",
-                      "size": 15,
-                      "sizes": []
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
                     },
-                    "typography_font_size_mobile": {
+                    "border_color": "#E9D5FF",
+                    "border_radius": {
                       "unit": "px",
-                      "size": 15,
-                      "sizes": []
+                      "top": "10",
+                      "right": "10",
+                      "bottom": "10",
+                      "left": "10",
+                      "isLinked": true
                     },
-                    "typography_font_weight": "700",
-                    "typography_line_height": {
-                      "unit": "em",
-                      "size": 1.3,
-                      "sizes": []
+                    "box_shadow_box_shadow_type": "yes",
+                    "box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 2,
+                      "blur": 6,
+                      "spread": 0,
+                      "color": "rgba(16, 44, 64, 0.04)"
                     },
-                    "_margin": {
+                    "border_hover_border": "solid",
+                    "border_hover_color": "#7C3AED",
+                    "box_shadow_hover_box_shadow_type": "yes",
+                    "box_shadow_hover_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 10,
+                      "blur": 20,
+                      "spread": 0,
+                      "color": "rgba(124, 58, 237, 0.16)"
+                    },
+                    "background_hover_background": "classic",
+                    "background_hover_color": "#FFFFFF",
+                    "border_hover_transition": {
+                      "unit": "s",
+                      "size": 0.3
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "18",
+                      "right": "14",
+                      "bottom": "18",
+                      "left": "14",
+                      "isLinked": false
+                    },
+                    "padding_tablet": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "12",
+                      "bottom": "16",
+                      "left": "12",
+                      "isLinked": false
+                    },
+                    "padding_mobile": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "14",
+                      "bottom": "16",
+                      "left": "14",
+                      "isLinked": false
+                    },
+                    "margin": {
                       "unit": "px",
                       "top": "0",
                       "right": "0",
-                      "bottom": "8",
+                      "bottom": "14",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "margin_tablet": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "14",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "margin_mobile": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "12",
                       "left": "0",
                       "isLinked": false
                     }
                   },
-                  "elements": []
-                },
-                {
-                  "id": "ocoqsks",
-                  "elType": "widget",
-                  "widgetType": "text-editor",
-                  "settings": {
-                    "editor": "<p>Certified AAPC/AHIMA CPT, ICD-10, and modifier coding.</p>",
-                    "align": "left",
-                    "text_color": "#475D70",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Inter",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 12.5,
-                      "sizes": []
+                  "elements": [
+                    {
+                      "id": "eyqbd9a",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "<div style=\"display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;\"><span style=\"font-size:11px;font-weight:800;color:#7C3AED;letter-spacing:0.5px;text-transform:uppercase;\">STEP 01</span><span style=\"color:#7C3AED;font-size:13px;font-weight:bold;\">&#10003;</span></div>Patient Visit",
+                        "header_size": "h4",
+                        "align": "left",
+                        "title_color": "#102C40",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Plus Jakarta Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15,
+                          "sizes": []
+                        },
+                        "typography_font_size_mobile": {
+                          "unit": "px",
+                          "size": 15,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "700",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.3,
+                          "sizes": []
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "8",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      }
                     },
-                    "typography_line_height": {
-                      "unit": "em",
-                      "size": 1.45,
-                      "sizes": []
-                    },
-                    "_margin": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
+                    {
+                      "id": "lx1r2je",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Point-of-service intake and transparent Good Faith Estimate.</p>",
+                        "align": "left",
+                        "text_color": "#475D70",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12.5,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.45,
+                          "sizes": []
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      }
                     }
-                  },
-                  "elements": []
-                }
-              ]
-            },
-            {
-              "id": "bh1j9xl",
-              "elType": "container",
-              "isInner": true,
-              "settings": {
-                "_inline_size": 14.285,
-                "_inline_size_tablet": 33.333,
-                "_inline_size_mobile": 100,
-                "background_background": "classic",
-                "background_color": "#FFFFFF",
-                "border_border": "solid",
-                "border_width": {
-                  "unit": "px",
-                  "top": "1",
-                  "right": "1",
-                  "bottom": "1",
-                  "left": "1",
-                  "isLinked": true
+                  ]
                 },
-                "border_color": "#E2ECF2",
-                "border_radius": {
-                  "unit": "px",
-                  "top": "10",
-                  "right": "10",
-                  "bottom": "10",
-                  "left": "10",
-                  "isLinked": true
-                },
-                "box_shadow_box_shadow_type": "yes",
-                "box_shadow_box_shadow": {
-                  "horizontal": 0,
-                  "vertical": 2,
-                  "blur": 6,
-                  "spread": 0,
-                  "color": "rgba(16, 44, 64, 0.04)"
-                },
-                "border_hover_border": "solid",
-                "border_hover_color": "#179A9E",
-                "box_shadow_hover_box_shadow_type": "yes",
-                "box_shadow_hover_box_shadow": {
-                  "horizontal": 0,
-                  "vertical": 10,
-                  "blur": 20,
-                  "spread": 0,
-                  "color": "rgba(23, 154, 158, 0.16)"
-                },
-                "background_hover_background": "classic",
-                "background_hover_color": "#FFFFFF",
-                "border_hover_transition": {
-                  "unit": "s",
-                  "size": 0.3
-                },
-                "padding": {
-                  "unit": "px",
-                  "top": "18",
-                  "right": "14",
-                  "bottom": "18",
-                  "left": "14",
-                  "isLinked": false
-                },
-                "padding_tablet": {
-                  "unit": "px",
-                  "top": "16",
-                  "right": "12",
-                  "bottom": "16",
-                  "left": "12",
-                  "isLinked": false
-                },
-                "padding_mobile": {
-                  "unit": "px",
-                  "top": "16",
-                  "right": "14",
-                  "bottom": "16",
-                  "left": "14",
-                  "isLinked": false
-                },
-                "margin": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "14",
-                  "left": "0",
-                  "isLinked": false
-                },
-                "margin_tablet": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "14",
-                  "left": "0",
-                  "isLinked": false
-                },
-                "margin_mobile": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "12",
-                  "left": "0",
-                  "isLinked": false
-                },
-                "width": {
-                  "unit": "%",
-                  "size": 14,
-                  "sizes": []
-                },
-                "flex_direction": "column"
-              },
-              "elements": [
                 {
-                  "id": "k6pn598",
-                  "elType": "widget",
-                  "widgetType": "heading",
+                  "id": "xtqae3t",
+                  "elType": "column",
                   "settings": {
-                    "title": "<div style=\"display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;\"><span style=\"font-size:11px;font-weight:800;color:#179A9E;letter-spacing:0.5px;text-transform:uppercase;\">STEP 04</span><span style=\"color:#179A9E;font-size:13px;font-weight:bold;\">&#10003;</span></div>Claim Submission",
-                    "header_size": "h4",
-                    "align": "left",
-                    "title_color": "#102C40",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Plus Jakarta Sans",
-                    "typography_font_size": {
+                    "_column_size": 20,
+                    "_inline_size": 20,
+                    "_inline_size_tablet": 33.333,
+                    "_inline_size_mobile": 100,
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": {
                       "unit": "px",
-                      "size": 15,
-                      "sizes": []
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
                     },
-                    "typography_font_size_mobile": {
+                    "border_color": "#E9D5FF",
+                    "border_radius": {
                       "unit": "px",
-                      "size": 15,
-                      "sizes": []
+                      "top": "10",
+                      "right": "10",
+                      "bottom": "10",
+                      "left": "10",
+                      "isLinked": true
                     },
-                    "typography_font_weight": "700",
-                    "typography_line_height": {
-                      "unit": "em",
-                      "size": 1.3,
-                      "sizes": []
+                    "box_shadow_box_shadow_type": "yes",
+                    "box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 2,
+                      "blur": 6,
+                      "spread": 0,
+                      "color": "rgba(16, 44, 64, 0.04)"
                     },
-                    "_margin": {
+                    "border_hover_border": "solid",
+                    "border_hover_color": "#7C3AED",
+                    "box_shadow_hover_box_shadow_type": "yes",
+                    "box_shadow_hover_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 10,
+                      "blur": 20,
+                      "spread": 0,
+                      "color": "rgba(124, 58, 237, 0.16)"
+                    },
+                    "background_hover_background": "classic",
+                    "background_hover_color": "#FFFFFF",
+                    "border_hover_transition": {
+                      "unit": "s",
+                      "size": 0.3
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "18",
+                      "right": "14",
+                      "bottom": "18",
+                      "left": "14",
+                      "isLinked": false
+                    },
+                    "padding_tablet": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "12",
+                      "bottom": "16",
+                      "left": "12",
+                      "isLinked": false
+                    },
+                    "padding_mobile": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "14",
+                      "bottom": "16",
+                      "left": "14",
+                      "isLinked": false
+                    },
+                    "margin": {
                       "unit": "px",
                       "top": "0",
                       "right": "0",
-                      "bottom": "8",
+                      "bottom": "14",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "margin_tablet": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "14",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "margin_mobile": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "12",
                       "left": "0",
                       "isLinked": false
                     }
                   },
-                  "elements": []
-                },
-                {
-                  "id": "lxtgr29",
-                  "elType": "widget",
-                  "widgetType": "text-editor",
-                  "settings": {
-                    "editor": "<p>Electronic scrubbing and EDI 837 dispatch within 24–48h.</p>",
-                    "align": "left",
-                    "text_color": "#475D70",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Inter",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 12.5,
-                      "sizes": []
+                  "elements": [
+                    {
+                      "id": "evo5lvd",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "<div style=\"display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;\"><span style=\"font-size:11px;font-weight:800;color:#7C3AED;letter-spacing:0.5px;text-transform:uppercase;\">STEP 02</span><span style=\"color:#7C3AED;font-size:13px;font-weight:bold;\">&#10003;</span></div>Patient Statement",
+                        "header_size": "h4",
+                        "align": "left",
+                        "title_color": "#102C40",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Plus Jakarta Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15,
+                          "sizes": []
+                        },
+                        "typography_font_size_mobile": {
+                          "unit": "px",
+                          "size": 15,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "700",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.3,
+                          "sizes": []
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "8",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      }
                     },
-                    "typography_line_height": {
-                      "unit": "em",
-                      "size": 1.45,
-                      "sizes": []
-                    },
-                    "_margin": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
+                    {
+                      "id": "v2j31i1",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Clear digital SMS & paperless statements generated.</p>",
+                        "align": "left",
+                        "text_color": "#475D70",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12.5,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.45,
+                          "sizes": []
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      }
                     }
-                  },
-                  "elements": []
-                }
-              ]
-            },
-            {
-              "id": "i5ji0jd",
-              "elType": "container",
-              "isInner": true,
-              "settings": {
-                "_inline_size": 14.285,
-                "_inline_size_tablet": 33.333,
-                "_inline_size_mobile": 100,
-                "background_background": "classic",
-                "background_color": "#FFFFFF",
-                "border_border": "solid",
-                "border_width": {
-                  "unit": "px",
-                  "top": "1",
-                  "right": "1",
-                  "bottom": "1",
-                  "left": "1",
-                  "isLinked": true
+                  ]
                 },
-                "border_color": "#E2ECF2",
-                "border_radius": {
-                  "unit": "px",
-                  "top": "10",
-                  "right": "10",
-                  "bottom": "10",
-                  "left": "10",
-                  "isLinked": true
-                },
-                "box_shadow_box_shadow_type": "yes",
-                "box_shadow_box_shadow": {
-                  "horizontal": 0,
-                  "vertical": 2,
-                  "blur": 6,
-                  "spread": 0,
-                  "color": "rgba(16, 44, 64, 0.04)"
-                },
-                "border_hover_border": "solid",
-                "border_hover_color": "#179A9E",
-                "box_shadow_hover_box_shadow_type": "yes",
-                "box_shadow_hover_box_shadow": {
-                  "horizontal": 0,
-                  "vertical": 10,
-                  "blur": 20,
-                  "spread": 0,
-                  "color": "rgba(23, 154, 158, 0.16)"
-                },
-                "background_hover_background": "classic",
-                "background_hover_color": "#FFFFFF",
-                "border_hover_transition": {
-                  "unit": "s",
-                  "size": 0.3
-                },
-                "padding": {
-                  "unit": "px",
-                  "top": "18",
-                  "right": "14",
-                  "bottom": "18",
-                  "left": "14",
-                  "isLinked": false
-                },
-                "padding_tablet": {
-                  "unit": "px",
-                  "top": "16",
-                  "right": "12",
-                  "bottom": "16",
-                  "left": "12",
-                  "isLinked": false
-                },
-                "padding_mobile": {
-                  "unit": "px",
-                  "top": "16",
-                  "right": "14",
-                  "bottom": "16",
-                  "left": "14",
-                  "isLinked": false
-                },
-                "margin": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "14",
-                  "left": "0",
-                  "isLinked": false
-                },
-                "margin_tablet": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "14",
-                  "left": "0",
-                  "isLinked": false
-                },
-                "margin_mobile": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "12",
-                  "left": "0",
-                  "isLinked": false
-                },
-                "width": {
-                  "unit": "%",
-                  "size": 14,
-                  "sizes": []
-                },
-                "flex_direction": "column"
-              },
-              "elements": [
                 {
-                  "id": "ur7tt23",
-                  "elType": "widget",
-                  "widgetType": "heading",
+                  "id": "a5t1wph",
+                  "elType": "column",
                   "settings": {
-                    "title": "<div style=\"display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;\"><span style=\"font-size:11px;font-weight:800;color:#179A9E;letter-spacing:0.5px;text-transform:uppercase;\">STEP 05</span><span style=\"color:#179A9E;font-size:13px;font-weight:bold;\">&#10003;</span></div>Denials & Appeals",
-                    "header_size": "h4",
-                    "align": "left",
-                    "title_color": "#102C40",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Plus Jakarta Sans",
-                    "typography_font_size": {
+                    "_column_size": 20,
+                    "_inline_size": 20,
+                    "_inline_size_tablet": 33.333,
+                    "_inline_size_mobile": 100,
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": {
                       "unit": "px",
-                      "size": 15,
-                      "sizes": []
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
                     },
-                    "typography_font_size_mobile": {
+                    "border_color": "#E9D5FF",
+                    "border_radius": {
                       "unit": "px",
-                      "size": 15,
-                      "sizes": []
+                      "top": "10",
+                      "right": "10",
+                      "bottom": "10",
+                      "left": "10",
+                      "isLinked": true
                     },
-                    "typography_font_weight": "700",
-                    "typography_line_height": {
-                      "unit": "em",
-                      "size": 1.3,
-                      "sizes": []
+                    "box_shadow_box_shadow_type": "yes",
+                    "box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 2,
+                      "blur": 6,
+                      "spread": 0,
+                      "color": "rgba(16, 44, 64, 0.04)"
                     },
-                    "_margin": {
+                    "border_hover_border": "solid",
+                    "border_hover_color": "#7C3AED",
+                    "box_shadow_hover_box_shadow_type": "yes",
+                    "box_shadow_hover_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 10,
+                      "blur": 20,
+                      "spread": 0,
+                      "color": "rgba(124, 58, 237, 0.16)"
+                    },
+                    "background_hover_background": "classic",
+                    "background_hover_color": "#FFFFFF",
+                    "border_hover_transition": {
+                      "unit": "s",
+                      "size": 0.3
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "18",
+                      "right": "14",
+                      "bottom": "18",
+                      "left": "14",
+                      "isLinked": false
+                    },
+                    "padding_tablet": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "12",
+                      "bottom": "16",
+                      "left": "12",
+                      "isLinked": false
+                    },
+                    "padding_mobile": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "14",
+                      "bottom": "16",
+                      "left": "14",
+                      "isLinked": false
+                    },
+                    "margin": {
                       "unit": "px",
                       "top": "0",
                       "right": "0",
-                      "bottom": "8",
+                      "bottom": "14",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "margin_tablet": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "14",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "margin_mobile": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "12",
                       "left": "0",
                       "isLinked": false
                     }
                   },
-                  "elements": []
-                },
-                {
-                  "id": "7d4dtn8",
-                  "elType": "widget",
-                  "widgetType": "text-editor",
-                  "settings": {
-                    "editor": "<p>Fast root-cause investigation and aggressive clinical appeals.</p>",
-                    "align": "left",
-                    "text_color": "#475D70",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Inter",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 12.5,
-                      "sizes": []
+                  "elements": [
+                    {
+                      "id": "sqv5k7r",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "<div style=\"display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;\"><span style=\"font-size:11px;font-weight:800;color:#7C3AED;letter-spacing:0.5px;text-transform:uppercase;\">STEP 03</span><span style=\"color:#7C3AED;font-size:13px;font-weight:bold;\">&#10003;</span></div>Payment Plan / Collection",
+                        "header_size": "h4",
+                        "align": "left",
+                        "title_color": "#102C40",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Plus Jakarta Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15,
+                          "sizes": []
+                        },
+                        "typography_font_size_mobile": {
+                          "unit": "px",
+                          "size": 15,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "700",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.3,
+                          "sizes": []
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "8",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      }
                     },
-                    "typography_line_height": {
-                      "unit": "em",
-                      "size": 1.45,
-                      "sizes": []
-                    },
-                    "_margin": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
+                    {
+                      "id": "2ky6l1i",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Customizable recurring payment schedules & balance counseling.</p>",
+                        "align": "left",
+                        "text_color": "#475D70",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12.5,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.45,
+                          "sizes": []
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      }
                     }
-                  },
-                  "elements": []
-                }
-              ]
-            },
-            {
-              "id": "48y05gg",
-              "elType": "container",
-              "isInner": true,
-              "settings": {
-                "_inline_size": 14.285,
-                "_inline_size_tablet": 33.333,
-                "_inline_size_mobile": 100,
-                "background_background": "classic",
-                "background_color": "#FFFFFF",
-                "border_border": "solid",
-                "border_width": {
-                  "unit": "px",
-                  "top": "1",
-                  "right": "1",
-                  "bottom": "1",
-                  "left": "1",
-                  "isLinked": true
+                  ]
                 },
-                "border_color": "#E2ECF2",
-                "border_radius": {
-                  "unit": "px",
-                  "top": "10",
-                  "right": "10",
-                  "bottom": "10",
-                  "left": "10",
-                  "isLinked": true
-                },
-                "box_shadow_box_shadow_type": "yes",
-                "box_shadow_box_shadow": {
-                  "horizontal": 0,
-                  "vertical": 2,
-                  "blur": 6,
-                  "spread": 0,
-                  "color": "rgba(16, 44, 64, 0.04)"
-                },
-                "border_hover_border": "solid",
-                "border_hover_color": "#179A9E",
-                "box_shadow_hover_box_shadow_type": "yes",
-                "box_shadow_hover_box_shadow": {
-                  "horizontal": 0,
-                  "vertical": 10,
-                  "blur": 20,
-                  "spread": 0,
-                  "color": "rgba(23, 154, 158, 0.16)"
-                },
-                "background_hover_background": "classic",
-                "background_hover_color": "#FFFFFF",
-                "border_hover_transition": {
-                  "unit": "s",
-                  "size": 0.3
-                },
-                "padding": {
-                  "unit": "px",
-                  "top": "18",
-                  "right": "14",
-                  "bottom": "18",
-                  "left": "14",
-                  "isLinked": false
-                },
-                "padding_tablet": {
-                  "unit": "px",
-                  "top": "16",
-                  "right": "12",
-                  "bottom": "16",
-                  "left": "12",
-                  "isLinked": false
-                },
-                "padding_mobile": {
-                  "unit": "px",
-                  "top": "16",
-                  "right": "14",
-                  "bottom": "16",
-                  "left": "14",
-                  "isLinked": false
-                },
-                "margin": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "14",
-                  "left": "0",
-                  "isLinked": false
-                },
-                "margin_tablet": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "14",
-                  "left": "0",
-                  "isLinked": false
-                },
-                "margin_mobile": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "12",
-                  "left": "0",
-                  "isLinked": false
-                },
-                "width": {
-                  "unit": "%",
-                  "size": 14,
-                  "sizes": []
-                },
-                "flex_direction": "column"
-              },
-              "elements": [
                 {
-                  "id": "xb1w8sx",
-                  "elType": "widget",
-                  "widgetType": "heading",
+                  "id": "42dmpul",
+                  "elType": "column",
                   "settings": {
-                    "title": "<div style=\"display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;\"><span style=\"font-size:11px;font-weight:800;color:#179A9E;letter-spacing:0.5px;text-transform:uppercase;\">STEP 06</span><span style=\"color:#179A9E;font-size:13px;font-weight:bold;\">&#10003;</span></div>Payer Payment",
-                    "header_size": "h4",
-                    "align": "left",
-                    "title_color": "#102C40",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Plus Jakarta Sans",
-                    "typography_font_size": {
+                    "_column_size": 20,
+                    "_inline_size": 20,
+                    "_inline_size_tablet": 33.333,
+                    "_inline_size_mobile": 100,
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": {
                       "unit": "px",
-                      "size": 15,
-                      "sizes": []
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
                     },
-                    "typography_font_size_mobile": {
+                    "border_color": "#E9D5FF",
+                    "border_radius": {
                       "unit": "px",
-                      "size": 15,
-                      "sizes": []
+                      "top": "10",
+                      "right": "10",
+                      "bottom": "10",
+                      "left": "10",
+                      "isLinked": true
                     },
-                    "typography_font_weight": "700",
-                    "typography_line_height": {
-                      "unit": "em",
-                      "size": 1.3,
-                      "sizes": []
+                    "box_shadow_box_shadow_type": "yes",
+                    "box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 2,
+                      "blur": 6,
+                      "spread": 0,
+                      "color": "rgba(16, 44, 64, 0.04)"
                     },
-                    "_margin": {
+                    "border_hover_border": "solid",
+                    "border_hover_color": "#7C3AED",
+                    "box_shadow_hover_box_shadow_type": "yes",
+                    "box_shadow_hover_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 10,
+                      "blur": 20,
+                      "spread": 0,
+                      "color": "rgba(124, 58, 237, 0.16)"
+                    },
+                    "background_hover_background": "classic",
+                    "background_hover_color": "#FFFFFF",
+                    "border_hover_transition": {
+                      "unit": "s",
+                      "size": 0.3
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "18",
+                      "right": "14",
+                      "bottom": "18",
+                      "left": "14",
+                      "isLinked": false
+                    },
+                    "padding_tablet": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "12",
+                      "bottom": "16",
+                      "left": "12",
+                      "isLinked": false
+                    },
+                    "padding_mobile": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "14",
+                      "bottom": "16",
+                      "left": "14",
+                      "isLinked": false
+                    },
+                    "margin": {
                       "unit": "px",
                       "top": "0",
                       "right": "0",
-                      "bottom": "8",
+                      "bottom": "14",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "margin_tablet": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "14",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "margin_mobile": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "12",
                       "left": "0",
                       "isLinked": false
                     }
                   },
-                  "elements": []
-                },
-                {
-                  "id": "hjh9yog",
-                  "elType": "widget",
-                  "widgetType": "text-editor",
-                  "settings": {
-                    "editor": "<p>Automated ERA (835) electronic remittance and auto-posting.</p>",
-                    "align": "left",
-                    "text_color": "#475D70",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Inter",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 12.5,
-                      "sizes": []
+                  "elements": [
+                    {
+                      "id": "0vymxda",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "<div style=\"display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;\"><span style=\"font-size:11px;font-weight:800;color:#7C3AED;letter-spacing:0.5px;text-transform:uppercase;\">STEP 04</span><span style=\"color:#7C3AED;font-size:13px;font-weight:bold;\">&#10003;</span></div>Patient Payment",
+                        "header_size": "h4",
+                        "align": "left",
+                        "title_color": "#102C40",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Plus Jakarta Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15,
+                          "sizes": []
+                        },
+                        "typography_font_size_mobile": {
+                          "unit": "px",
+                          "size": 15,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "700",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.3,
+                          "sizes": []
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "8",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      }
                     },
-                    "typography_line_height": {
-                      "unit": "em",
-                      "size": 1.45,
-                      "sizes": []
-                    },
-                    "_margin": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
+                    {
+                      "id": "7mddw3v",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Secure 1-click online payment and portal processing.</p>",
+                        "align": "left",
+                        "text_color": "#475D70",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12.5,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.45,
+                          "sizes": []
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      }
                     }
-                  },
-                  "elements": []
-                }
-              ]
-            },
-            {
-              "id": "a86pyi2",
-              "elType": "container",
-              "isInner": true,
-              "settings": {
-                "_inline_size": 14.285,
-                "_inline_size_tablet": 33.333,
-                "_inline_size_mobile": 100,
-                "background_background": "classic",
-                "background_color": "#FFFFFF",
-                "border_border": "solid",
-                "border_width": {
-                  "unit": "px",
-                  "top": "1",
-                  "right": "1",
-                  "bottom": "1",
-                  "left": "1",
-                  "isLinked": true
+                  ]
                 },
-                "border_color": "#E2ECF2",
-                "border_radius": {
-                  "unit": "px",
-                  "top": "10",
-                  "right": "10",
-                  "bottom": "10",
-                  "left": "10",
-                  "isLinked": true
-                },
-                "box_shadow_box_shadow_type": "yes",
-                "box_shadow_box_shadow": {
-                  "horizontal": 0,
-                  "vertical": 2,
-                  "blur": 6,
-                  "spread": 0,
-                  "color": "rgba(16, 44, 64, 0.04)"
-                },
-                "border_hover_border": "solid",
-                "border_hover_color": "#179A9E",
-                "box_shadow_hover_box_shadow_type": "yes",
-                "box_shadow_hover_box_shadow": {
-                  "horizontal": 0,
-                  "vertical": 10,
-                  "blur": 20,
-                  "spread": 0,
-                  "color": "rgba(23, 154, 158, 0.16)"
-                },
-                "background_hover_background": "classic",
-                "background_hover_color": "#FFFFFF",
-                "border_hover_transition": {
-                  "unit": "s",
-                  "size": 0.3
-                },
-                "padding": {
-                  "unit": "px",
-                  "top": "18",
-                  "right": "14",
-                  "bottom": "18",
-                  "left": "14",
-                  "isLinked": false
-                },
-                "padding_tablet": {
-                  "unit": "px",
-                  "top": "16",
-                  "right": "12",
-                  "bottom": "16",
-                  "left": "12",
-                  "isLinked": false
-                },
-                "padding_mobile": {
-                  "unit": "px",
-                  "top": "16",
-                  "right": "14",
-                  "bottom": "16",
-                  "left": "14",
-                  "isLinked": false
-                },
-                "margin": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "14",
-                  "left": "0",
-                  "isLinked": false
-                },
-                "margin_tablet": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "14",
-                  "left": "0",
-                  "isLinked": false
-                },
-                "margin_mobile": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "12",
-                  "left": "0",
-                  "isLinked": false
-                },
-                "width": {
-                  "unit": "%",
-                  "size": 14,
-                  "sizes": []
-                },
-                "flex_direction": "column"
-              },
-              "elements": [
                 {
-                  "id": "mrxx1sn",
-                  "elType": "widget",
-                  "widgetType": "heading",
+                  "id": "qh2j1ey",
+                  "elType": "column",
                   "settings": {
-                    "title": "<div style=\"display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;\"><span style=\"font-size:11px;font-weight:800;color:#179A9E;letter-spacing:0.5px;text-transform:uppercase;\">STEP 07</span><span style=\"color:#179A9E;font-size:13px;font-weight:bold;\">&#10003;</span></div>Practice Paid",
-                    "header_size": "h4",
-                    "align": "left",
-                    "title_color": "#102C40",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Plus Jakarta Sans",
-                    "typography_font_size": {
+                    "_column_size": 20,
+                    "_inline_size": 20,
+                    "_inline_size_tablet": 33.333,
+                    "_inline_size_mobile": 100,
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": {
                       "unit": "px",
-                      "size": 15,
-                      "sizes": []
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
                     },
-                    "typography_font_size_mobile": {
+                    "border_color": "#E9D5FF",
+                    "border_radius": {
                       "unit": "px",
-                      "size": 15,
-                      "sizes": []
+                      "top": "10",
+                      "right": "10",
+                      "bottom": "10",
+                      "left": "10",
+                      "isLinked": true
                     },
-                    "typography_font_weight": "700",
-                    "typography_line_height": {
-                      "unit": "em",
-                      "size": 1.3,
-                      "sizes": []
+                    "box_shadow_box_shadow_type": "yes",
+                    "box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 2,
+                      "blur": 6,
+                      "spread": 0,
+                      "color": "rgba(16, 44, 64, 0.04)"
                     },
-                    "_margin": {
+                    "border_hover_border": "solid",
+                    "border_hover_color": "#7C3AED",
+                    "box_shadow_hover_box_shadow_type": "yes",
+                    "box_shadow_hover_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 10,
+                      "blur": 20,
+                      "spread": 0,
+                      "color": "rgba(124, 58, 237, 0.16)"
+                    },
+                    "background_hover_background": "classic",
+                    "background_hover_color": "#FFFFFF",
+                    "border_hover_transition": {
+                      "unit": "s",
+                      "size": 0.3
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "18",
+                      "right": "14",
+                      "bottom": "18",
+                      "left": "14",
+                      "isLinked": false
+                    },
+                    "padding_tablet": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "12",
+                      "bottom": "16",
+                      "left": "12",
+                      "isLinked": false
+                    },
+                    "padding_mobile": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "14",
+                      "bottom": "16",
+                      "left": "14",
+                      "isLinked": false
+                    },
+                    "margin": {
                       "unit": "px",
                       "top": "0",
                       "right": "0",
-                      "bottom": "8",
+                      "bottom": "14",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "margin_tablet": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "14",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "margin_mobile": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "12",
                       "left": "0",
                       "isLinked": false
                     }
                   },
-                  "elements": []
-                },
-                {
-                  "id": "7ghbf2a",
-                  "elType": "widget",
-                  "widgetType": "text-editor",
-                  "settings": {
-                    "editor": "<p>Funds deposited cleanly into practice bank accounts.</p>",
-                    "align": "left",
-                    "text_color": "#475D70",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Inter",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 12.5,
-                      "sizes": []
+                  "elements": [
+                    {
+                      "id": "nqf4cuu",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "<div style=\"display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;\"><span style=\"font-size:11px;font-weight:800;color:#7C3AED;letter-spacing:0.5px;text-transform:uppercase;\">STEP 05</span><span style=\"color:#7C3AED;font-size:13px;font-weight:bold;\">&#10003;</span></div>Practice Paid",
+                        "header_size": "h4",
+                        "align": "left",
+                        "title_color": "#102C40",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Plus Jakarta Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15,
+                          "sizes": []
+                        },
+                        "typography_font_size_mobile": {
+                          "unit": "px",
+                          "size": 15,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "700",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.3,
+                          "sizes": []
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "8",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      }
                     },
-                    "typography_line_height": {
-                      "unit": "em",
-                      "size": 1.45,
-                      "sizes": []
-                    },
-                    "_margin": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
+                    {
+                      "id": "81vbchf",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Reconciled balances and maximized self-pay recovery.</p>",
+                        "align": "left",
+                        "text_color": "#475D70",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12.5,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.45,
+                          "sizes": []
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      }
                     }
-                  },
-                  "elements": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "j3zcuvx",
-          "elType": "container",
-          "isInner": true,
-          "settings": {
-            "background_background": "classic",
-            "background_color": "#FFFFFF",
-            "border_border": "solid",
-            "border_width": {
-              "unit": "px",
-              "top": "1",
-              "right": "1",
-              "bottom": "1",
-              "left": "4",
-              "isLinked": false
-            },
-            "border_color": "#E2ECF2",
-            "border_left_color": "#7C3AED",
-            "border_radius": {
-              "unit": "px",
-              "top": "10",
-              "right": "10",
-              "bottom": "10",
-              "left": "10",
-              "isLinked": true
-            },
-            "padding": {
-              "unit": "px",
-              "top": "14",
-              "right": "20",
-              "bottom": "14",
-              "left": "20",
-              "isLinked": false
-            },
-            "padding_mobile": {
-              "unit": "px",
-              "top": "12",
-              "right": "16",
-              "bottom": "12",
-              "left": "16",
-              "isLinked": false
-            },
-            "margin": {
-              "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "16",
-              "left": "0",
-              "isLinked": false
-            },
-            "content_width": "full",
-            "flex_direction": "row",
-            "flex_wrap": "wrap",
-            "flex_direction_mobile": "column"
-          },
-          "elements": [
-            {
-              "id": "cl4tjj8",
-              "elType": "container",
-              "isInner": true,
-              "settings": {
-                "width": {
-                  "unit": "%",
-                  "size": 100,
-                  "sizes": []
-                },
-                "flex_direction": "column"
-              },
-              "elements": [
-                {
-                  "id": "k45gz6d",
-                  "elType": "widget",
-                  "widgetType": "heading",
-                  "settings": {
-                    "title": "<div style=\"display:flex;align-items:center;gap:12px;\"><span style=\"display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;border-radius:50%;background-color:#7C3AED;color:#FFFFFF;font-size:16px;font-weight:bold;flex-shrink:0;\">★</span><div><div style=\"font-size:18px;font-weight:700;color:#102C40;line-height:1.2;\">Patient Billing Revenue Cycle</div><div style=\"font-size:13px;font-weight:500;color:#738A9E;margin-top:2px;\">5-Step Patient Financial Experience & Self-Pay Recovery Sequence</div></div></div>",
-                    "header_size": "h3",
-                    "align": "left",
-                    "_margin": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
-                    }
-                  },
-                  "elements": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "kmkwpd9",
-          "elType": "container",
-          "isInner": true,
-          "settings": {
-            "margin": {
-              "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "0",
-              "left": "0",
-              "isLinked": true
-            },
-            "content_width": "full",
-            "flex_direction": "row",
-            "flex_wrap": "wrap",
-            "flex_direction_mobile": "column"
-          },
-          "elements": [
-            {
-              "id": "jnp7s78",
-              "elType": "container",
-              "isInner": true,
-              "settings": {
-                "_inline_size": 20,
-                "_inline_size_tablet": 33.333,
-                "_inline_size_mobile": 100,
-                "background_background": "classic",
-                "background_color": "#FFFFFF",
-                "border_border": "solid",
-                "border_width": {
-                  "unit": "px",
-                  "top": "1",
-                  "right": "1",
-                  "bottom": "1",
-                  "left": "1",
-                  "isLinked": true
-                },
-                "border_color": "#E9D5FF",
-                "border_radius": {
-                  "unit": "px",
-                  "top": "10",
-                  "right": "10",
-                  "bottom": "10",
-                  "left": "10",
-                  "isLinked": true
-                },
-                "box_shadow_box_shadow_type": "yes",
-                "box_shadow_box_shadow": {
-                  "horizontal": 0,
-                  "vertical": 2,
-                  "blur": 6,
-                  "spread": 0,
-                  "color": "rgba(16, 44, 64, 0.04)"
-                },
-                "border_hover_border": "solid",
-                "border_hover_color": "#7C3AED",
-                "box_shadow_hover_box_shadow_type": "yes",
-                "box_shadow_hover_box_shadow": {
-                  "horizontal": 0,
-                  "vertical": 10,
-                  "blur": 20,
-                  "spread": 0,
-                  "color": "rgba(124, 58, 237, 0.16)"
-                },
-                "background_hover_background": "classic",
-                "background_hover_color": "#FFFFFF",
-                "border_hover_transition": {
-                  "unit": "s",
-                  "size": 0.3
-                },
-                "padding": {
-                  "unit": "px",
-                  "top": "18",
-                  "right": "14",
-                  "bottom": "18",
-                  "left": "14",
-                  "isLinked": false
-                },
-                "padding_tablet": {
-                  "unit": "px",
-                  "top": "16",
-                  "right": "12",
-                  "bottom": "16",
-                  "left": "12",
-                  "isLinked": false
-                },
-                "padding_mobile": {
-                  "unit": "px",
-                  "top": "16",
-                  "right": "14",
-                  "bottom": "16",
-                  "left": "14",
-                  "isLinked": false
-                },
-                "margin": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "14",
-                  "left": "0",
-                  "isLinked": false
-                },
-                "margin_tablet": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "14",
-                  "left": "0",
-                  "isLinked": false
-                },
-                "margin_mobile": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "12",
-                  "left": "0",
-                  "isLinked": false
-                },
-                "width": {
-                  "unit": "%",
-                  "size": 20,
-                  "sizes": []
-                },
-                "flex_direction": "column"
-              },
-              "elements": [
-                {
-                  "id": "eyqbd9a",
-                  "elType": "widget",
-                  "widgetType": "heading",
-                  "settings": {
-                    "title": "<div style=\"display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;\"><span style=\"font-size:11px;font-weight:800;color:#7C3AED;letter-spacing:0.5px;text-transform:uppercase;\">STEP 01</span><span style=\"color:#7C3AED;font-size:13px;font-weight:bold;\">&#10003;</span></div>Patient Visit",
-                    "header_size": "h4",
-                    "align": "left",
-                    "title_color": "#102C40",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Plus Jakarta Sans",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 15,
-                      "sizes": []
-                    },
-                    "typography_font_size_mobile": {
-                      "unit": "px",
-                      "size": 15,
-                      "sizes": []
-                    },
-                    "typography_font_weight": "700",
-                    "typography_line_height": {
-                      "unit": "em",
-                      "size": 1.3,
-                      "sizes": []
-                    },
-                    "_margin": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "8",
-                      "left": "0",
-                      "isLinked": false
-                    }
-                  },
-                  "elements": []
-                },
-                {
-                  "id": "lx1r2je",
-                  "elType": "widget",
-                  "widgetType": "text-editor",
-                  "settings": {
-                    "editor": "<p>Point-of-service intake and transparent Good Faith Estimate.</p>",
-                    "align": "left",
-                    "text_color": "#475D70",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Inter",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 12.5,
-                      "sizes": []
-                    },
-                    "typography_line_height": {
-                      "unit": "em",
-                      "size": 1.45,
-                      "sizes": []
-                    },
-                    "_margin": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
-                    }
-                  },
-                  "elements": []
-                }
-              ]
-            },
-            {
-              "id": "xtqae3t",
-              "elType": "container",
-              "isInner": true,
-              "settings": {
-                "_inline_size": 20,
-                "_inline_size_tablet": 33.333,
-                "_inline_size_mobile": 100,
-                "background_background": "classic",
-                "background_color": "#FFFFFF",
-                "border_border": "solid",
-                "border_width": {
-                  "unit": "px",
-                  "top": "1",
-                  "right": "1",
-                  "bottom": "1",
-                  "left": "1",
-                  "isLinked": true
-                },
-                "border_color": "#E9D5FF",
-                "border_radius": {
-                  "unit": "px",
-                  "top": "10",
-                  "right": "10",
-                  "bottom": "10",
-                  "left": "10",
-                  "isLinked": true
-                },
-                "box_shadow_box_shadow_type": "yes",
-                "box_shadow_box_shadow": {
-                  "horizontal": 0,
-                  "vertical": 2,
-                  "blur": 6,
-                  "spread": 0,
-                  "color": "rgba(16, 44, 64, 0.04)"
-                },
-                "border_hover_border": "solid",
-                "border_hover_color": "#7C3AED",
-                "box_shadow_hover_box_shadow_type": "yes",
-                "box_shadow_hover_box_shadow": {
-                  "horizontal": 0,
-                  "vertical": 10,
-                  "blur": 20,
-                  "spread": 0,
-                  "color": "rgba(124, 58, 237, 0.16)"
-                },
-                "background_hover_background": "classic",
-                "background_hover_color": "#FFFFFF",
-                "border_hover_transition": {
-                  "unit": "s",
-                  "size": 0.3
-                },
-                "padding": {
-                  "unit": "px",
-                  "top": "18",
-                  "right": "14",
-                  "bottom": "18",
-                  "left": "14",
-                  "isLinked": false
-                },
-                "padding_tablet": {
-                  "unit": "px",
-                  "top": "16",
-                  "right": "12",
-                  "bottom": "16",
-                  "left": "12",
-                  "isLinked": false
-                },
-                "padding_mobile": {
-                  "unit": "px",
-                  "top": "16",
-                  "right": "14",
-                  "bottom": "16",
-                  "left": "14",
-                  "isLinked": false
-                },
-                "margin": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "14",
-                  "left": "0",
-                  "isLinked": false
-                },
-                "margin_tablet": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "14",
-                  "left": "0",
-                  "isLinked": false
-                },
-                "margin_mobile": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "12",
-                  "left": "0",
-                  "isLinked": false
-                },
-                "width": {
-                  "unit": "%",
-                  "size": 20,
-                  "sizes": []
-                },
-                "flex_direction": "column"
-              },
-              "elements": [
-                {
-                  "id": "evo5lvd",
-                  "elType": "widget",
-                  "widgetType": "heading",
-                  "settings": {
-                    "title": "<div style=\"display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;\"><span style=\"font-size:11px;font-weight:800;color:#7C3AED;letter-spacing:0.5px;text-transform:uppercase;\">STEP 02</span><span style=\"color:#7C3AED;font-size:13px;font-weight:bold;\">&#10003;</span></div>Patient Statement",
-                    "header_size": "h4",
-                    "align": "left",
-                    "title_color": "#102C40",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Plus Jakarta Sans",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 15,
-                      "sizes": []
-                    },
-                    "typography_font_size_mobile": {
-                      "unit": "px",
-                      "size": 15,
-                      "sizes": []
-                    },
-                    "typography_font_weight": "700",
-                    "typography_line_height": {
-                      "unit": "em",
-                      "size": 1.3,
-                      "sizes": []
-                    },
-                    "_margin": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "8",
-                      "left": "0",
-                      "isLinked": false
-                    }
-                  },
-                  "elements": []
-                },
-                {
-                  "id": "v2j31i1",
-                  "elType": "widget",
-                  "widgetType": "text-editor",
-                  "settings": {
-                    "editor": "<p>Clear digital SMS & paperless statements generated.</p>",
-                    "align": "left",
-                    "text_color": "#475D70",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Inter",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 12.5,
-                      "sizes": []
-                    },
-                    "typography_line_height": {
-                      "unit": "em",
-                      "size": 1.45,
-                      "sizes": []
-                    },
-                    "_margin": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
-                    }
-                  },
-                  "elements": []
-                }
-              ]
-            },
-            {
-              "id": "a5t1wph",
-              "elType": "container",
-              "isInner": true,
-              "settings": {
-                "_inline_size": 20,
-                "_inline_size_tablet": 33.333,
-                "_inline_size_mobile": 100,
-                "background_background": "classic",
-                "background_color": "#FFFFFF",
-                "border_border": "solid",
-                "border_width": {
-                  "unit": "px",
-                  "top": "1",
-                  "right": "1",
-                  "bottom": "1",
-                  "left": "1",
-                  "isLinked": true
-                },
-                "border_color": "#E9D5FF",
-                "border_radius": {
-                  "unit": "px",
-                  "top": "10",
-                  "right": "10",
-                  "bottom": "10",
-                  "left": "10",
-                  "isLinked": true
-                },
-                "box_shadow_box_shadow_type": "yes",
-                "box_shadow_box_shadow": {
-                  "horizontal": 0,
-                  "vertical": 2,
-                  "blur": 6,
-                  "spread": 0,
-                  "color": "rgba(16, 44, 64, 0.04)"
-                },
-                "border_hover_border": "solid",
-                "border_hover_color": "#7C3AED",
-                "box_shadow_hover_box_shadow_type": "yes",
-                "box_shadow_hover_box_shadow": {
-                  "horizontal": 0,
-                  "vertical": 10,
-                  "blur": 20,
-                  "spread": 0,
-                  "color": "rgba(124, 58, 237, 0.16)"
-                },
-                "background_hover_background": "classic",
-                "background_hover_color": "#FFFFFF",
-                "border_hover_transition": {
-                  "unit": "s",
-                  "size": 0.3
-                },
-                "padding": {
-                  "unit": "px",
-                  "top": "18",
-                  "right": "14",
-                  "bottom": "18",
-                  "left": "14",
-                  "isLinked": false
-                },
-                "padding_tablet": {
-                  "unit": "px",
-                  "top": "16",
-                  "right": "12",
-                  "bottom": "16",
-                  "left": "12",
-                  "isLinked": false
-                },
-                "padding_mobile": {
-                  "unit": "px",
-                  "top": "16",
-                  "right": "14",
-                  "bottom": "16",
-                  "left": "14",
-                  "isLinked": false
-                },
-                "margin": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "14",
-                  "left": "0",
-                  "isLinked": false
-                },
-                "margin_tablet": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "14",
-                  "left": "0",
-                  "isLinked": false
-                },
-                "margin_mobile": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "12",
-                  "left": "0",
-                  "isLinked": false
-                },
-                "width": {
-                  "unit": "%",
-                  "size": 20,
-                  "sizes": []
-                },
-                "flex_direction": "column"
-              },
-              "elements": [
-                {
-                  "id": "sqv5k7r",
-                  "elType": "widget",
-                  "widgetType": "heading",
-                  "settings": {
-                    "title": "<div style=\"display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;\"><span style=\"font-size:11px;font-weight:800;color:#7C3AED;letter-spacing:0.5px;text-transform:uppercase;\">STEP 03</span><span style=\"color:#7C3AED;font-size:13px;font-weight:bold;\">&#10003;</span></div>Payment Plan / Collection",
-                    "header_size": "h4",
-                    "align": "left",
-                    "title_color": "#102C40",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Plus Jakarta Sans",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 15,
-                      "sizes": []
-                    },
-                    "typography_font_size_mobile": {
-                      "unit": "px",
-                      "size": 15,
-                      "sizes": []
-                    },
-                    "typography_font_weight": "700",
-                    "typography_line_height": {
-                      "unit": "em",
-                      "size": 1.3,
-                      "sizes": []
-                    },
-                    "_margin": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "8",
-                      "left": "0",
-                      "isLinked": false
-                    }
-                  },
-                  "elements": []
-                },
-                {
-                  "id": "2ky6l1i",
-                  "elType": "widget",
-                  "widgetType": "text-editor",
-                  "settings": {
-                    "editor": "<p>Customizable recurring payment schedules & balance counseling.</p>",
-                    "align": "left",
-                    "text_color": "#475D70",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Inter",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 12.5,
-                      "sizes": []
-                    },
-                    "typography_line_height": {
-                      "unit": "em",
-                      "size": 1.45,
-                      "sizes": []
-                    },
-                    "_margin": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
-                    }
-                  },
-                  "elements": []
-                }
-              ]
-            },
-            {
-              "id": "42dmpul",
-              "elType": "container",
-              "isInner": true,
-              "settings": {
-                "_inline_size": 20,
-                "_inline_size_tablet": 33.333,
-                "_inline_size_mobile": 100,
-                "background_background": "classic",
-                "background_color": "#FFFFFF",
-                "border_border": "solid",
-                "border_width": {
-                  "unit": "px",
-                  "top": "1",
-                  "right": "1",
-                  "bottom": "1",
-                  "left": "1",
-                  "isLinked": true
-                },
-                "border_color": "#E9D5FF",
-                "border_radius": {
-                  "unit": "px",
-                  "top": "10",
-                  "right": "10",
-                  "bottom": "10",
-                  "left": "10",
-                  "isLinked": true
-                },
-                "box_shadow_box_shadow_type": "yes",
-                "box_shadow_box_shadow": {
-                  "horizontal": 0,
-                  "vertical": 2,
-                  "blur": 6,
-                  "spread": 0,
-                  "color": "rgba(16, 44, 64, 0.04)"
-                },
-                "border_hover_border": "solid",
-                "border_hover_color": "#7C3AED",
-                "box_shadow_hover_box_shadow_type": "yes",
-                "box_shadow_hover_box_shadow": {
-                  "horizontal": 0,
-                  "vertical": 10,
-                  "blur": 20,
-                  "spread": 0,
-                  "color": "rgba(124, 58, 237, 0.16)"
-                },
-                "background_hover_background": "classic",
-                "background_hover_color": "#FFFFFF",
-                "border_hover_transition": {
-                  "unit": "s",
-                  "size": 0.3
-                },
-                "padding": {
-                  "unit": "px",
-                  "top": "18",
-                  "right": "14",
-                  "bottom": "18",
-                  "left": "14",
-                  "isLinked": false
-                },
-                "padding_tablet": {
-                  "unit": "px",
-                  "top": "16",
-                  "right": "12",
-                  "bottom": "16",
-                  "left": "12",
-                  "isLinked": false
-                },
-                "padding_mobile": {
-                  "unit": "px",
-                  "top": "16",
-                  "right": "14",
-                  "bottom": "16",
-                  "left": "14",
-                  "isLinked": false
-                },
-                "margin": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "14",
-                  "left": "0",
-                  "isLinked": false
-                },
-                "margin_tablet": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "14",
-                  "left": "0",
-                  "isLinked": false
-                },
-                "margin_mobile": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "12",
-                  "left": "0",
-                  "isLinked": false
-                },
-                "width": {
-                  "unit": "%",
-                  "size": 20,
-                  "sizes": []
-                },
-                "flex_direction": "column"
-              },
-              "elements": [
-                {
-                  "id": "0vymxda",
-                  "elType": "widget",
-                  "widgetType": "heading",
-                  "settings": {
-                    "title": "<div style=\"display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;\"><span style=\"font-size:11px;font-weight:800;color:#7C3AED;letter-spacing:0.5px;text-transform:uppercase;\">STEP 04</span><span style=\"color:#7C3AED;font-size:13px;font-weight:bold;\">&#10003;</span></div>Patient Payment",
-                    "header_size": "h4",
-                    "align": "left",
-                    "title_color": "#102C40",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Plus Jakarta Sans",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 15,
-                      "sizes": []
-                    },
-                    "typography_font_size_mobile": {
-                      "unit": "px",
-                      "size": 15,
-                      "sizes": []
-                    },
-                    "typography_font_weight": "700",
-                    "typography_line_height": {
-                      "unit": "em",
-                      "size": 1.3,
-                      "sizes": []
-                    },
-                    "_margin": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "8",
-                      "left": "0",
-                      "isLinked": false
-                    }
-                  },
-                  "elements": []
-                },
-                {
-                  "id": "7mddw3v",
-                  "elType": "widget",
-                  "widgetType": "text-editor",
-                  "settings": {
-                    "editor": "<p>Secure 1-click online payment and portal processing.</p>",
-                    "align": "left",
-                    "text_color": "#475D70",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Inter",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 12.5,
-                      "sizes": []
-                    },
-                    "typography_line_height": {
-                      "unit": "em",
-                      "size": 1.45,
-                      "sizes": []
-                    },
-                    "_margin": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
-                    }
-                  },
-                  "elements": []
-                }
-              ]
-            },
-            {
-              "id": "qh2j1ey",
-              "elType": "container",
-              "isInner": true,
-              "settings": {
-                "_inline_size": 20,
-                "_inline_size_tablet": 33.333,
-                "_inline_size_mobile": 100,
-                "background_background": "classic",
-                "background_color": "#FFFFFF",
-                "border_border": "solid",
-                "border_width": {
-                  "unit": "px",
-                  "top": "1",
-                  "right": "1",
-                  "bottom": "1",
-                  "left": "1",
-                  "isLinked": true
-                },
-                "border_color": "#E9D5FF",
-                "border_radius": {
-                  "unit": "px",
-                  "top": "10",
-                  "right": "10",
-                  "bottom": "10",
-                  "left": "10",
-                  "isLinked": true
-                },
-                "box_shadow_box_shadow_type": "yes",
-                "box_shadow_box_shadow": {
-                  "horizontal": 0,
-                  "vertical": 2,
-                  "blur": 6,
-                  "spread": 0,
-                  "color": "rgba(16, 44, 64, 0.04)"
-                },
-                "border_hover_border": "solid",
-                "border_hover_color": "#7C3AED",
-                "box_shadow_hover_box_shadow_type": "yes",
-                "box_shadow_hover_box_shadow": {
-                  "horizontal": 0,
-                  "vertical": 10,
-                  "blur": 20,
-                  "spread": 0,
-                  "color": "rgba(124, 58, 237, 0.16)"
-                },
-                "background_hover_background": "classic",
-                "background_hover_color": "#FFFFFF",
-                "border_hover_transition": {
-                  "unit": "s",
-                  "size": 0.3
-                },
-                "padding": {
-                  "unit": "px",
-                  "top": "18",
-                  "right": "14",
-                  "bottom": "18",
-                  "left": "14",
-                  "isLinked": false
-                },
-                "padding_tablet": {
-                  "unit": "px",
-                  "top": "16",
-                  "right": "12",
-                  "bottom": "16",
-                  "left": "12",
-                  "isLinked": false
-                },
-                "padding_mobile": {
-                  "unit": "px",
-                  "top": "16",
-                  "right": "14",
-                  "bottom": "16",
-                  "left": "14",
-                  "isLinked": false
-                },
-                "margin": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "14",
-                  "left": "0",
-                  "isLinked": false
-                },
-                "margin_tablet": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "14",
-                  "left": "0",
-                  "isLinked": false
-                },
-                "margin_mobile": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "12",
-                  "left": "0",
-                  "isLinked": false
-                },
-                "width": {
-                  "unit": "%",
-                  "size": 20,
-                  "sizes": []
-                },
-                "flex_direction": "column"
-              },
-              "elements": [
-                {
-                  "id": "nqf4cuu",
-                  "elType": "widget",
-                  "widgetType": "heading",
-                  "settings": {
-                    "title": "<div style=\"display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;\"><span style=\"font-size:11px;font-weight:800;color:#7C3AED;letter-spacing:0.5px;text-transform:uppercase;\">STEP 05</span><span style=\"color:#7C3AED;font-size:13px;font-weight:bold;\">&#10003;</span></div>Practice Paid",
-                    "header_size": "h4",
-                    "align": "left",
-                    "title_color": "#102C40",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Plus Jakarta Sans",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 15,
-                      "sizes": []
-                    },
-                    "typography_font_size_mobile": {
-                      "unit": "px",
-                      "size": 15,
-                      "sizes": []
-                    },
-                    "typography_font_weight": "700",
-                    "typography_line_height": {
-                      "unit": "em",
-                      "size": 1.3,
-                      "sizes": []
-                    },
-                    "_margin": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "8",
-                      "left": "0",
-                      "isLinked": false
-                    }
-                  },
-                  "elements": []
-                },
-                {
-                  "id": "81vbchf",
-                  "elType": "widget",
-                  "widgetType": "text-editor",
-                  "settings": {
-                    "editor": "<p>Reconciled balances and maximized self-pay recovery.</p>",
-                    "align": "left",
-                    "text_color": "#475D70",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Inter",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 12.5,
-                      "sizes": []
-                    },
-                    "typography_line_height": {
-                      "unit": "em",
-                      "size": 1.45,
-                      "sizes": []
-                    },
-                    "_margin": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
-                    }
-                  },
-                  "elements": []
+                  ]
                 }
               ]
             }

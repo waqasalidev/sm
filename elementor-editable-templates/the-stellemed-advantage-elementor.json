@@ -1,14 +1,18 @@
 {
   "version": "0.4",
-  "title": "The StelleMed Advantage - Exact Pic Icon Layout with Grow Green Hover and Audit Form Modal (Flexbox Container)",
+  "title": "The StelleMed Advantage - Exact Pic Icon Layout with Grow Green Hover and Audit Form Modal",
   "type": "section",
   "content": [
     {
       "id": "bexod7d",
-      "elType": "container",
-      "isInner": false,
+      "elType": "section",
       "settings": {
-        "content_width": "boxed",
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1220,
+          "sizes": []
+        },
         "padding": {
           "unit": "px",
           "top": "85",
@@ -34,1174 +38,1126 @@
           "isLinked": false
         },
         "background_background": "classic",
-        "background_color": "#081824",
-        "boxed_width": {
-          "unit": "px",
-          "size": 1220,
-          "sizes": []
-        },
-        "flex_direction": "column"
+        "background_color": "#081824"
       },
       "elements": [
         {
-          "id": "lyiht7r",
-          "elType": "widget",
-          "widgetType": "heading",
+          "id": "pf2hj45",
+          "elType": "column",
           "settings": {
-            "title": "<span style=\"display:inline-flex;align-items:center;gap:6px;padding:6px 16px;background-color:rgba(23,154,158,0.15);border:1px solid rgba(56,212,216,0.35);border-radius:50px;color:#38D4D8;font-size:12px;font-weight:800;letter-spacing:1px;text-transform:uppercase;\">🛡 THE STELLEMED ADVANTAGE</span>",
-            "header_size": "span",
-            "align": "center",
-            "title_color": "#38D4D8",
-            "typography_typography": "custom",
-            "typography_font_family": "Plus Jakarta Sans",
-            "typography_font_size": {
-              "unit": "px",
-              "size": 12,
-              "sizes": []
-            },
-            "typography_font_weight": "800",
-            "typography_letter_spacing": {
-              "unit": "px",
-              "size": 1,
-              "sizes": []
-            },
-            "_margin": {
-              "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "16",
-              "left": "0",
-              "isLinked": false
-            },
-            "_margin_mobile": {
-              "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "12",
-              "left": "0",
-              "isLinked": false
-            }
-          },
-          "elements": []
-        },
-        {
-          "id": "n3qwaqm",
-          "elType": "widget",
-          "widgetType": "heading",
-          "settings": {
-            "title": "Your Trusted Partner in <span style=\"color: #38D4D8;\">Medical Billing</span>",
-            "header_size": "h2",
-            "align": "center",
-            "title_color": "#FFFFFF",
-            "typography_typography": "custom",
-            "typography_font_family": "Plus Jakarta Sans",
-            "typography_font_size": {
-              "unit": "px",
-              "size": 40,
-              "sizes": []
-            },
-            "typography_font_size_tablet": {
-              "unit": "px",
-              "size": 32,
-              "sizes": []
-            },
-            "typography_font_size_mobile": {
-              "unit": "px",
-              "size": 26,
-              "sizes": []
-            },
-            "typography_font_weight": "800",
-            "typography_line_height": {
-              "unit": "em",
-              "size": 1.25,
-              "sizes": []
-            },
-            "_margin": {
-              "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "14",
-              "left": "0",
-              "isLinked": false
-            },
-            "_margin_mobile": {
-              "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "10",
-              "left": "0",
-              "isLinked": false
-            }
-          },
-          "elements": []
-        },
-        {
-          "id": "inmevkz",
-          "elType": "widget",
-          "widgetType": "text-editor",
-          "settings": {
-            "editor": "<p>We bridge clinical dedication with financial excellence. Here is why independent physicians, surgical centers, and multi-specialty clinics choose StelleMed as their growth partner.</p>",
-            "align": "center",
-            "text_color": "#A3B9CC",
-            "typography_typography": "custom",
-            "typography_font_family": "Inter",
-            "typography_font_size": {
-              "unit": "px",
-              "size": 16,
-              "sizes": []
-            },
-            "typography_font_size_mobile": {
-              "unit": "px",
-              "size": 14.5,
-              "sizes": []
-            },
-            "typography_line_height": {
-              "unit": "em",
-              "size": 1.6,
-              "sizes": []
-            },
-            "_margin": {
-              "unit": "px",
-              "top": "0",
-              "right": "auto",
-              "bottom": "48",
-              "left": "auto",
-              "isLinked": false
-            },
-            "_margin_tablet": {
-              "unit": "px",
-              "top": "0",
-              "right": "auto",
-              "bottom": "36",
-              "left": "auto",
-              "isLinked": false
-            },
-            "_margin_mobile": {
-              "unit": "px",
-              "top": "0",
-              "right": "auto",
-              "bottom": "26",
-              "left": "auto",
-              "isLinked": false
-            }
-          },
-          "elements": []
-        },
-        {
-          "id": "itvu0f1",
-          "elType": "container",
-          "isInner": true,
-          "settings": {
-            "content_position": "stretch",
-            "column_position": "stretch",
-            "custom_css": "selector .elementor-container {\n  display: flex !important;\n  flex-wrap: wrap !important;\n  align-items: stretch !important;\n}\nselector .elementor-row {\n  display: flex !important;\n  flex-wrap: wrap !important;\n  align-items: stretch !important;\n}\nselector .elementor-column {\n  display: flex !important;\n  height: auto !important;\n}",
-            "content_width": "full",
-            "flex_direction": "row",
-            "flex_wrap": "wrap",
-            "flex_direction_mobile": "column"
+            "_column_size": 100
           },
           "elements": [
             {
-              "id": "lcva4kl",
-              "elType": "container",
-              "isInner": true,
+              "id": "lyiht7r",
+              "elType": "widget",
+              "widgetType": "heading",
               "settings": {
-                "_inline_size": 25,
-                "_inline_size_tablet": 50,
-                "_inline_size_mobile": 100,
-                "background_background": "classic",
-                "background_color": "#0E2536",
-                "border_border": "solid",
-                "border_width": {
+                "title": "<span style=\"display:inline-flex;align-items:center;gap:6px;padding:6px 16px;background-color:rgba(23,154,158,0.15);border:1px solid rgba(56,212,216,0.35);border-radius:50px;color:#38D4D8;font-size:12px;font-weight:800;letter-spacing:1px;text-transform:uppercase;\">🛡 THE STELLEMED ADVANTAGE</span>",
+                "header_size": "span",
+                "align": "center",
+                "title_color": "#38D4D8",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
                   "unit": "px",
-                  "top": "1",
-                  "right": "1",
-                  "bottom": "1",
-                  "left": "1",
-                  "isLinked": true
-                },
-                "border_color": "rgba(56, 212, 216, 0.18)",
-                "border_radius": {
-                  "unit": "px",
-                  "top": "16",
-                  "right": "16",
-                  "bottom": "16",
-                  "left": "16",
-                  "isLinked": true
-                },
-                "box_shadow_box_shadow_type": "yes",
-                "box_shadow_box_shadow": {
-                  "horizontal": 0,
-                  "vertical": 4,
-                  "blur": 16,
-                  "spread": 0,
-                  "color": "rgba(0, 0, 0, 0.25)"
-                },
-                "custom_css": "selector {\n  display: flex !important;\n  flex-direction: column !important;\n  height: 100% !important;\n}\nselector > .elementor-widget-wrap {\n  display: flex !important;\n  flex-direction: column !important;\n  flex-grow: 1 !important;\n  height: 100% !important;\n  width: 100% !important;\n}\n/* ICON POSITIONED EXACTLY AS IN PIC: Top-Left, 46x46px rounded square */\nselector .elementor-icon-box-wrapper {\n  text-align: left !important;\n  align-items: flex-start !important;\n}\nselector .elementor-icon-box-icon {\n  margin-left: 0 !important;\n  margin-right: auto !important;\n  margin-bottom: 18px !important;\n  width: 46px !important;\n  height: 46px !important;\n  border-radius: 10px !important;\n  background: rgba(23, 154, 158, 0.15) !important;\n  border: 1px solid rgba(56, 212, 216, 0.25) !important;\n  color: #38D4D8 !important;\n  display: inline-flex !important;\n  align-items: center !important;\n  justify-content: center !important;\n  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;\n  cursor: pointer !important;\n}\n/* USER REQUIREMENT: Hover GROW on the icon with GREEN fill */\nselector .elementor-icon-box-icon:hover,\nselector:hover .elementor-icon-box-icon {\n  transform: scale(1.1) !important;\n  background-color: #179A9E !important;\n  border-color: #179A9E !important;\n  color: #FFFFFF !important;\n  box-shadow: 0 6px 20px rgba(23, 154, 158, 0.45) !important;\n}\nselector .elementor-icon-box-icon:hover svg,\nselector .elementor-icon-box-icon:hover i,\nselector:hover .elementor-icon-box-icon svg,\nselector:hover .elementor-icon-box-icon i {\n  color: #FFFFFF !important;\n  fill: #FFFFFF !important;\n}",
-                "padding": {
-                  "unit": "px",
-                  "top": "28",
-                  "right": "22",
-                  "bottom": "28",
-                  "left": "22",
-                  "isLinked": false
-                },
-                "padding_tablet": {
-                  "unit": "px",
-                  "top": "24",
-                  "right": "20",
-                  "bottom": "24",
-                  "left": "20",
-                  "isLinked": false
-                },
-                "padding_mobile": {
-                  "unit": "px",
-                  "top": "22",
-                  "right": "18",
-                  "bottom": "22",
-                  "left": "18",
-                  "isLinked": false
-                },
-                "margin": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "24",
-                  "left": "0",
-                  "isLinked": false
-                },
-                "margin_tablet": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "20",
-                  "left": "0",
-                  "isLinked": false
-                },
-                "margin_mobile": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "16",
-                  "left": "0",
-                  "isLinked": false
-                },
-                "width": {
-                  "unit": "%",
-                  "size": 25,
+                  "size": 12,
                   "sizes": []
                 },
-                "flex_direction": "column"
-              },
-              "elements": [
-                {
-                  "id": "2qkridi",
-                  "elType": "widget",
-                  "widgetType": "icon-box",
-                  "settings": {
-                    "selected_icon": {
-                      "value": "fas fa-graduation-cap",
-                      "library": "fa-solid"
-                    },
-                    "icon": "fa fa-graduation-cap",
-                    "view": "stacked",
-                    "shape": "square",
-                    "position": "top",
-                    "align": "left",
-                    "align_tablet": "left",
-                    "align_mobile": "left",
-                    "primary_color": "rgba(23, 154, 158, 0.15)",
-                    "secondary_color": "#38D4D8",
-                    "hover_primary_color": "#179A9E",
-                    "hover_secondary_color": "#FFFFFF",
-                    "hover_animation": "grow",
-                    "icon_size": {
-                      "unit": "px",
-                      "size": 20,
-                      "sizes": []
-                    },
-                    "icon_padding": {
-                      "unit": "px",
-                      "size": 13,
-                      "sizes": []
-                    },
-                    "border_radius": {
-                      "unit": "px",
-                      "size": 10,
-                      "sizes": []
-                    },
-                    "icon_space": {
-                      "unit": "px",
-                      "size": 18,
-                      "sizes": []
-                    },
-                    "title_text": "Industry Expertise",
-                    "title_size": "h3",
-                    "title_color": "#FFFFFF",
-                    "title_typography_typography": "custom",
-                    "title_typography_font_family": "Plus Jakarta Sans",
-                    "title_typography_font_size": {
-                      "unit": "px",
-                      "size": 19,
-                      "sizes": []
-                    },
-                    "title_typography_font_size_mobile": {
-                      "unit": "px",
-                      "size": 17.5,
-                      "sizes": []
-                    },
-                    "title_typography_font_weight": "700",
-                    "title_typography_line_height": {
-                      "unit": "em",
-                      "size": 1.3,
-                      "sizes": []
-                    },
-                    "title_bottom_space": {
-                      "unit": "px",
-                      "size": 10,
-                      "sizes": []
-                    },
-                    "description_text": "Certified AAPC & AHIMA billing specialists who master the nuances of CPT, ICD-10, and payer-specific modifier guidelines for your clinical specialty.",
-                    "description_color": "#A3B9CC",
-                    "description_typography_typography": "custom",
-                    "description_typography_font_family": "Inter",
-                    "description_typography_font_size": {
-                      "unit": "px",
-                      "size": 13.5,
-                      "sizes": []
-                    },
-                    "description_typography_font_size_mobile": {
-                      "unit": "px",
-                      "size": 13,
-                      "sizes": []
-                    },
-                    "description_typography_line_height": {
-                      "unit": "em",
-                      "size": 1.6,
-                      "sizes": []
-                    },
-                    "_margin": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
-                    }
-                  },
-                  "elements": []
-                }
-              ]
-            },
-            {
-              "id": "hcci0xl",
-              "elType": "container",
-              "isInner": true,
-              "settings": {
-                "_inline_size": 25,
-                "_inline_size_tablet": 50,
-                "_inline_size_mobile": 100,
-                "background_background": "classic",
-                "background_color": "#0E2536",
-                "border_border": "solid",
-                "border_width": {
+                "typography_font_weight": "800",
+                "typography_letter_spacing": {
                   "unit": "px",
-                  "top": "1",
-                  "right": "1",
-                  "bottom": "1",
-                  "left": "1",
-                  "isLinked": true
-                },
-                "border_color": "rgba(56, 212, 216, 0.18)",
-                "border_radius": {
-                  "unit": "px",
-                  "top": "16",
-                  "right": "16",
-                  "bottom": "16",
-                  "left": "16",
-                  "isLinked": true
-                },
-                "box_shadow_box_shadow_type": "yes",
-                "box_shadow_box_shadow": {
-                  "horizontal": 0,
-                  "vertical": 4,
-                  "blur": 16,
-                  "spread": 0,
-                  "color": "rgba(0, 0, 0, 0.25)"
-                },
-                "custom_css": "selector {\n  display: flex !important;\n  flex-direction: column !important;\n  height: 100% !important;\n}\nselector > .elementor-widget-wrap {\n  display: flex !important;\n  flex-direction: column !important;\n  flex-grow: 1 !important;\n  height: 100% !important;\n  width: 100% !important;\n}\n/* ICON POSITIONED EXACTLY AS IN PIC: Top-Left, 46x46px rounded square */\nselector .elementor-icon-box-wrapper {\n  text-align: left !important;\n  align-items: flex-start !important;\n}\nselector .elementor-icon-box-icon {\n  margin-left: 0 !important;\n  margin-right: auto !important;\n  margin-bottom: 18px !important;\n  width: 46px !important;\n  height: 46px !important;\n  border-radius: 10px !important;\n  background: rgba(23, 154, 158, 0.15) !important;\n  border: 1px solid rgba(56, 212, 216, 0.25) !important;\n  color: #38D4D8 !important;\n  display: inline-flex !important;\n  align-items: center !important;\n  justify-content: center !important;\n  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;\n  cursor: pointer !important;\n}\n/* USER REQUIREMENT: Hover GROW on the icon with GREEN fill */\nselector .elementor-icon-box-icon:hover,\nselector:hover .elementor-icon-box-icon {\n  transform: scale(1.1) !important;\n  background-color: #179A9E !important;\n  border-color: #179A9E !important;\n  color: #FFFFFF !important;\n  box-shadow: 0 6px 20px rgba(23, 154, 158, 0.45) !important;\n}\nselector .elementor-icon-box-icon:hover svg,\nselector .elementor-icon-box-icon:hover i,\nselector:hover .elementor-icon-box-icon svg,\nselector:hover .elementor-icon-box-icon i {\n  color: #FFFFFF !important;\n  fill: #FFFFFF !important;\n}",
-                "padding": {
-                  "unit": "px",
-                  "top": "28",
-                  "right": "22",
-                  "bottom": "28",
-                  "left": "22",
-                  "isLinked": false
-                },
-                "padding_tablet": {
-                  "unit": "px",
-                  "top": "24",
-                  "right": "20",
-                  "bottom": "24",
-                  "left": "20",
-                  "isLinked": false
-                },
-                "padding_mobile": {
-                  "unit": "px",
-                  "top": "22",
-                  "right": "18",
-                  "bottom": "22",
-                  "left": "18",
-                  "isLinked": false
-                },
-                "margin": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "24",
-                  "left": "0",
-                  "isLinked": false
-                },
-                "margin_tablet": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "20",
-                  "left": "0",
-                  "isLinked": false
-                },
-                "margin_mobile": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "16",
-                  "left": "0",
-                  "isLinked": false
-                },
-                "width": {
-                  "unit": "%",
-                  "size": 25,
+                  "size": 1,
                   "sizes": []
                 },
-                "flex_direction": "column"
-              },
-              "elements": [
-                {
-                  "id": "chzut5t",
-                  "elType": "widget",
-                  "widgetType": "icon-box",
-                  "settings": {
-                    "selected_icon": {
-                      "value": "fas fa-user-check",
-                      "library": "fa-solid"
-                    },
-                    "icon": "fa fa-user-md",
-                    "view": "stacked",
-                    "shape": "square",
-                    "position": "top",
-                    "align": "left",
-                    "align_tablet": "left",
-                    "align_mobile": "left",
-                    "primary_color": "rgba(23, 154, 158, 0.15)",
-                    "secondary_color": "#38D4D8",
-                    "hover_primary_color": "#179A9E",
-                    "hover_secondary_color": "#FFFFFF",
-                    "hover_animation": "grow",
-                    "icon_size": {
-                      "unit": "px",
-                      "size": 20,
-                      "sizes": []
-                    },
-                    "icon_padding": {
-                      "unit": "px",
-                      "size": 13,
-                      "sizes": []
-                    },
-                    "border_radius": {
-                      "unit": "px",
-                      "size": 10,
-                      "sizes": []
-                    },
-                    "icon_space": {
-                      "unit": "px",
-                      "size": 18,
-                      "sizes": []
-                    },
-                    "title_text": "Dedicated Support",
-                    "title_size": "h3",
-                    "title_color": "#FFFFFF",
-                    "title_typography_typography": "custom",
-                    "title_typography_font_family": "Plus Jakarta Sans",
-                    "title_typography_font_size": {
-                      "unit": "px",
-                      "size": 19,
-                      "sizes": []
-                    },
-                    "title_typography_font_size_mobile": {
-                      "unit": "px",
-                      "size": 17.5,
-                      "sizes": []
-                    },
-                    "title_typography_font_weight": "700",
-                    "title_typography_line_height": {
-                      "unit": "em",
-                      "size": 1.3,
-                      "sizes": []
-                    },
-                    "title_bottom_space": {
-                      "unit": "px",
-                      "size": 10,
-                      "sizes": []
-                    },
-                    "description_text": "One assigned account manager who knows your practice inside and out. Direct phone and email access — zero frustrating ticket queues.",
-                    "description_color": "#A3B9CC",
-                    "description_typography_typography": "custom",
-                    "description_typography_font_family": "Inter",
-                    "description_typography_font_size": {
-                      "unit": "px",
-                      "size": 13.5,
-                      "sizes": []
-                    },
-                    "description_typography_font_size_mobile": {
-                      "unit": "px",
-                      "size": 13,
-                      "sizes": []
-                    },
-                    "description_typography_line_height": {
-                      "unit": "em",
-                      "size": 1.6,
-                      "sizes": []
-                    },
-                    "_margin": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
-                    }
-                  },
-                  "elements": []
-                }
-              ]
-            },
-            {
-              "id": "k0gdg0z",
-              "elType": "container",
-              "isInner": true,
-              "settings": {
-                "_inline_size": 25,
-                "_inline_size_tablet": 50,
-                "_inline_size_mobile": 100,
-                "background_background": "classic",
-                "background_color": "#0E2536",
-                "border_border": "solid",
-                "border_width": {
-                  "unit": "px",
-                  "top": "1",
-                  "right": "1",
-                  "bottom": "1",
-                  "left": "1",
-                  "isLinked": true
-                },
-                "border_color": "rgba(56, 212, 216, 0.18)",
-                "border_radius": {
-                  "unit": "px",
-                  "top": "16",
-                  "right": "16",
-                  "bottom": "16",
-                  "left": "16",
-                  "isLinked": true
-                },
-                "box_shadow_box_shadow_type": "yes",
-                "box_shadow_box_shadow": {
-                  "horizontal": 0,
-                  "vertical": 4,
-                  "blur": 16,
-                  "spread": 0,
-                  "color": "rgba(0, 0, 0, 0.25)"
-                },
-                "custom_css": "selector {\n  display: flex !important;\n  flex-direction: column !important;\n  height: 100% !important;\n}\nselector > .elementor-widget-wrap {\n  display: flex !important;\n  flex-direction: column !important;\n  flex-grow: 1 !important;\n  height: 100% !important;\n  width: 100% !important;\n}\n/* ICON POSITIONED EXACTLY AS IN PIC: Top-Left, 46x46px rounded square */\nselector .elementor-icon-box-wrapper {\n  text-align: left !important;\n  align-items: flex-start !important;\n}\nselector .elementor-icon-box-icon {\n  margin-left: 0 !important;\n  margin-right: auto !important;\n  margin-bottom: 18px !important;\n  width: 46px !important;\n  height: 46px !important;\n  border-radius: 10px !important;\n  background: rgba(23, 154, 158, 0.15) !important;\n  border: 1px solid rgba(56, 212, 216, 0.25) !important;\n  color: #38D4D8 !important;\n  display: inline-flex !important;\n  align-items: center !important;\n  justify-content: center !important;\n  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;\n  cursor: pointer !important;\n}\n/* USER REQUIREMENT: Hover GROW on the icon with GREEN fill */\nselector .elementor-icon-box-icon:hover,\nselector:hover .elementor-icon-box-icon {\n  transform: scale(1.1) !important;\n  background-color: #179A9E !important;\n  border-color: #179A9E !important;\n  color: #FFFFFF !important;\n  box-shadow: 0 6px 20px rgba(23, 154, 158, 0.45) !important;\n}\nselector .elementor-icon-box-icon:hover svg,\nselector .elementor-icon-box-icon:hover i,\nselector:hover .elementor-icon-box-icon svg,\nselector:hover .elementor-icon-box-icon i {\n  color: #FFFFFF !important;\n  fill: #FFFFFF !important;\n}",
-                "padding": {
-                  "unit": "px",
-                  "top": "28",
-                  "right": "22",
-                  "bottom": "28",
-                  "left": "22",
-                  "isLinked": false
-                },
-                "padding_tablet": {
-                  "unit": "px",
-                  "top": "24",
-                  "right": "20",
-                  "bottom": "24",
-                  "left": "20",
-                  "isLinked": false
-                },
-                "padding_mobile": {
-                  "unit": "px",
-                  "top": "22",
-                  "right": "18",
-                  "bottom": "22",
-                  "left": "18",
-                  "isLinked": false
-                },
-                "margin": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "24",
-                  "left": "0",
-                  "isLinked": false
-                },
-                "margin_tablet": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "20",
-                  "left": "0",
-                  "isLinked": false
-                },
-                "margin_mobile": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "16",
-                  "left": "0",
-                  "isLinked": false
-                },
-                "width": {
-                  "unit": "%",
-                  "size": 25,
-                  "sizes": []
-                },
-                "flex_direction": "column"
-              },
-              "elements": [
-                {
-                  "id": "fqaubn3",
-                  "elType": "widget",
-                  "widgetType": "icon-box",
-                  "settings": {
-                    "selected_icon": {
-                      "value": "fas fa-shield-alt",
-                      "library": "fa-solid"
-                    },
-                    "icon": "fa fa-shield",
-                    "view": "stacked",
-                    "shape": "square",
-                    "position": "top",
-                    "align": "left",
-                    "align_tablet": "left",
-                    "align_mobile": "left",
-                    "primary_color": "rgba(23, 154, 158, 0.15)",
-                    "secondary_color": "#38D4D8",
-                    "hover_primary_color": "#179A9E",
-                    "hover_secondary_color": "#FFFFFF",
-                    "hover_animation": "grow",
-                    "icon_size": {
-                      "unit": "px",
-                      "size": 20,
-                      "sizes": []
-                    },
-                    "icon_padding": {
-                      "unit": "px",
-                      "size": 13,
-                      "sizes": []
-                    },
-                    "border_radius": {
-                      "unit": "px",
-                      "size": 10,
-                      "sizes": []
-                    },
-                    "icon_space": {
-                      "unit": "px",
-                      "size": 18,
-                      "sizes": []
-                    },
-                    "title_text": "Advanced Technology",
-                    "title_size": "h3",
-                    "title_color": "#FFFFFF",
-                    "title_typography_typography": "custom",
-                    "title_typography_font_family": "Plus Jakarta Sans",
-                    "title_typography_font_size": {
-                      "unit": "px",
-                      "size": 19,
-                      "sizes": []
-                    },
-                    "title_typography_font_size_mobile": {
-                      "unit": "px",
-                      "size": 17.5,
-                      "sizes": []
-                    },
-                    "title_typography_font_weight": "700",
-                    "title_typography_line_height": {
-                      "unit": "em",
-                      "size": 1.3,
-                      "sizes": []
-                    },
-                    "title_bottom_space": {
-                      "unit": "px",
-                      "size": 10,
-                      "sizes": []
-                    },
-                    "description_text": "Powered by StelleCloud™: automated claim scrubbers, 256-bit HIPAA compliance, seamless EHR synchronization, and 24/7 client portal access.",
-                    "description_color": "#A3B9CC",
-                    "description_typography_typography": "custom",
-                    "description_typography_font_family": "Inter",
-                    "description_typography_font_size": {
-                      "unit": "px",
-                      "size": 13.5,
-                      "sizes": []
-                    },
-                    "description_typography_font_size_mobile": {
-                      "unit": "px",
-                      "size": 13,
-                      "sizes": []
-                    },
-                    "description_typography_line_height": {
-                      "unit": "em",
-                      "size": 1.6,
-                      "sizes": []
-                    },
-                    "_margin": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
-                    }
-                  },
-                  "elements": []
-                }
-              ]
-            },
-            {
-              "id": "hunqin9",
-              "elType": "container",
-              "isInner": true,
-              "settings": {
-                "_inline_size": 25,
-                "_inline_size_tablet": 50,
-                "_inline_size_mobile": 100,
-                "background_background": "classic",
-                "background_color": "#0E2536",
-                "border_border": "solid",
-                "border_width": {
-                  "unit": "px",
-                  "top": "1",
-                  "right": "1",
-                  "bottom": "1",
-                  "left": "1",
-                  "isLinked": true
-                },
-                "border_color": "rgba(56, 212, 216, 0.18)",
-                "border_radius": {
-                  "unit": "px",
-                  "top": "16",
-                  "right": "16",
-                  "bottom": "16",
-                  "left": "16",
-                  "isLinked": true
-                },
-                "box_shadow_box_shadow_type": "yes",
-                "box_shadow_box_shadow": {
-                  "horizontal": 0,
-                  "vertical": 4,
-                  "blur": 16,
-                  "spread": 0,
-                  "color": "rgba(0, 0, 0, 0.25)"
-                },
-                "custom_css": "selector {\n  display: flex !important;\n  flex-direction: column !important;\n  height: 100% !important;\n}\nselector > .elementor-widget-wrap {\n  display: flex !important;\n  flex-direction: column !important;\n  flex-grow: 1 !important;\n  height: 100% !important;\n  width: 100% !important;\n}\n/* ICON POSITIONED EXACTLY AS IN PIC: Top-Left, 46x46px rounded square */\nselector .elementor-icon-box-wrapper {\n  text-align: left !important;\n  align-items: flex-start !important;\n}\nselector .elementor-icon-box-icon {\n  margin-left: 0 !important;\n  margin-right: auto !important;\n  margin-bottom: 18px !important;\n  width: 46px !important;\n  height: 46px !important;\n  border-radius: 10px !important;\n  background: rgba(23, 154, 158, 0.15) !important;\n  border: 1px solid rgba(56, 212, 216, 0.25) !important;\n  color: #38D4D8 !important;\n  display: inline-flex !important;\n  align-items: center !important;\n  justify-content: center !important;\n  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;\n  cursor: pointer !important;\n}\n/* USER REQUIREMENT: Hover GROW on the icon with GREEN fill */\nselector .elementor-icon-box-icon:hover,\nselector:hover .elementor-icon-box-icon {\n  transform: scale(1.1) !important;\n  background-color: #179A9E !important;\n  border-color: #179A9E !important;\n  color: #FFFFFF !important;\n  box-shadow: 0 6px 20px rgba(23, 154, 158, 0.45) !important;\n}\nselector .elementor-icon-box-icon:hover svg,\nselector .elementor-icon-box-icon:hover i,\nselector:hover .elementor-icon-box-icon svg,\nselector:hover .elementor-icon-box-icon i {\n  color: #FFFFFF !important;\n  fill: #FFFFFF !important;\n}",
-                "padding": {
-                  "unit": "px",
-                  "top": "28",
-                  "right": "22",
-                  "bottom": "28",
-                  "left": "22",
-                  "isLinked": false
-                },
-                "padding_tablet": {
-                  "unit": "px",
-                  "top": "24",
-                  "right": "20",
-                  "bottom": "24",
-                  "left": "20",
-                  "isLinked": false
-                },
-                "padding_mobile": {
-                  "unit": "px",
-                  "top": "22",
-                  "right": "18",
-                  "bottom": "22",
-                  "left": "18",
-                  "isLinked": false
-                },
-                "margin": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "24",
-                  "left": "0",
-                  "isLinked": false
-                },
-                "margin_tablet": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "20",
-                  "left": "0",
-                  "isLinked": false
-                },
-                "margin_mobile": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "16",
-                  "left": "0",
-                  "isLinked": false
-                },
-                "width": {
-                  "unit": "%",
-                  "size": 25,
-                  "sizes": []
-                },
-                "flex_direction": "column"
-              },
-              "elements": [
-                {
-                  "id": "cxirbnq",
-                  "elType": "widget",
-                  "widgetType": "icon-box",
-                  "settings": {
-                    "selected_icon": {
-                      "value": "fas fa-chart-bar",
-                      "library": "fa-solid"
-                    },
-                    "icon": "fa fa-bar-chart",
-                    "view": "stacked",
-                    "shape": "square",
-                    "position": "top",
-                    "align": "left",
-                    "align_tablet": "left",
-                    "align_mobile": "left",
-                    "primary_color": "rgba(23, 154, 158, 0.15)",
-                    "secondary_color": "#38D4D8",
-                    "hover_primary_color": "#179A9E",
-                    "hover_secondary_color": "#FFFFFF",
-                    "hover_animation": "grow",
-                    "icon_size": {
-                      "unit": "px",
-                      "size": 20,
-                      "sizes": []
-                    },
-                    "icon_padding": {
-                      "unit": "px",
-                      "size": 13,
-                      "sizes": []
-                    },
-                    "border_radius": {
-                      "unit": "px",
-                      "size": 10,
-                      "sizes": []
-                    },
-                    "icon_space": {
-                      "unit": "px",
-                      "size": 18,
-                      "sizes": []
-                    },
-                    "title_text": "Transparent Reporting",
-                    "title_size": "h3",
-                    "title_color": "#FFFFFF",
-                    "title_typography_typography": "custom",
-                    "title_typography_font_family": "Plus Jakarta Sans",
-                    "title_typography_font_size": {
-                      "unit": "px",
-                      "size": 19,
-                      "sizes": []
-                    },
-                    "title_typography_font_size_mobile": {
-                      "unit": "px",
-                      "size": 17.5,
-                      "sizes": []
-                    },
-                    "title_typography_font_weight": "700",
-                    "title_typography_line_height": {
-                      "unit": "em",
-                      "size": 1.3,
-                      "sizes": []
-                    },
-                    "title_bottom_space": {
-                      "unit": "px",
-                      "size": 10,
-                      "sizes": []
-                    },
-                    "description_text": "Comprehensive monthly financial dashboards and quarterly performance reviews. Track every billed dollar, denial reason, and recovery milestone.",
-                    "description_color": "#A3B9CC",
-                    "description_typography_typography": "custom",
-                    "description_typography_font_family": "Inter",
-                    "description_typography_font_size": {
-                      "unit": "px",
-                      "size": 13.5,
-                      "sizes": []
-                    },
-                    "description_typography_font_size_mobile": {
-                      "unit": "px",
-                      "size": 13,
-                      "sizes": []
-                    },
-                    "description_typography_line_height": {
-                      "unit": "em",
-                      "size": 1.6,
-                      "sizes": []
-                    },
-                    "_margin": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
-                    }
-                  },
-                  "elements": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "tf3526r",
-          "elType": "container",
-          "isInner": true,
-          "settings": {
-            "background_background": "classic",
-            "background_color": "rgba(23, 154, 158, 0.12)",
-            "border_border": "solid",
-            "border_width": {
-              "unit": "px",
-              "top": "1",
-              "right": "1",
-              "bottom": "1",
-              "left": "1",
-              "isLinked": true
-            },
-            "border_color": "rgba(56, 212, 216, 0.28)",
-            "border_radius": {
-              "unit": "px",
-              "top": "16",
-              "right": "16",
-              "bottom": "16",
-              "left": "16",
-              "isLinked": true
-            },
-            "padding": {
-              "unit": "px",
-              "top": "22",
-              "right": "30",
-              "bottom": "22",
-              "left": "30",
-              "isLinked": false
-            },
-            "margin": {
-              "unit": "px",
-              "top": "32",
-              "right": "0",
-              "bottom": "0",
-              "left": "0",
-              "isLinked": false
-            },
-            "custom_css": "selector .elementor-container {\n  display: flex !important;\n  align-items: center !important;\n  justify-content: space-between !important;\n  flex-wrap: wrap !important;\n}",
-            "content_width": "full",
-            "flex_direction": "row",
-            "flex_wrap": "wrap",
-            "flex_direction_mobile": "column"
-          },
-          "elements": [
-            {
-              "id": "q3rdnrl",
-              "elType": "container",
-              "isInner": true,
-              "settings": {
-                "_inline_size": 72,
-                "_inline_size_mobile": 100,
                 "_margin": {
                   "unit": "px",
                   "top": "0",
                   "right": "0",
-                  "bottom": "0",
+                  "bottom": "16",
                   "left": "0",
-                  "isLinked": true
+                  "isLinked": false
                 },
-                "width": {
-                  "unit": "%",
-                  "size": 72,
-                  "sizes": []
-                },
-                "flex_direction": "column"
-              },
-              "elements": [
-                {
-                  "id": "joysw8g",
-                  "elType": "widget",
-                  "widgetType": "icon-box",
-                  "settings": {
-                    "selected_icon": {
-                      "value": "fas fa-check-circle",
-                      "library": "fa-solid"
-                    },
-                    "icon": "fa fa-check-circle",
-                    "view": "stacked",
-                    "shape": "circle",
-                    "position": "left",
-                    "align": "left",
-                    "primary_color": "#179A9E",
-                    "secondary_color": "#FFFFFF",
-                    "icon_size": {
-                      "unit": "px",
-                      "size": 20,
-                      "sizes": []
-                    },
-                    "icon_padding": {
-                      "unit": "px",
-                      "size": 11,
-                      "sizes": []
-                    },
-                    "icon_space": {
-                      "unit": "px",
-                      "size": 16,
-                      "sizes": []
-                    },
-                    "title_text": "Zero Risk, No Long-Term Contracts",
-                    "title_size": "h4",
-                    "title_color": "#FFFFFF",
-                    "title_typography_typography": "custom",
-                    "title_typography_font_family": "Plus Jakarta Sans",
-                    "title_typography_font_size": {
-                      "unit": "px",
-                      "size": 17,
-                      "sizes": []
-                    },
-                    "title_typography_font_weight": "700",
-                    "title_bottom_space": {
-                      "unit": "px",
-                      "size": 4,
-                      "sizes": []
-                    },
-                    "description_text": "Start with a simple month-to-month agreement. If we don’t elevate your collections, you’re never locked in.",
-                    "description_color": "#A3B9CC",
-                    "description_typography_typography": "custom",
-                    "description_typography_font_family": "Inter",
-                    "description_typography_font_size": {
-                      "unit": "px",
-                      "size": 13.5,
-                      "sizes": []
-                    },
-                    "description_typography_line_height": {
-                      "unit": "em",
-                      "size": 1.45,
-                      "sizes": []
-                    },
-                    "_margin": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
-                    }
-                  },
-                  "elements": []
+                "_margin_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "12",
+                  "left": "0",
+                  "isLinked": false
                 }
-              ]
+              }
             },
             {
-              "id": "wmnbsf6",
-              "elType": "container",
-              "isInner": true,
+              "id": "n3qwaqm",
+              "elType": "widget",
+              "widgetType": "heading",
               "settings": {
-                "_inline_size": 28,
-                "_inline_size_mobile": 100,
+                "title": "Your Trusted Partner in <span style=\"color: #38D4D8;\">Medical Billing</span>",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 40,
+                  "sizes": []
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 32,
+                  "sizes": []
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 26,
+                  "sizes": []
+                },
+                "typography_font_weight": "800",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.25,
+                  "sizes": []
+                },
                 "_margin": {
                   "unit": "px",
                   "top": "0",
                   "right": "0",
-                  "bottom": "0",
+                  "bottom": "14",
                   "left": "0",
-                  "isLinked": true
+                  "isLinked": false
                 },
-                "width": {
-                  "unit": "%",
-                  "size": 28,
+                "_margin_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "10",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "inmevkz",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>We bridge clinical dedication with financial excellence. Here is why independent physicians, surgical centers, and multi-specialty clinics choose StelleMed as their growth partner.</p>",
+                "align": "center",
+                "text_color": "#A3B9CC",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16,
                   "sizes": []
                 },
-                "flex_direction": "column"
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 14.5,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.6,
+                  "sizes": []
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "auto",
+                  "bottom": "48",
+                  "left": "auto",
+                  "isLinked": false
+                },
+                "_margin_tablet": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "auto",
+                  "bottom": "36",
+                  "left": "auto",
+                  "isLinked": false
+                },
+                "_margin_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "auto",
+                  "bottom": "26",
+                  "left": "auto",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "itvu0f1",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "layout": "boxed",
+                "gap": "extended",
+                "content_position": "stretch",
+                "column_position": "stretch",
+                "custom_css": "selector .elementor-container {\n  display: flex !important;\n  flex-wrap: wrap !important;\n  align-items: stretch !important;\n}\nselector .elementor-row {\n  display: flex !important;\n  flex-wrap: wrap !important;\n  align-items: stretch !important;\n}\nselector .elementor-column {\n  display: flex !important;\n  height: auto !important;\n}"
               },
               "elements": [
                 {
-                  "id": "f26dq72",
-                  "elType": "widget",
-                  "widgetType": "button",
+                  "id": "lcva4kl",
+                  "elType": "column",
                   "settings": {
-                    "text": "Request Practice Audit ↗",
-                    "align": "right",
-                    "align_mobile": "center",
-                    "size": "md",
-                    "link": {
-                      "url": "#open-audit-modal",
-                      "is_external": false,
-                      "nofollow": false
-                    },
-                    "typography_typography": "custom",
-                    "typography_font_family": "Plus Jakarta Sans",
-                    "typography_font_size": {
+                    "_column_size": 25,
+                    "_inline_size": 25,
+                    "_inline_size_tablet": 50,
+                    "_inline_size_mobile": 100,
+                    "background_background": "classic",
+                    "background_color": "#0E2536",
+                    "border_border": "solid",
+                    "border_width": {
                       "unit": "px",
-                      "size": 14.5,
-                      "sizes": []
-                    },
-                    "typography_font_weight": "700",
-                    "border_radius": {
-                      "unit": "px",
-                      "top": "8",
-                      "right": "8",
-                      "bottom": "8",
-                      "left": "8",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
                       "isLinked": true
                     },
+                    "border_color": "rgba(56, 212, 216, 0.18)",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "16",
+                      "bottom": "16",
+                      "left": "16",
+                      "isLinked": true
+                    },
+                    "box_shadow_box_shadow_type": "yes",
+                    "box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 4,
+                      "blur": 16,
+                      "spread": 0,
+                      "color": "rgba(0, 0, 0, 0.25)"
+                    },
+                    "custom_css": "selector {\n  display: flex !important;\n  flex-direction: column !important;\n  height: 100% !important;\n}\nselector > .elementor-widget-wrap {\n  display: flex !important;\n  flex-direction: column !important;\n  flex-grow: 1 !important;\n  height: 100% !important;\n  width: 100% !important;\n}\n/* ICON POSITIONED EXACTLY AS IN PIC: Top-Left, 46x46px rounded square */\nselector .elementor-icon-box-wrapper {\n  text-align: left !important;\n  align-items: flex-start !important;\n}\nselector .elementor-icon-box-icon {\n  margin-left: 0 !important;\n  margin-right: auto !important;\n  margin-bottom: 18px !important;\n  width: 46px !important;\n  height: 46px !important;\n  border-radius: 10px !important;\n  background: rgba(23, 154, 158, 0.15) !important;\n  border: 1px solid rgba(56, 212, 216, 0.25) !important;\n  color: #38D4D8 !important;\n  display: inline-flex !important;\n  align-items: center !important;\n  justify-content: center !important;\n  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;\n  cursor: pointer !important;\n}\n/* USER REQUIREMENT: Hover GROW on the icon with GREEN fill */\nselector .elementor-icon-box-icon:hover,\nselector:hover .elementor-icon-box-icon {\n  transform: scale(1.1) !important;\n  background-color: #179A9E !important;\n  border-color: #179A9E !important;\n  color: #FFFFFF !important;\n  box-shadow: 0 6px 20px rgba(23, 154, 158, 0.45) !important;\n}\nselector .elementor-icon-box-icon:hover svg,\nselector .elementor-icon-box-icon:hover i,\nselector:hover .elementor-icon-box-icon svg,\nselector:hover .elementor-icon-box-icon i {\n  color: #FFFFFF !important;\n  fill: #FFFFFF !important;\n}",
                     "padding": {
                       "unit": "px",
-                      "top": "12",
+                      "top": "28",
                       "right": "22",
-                      "bottom": "12",
+                      "bottom": "28",
                       "left": "22",
                       "isLinked": false
                     },
-                    "background_color": "#179A9E",
-                    "button_text_color": "#FFFFFF",
-                    "button_background_hover_color": "#102C40",
-                    "border_hover_color": "#102C40",
-                    "hover_color": "#FFFFFF",
-                    "button_hover_transition": {
-                      "unit": "s",
-                      "size": 0.3
+                    "padding_tablet": {
+                      "unit": "px",
+                      "top": "24",
+                      "right": "20",
+                      "bottom": "24",
+                      "left": "20",
+                      "isLinked": false
                     },
-                    "custom_css": "selector .elementor-button { transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important; background-color: #179A9E !important; color: #FFFFFF !important; }\nselector .elementor-button:hover { background-color: #102C40 !important; color: #FFFFFF !important; border-color: #102C40 !important; transform: translateY(-2px); box-shadow: 0 8px 18px rgba(16, 44, 64, 0.25) !important; }"
+                    "padding_mobile": {
+                      "unit": "px",
+                      "top": "22",
+                      "right": "18",
+                      "bottom": "22",
+                      "left": "18",
+                      "isLinked": false
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "24",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "margin_tablet": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "20",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "margin_mobile": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "16",
+                      "left": "0",
+                      "isLinked": false
+                    }
                   },
-                  "elements": []
+                  "elements": [
+                    {
+                      "id": "2qkridi",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-graduation-cap",
+                          "library": "fa-solid"
+                        },
+                        "icon": "fa fa-graduation-cap",
+                        "view": "stacked",
+                        "shape": "square",
+                        "position": "top",
+                        "align": "left",
+                        "align_tablet": "left",
+                        "align_mobile": "left",
+                        "primary_color": "rgba(23, 154, 158, 0.15)",
+                        "secondary_color": "#38D4D8",
+                        "hover_primary_color": "#179A9E",
+                        "hover_secondary_color": "#FFFFFF",
+                        "hover_animation": "grow",
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 20,
+                          "sizes": []
+                        },
+                        "icon_padding": {
+                          "unit": "px",
+                          "size": 13,
+                          "sizes": []
+                        },
+                        "border_radius": {
+                          "unit": "px",
+                          "size": 10,
+                          "sizes": []
+                        },
+                        "icon_space": {
+                          "unit": "px",
+                          "size": 18,
+                          "sizes": []
+                        },
+                        "title_text": "Industry Expertise",
+                        "title_size": "h3",
+                        "title_color": "#FFFFFF",
+                        "title_typography_typography": "custom",
+                        "title_typography_font_family": "Plus Jakarta Sans",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 19,
+                          "sizes": []
+                        },
+                        "title_typography_font_size_mobile": {
+                          "unit": "px",
+                          "size": 17.5,
+                          "sizes": []
+                        },
+                        "title_typography_font_weight": "700",
+                        "title_typography_line_height": {
+                          "unit": "em",
+                          "size": 1.3,
+                          "sizes": []
+                        },
+                        "title_bottom_space": {
+                          "unit": "px",
+                          "size": 10,
+                          "sizes": []
+                        },
+                        "description_text": "Certified AAPC & AHIMA billing specialists who master the nuances of CPT, ICD-10, and payer-specific modifier guidelines for your clinical specialty.",
+                        "description_color": "#A3B9CC",
+                        "description_typography_typography": "custom",
+                        "description_typography_font_family": "Inter",
+                        "description_typography_font_size": {
+                          "unit": "px",
+                          "size": 13.5,
+                          "sizes": []
+                        },
+                        "description_typography_font_size_mobile": {
+                          "unit": "px",
+                          "size": 13,
+                          "sizes": []
+                        },
+                        "description_typography_line_height": {
+                          "unit": "em",
+                          "size": 1.6,
+                          "sizes": []
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "hcci0xl",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 25,
+                    "_inline_size": 25,
+                    "_inline_size_tablet": 50,
+                    "_inline_size_mobile": 100,
+                    "background_background": "classic",
+                    "background_color": "#0E2536",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "rgba(56, 212, 216, 0.18)",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "16",
+                      "bottom": "16",
+                      "left": "16",
+                      "isLinked": true
+                    },
+                    "box_shadow_box_shadow_type": "yes",
+                    "box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 4,
+                      "blur": 16,
+                      "spread": 0,
+                      "color": "rgba(0, 0, 0, 0.25)"
+                    },
+                    "custom_css": "selector {\n  display: flex !important;\n  flex-direction: column !important;\n  height: 100% !important;\n}\nselector > .elementor-widget-wrap {\n  display: flex !important;\n  flex-direction: column !important;\n  flex-grow: 1 !important;\n  height: 100% !important;\n  width: 100% !important;\n}\n/* ICON POSITIONED EXACTLY AS IN PIC: Top-Left, 46x46px rounded square */\nselector .elementor-icon-box-wrapper {\n  text-align: left !important;\n  align-items: flex-start !important;\n}\nselector .elementor-icon-box-icon {\n  margin-left: 0 !important;\n  margin-right: auto !important;\n  margin-bottom: 18px !important;\n  width: 46px !important;\n  height: 46px !important;\n  border-radius: 10px !important;\n  background: rgba(23, 154, 158, 0.15) !important;\n  border: 1px solid rgba(56, 212, 216, 0.25) !important;\n  color: #38D4D8 !important;\n  display: inline-flex !important;\n  align-items: center !important;\n  justify-content: center !important;\n  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;\n  cursor: pointer !important;\n}\n/* USER REQUIREMENT: Hover GROW on the icon with GREEN fill */\nselector .elementor-icon-box-icon:hover,\nselector:hover .elementor-icon-box-icon {\n  transform: scale(1.1) !important;\n  background-color: #179A9E !important;\n  border-color: #179A9E !important;\n  color: #FFFFFF !important;\n  box-shadow: 0 6px 20px rgba(23, 154, 158, 0.45) !important;\n}\nselector .elementor-icon-box-icon:hover svg,\nselector .elementor-icon-box-icon:hover i,\nselector:hover .elementor-icon-box-icon svg,\nselector:hover .elementor-icon-box-icon i {\n  color: #FFFFFF !important;\n  fill: #FFFFFF !important;\n}",
+                    "padding": {
+                      "unit": "px",
+                      "top": "28",
+                      "right": "22",
+                      "bottom": "28",
+                      "left": "22",
+                      "isLinked": false
+                    },
+                    "padding_tablet": {
+                      "unit": "px",
+                      "top": "24",
+                      "right": "20",
+                      "bottom": "24",
+                      "left": "20",
+                      "isLinked": false
+                    },
+                    "padding_mobile": {
+                      "unit": "px",
+                      "top": "22",
+                      "right": "18",
+                      "bottom": "22",
+                      "left": "18",
+                      "isLinked": false
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "24",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "margin_tablet": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "20",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "margin_mobile": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "16",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "chzut5t",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-user-check",
+                          "library": "fa-solid"
+                        },
+                        "icon": "fa fa-user-md",
+                        "view": "stacked",
+                        "shape": "square",
+                        "position": "top",
+                        "align": "left",
+                        "align_tablet": "left",
+                        "align_mobile": "left",
+                        "primary_color": "rgba(23, 154, 158, 0.15)",
+                        "secondary_color": "#38D4D8",
+                        "hover_primary_color": "#179A9E",
+                        "hover_secondary_color": "#FFFFFF",
+                        "hover_animation": "grow",
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 20,
+                          "sizes": []
+                        },
+                        "icon_padding": {
+                          "unit": "px",
+                          "size": 13,
+                          "sizes": []
+                        },
+                        "border_radius": {
+                          "unit": "px",
+                          "size": 10,
+                          "sizes": []
+                        },
+                        "icon_space": {
+                          "unit": "px",
+                          "size": 18,
+                          "sizes": []
+                        },
+                        "title_text": "Dedicated Support",
+                        "title_size": "h3",
+                        "title_color": "#FFFFFF",
+                        "title_typography_typography": "custom",
+                        "title_typography_font_family": "Plus Jakarta Sans",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 19,
+                          "sizes": []
+                        },
+                        "title_typography_font_size_mobile": {
+                          "unit": "px",
+                          "size": 17.5,
+                          "sizes": []
+                        },
+                        "title_typography_font_weight": "700",
+                        "title_typography_line_height": {
+                          "unit": "em",
+                          "size": 1.3,
+                          "sizes": []
+                        },
+                        "title_bottom_space": {
+                          "unit": "px",
+                          "size": 10,
+                          "sizes": []
+                        },
+                        "description_text": "One assigned account manager who knows your practice inside and out. Direct phone and email access — zero frustrating ticket queues.",
+                        "description_color": "#A3B9CC",
+                        "description_typography_typography": "custom",
+                        "description_typography_font_family": "Inter",
+                        "description_typography_font_size": {
+                          "unit": "px",
+                          "size": 13.5,
+                          "sizes": []
+                        },
+                        "description_typography_font_size_mobile": {
+                          "unit": "px",
+                          "size": 13,
+                          "sizes": []
+                        },
+                        "description_typography_line_height": {
+                          "unit": "em",
+                          "size": 1.6,
+                          "sizes": []
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "k0gdg0z",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 25,
+                    "_inline_size": 25,
+                    "_inline_size_tablet": 50,
+                    "_inline_size_mobile": 100,
+                    "background_background": "classic",
+                    "background_color": "#0E2536",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "rgba(56, 212, 216, 0.18)",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "16",
+                      "bottom": "16",
+                      "left": "16",
+                      "isLinked": true
+                    },
+                    "box_shadow_box_shadow_type": "yes",
+                    "box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 4,
+                      "blur": 16,
+                      "spread": 0,
+                      "color": "rgba(0, 0, 0, 0.25)"
+                    },
+                    "custom_css": "selector {\n  display: flex !important;\n  flex-direction: column !important;\n  height: 100% !important;\n}\nselector > .elementor-widget-wrap {\n  display: flex !important;\n  flex-direction: column !important;\n  flex-grow: 1 !important;\n  height: 100% !important;\n  width: 100% !important;\n}\n/* ICON POSITIONED EXACTLY AS IN PIC: Top-Left, 46x46px rounded square */\nselector .elementor-icon-box-wrapper {\n  text-align: left !important;\n  align-items: flex-start !important;\n}\nselector .elementor-icon-box-icon {\n  margin-left: 0 !important;\n  margin-right: auto !important;\n  margin-bottom: 18px !important;\n  width: 46px !important;\n  height: 46px !important;\n  border-radius: 10px !important;\n  background: rgba(23, 154, 158, 0.15) !important;\n  border: 1px solid rgba(56, 212, 216, 0.25) !important;\n  color: #38D4D8 !important;\n  display: inline-flex !important;\n  align-items: center !important;\n  justify-content: center !important;\n  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;\n  cursor: pointer !important;\n}\n/* USER REQUIREMENT: Hover GROW on the icon with GREEN fill */\nselector .elementor-icon-box-icon:hover,\nselector:hover .elementor-icon-box-icon {\n  transform: scale(1.1) !important;\n  background-color: #179A9E !important;\n  border-color: #179A9E !important;\n  color: #FFFFFF !important;\n  box-shadow: 0 6px 20px rgba(23, 154, 158, 0.45) !important;\n}\nselector .elementor-icon-box-icon:hover svg,\nselector .elementor-icon-box-icon:hover i,\nselector:hover .elementor-icon-box-icon svg,\nselector:hover .elementor-icon-box-icon i {\n  color: #FFFFFF !important;\n  fill: #FFFFFF !important;\n}",
+                    "padding": {
+                      "unit": "px",
+                      "top": "28",
+                      "right": "22",
+                      "bottom": "28",
+                      "left": "22",
+                      "isLinked": false
+                    },
+                    "padding_tablet": {
+                      "unit": "px",
+                      "top": "24",
+                      "right": "20",
+                      "bottom": "24",
+                      "left": "20",
+                      "isLinked": false
+                    },
+                    "padding_mobile": {
+                      "unit": "px",
+                      "top": "22",
+                      "right": "18",
+                      "bottom": "22",
+                      "left": "18",
+                      "isLinked": false
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "24",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "margin_tablet": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "20",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "margin_mobile": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "16",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "fqaubn3",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-shield-alt",
+                          "library": "fa-solid"
+                        },
+                        "icon": "fa fa-shield",
+                        "view": "stacked",
+                        "shape": "square",
+                        "position": "top",
+                        "align": "left",
+                        "align_tablet": "left",
+                        "align_mobile": "left",
+                        "primary_color": "rgba(23, 154, 158, 0.15)",
+                        "secondary_color": "#38D4D8",
+                        "hover_primary_color": "#179A9E",
+                        "hover_secondary_color": "#FFFFFF",
+                        "hover_animation": "grow",
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 20,
+                          "sizes": []
+                        },
+                        "icon_padding": {
+                          "unit": "px",
+                          "size": 13,
+                          "sizes": []
+                        },
+                        "border_radius": {
+                          "unit": "px",
+                          "size": 10,
+                          "sizes": []
+                        },
+                        "icon_space": {
+                          "unit": "px",
+                          "size": 18,
+                          "sizes": []
+                        },
+                        "title_text": "Advanced Technology",
+                        "title_size": "h3",
+                        "title_color": "#FFFFFF",
+                        "title_typography_typography": "custom",
+                        "title_typography_font_family": "Plus Jakarta Sans",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 19,
+                          "sizes": []
+                        },
+                        "title_typography_font_size_mobile": {
+                          "unit": "px",
+                          "size": 17.5,
+                          "sizes": []
+                        },
+                        "title_typography_font_weight": "700",
+                        "title_typography_line_height": {
+                          "unit": "em",
+                          "size": 1.3,
+                          "sizes": []
+                        },
+                        "title_bottom_space": {
+                          "unit": "px",
+                          "size": 10,
+                          "sizes": []
+                        },
+                        "description_text": "Powered by StelleCloud™: automated claim scrubbers, 256-bit HIPAA compliance, seamless EHR synchronization, and 24/7 client portal access.",
+                        "description_color": "#A3B9CC",
+                        "description_typography_typography": "custom",
+                        "description_typography_font_family": "Inter",
+                        "description_typography_font_size": {
+                          "unit": "px",
+                          "size": 13.5,
+                          "sizes": []
+                        },
+                        "description_typography_font_size_mobile": {
+                          "unit": "px",
+                          "size": 13,
+                          "sizes": []
+                        },
+                        "description_typography_line_height": {
+                          "unit": "em",
+                          "size": 1.6,
+                          "sizes": []
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "hunqin9",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 25,
+                    "_inline_size": 25,
+                    "_inline_size_tablet": 50,
+                    "_inline_size_mobile": 100,
+                    "background_background": "classic",
+                    "background_color": "#0E2536",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "rgba(56, 212, 216, 0.18)",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "16",
+                      "bottom": "16",
+                      "left": "16",
+                      "isLinked": true
+                    },
+                    "box_shadow_box_shadow_type": "yes",
+                    "box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 4,
+                      "blur": 16,
+                      "spread": 0,
+                      "color": "rgba(0, 0, 0, 0.25)"
+                    },
+                    "custom_css": "selector {\n  display: flex !important;\n  flex-direction: column !important;\n  height: 100% !important;\n}\nselector > .elementor-widget-wrap {\n  display: flex !important;\n  flex-direction: column !important;\n  flex-grow: 1 !important;\n  height: 100% !important;\n  width: 100% !important;\n}\n/* ICON POSITIONED EXACTLY AS IN PIC: Top-Left, 46x46px rounded square */\nselector .elementor-icon-box-wrapper {\n  text-align: left !important;\n  align-items: flex-start !important;\n}\nselector .elementor-icon-box-icon {\n  margin-left: 0 !important;\n  margin-right: auto !important;\n  margin-bottom: 18px !important;\n  width: 46px !important;\n  height: 46px !important;\n  border-radius: 10px !important;\n  background: rgba(23, 154, 158, 0.15) !important;\n  border: 1px solid rgba(56, 212, 216, 0.25) !important;\n  color: #38D4D8 !important;\n  display: inline-flex !important;\n  align-items: center !important;\n  justify-content: center !important;\n  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;\n  cursor: pointer !important;\n}\n/* USER REQUIREMENT: Hover GROW on the icon with GREEN fill */\nselector .elementor-icon-box-icon:hover,\nselector:hover .elementor-icon-box-icon {\n  transform: scale(1.1) !important;\n  background-color: #179A9E !important;\n  border-color: #179A9E !important;\n  color: #FFFFFF !important;\n  box-shadow: 0 6px 20px rgba(23, 154, 158, 0.45) !important;\n}\nselector .elementor-icon-box-icon:hover svg,\nselector .elementor-icon-box-icon:hover i,\nselector:hover .elementor-icon-box-icon svg,\nselector:hover .elementor-icon-box-icon i {\n  color: #FFFFFF !important;\n  fill: #FFFFFF !important;\n}",
+                    "padding": {
+                      "unit": "px",
+                      "top": "28",
+                      "right": "22",
+                      "bottom": "28",
+                      "left": "22",
+                      "isLinked": false
+                    },
+                    "padding_tablet": {
+                      "unit": "px",
+                      "top": "24",
+                      "right": "20",
+                      "bottom": "24",
+                      "left": "20",
+                      "isLinked": false
+                    },
+                    "padding_mobile": {
+                      "unit": "px",
+                      "top": "22",
+                      "right": "18",
+                      "bottom": "22",
+                      "left": "18",
+                      "isLinked": false
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "24",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "margin_tablet": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "20",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "margin_mobile": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "16",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "cxirbnq",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-chart-bar",
+                          "library": "fa-solid"
+                        },
+                        "icon": "fa fa-bar-chart",
+                        "view": "stacked",
+                        "shape": "square",
+                        "position": "top",
+                        "align": "left",
+                        "align_tablet": "left",
+                        "align_mobile": "left",
+                        "primary_color": "rgba(23, 154, 158, 0.15)",
+                        "secondary_color": "#38D4D8",
+                        "hover_primary_color": "#179A9E",
+                        "hover_secondary_color": "#FFFFFF",
+                        "hover_animation": "grow",
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 20,
+                          "sizes": []
+                        },
+                        "icon_padding": {
+                          "unit": "px",
+                          "size": 13,
+                          "sizes": []
+                        },
+                        "border_radius": {
+                          "unit": "px",
+                          "size": 10,
+                          "sizes": []
+                        },
+                        "icon_space": {
+                          "unit": "px",
+                          "size": 18,
+                          "sizes": []
+                        },
+                        "title_text": "Transparent Reporting",
+                        "title_size": "h3",
+                        "title_color": "#FFFFFF",
+                        "title_typography_typography": "custom",
+                        "title_typography_font_family": "Plus Jakarta Sans",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 19,
+                          "sizes": []
+                        },
+                        "title_typography_font_size_mobile": {
+                          "unit": "px",
+                          "size": 17.5,
+                          "sizes": []
+                        },
+                        "title_typography_font_weight": "700",
+                        "title_typography_line_height": {
+                          "unit": "em",
+                          "size": 1.3,
+                          "sizes": []
+                        },
+                        "title_bottom_space": {
+                          "unit": "px",
+                          "size": 10,
+                          "sizes": []
+                        },
+                        "description_text": "Comprehensive monthly financial dashboards and quarterly performance reviews. Track every billed dollar, denial reason, and recovery milestone.",
+                        "description_color": "#A3B9CC",
+                        "description_typography_typography": "custom",
+                        "description_typography_font_family": "Inter",
+                        "description_typography_font_size": {
+                          "unit": "px",
+                          "size": 13.5,
+                          "sizes": []
+                        },
+                        "description_typography_font_size_mobile": {
+                          "unit": "px",
+                          "size": 13,
+                          "sizes": []
+                        },
+                        "description_typography_line_height": {
+                          "unit": "em",
+                          "size": 1.6,
+                          "sizes": []
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      }
+                    }
+                  ]
                 }
               ]
+            },
+            {
+              "id": "tf3526r",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "layout": "boxed",
+                "background_background": "classic",
+                "background_color": "rgba(23, 154, 158, 0.12)",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "rgba(56, 212, 216, 0.28)",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "22",
+                  "right": "30",
+                  "bottom": "22",
+                  "left": "30",
+                  "isLinked": false
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "32",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "custom_css": "selector .elementor-container {\n  display: flex !important;\n  align-items: center !important;\n  justify-content: space-between !important;\n  flex-wrap: wrap !important;\n}"
+              },
+              "elements": [
+                {
+                  "id": "q3rdnrl",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 72,
+                    "_inline_size": 72,
+                    "_inline_size_mobile": 100,
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "joysw8g",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-check-circle",
+                          "library": "fa-solid"
+                        },
+                        "icon": "fa fa-check-circle",
+                        "view": "stacked",
+                        "shape": "circle",
+                        "position": "left",
+                        "align": "left",
+                        "primary_color": "#179A9E",
+                        "secondary_color": "#FFFFFF",
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 20,
+                          "sizes": []
+                        },
+                        "icon_padding": {
+                          "unit": "px",
+                          "size": 11,
+                          "sizes": []
+                        },
+                        "icon_space": {
+                          "unit": "px",
+                          "size": 16,
+                          "sizes": []
+                        },
+                        "title_text": "Zero Risk, No Long-Term Contracts",
+                        "title_size": "h4",
+                        "title_color": "#FFFFFF",
+                        "title_typography_typography": "custom",
+                        "title_typography_font_family": "Plus Jakarta Sans",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 17,
+                          "sizes": []
+                        },
+                        "title_typography_font_weight": "700",
+                        "title_bottom_space": {
+                          "unit": "px",
+                          "size": 4,
+                          "sizes": []
+                        },
+                        "description_text": "Start with a simple month-to-month agreement. If we don’t elevate your collections, you’re never locked in.",
+                        "description_color": "#A3B9CC",
+                        "description_typography_typography": "custom",
+                        "description_typography_font_family": "Inter",
+                        "description_typography_font_size": {
+                          "unit": "px",
+                          "size": 13.5,
+                          "sizes": []
+                        },
+                        "description_typography_line_height": {
+                          "unit": "em",
+                          "size": 1.45,
+                          "sizes": []
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "wmnbsf6",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 28,
+                    "_inline_size": 28,
+                    "_inline_size_mobile": 100,
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "f26dq72",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Request Practice Audit ↗",
+                        "align": "right",
+                        "align_mobile": "center",
+                        "size": "md",
+                        "link": {
+                          "url": "#open-audit-modal",
+                          "is_external": false,
+                          "nofollow": false
+                        },
+                        "typography_typography": "custom",
+                        "typography_font_family": "Plus Jakarta Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 14.5,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "700",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "8",
+                          "right": "8",
+                          "bottom": "8",
+                          "left": "8",
+                          "isLinked": true
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "12",
+                          "right": "22",
+                          "bottom": "12",
+                          "left": "22",
+                          "isLinked": false
+                        },
+                        "background_color": "#179A9E",
+                        "button_text_color": "#FFFFFF",
+                        "button_background_hover_color": "#102C40",
+                        "border_hover_color": "#102C40",
+                        "hover_color": "#FFFFFF",
+                        "button_hover_transition": {
+                          "unit": "s",
+                          "size": 0.3
+                        },
+                        "custom_css": "selector .elementor-button { transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important; background-color: #179A9E !important; color: #FFFFFF !important; }\nselector .elementor-button:hover { background-color: #102C40 !important; color: #FFFFFF !important; border-color: #102C40 !important; transform: translateY(-2px); box-shadow: 0 8px 18px rgba(16, 44, 64, 0.25) !important; }"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "by2o0q6",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "\n<!-- POPUP MODAL FORM (\"Book Your Free Practice Audit\") -->\n<div class=\"sm-modal-backdrop\" id=\"sm-audit-modal\" onclick=\"if(event.target===this){ this.style.setProperty('display', 'none', 'important'); var allM=document.querySelectorAll('.sm-modal-backdrop'); for(var i=0;i<allM.length;i++){ allM[i].style.setProperty('display', 'none', 'important'); } document.body.style.overflow=''; if(window.smCloseAuditModal) window.smCloseAuditModal(); }\">\n  <div class=\"sm-modal-dialog\">\n    <button type=\"button\" class=\"sm-modal-close-btn\" onclick=\"if(this.closest('.sm-modal-backdrop')){ this.closest('.sm-modal-backdrop').style.setProperty('display', 'none', 'important'); } var allM=document.querySelectorAll('.sm-modal-backdrop'); for(var i=0;i<allM.length;i++){ allM[i].style.setProperty('display', 'none', 'important'); allM[i].style.display='none'; } document.body.style.overflow=''; if(window.smCloseAuditModal){ window.smCloseAuditModal(); }\" aria-label=\"Close modal\">✕</button>\n\n    <!-- Form View -->\n    <div id=\"sm-modal-form-view\">\n      <span class=\"sm-modal-badge\">COMPLIMENTARY • NO OBLIGATION</span>\n      <h3 class=\"sm-modal-title\">Book Your Free Practice Audit</h3>\n      <p class=\"sm-modal-subtitle\">Uncover hidden revenue leaks and optimize your billing workflows</p>\n\n      <form id=\"sm-audit-form\" onsubmit=\"window.smHandleAuditSubmit(event)\">\n        <div class=\"sm-form-row\">\n          <div class=\"sm-form-group\">\n            <label class=\"sm-form-label\">Full Name *</label>\n            <input type=\"text\" id=\"sm-field-fullname\" class=\"sm-form-input\" required placeholder=\"Dr. Sarah Jenkins\" />\n          </div>\n          <div class=\"sm-form-group\">\n            <label class=\"sm-form-label\">Professional Role</label>\n            <select id=\"sm-field-role\" class=\"sm-form-select\">\n              <option value=\"Practice Administrator\">Practice Administrator</option>\n              <option value=\"Physician / Provider\">Physician / Provider</option>\n              <option value=\"Billing Manager\">Billing Manager</option>\n              <option value=\"Executive / C-Suite\">Executive / C-Suite</option>\n              <option value=\"Office Manager\">Office Manager</option>\n            </select>\n          </div>\n        </div>\n\n        <div class=\"sm-form-row\">\n          <div class=\"sm-form-group\">\n            <label class=\"sm-form-label\">Practice / Clinic Name *</label>\n            <input type=\"text\" id=\"sm-field-practice\" class=\"sm-form-input\" required placeholder=\"Apex Health Associates\" />\n          </div>\n          <div class=\"sm-form-group\">\n            <label class=\"sm-form-label\">Clinical Specialty</label>\n            <select id=\"sm-field-specialty\" class=\"sm-form-select\">\n              <option value=\"Internal Medicine / Primary\">Internal Medicine / Primary</option>\n              <option value=\"Cardiology\">Cardiology</option>\n              <option value=\"Pediatrics\">Pediatrics</option>\n              <option value=\"Orthopedic Surgery\">Orthopedic Surgery</option>\n              <option value=\"Mental Health\">Mental Health / Psychiatry</option>\n              <option value=\"General Surgery\">General Surgery</option>\n              <option value=\"Dermatology\">Dermatology</option>\n              <option value=\"Multi-Specialty\">Multi-Specialty Clinic</option>\n              <option value=\"Other\">Other Clinical Specialty</option>\n            </select>\n          </div>\n        </div>\n\n        <div class=\"sm-form-row\">\n          <div class=\"sm-form-group\">\n            <label class=\"sm-form-label\">Work Email Address *</label>\n            <input type=\"email\" id=\"sm-field-email\" class=\"sm-form-input\" required placeholder=\"sjenkins@apexhealth.com\" />\n          </div>\n          <div class=\"sm-form-group\">\n            <label class=\"sm-form-label\">Phone Number *</label>\n            <input type=\"tel\" id=\"sm-field-phone\" class=\"sm-form-input\" required placeholder=\"(555) 019-2834\" />\n          </div>\n        </div>\n\n        <div class=\"sm-form-row\">\n          <div class=\"sm-form-group\">\n            <label class=\"sm-form-label\">Monthly Collections Volume</label>\n            <select id=\"sm-field-volume\" class=\"sm-form-select\">\n              <option value=\"$100,000 - $250,000 / mo\">$100,000 - $250,000 / mo</option>\n              <option value=\"Under $50,000 / mo\">Under $50,000 / mo</option>\n              <option value=\"$50,000 - $100,000 / mo\">$50,000 - $100,000 / mo</option>\n              <option value=\"$250,000 - $500,000 / mo\">$250,000 - $500,000 / mo</option>\n              <option value=\"$500,000+ / mo\">$500,000+ / mo</option>\n            </select>\n          </div>\n          <div class=\"sm-form-group\">\n            <label class=\"sm-form-label\">Preferred Audit Date</label>\n            <input type=\"date\" id=\"sm-field-date\" class=\"sm-form-input\" />\n          </div>\n        </div>\n\n        <div class=\"sm-form-group\">\n          <label class=\"sm-form-label\">Billing Challenges or Questions</label>\n          <textarea id=\"sm-field-notes\" class=\"sm-form-textarea\" rows=\"2\" placeholder=\"Tell us about high denial rates, A/R backlogs, or specific payer bottlenecks...\">Interested in: The StelleMed Advantage Consultation</textarea>\n        </div>\n\n        <div class=\"sm-hipaa-notice\">\n          <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n            <path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"></path>\n          </svg>\n          <span>Your practice information is kept 100% confidential under HIPAA strict privacy guidelines.</span>\n        </div>\n\n        <button type=\"submit\" class=\"sm-modal-submit-btn\" id=\"sm-btn-submit\">\n          <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n            <line x1=\"22\" y1=\"2\" x2=\"11\" y2=\"13\"></line>\n            <polygon points=\"22 2 15 22 11 13 2 9 22 2\"></polygon>\n          </svg>\n          <span>Confirm Free Consultation &amp; Audit</span>\n        </button>\n      </form>\n    </div>\n\n    <!-- Success View -->\n    <div id=\"sm-modal-success-view\" class=\"sm-modal-success\">\n      <div class=\"sm-modal-success-icon\">\n        <svg width=\"32\" height=\"32\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\">\n          <polyline points=\"20 6 9 17 4 12\"></polyline>\n        </svg>\n      </div>\n      <h3 style=\"font-family:'Plus Jakarta Sans',sans-serif;font-size:22px;color:#102C40;margin:0 0 8px;\">Audit Request Received!</h3>\n      <p style=\"color:#475D70;font-size:14px;line-height:1.5;margin-bottom:20px;\">\n        Thank you! Our senior healthcare billing director will review your specialty requirements and contact you within 24 hours.\n      </p>\n      <button type=\"button\" class=\"sm-modal-submit-btn\" onclick=\"if(this.closest('.sm-modal-backdrop')){ this.closest('.sm-modal-backdrop').style.setProperty('display', 'none', 'important'); } var allM=document.querySelectorAll('.sm-modal-backdrop'); for(var i=0;i<allM.length;i++){ allM[i].style.setProperty('display', 'none', 'important'); } document.body.style.overflow=''; if(window.smCloseAuditModal) window.smCloseAuditModal();\"><span>Return to Website</span></button>\n    </div>\n  </div>\n</div>\n\n<style>\n  /* Modal Styles */\n  .sm-modal-backdrop {\n    display: none;\n    position: fixed !important;\n    top: 0 !important;\n    left: 0 !important;\n    right: 0 !important;\n    bottom: 0 !important;\n    width: 100vw !important;\n    height: 100vh !important;\n    background: rgba(16, 44, 64, 0.65) !important;\n    backdrop-filter: blur(4px) !important;\n    -webkit-backdrop-filter: blur(4px) !important;\n    z-index: 99999999 !important;\n    align-items: center;\n    justify-content: center;\n    padding: 16px;\n    box-sizing: border-box;\n  }\n  .sm-modal-dialog {\n    background: #FFFFFF;\n    border-radius: 18px;\n    width: 100%;\n    max-width: 580px;\n    max-height: 92vh;\n    overflow-y: auto;\n    box-shadow: 0 25px 50px -12px rgba(16, 44, 64, 0.45);\n    box-sizing: border-box;\n    padding: 28px 28px 24px;\n    position: relative;\n    font-family: 'Inter', sans-serif;\n    animation: smModalPop 0.3s cubic-bezier(0.16, 1, 0.3, 1);\n  }\n  @keyframes smModalPop {\n    0% { opacity: 0; transform: scale(0.95) translateY(10px); }\n    100% { opacity: 1; transform: scale(1) translateY(0); }\n  }\n  @media (max-width: 600px) {\n    .sm-modal-dialog {\n      padding: 22px 18px;\n    }\n  }\n  \n  \n  .sm-modal-badge {\n    display: inline-block;\n    padding: 4px 12px;\n    background-color: #EAF8F8;\n    color: #179A9E;\n    border-radius: 50px;\n    font-size: 11px;\n    font-weight: 800;\n    letter-spacing: 0.8px;\n    text-transform: uppercase;\n    margin-bottom: 8px;\n  }\n  .sm-modal-title {\n    font-family: 'Plus Jakarta Sans', sans-serif;\n    font-size: 22px;\n    font-weight: 800;\n    color: #102C40;\n    margin: 0 0 4px 0;\n    line-height: 1.25;\n  }\n  .sm-modal-subtitle {\n    font-size: 13.5px;\n    color: #475D70;\n    margin-bottom: 20px;\n    line-height: 1.4;\n  }\n  .sm-form-row {\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n    gap: 14px;\n    margin-bottom: 12px;\n  }\n  @media (max-width: 520px) {\n    .sm-form-row {\n      grid-template-columns: 1fr;\n      gap: 10px;\n    }\n  }\n  .sm-form-group {\n    display: flex;\n    flex-direction: column;\n    margin-bottom: 12px;\n  }\n  .sm-form-label {\n    font-size: 12.5px;\n    font-weight: 700;\n    color: #102C40;\n    margin-bottom: 5px;\n  }\n  .sm-form-input, .sm-form-select, .sm-form-textarea {\n    box-sizing: border-box;\n    width: 100%;\n    padding: 10px 12px;\n    border-radius: 8px;\n    border: 1px solid #D1D5DB;\n    font-family: 'Inter', sans-serif;\n    font-size: 13.5px;\n    color: #102C40;\n    background-color: #FFFFFF;\n    outline: none;\n    transition: border-color 0.2s ease, box-shadow 0.2s ease;\n  }\n  .sm-form-input:focus, .sm-form-select:focus, .sm-form-textarea:focus {\n    border-color: #179A9E;\n    box-shadow: 0 0 0 3px rgba(23, 154, 158, 0.15);\n  }\n  .sm-form-textarea {\n    resize: vertical;\n    min-height: 60px;\n  }\n  .sm-hipaa-notice {\n    display: flex;\n    align-items: center;\n    gap: 8px;\n    font-size: 11.5px;\n    color: #64748B;\n    margin: 8px 0 18px;\n    line-height: 1.35;\n  }\n  .sm-hipaa-notice svg {\n    color: #179A9E;\n    flex-shrink: 0;\n  }\n  .sm-modal-submit-btn {\n    width: 100%;\n    padding: 13px 20px;\n    background-color: #179A9E;\n    color: #FFFFFF;\n    border: none;\n    border-radius: 8px;\n    font-family: 'Plus Jakarta Sans', sans-serif;\n    font-size: 14.5px;\n    font-weight: 700;\n    cursor: pointer;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    gap: 8px;\n    transition: background-color 0.3s ease, transform 0.2s ease;\n    box-shadow: 0 4px 12px rgba(23, 154, 158, 0.25);\n  }\n  .sm-modal-submit-btn:hover {\n    background-color: #102C40;\n    transform: translateY(-2px);\n  }\n  .sm-modal-success {\n    display: none;\n    text-align: center;\n    padding: 24px 8px;\n  }\n  .sm-modal-success-icon {\n    width: 56px;\n    height: 56px;\n    border-radius: 50%;\n    background-color: #EAF8F8;\n    color: #179A9E;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    margin: 0 auto 16px;\n  }\n\n  /* BULLETPROOF MODAL CLOSE BUTTON & BACKDROP FIX */\n  .sm-modal-close-btn {\n    position: absolute !important;\n    top: 16px !important;\n    right: 16px !important;\n    width: 40px !important;\n    height: 40px !important;\n    border-radius: 50% !important;\n    background: #F1F5F9 !important;\n    border: 1px solid #CBD5E1 !important;\n    color: #0F172A !important;\n    display: flex !important;\n    align-items: center !important;\n    justify-content: center !important;\n    cursor: pointer !important;\n    font-size: 20px !important;\n    font-weight: 800 !important;\n    line-height: 1 !important;\n    z-index: 999999999 !important;\n    pointer-events: auto !important;\n    touch-action: manipulation !important;\n    -webkit-tap-highlight-color: transparent !important;\n    transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease !important;\n    padding: 0 !important;\n    margin: 0 !important;\n    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;\n  }\n  .sm-modal-close-btn:hover {\n    background: #E2E8F0 !important;\n    color: #E11D48 !important;\n    transform: scale(1.08) !important;\n  }\n  .sm-modal-close-btn:active {\n    transform: scale(0.92) !important;\n  }\n\n</style>\n\n<script>\n  window.smOpenAuditModal = function(prefill) {\n    var modal = document.getElementById('sm-audit-modal');\n    if (!modal) return;\n    if (modal.parentElement !== document.body) {\n      document.body.appendChild(modal);\n    }\n    var formView = document.getElementById('sm-modal-form-view');\n    var successView = document.getElementById('sm-modal-success-view');\n    if (formView) formView.style.display = 'block';\n    if (successView) successView.style.display = 'none';\n\n    if (prefill) {\n      var notes = document.getElementById('sm-field-notes');\n      if (notes) notes.value = 'Interested in: ' + prefill;\n    }\n    modal.style.display = 'flex';\n    document.body.style.overflow = 'hidden';\n  };\n\n  \n  // Universal Modal Closer (Closes all open modals unconditionally)\n  window.smCloseAuditModal = function() {\n    var allModals = document.querySelectorAll('.sm-modal-backdrop');\n    for (var i = 0; i < allModals.length; i++) {\n      allModals[i].style.setProperty('display', 'none', 'important');\n      allModals[i].style.display = 'none';\n      allModals[i].classList.remove('is-active');\n    }\n    document.body.style.overflow = '';\n  };\n\n  // Close on Escape Key\n  document.addEventListener('keydown', function(e) {\n    if (e.key === 'Escape' || e.keyCode === 27) {\n      window.smCloseAuditModal();\n    }\n  });\n\n  // Capture-phase Global Click Listener (Intercepts clicks on close button or backdrop before anything can block it)\n  document.addEventListener('click', function(e) {\n    var closeBtn = e.target.closest ? e.target.closest('.sm-modal-close-btn, [aria-label=\"Close modal\"]') : null;\n    if (closeBtn) {\n      e.preventDefault();\n      e.stopPropagation();\n      var b = closeBtn.closest ? closeBtn.closest('.sm-modal-backdrop') : null;\n      if (b) {\n        b.style.setProperty('display', 'none', 'important');\n        b.style.display = 'none';\n      }\n      window.smCloseAuditModal();\n      return;\n    }\n\n    var backdrop = e.target.closest ? e.target.closest('.sm-modal-backdrop') : null;\n    if (backdrop && e.target === backdrop) {\n      e.preventDefault();\n      e.stopPropagation();\n      backdrop.style.setProperty('display', 'none', 'important');\n      backdrop.style.display = 'none';\n      window.smCloseAuditModal();\n      return;\n    }\n  }, true);\n\nwindow.smHandleAuditSubmit = function(e) {\n    e.preventDefault();\n    var btn = document.getElementById('sm-btn-submit');\n    if (btn) btn.innerHTML = '<span>Processing Audit Request...</span>';\n    setTimeout(function() {\n      var formView = document.getElementById('sm-modal-form-view');\n      var successView = document.getElementById('sm-modal-success-view');\n      if (formView) formView.style.display = 'none';\n      if (successView) successView.style.display = 'block';\n      if (btn) btn.innerHTML = '<span>Confirm Free Consultation &amp; Audit</span>';\n    }, 600);\n  };\n\n  // Global Click delegation\n  document.addEventListener('click', function(e) {\n    var btn = e.target.closest('#sm-request-audit-btn, .sm-request-audit-btn, a[href=\"#open-audit-modal\"]');\n    if (btn) {\n      e.preventDefault();\n      e.stopPropagation();\n      window.smOpenAuditModal('The StelleMed Advantage Consultation');\n    }\n  }, true);\n\n  document.addEventListener('keydown', function(e) {\n    if (e.key === 'Escape') {\n      window.smCloseAuditModal();\n    }\n  });\n</script>\n"
+              }
             }
           ]
-        },
-        {
-          "id": "by2o0q6",
-          "elType": "widget",
-          "widgetType": "html",
-          "settings": {
-            "html": "\n<!-- POPUP MODAL FORM (\"Book Your Free Practice Audit\") -->\n<div class=\"sm-modal-backdrop\" id=\"sm-audit-modal\" onclick=\"if(event.target===this){ this.style.setProperty('display', 'none', 'important'); var allM=document.querySelectorAll('.sm-modal-backdrop'); for(var i=0;i<allM.length;i++){ allM[i].style.setProperty('display', 'none', 'important'); } document.body.style.overflow=''; if(window.smCloseAuditModal) window.smCloseAuditModal(); }\">\n  <div class=\"sm-modal-dialog\">\n    <button type=\"button\" class=\"sm-modal-close-btn\" onclick=\"if(this.closest('.sm-modal-backdrop')){ this.closest('.sm-modal-backdrop').style.setProperty('display', 'none', 'important'); } var allM=document.querySelectorAll('.sm-modal-backdrop'); for(var i=0;i<allM.length;i++){ allM[i].style.setProperty('display', 'none', 'important'); allM[i].style.display='none'; } document.body.style.overflow=''; if(window.smCloseAuditModal){ window.smCloseAuditModal(); }\" aria-label=\"Close modal\">✕</button>\n\n    <!-- Form View -->\n    <div id=\"sm-modal-form-view\">\n      <span class=\"sm-modal-badge\">COMPLIMENTARY • NO OBLIGATION</span>\n      <h3 class=\"sm-modal-title\">Book Your Free Practice Audit</h3>\n      <p class=\"sm-modal-subtitle\">Uncover hidden revenue leaks and optimize your billing workflows</p>\n\n      <form id=\"sm-audit-form\" onsubmit=\"window.smHandleAuditSubmit(event)\">\n        <div class=\"sm-form-row\">\n          <div class=\"sm-form-group\">\n            <label class=\"sm-form-label\">Full Name *</label>\n            <input type=\"text\" id=\"sm-field-fullname\" class=\"sm-form-input\" required placeholder=\"Dr. Sarah Jenkins\" />\n          </div>\n          <div class=\"sm-form-group\">\n            <label class=\"sm-form-label\">Professional Role</label>\n            <select id=\"sm-field-role\" class=\"sm-form-select\">\n              <option value=\"Practice Administrator\">Practice Administrator</option>\n              <option value=\"Physician / Provider\">Physician / Provider</option>\n              <option value=\"Billing Manager\">Billing Manager</option>\n              <option value=\"Executive / C-Suite\">Executive / C-Suite</option>\n              <option value=\"Office Manager\">Office Manager</option>\n            </select>\n          </div>\n        </div>\n\n        <div class=\"sm-form-row\">\n          <div class=\"sm-form-group\">\n            <label class=\"sm-form-label\">Practice / Clinic Name *</label>\n            <input type=\"text\" id=\"sm-field-practice\" class=\"sm-form-input\" required placeholder=\"Apex Health Associates\" />\n          </div>\n          <div class=\"sm-form-group\">\n            <label class=\"sm-form-label\">Clinical Specialty</label>\n            <select id=\"sm-field-specialty\" class=\"sm-form-select\">\n              <option value=\"Internal Medicine / Primary\">Internal Medicine / Primary</option>\n              <option value=\"Cardiology\">Cardiology</option>\n              <option value=\"Pediatrics\">Pediatrics</option>\n              <option value=\"Orthopedic Surgery\">Orthopedic Surgery</option>\n              <option value=\"Mental Health\">Mental Health / Psychiatry</option>\n              <option value=\"General Surgery\">General Surgery</option>\n              <option value=\"Dermatology\">Dermatology</option>\n              <option value=\"Multi-Specialty\">Multi-Specialty Clinic</option>\n              <option value=\"Other\">Other Clinical Specialty</option>\n            </select>\n          </div>\n        </div>\n\n        <div class=\"sm-form-row\">\n          <div class=\"sm-form-group\">\n            <label class=\"sm-form-label\">Work Email Address *</label>\n            <input type=\"email\" id=\"sm-field-email\" class=\"sm-form-input\" required placeholder=\"sjenkins@apexhealth.com\" />\n          </div>\n          <div class=\"sm-form-group\">\n            <label class=\"sm-form-label\">Phone Number *</label>\n            <input type=\"tel\" id=\"sm-field-phone\" class=\"sm-form-input\" required placeholder=\"(555) 019-2834\" />\n          </div>\n        </div>\n\n        <div class=\"sm-form-row\">\n          <div class=\"sm-form-group\">\n            <label class=\"sm-form-label\">Monthly Collections Volume</label>\n            <select id=\"sm-field-volume\" class=\"sm-form-select\">\n              <option value=\"$100,000 - $250,000 / mo\">$100,000 - $250,000 / mo</option>\n              <option value=\"Under $50,000 / mo\">Under $50,000 / mo</option>\n              <option value=\"$50,000 - $100,000 / mo\">$50,000 - $100,000 / mo</option>\n              <option value=\"$250,000 - $500,000 / mo\">$250,000 - $500,000 / mo</option>\n              <option value=\"$500,000+ / mo\">$500,000+ / mo</option>\n            </select>\n          </div>\n          <div class=\"sm-form-group\">\n            <label class=\"sm-form-label\">Preferred Audit Date</label>\n            <input type=\"date\" id=\"sm-field-date\" class=\"sm-form-input\" />\n          </div>\n        </div>\n\n        <div class=\"sm-form-group\">\n          <label class=\"sm-form-label\">Billing Challenges or Questions</label>\n          <textarea id=\"sm-field-notes\" class=\"sm-form-textarea\" rows=\"2\" placeholder=\"Tell us about high denial rates, A/R backlogs, or specific payer bottlenecks...\">Interested in: The StelleMed Advantage Consultation</textarea>\n        </div>\n\n        <div class=\"sm-hipaa-notice\">\n          <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n            <path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"></path>\n          </svg>\n          <span>Your practice information is kept 100% confidential under HIPAA strict privacy guidelines.</span>\n        </div>\n\n        <button type=\"submit\" class=\"sm-modal-submit-btn\" id=\"sm-btn-submit\">\n          <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n            <line x1=\"22\" y1=\"2\" x2=\"11\" y2=\"13\"></line>\n            <polygon points=\"22 2 15 22 11 13 2 9 22 2\"></polygon>\n          </svg>\n          <span>Confirm Free Consultation &amp; Audit</span>\n        </button>\n      </form>\n    </div>\n\n    <!-- Success View -->\n    <div id=\"sm-modal-success-view\" class=\"sm-modal-success\">\n      <div class=\"sm-modal-success-icon\">\n        <svg width=\"32\" height=\"32\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\">\n          <polyline points=\"20 6 9 17 4 12\"></polyline>\n        </svg>\n      </div>\n      <h3 style=\"font-family:'Plus Jakarta Sans',sans-serif;font-size:22px;color:#102C40;margin:0 0 8px;\">Audit Request Received!</h3>\n      <p style=\"color:#475D70;font-size:14px;line-height:1.5;margin-bottom:20px;\">\n        Thank you! Our senior healthcare billing director will review your specialty requirements and contact you within 24 hours.\n      </p>\n      <button type=\"button\" class=\"sm-modal-submit-btn\" onclick=\"if(this.closest('.sm-modal-backdrop')){ this.closest('.sm-modal-backdrop').style.setProperty('display', 'none', 'important'); } var allM=document.querySelectorAll('.sm-modal-backdrop'); for(var i=0;i<allM.length;i++){ allM[i].style.setProperty('display', 'none', 'important'); } document.body.style.overflow=''; if(window.smCloseAuditModal) window.smCloseAuditModal();\"><span>Return to Website</span></button>\n    </div>\n  </div>\n</div>\n\n<style>\n  /* Modal Styles */\n  .sm-modal-backdrop {\n    display: none;\n    position: fixed !important;\n    top: 0 !important;\n    left: 0 !important;\n    right: 0 !important;\n    bottom: 0 !important;\n    width: 100vw !important;\n    height: 100vh !important;\n    background: rgba(16, 44, 64, 0.65) !important;\n    backdrop-filter: blur(4px) !important;\n    -webkit-backdrop-filter: blur(4px) !important;\n    z-index: 99999999 !important;\n    align-items: center;\n    justify-content: center;\n    padding: 16px;\n    box-sizing: border-box;\n  }\n  .sm-modal-dialog {\n    background: #FFFFFF;\n    border-radius: 18px;\n    width: 100%;\n    max-width: 580px;\n    max-height: 92vh;\n    overflow-y: auto;\n    box-shadow: 0 25px 50px -12px rgba(16, 44, 64, 0.45);\n    box-sizing: border-box;\n    padding: 28px 28px 24px;\n    position: relative;\n    font-family: 'Inter', sans-serif;\n    animation: smModalPop 0.3s cubic-bezier(0.16, 1, 0.3, 1);\n  }\n  @keyframes smModalPop {\n    0% { opacity: 0; transform: scale(0.95) translateY(10px); }\n    100% { opacity: 1; transform: scale(1) translateY(0); }\n  }\n  @media (max-width: 600px) {\n    .sm-modal-dialog {\n      padding: 22px 18px;\n    }\n  }\n  \n  \n  .sm-modal-badge {\n    display: inline-block;\n    padding: 4px 12px;\n    background-color: #EAF8F8;\n    color: #179A9E;\n    border-radius: 50px;\n    font-size: 11px;\n    font-weight: 800;\n    letter-spacing: 0.8px;\n    text-transform: uppercase;\n    margin-bottom: 8px;\n  }\n  .sm-modal-title {\n    font-family: 'Plus Jakarta Sans', sans-serif;\n    font-size: 22px;\n    font-weight: 800;\n    color: #102C40;\n    margin: 0 0 4px 0;\n    line-height: 1.25;\n  }\n  .sm-modal-subtitle {\n    font-size: 13.5px;\n    color: #475D70;\n    margin-bottom: 20px;\n    line-height: 1.4;\n  }\n  .sm-form-row {\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n    gap: 14px;\n    margin-bottom: 12px;\n  }\n  @media (max-width: 520px) {\n    .sm-form-row {\n      grid-template-columns: 1fr;\n      gap: 10px;\n    }\n  }\n  .sm-form-group {\n    display: flex;\n    flex-direction: column;\n    margin-bottom: 12px;\n  }\n  .sm-form-label {\n    font-size: 12.5px;\n    font-weight: 700;\n    color: #102C40;\n    margin-bottom: 5px;\n  }\n  .sm-form-input, .sm-form-select, .sm-form-textarea {\n    box-sizing: border-box;\n    width: 100%;\n    padding: 10px 12px;\n    border-radius: 8px;\n    border: 1px solid #D1D5DB;\n    font-family: 'Inter', sans-serif;\n    font-size: 13.5px;\n    color: #102C40;\n    background-color: #FFFFFF;\n    outline: none;\n    transition: border-color 0.2s ease, box-shadow 0.2s ease;\n  }\n  .sm-form-input:focus, .sm-form-select:focus, .sm-form-textarea:focus {\n    border-color: #179A9E;\n    box-shadow: 0 0 0 3px rgba(23, 154, 158, 0.15);\n  }\n  .sm-form-textarea {\n    resize: vertical;\n    min-height: 60px;\n  }\n  .sm-hipaa-notice {\n    display: flex;\n    align-items: center;\n    gap: 8px;\n    font-size: 11.5px;\n    color: #64748B;\n    margin: 8px 0 18px;\n    line-height: 1.35;\n  }\n  .sm-hipaa-notice svg {\n    color: #179A9E;\n    flex-shrink: 0;\n  }\n  .sm-modal-submit-btn {\n    width: 100%;\n    padding: 13px 20px;\n    background-color: #179A9E;\n    color: #FFFFFF;\n    border: none;\n    border-radius: 8px;\n    font-family: 'Plus Jakarta Sans', sans-serif;\n    font-size: 14.5px;\n    font-weight: 700;\n    cursor: pointer;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    gap: 8px;\n    transition: background-color 0.3s ease, transform 0.2s ease;\n    box-shadow: 0 4px 12px rgba(23, 154, 158, 0.25);\n  }\n  .sm-modal-submit-btn:hover {\n    background-color: #102C40;\n    transform: translateY(-2px);\n  }\n  .sm-modal-success {\n    display: none;\n    text-align: center;\n    padding: 24px 8px;\n  }\n  .sm-modal-success-icon {\n    width: 56px;\n    height: 56px;\n    border-radius: 50%;\n    background-color: #EAF8F8;\n    color: #179A9E;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    margin: 0 auto 16px;\n  }\n\n  /* BULLETPROOF MODAL CLOSE BUTTON & BACKDROP FIX */\n  .sm-modal-close-btn {\n    position: absolute !important;\n    top: 16px !important;\n    right: 16px !important;\n    width: 40px !important;\n    height: 40px !important;\n    border-radius: 50% !important;\n    background: #F1F5F9 !important;\n    border: 1px solid #CBD5E1 !important;\n    color: #0F172A !important;\n    display: flex !important;\n    align-items: center !important;\n    justify-content: center !important;\n    cursor: pointer !important;\n    font-size: 20px !important;\n    font-weight: 800 !important;\n    line-height: 1 !important;\n    z-index: 999999999 !important;\n    pointer-events: auto !important;\n    touch-action: manipulation !important;\n    -webkit-tap-highlight-color: transparent !important;\n    transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease !important;\n    padding: 0 !important;\n    margin: 0 !important;\n    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;\n  }\n  .sm-modal-close-btn:hover {\n    background: #E2E8F0 !important;\n    color: #E11D48 !important;\n    transform: scale(1.08) !important;\n  }\n  .sm-modal-close-btn:active {\n    transform: scale(0.92) !important;\n  }\n\n</style>\n\n<script>\n  window.smOpenAuditModal = function(prefill) {\n    var modal = document.getElementById('sm-audit-modal');\n    if (!modal) return;\n    if (modal.parentElement !== document.body) {\n      document.body.appendChild(modal);\n    }\n    var formView = document.getElementById('sm-modal-form-view');\n    var successView = document.getElementById('sm-modal-success-view');\n    if (formView) formView.style.display = 'block';\n    if (successView) successView.style.display = 'none';\n\n    if (prefill) {\n      var notes = document.getElementById('sm-field-notes');\n      if (notes) notes.value = 'Interested in: ' + prefill;\n    }\n    modal.style.display = 'flex';\n    document.body.style.overflow = 'hidden';\n  };\n\n  \n  // Universal Modal Closer (Closes all open modals unconditionally)\n  window.smCloseAuditModal = function() {\n    var allModals = document.querySelectorAll('.sm-modal-backdrop');\n    for (var i = 0; i < allModals.length; i++) {\n      allModals[i].style.setProperty('display', 'none', 'important');\n      allModals[i].style.display = 'none';\n      allModals[i].classList.remove('is-active');\n    }\n    document.body.style.overflow = '';\n  };\n\n  // Close on Escape Key\n  document.addEventListener('keydown', function(e) {\n    if (e.key === 'Escape' || e.keyCode === 27) {\n      window.smCloseAuditModal();\n    }\n  });\n\n  // Capture-phase Global Click Listener (Intercepts clicks on close button or backdrop before anything can block it)\n  document.addEventListener('click', function(e) {\n    var closeBtn = e.target.closest ? e.target.closest('.sm-modal-close-btn, [aria-label=\"Close modal\"]') : null;\n    if (closeBtn) {\n      e.preventDefault();\n      e.stopPropagation();\n      var b = closeBtn.closest ? closeBtn.closest('.sm-modal-backdrop') : null;\n      if (b) {\n        b.style.setProperty('display', 'none', 'important');\n        b.style.display = 'none';\n      }\n      window.smCloseAuditModal();\n      return;\n    }\n\n    var backdrop = e.target.closest ? e.target.closest('.sm-modal-backdrop') : null;\n    if (backdrop && e.target === backdrop) {\n      e.preventDefault();\n      e.stopPropagation();\n      backdrop.style.setProperty('display', 'none', 'important');\n      backdrop.style.display = 'none';\n      window.smCloseAuditModal();\n      return;\n    }\n  }, true);\n\nwindow.smHandleAuditSubmit = function(e) {\n    e.preventDefault();\n    var btn = document.getElementById('sm-btn-submit');\n    if (btn) btn.innerHTML = '<span>Processing Audit Request...</span>';\n    setTimeout(function() {\n      var formView = document.getElementById('sm-modal-form-view');\n      var successView = document.getElementById('sm-modal-success-view');\n      if (formView) formView.style.display = 'none';\n      if (successView) successView.style.display = 'block';\n      if (btn) btn.innerHTML = '<span>Confirm Free Consultation &amp; Audit</span>';\n    }, 600);\n  };\n\n  // Global Click delegation\n  document.addEventListener('click', function(e) {\n    var btn = e.target.closest('#sm-request-audit-btn, .sm-request-audit-btn, a[href=\"#open-audit-modal\"]');\n    if (btn) {\n      e.preventDefault();\n      e.stopPropagation();\n      window.smOpenAuditModal('The StelleMed Advantage Consultation');\n    }\n  }, true);\n\n  document.addEventListener('keydown', function(e) {\n    if (e.key === 'Escape') {\n      window.smCloseAuditModal();\n    }\n  });\n</script>\n"
-          },
-          "elements": []
         }
       ]
     }
