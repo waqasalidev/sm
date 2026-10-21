@@ -8,6 +8,8 @@ import ServicesOverviewPage from './pages/ServicesOverviewPage';
 import InsurancePayerPage from './pages/InsurancePayerPage';
 import PatientPracticePage from './pages/PatientPracticePage';
 import TechnologySupportPage from './pages/TechnologySupportPage';
+import ResourcesPage from './pages/ResourcesPage';
+import ContactPage from './pages/ContactPage';
 import Footer from './components/Footer';
 import ConsultationModal from './components/ConsultationModal';
 import ClientLoginModal from './components/ClientLoginModal';
@@ -100,6 +102,24 @@ export default function App() {
             element={
               <TechnologySupportPage
                 onOpenConsultation={handleOpenConsultation}
+              />
+            }
+          />
+          <Route
+            path="/resources"
+            element={
+              <ResourcesPage
+                onOpenConsultation={handleOpenConsultation}
+              />
+            }
+          />
+          <Route
+            path="/contact"
+            element={
+              <ContactPage
+                onOpenConsultation={handleOpenConsultation}
+                onOpenLogin={() => setLoginModalOpen(true)}
+                onShowToast={showToast}
               />
             }
           />

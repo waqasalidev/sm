@@ -3168,13 +3168,23 @@ html, body {
 
         <!-- Resources Dropdown -->
         <li class="nav-dropdown" id="resourcesDropdown">
-          <button type="button" class="nav-link dropdown-trigger" onclick="toggleDropdown('resourcesDropdown')">
+          <button type="button" class="nav-link dropdown-trigger " onclick="toggleDropdown('resourcesDropdown')">
             <span>Resources</span>
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="dropdown-chevron"><polyline points="6 9 12 15 18 9"/></svg>
           </button>
 
           <div class="dropdown-menu" role="menu">
-            <a href="/#roi-calculator" class="dropdown-item">
+            <a href="/resources" class="dropdown-item ">
+              <div class="dropdown-item-icon" style="background: rgba(23, 154, 158, 0.15); color: #179A9E;">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+              </div>
+              <div class="dropdown-item-content">
+                <span class="dropdown-item-title">Resources &amp; Tools Hub</span>
+                <span class="dropdown-item-desc">Interactive tools, checklists &amp; guides</span>
+              </div>
+            </a>
+
+            <a href="/resources#roi-calculator" class="dropdown-item">
               <div class="dropdown-item-icon">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="16" y1="14" x2="16" y2="18"/><path d="M16 10h.01"/><path d="M12 10h.01"/><path d="M8 10h.01"/><path d="M12 14h.01"/><path d="M8 14h.01"/><path d="M12 18h.01"/><path d="M8 18h.01"/></svg>
               </div>
@@ -3184,17 +3194,17 @@ html, body {
               </div>
             </a>
 
-            <a href="/#how-we-manage" class="dropdown-item">
+            <a href="/resources#workflows" class="dropdown-item">
               <div class="dropdown-item-icon">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
               </div>
               <div class="dropdown-item-content">
-                <span class="dropdown-item-title">How It Works</span>
+                <span class="dropdown-item-title">Revenue Cycle Workflows</span>
                 <span class="dropdown-item-desc">Our dual workflow journey</span>
               </div>
             </a>
 
-            <a href="/#faq" class="dropdown-item">
+            <a href="/resources#faq" class="dropdown-item">
               <div class="dropdown-item-icon">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
               </div>
@@ -3204,6 +3214,10 @@ html, body {
               </div>
             </a>
           </div>
+        </li>
+
+        <li>
+          <a href="/contact" class="nav-link ">Contact</a>
         </li>
       </ul>
 
@@ -3675,6 +3689,8 @@ html, body {
         <h4 class="footer-title">Practice Resources</h4>
         <ul class="footer-links">
           <li><a href="/about">About StelleMed</a></li>
+          <li><a href="/resources">Resources &amp; Tools Hub</a></li>
+          <li><a href="/contact">Contact Our Team</a></li>
           <li><a href="/#roi-calculator">ROI Recovery Calculator</a></li>
           <li><a href="/#why-us">Why Choose StelleMed</a></li>
           <li><a href="/#faq">Provider Knowledge Base</a></li>
