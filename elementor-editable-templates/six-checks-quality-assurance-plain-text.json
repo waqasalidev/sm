@@ -1,10 +1,10 @@
 {
   "version": "0.4",
-  "title": "Six Checks Before Every Claim Goes Out - Plain Text",
+  "title": "Six Checks Quality Assurance - Plain Text With Native Icons",
   "type": "section",
   "content": [
     {
-      "id": "i0ynt1n",
+      "id": "le8tots",
       "elType": "section",
       "settings": {
         "layout": "boxed",
@@ -42,14 +42,14 @@
       },
       "elements": [
         {
-          "id": "vfx3ebs",
+          "id": "z0fm921",
           "elType": "column",
           "settings": {
             "_column_size": 100
           },
           "elements": [
             {
-              "id": "6r5nilp",
+              "id": "4050l8k",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -89,7 +89,7 @@
               }
             },
             {
-              "id": "5mq7aej",
+              "id": "10w9ws8",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -139,7 +139,7 @@
               }
             },
             {
-              "id": "b4qj1bf",
+              "id": "6as5c53",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
@@ -190,7 +190,7 @@
               }
             },
             {
-              "id": "34benxx",
+              "id": "mga7tyh",
               "elType": "section",
               "isInner": true,
               "settings": {
@@ -199,7 +199,7 @@
               },
               "elements": [
                 {
-                  "id": "olsm6o5",
+                  "id": "dregn9j",
                   "elType": "column",
                   "settings": {
                     "_column_size": 33,
@@ -260,7 +260,7 @@
                       "unit": "ms",
                       "size": 350
                     },
-                    "custom_css": "selector { transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1) !important; }\nselector:hover { transform: translateY(-8px) !important; }",
+                    "custom_css": "selector { transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1) !important; }\nselector:hover { transform: translateY(-8px) !important; }\nselector .elementor-icon-box-icon { margin-top: 2px !important; }",
                     "padding": {
                       "unit": "px",
                       "top": "26",
@@ -312,63 +312,89 @@
                   },
                   "elements": [
                     {
-                      "id": "jii5pju",
+                      "id": "43nxpxw",
                       "elType": "widget",
-                      "widgetType": "heading",
+                      "widgetType": "icon-box",
                       "settings": {
-                        "title": "CHECK 01 - Patient Details Complete & Correct",
-                        "header_size": "h3",
-                        "align": "left",
-                        "title_color": "#102C40",
-                        "typography_typography": "custom",
-                        "typography_font_family": "Plus Jakarta Sans",
-                        "typography_font_size": {
+                        "selected_icon": {
+                          "value": "fas fa-user-check",
+                          "library": "fa-solid"
+                        },
+                        "icon": "fa fa-user-check",
+                        "view": "stacked",
+                        "shape": "square",
+                        "position": "left",
+                        "position_tablet": "left",
+                        "position_mobile": "left",
+                        "vertical_align": "top",
+                        "primary_color": "#EAF8F8",
+                        "secondary_color": "#179A9E",
+                        "icon_size": {
                           "unit": "px",
-                          "size": 17,
+                          "size": 20,
                           "sizes": []
                         },
-                        "typography_font_size_mobile": {
+                        "icon_padding": {
+                          "unit": "px",
+                          "size": 12,
+                          "sizes": []
+                        },
+                        "border_radius": {
+                          "unit": "px",
+                          "size": 10,
+                          "sizes": []
+                        },
+                        "icon_space": {
                           "unit": "px",
                           "size": 16,
                           "sizes": []
                         },
-                        "typography_font_weight": "700",
-                        "typography_line_height": {
-                          "unit": "em",
-                          "size": 1.3,
+                        "title_text": "CHECK 01: Patient Details Complete & Correct",
+                        "title_size": "h3",
+                        "title_color": "#102C40",
+                        "title_typography_typography": "custom",
+                        "title_typography_font_family": "Plus Jakarta Sans",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 17,
                           "sizes": []
                         },
-                        "_margin": {
+                        "title_typography_font_size_tablet": {
                           "unit": "px",
-                          "top": "0",
-                          "right": "0",
-                          "bottom": "10",
-                          "left": "0",
-                          "isLinked": false
-                        }
-                      }
-                    },
-                    {
-                      "id": "v6h9jzl",
-                      "elType": "widget",
-                      "widgetType": "text-editor",
-                      "settings": {
-                        "editor": "<p>Demographic fields, subscriber IDs, relationship codes, and group numbers verified 100% error-free.</p>",
-                        "align": "left",
-                        "text_color": "#475D70",
-                        "typography_typography": "custom",
-                        "typography_font_family": "Inter",
-                        "typography_font_size": {
+                          "size": 16.5,
+                          "sizes": []
+                        },
+                        "title_typography_font_size_mobile": {
+                          "unit": "px",
+                          "size": 16,
+                          "sizes": []
+                        },
+                        "title_typography_font_weight": "700",
+                        "title_typography_line_height": {
+                          "unit": "em",
+                          "size": 1.35,
+                          "sizes": []
+                        },
+                        "title_bottom_space": {
+                          "unit": "px",
+                          "size": 8,
+                          "sizes": []
+                        },
+                        "description_text": "Demographic fields, subscriber IDs, relationship codes, and group numbers verified 100% error-free.",
+                        "description_color": "#475D70",
+                        "description_typography_typography": "custom",
+                        "description_typography_font_family": "Inter",
+                        "description_typography_font_size": {
                           "unit": "px",
                           "size": 13.5,
                           "sizes": []
                         },
-                        "typography_font_size_mobile": {
+                        "description_typography_font_size_mobile": {
                           "unit": "px",
                           "size": 13,
                           "sizes": []
                         },
-                        "typography_line_height": {
+                        "description_typography_line_height": {
                           "unit": "em",
                           "size": 1.55,
                           "sizes": []
@@ -386,7 +412,7 @@
                   ]
                 },
                 {
-                  "id": "t4m53xu",
+                  "id": "9qj0f6y",
                   "elType": "column",
                   "settings": {
                     "_column_size": 33,
@@ -447,7 +473,7 @@
                       "unit": "ms",
                       "size": 350
                     },
-                    "custom_css": "selector { transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1) !important; }\nselector:hover { transform: translateY(-8px) !important; }",
+                    "custom_css": "selector { transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1) !important; }\nselector:hover { transform: translateY(-8px) !important; }\nselector .elementor-icon-box-icon { margin-top: 2px !important; }",
                     "padding": {
                       "unit": "px",
                       "top": "26",
@@ -499,63 +525,89 @@
                   },
                   "elements": [
                     {
-                      "id": "ytswwcr",
+                      "id": "al08qrj",
                       "elType": "widget",
-                      "widgetType": "heading",
+                      "widgetType": "icon-box",
                       "settings": {
-                        "title": "CHECK 02 - Coverage Confirmed for Date of Service",
-                        "header_size": "h3",
-                        "align": "left",
-                        "title_color": "#102C40",
-                        "typography_typography": "custom",
-                        "typography_font_family": "Plus Jakarta Sans",
-                        "typography_font_size": {
+                        "selected_icon": {
+                          "value": "fas fa-calendar-check",
+                          "library": "fa-solid"
+                        },
+                        "icon": "fa fa-calendar-check",
+                        "view": "stacked",
+                        "shape": "square",
+                        "position": "left",
+                        "position_tablet": "left",
+                        "position_mobile": "left",
+                        "vertical_align": "top",
+                        "primary_color": "#EAF8F8",
+                        "secondary_color": "#179A9E",
+                        "icon_size": {
                           "unit": "px",
-                          "size": 17,
+                          "size": 20,
                           "sizes": []
                         },
-                        "typography_font_size_mobile": {
+                        "icon_padding": {
+                          "unit": "px",
+                          "size": 12,
+                          "sizes": []
+                        },
+                        "border_radius": {
+                          "unit": "px",
+                          "size": 10,
+                          "sizes": []
+                        },
+                        "icon_space": {
                           "unit": "px",
                           "size": 16,
                           "sizes": []
                         },
-                        "typography_font_weight": "700",
-                        "typography_line_height": {
-                          "unit": "em",
-                          "size": 1.3,
+                        "title_text": "CHECK 02: Coverage Confirmed for Date of Service",
+                        "title_size": "h3",
+                        "title_color": "#102C40",
+                        "title_typography_typography": "custom",
+                        "title_typography_font_family": "Plus Jakarta Sans",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 17,
                           "sizes": []
                         },
-                        "_margin": {
+                        "title_typography_font_size_tablet": {
                           "unit": "px",
-                          "top": "0",
-                          "right": "0",
-                          "bottom": "10",
-                          "left": "0",
-                          "isLinked": false
-                        }
-                      }
-                    },
-                    {
-                      "id": "ntzsgv5",
-                      "elType": "widget",
-                      "widgetType": "text-editor",
-                      "settings": {
-                        "editor": "<p>Active policy status, effective date windows, co-pays, and deductibles verified before batch generation.</p>",
-                        "align": "left",
-                        "text_color": "#475D70",
-                        "typography_typography": "custom",
-                        "typography_font_family": "Inter",
-                        "typography_font_size": {
+                          "size": 16.5,
+                          "sizes": []
+                        },
+                        "title_typography_font_size_mobile": {
+                          "unit": "px",
+                          "size": 16,
+                          "sizes": []
+                        },
+                        "title_typography_font_weight": "700",
+                        "title_typography_line_height": {
+                          "unit": "em",
+                          "size": 1.35,
+                          "sizes": []
+                        },
+                        "title_bottom_space": {
+                          "unit": "px",
+                          "size": 8,
+                          "sizes": []
+                        },
+                        "description_text": "Active policy status, effective date windows, co-pays, and deductibles verified before batch generation.",
+                        "description_color": "#475D70",
+                        "description_typography_typography": "custom",
+                        "description_typography_font_family": "Inter",
+                        "description_typography_font_size": {
                           "unit": "px",
                           "size": 13.5,
                           "sizes": []
                         },
-                        "typography_font_size_mobile": {
+                        "description_typography_font_size_mobile": {
                           "unit": "px",
                           "size": 13,
                           "sizes": []
                         },
-                        "typography_line_height": {
+                        "description_typography_line_height": {
                           "unit": "em",
                           "size": 1.55,
                           "sizes": []
@@ -573,7 +625,7 @@
                   ]
                 },
                 {
-                  "id": "ei4cuec",
+                  "id": "ghmsmkb",
                   "elType": "column",
                   "settings": {
                     "_column_size": 33,
@@ -634,7 +686,7 @@
                       "unit": "ms",
                       "size": 350
                     },
-                    "custom_css": "selector { transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1) !important; }\nselector:hover { transform: translateY(-8px) !important; }",
+                    "custom_css": "selector { transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1) !important; }\nselector:hover { transform: translateY(-8px) !important; }\nselector .elementor-icon-box-icon { margin-top: 2px !important; }",
                     "padding": {
                       "unit": "px",
                       "top": "26",
@@ -686,63 +738,89 @@
                   },
                   "elements": [
                     {
-                      "id": "huwswdt",
+                      "id": "dc6hd9k",
                       "elType": "widget",
-                      "widgetType": "heading",
+                      "widgetType": "icon-box",
                       "settings": {
-                        "title": "CHECK 03 - Prior Authorization on File Where Required",
-                        "header_size": "h3",
-                        "align": "left",
-                        "title_color": "#102C40",
-                        "typography_typography": "custom",
-                        "typography_font_family": "Plus Jakarta Sans",
-                        "typography_font_size": {
+                        "selected_icon": {
+                          "value": "fas fa-file-signature",
+                          "library": "fa-solid"
+                        },
+                        "icon": "fa fa-file-signature",
+                        "view": "stacked",
+                        "shape": "square",
+                        "position": "left",
+                        "position_tablet": "left",
+                        "position_mobile": "left",
+                        "vertical_align": "top",
+                        "primary_color": "#EAF8F8",
+                        "secondary_color": "#179A9E",
+                        "icon_size": {
                           "unit": "px",
-                          "size": 17,
+                          "size": 20,
                           "sizes": []
                         },
-                        "typography_font_size_mobile": {
+                        "icon_padding": {
+                          "unit": "px",
+                          "size": 12,
+                          "sizes": []
+                        },
+                        "border_radius": {
+                          "unit": "px",
+                          "size": 10,
+                          "sizes": []
+                        },
+                        "icon_space": {
                           "unit": "px",
                           "size": 16,
                           "sizes": []
                         },
-                        "typography_font_weight": "700",
-                        "typography_line_height": {
-                          "unit": "em",
-                          "size": 1.3,
+                        "title_text": "CHECK 03: Prior Authorization on File Where Required",
+                        "title_size": "h3",
+                        "title_color": "#102C40",
+                        "title_typography_typography": "custom",
+                        "title_typography_font_family": "Plus Jakarta Sans",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 17,
                           "sizes": []
                         },
-                        "_margin": {
+                        "title_typography_font_size_tablet": {
                           "unit": "px",
-                          "top": "0",
-                          "right": "0",
-                          "bottom": "10",
-                          "left": "0",
-                          "isLinked": false
-                        }
-                      }
-                    },
-                    {
-                      "id": "bh1rtlo",
-                      "elType": "widget",
-                      "widgetType": "text-editor",
-                      "settings": {
-                        "editor": "<p>Auth reference numbers logged and attached directly to billing lines for required clinical encounters.</p>",
-                        "align": "left",
-                        "text_color": "#475D70",
-                        "typography_typography": "custom",
-                        "typography_font_family": "Inter",
-                        "typography_font_size": {
+                          "size": 16.5,
+                          "sizes": []
+                        },
+                        "title_typography_font_size_mobile": {
+                          "unit": "px",
+                          "size": 16,
+                          "sizes": []
+                        },
+                        "title_typography_font_weight": "700",
+                        "title_typography_line_height": {
+                          "unit": "em",
+                          "size": 1.35,
+                          "sizes": []
+                        },
+                        "title_bottom_space": {
+                          "unit": "px",
+                          "size": 8,
+                          "sizes": []
+                        },
+                        "description_text": "Auth reference numbers logged and attached directly to billing lines for required clinical encounters.",
+                        "description_color": "#475D70",
+                        "description_typography_typography": "custom",
+                        "description_typography_font_family": "Inter",
+                        "description_typography_font_size": {
                           "unit": "px",
                           "size": 13.5,
                           "sizes": []
                         },
-                        "typography_font_size_mobile": {
+                        "description_typography_font_size_mobile": {
                           "unit": "px",
                           "size": 13,
                           "sizes": []
                         },
-                        "typography_line_height": {
+                        "description_typography_line_height": {
                           "unit": "em",
                           "size": 1.55,
                           "sizes": []
@@ -762,24 +840,16 @@
               ]
             },
             {
-              "id": "lmgk1fe",
+              "id": "ax6rxlq",
               "elType": "section",
               "isInner": true,
               "settings": {
                 "layout": "boxed",
-                "gap": "extended",
-                "margin": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "0",
-                  "left": "0",
-                  "isLinked": true
-                }
+                "gap": "extended"
               },
               "elements": [
                 {
-                  "id": "2admzfo",
+                  "id": "1berq7n",
                   "elType": "column",
                   "settings": {
                     "_column_size": 33,
@@ -840,7 +910,7 @@
                       "unit": "ms",
                       "size": 350
                     },
-                    "custom_css": "selector { transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1) !important; }\nselector:hover { transform: translateY(-8px) !important; }",
+                    "custom_css": "selector { transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1) !important; }\nselector:hover { transform: translateY(-8px) !important; }\nselector .elementor-icon-box-icon { margin-top: 2px !important; }",
                     "padding": {
                       "unit": "px",
                       "top": "26",
@@ -892,63 +962,89 @@
                   },
                   "elements": [
                     {
-                      "id": "igaf0om",
+                      "id": "4kgvwi2",
                       "elType": "widget",
-                      "widgetType": "heading",
+                      "widgetType": "icon-box",
                       "settings": {
-                        "title": "CHECK 04 - Codes Match the Documentation",
-                        "header_size": "h3",
-                        "align": "left",
-                        "title_color": "#102C40",
-                        "typography_typography": "custom",
-                        "typography_font_family": "Plus Jakarta Sans",
-                        "typography_font_size": {
+                        "selected_icon": {
+                          "value": "fas fa-file-alt",
+                          "library": "fa-solid"
+                        },
+                        "icon": "fa fa-file-alt",
+                        "view": "stacked",
+                        "shape": "square",
+                        "position": "left",
+                        "position_tablet": "left",
+                        "position_mobile": "left",
+                        "vertical_align": "top",
+                        "primary_color": "#EAF8F8",
+                        "secondary_color": "#179A9E",
+                        "icon_size": {
                           "unit": "px",
-                          "size": 17,
+                          "size": 20,
                           "sizes": []
                         },
-                        "typography_font_size_mobile": {
+                        "icon_padding": {
+                          "unit": "px",
+                          "size": 12,
+                          "sizes": []
+                        },
+                        "border_radius": {
+                          "unit": "px",
+                          "size": 10,
+                          "sizes": []
+                        },
+                        "icon_space": {
                           "unit": "px",
                           "size": 16,
                           "sizes": []
                         },
-                        "typography_font_weight": "700",
-                        "typography_line_height": {
-                          "unit": "em",
-                          "size": 1.3,
+                        "title_text": "CHECK 04: Codes Match the Documentation",
+                        "title_size": "h3",
+                        "title_color": "#102C40",
+                        "title_typography_typography": "custom",
+                        "title_typography_font_family": "Plus Jakarta Sans",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 17,
                           "sizes": []
                         },
-                        "_margin": {
+                        "title_typography_font_size_tablet": {
                           "unit": "px",
-                          "top": "0",
-                          "right": "0",
-                          "bottom": "10",
-                          "left": "0",
-                          "isLinked": false
-                        }
-                      }
-                    },
-                    {
-                      "id": "qpxjpvd",
-                      "elType": "widget",
-                      "widgetType": "text-editor",
-                      "settings": {
-                        "editor": "<p>CPT, ICD-10-CM, and HCPCS modifiers aligned accurately with clinical notes to justify medical necessity.</p>",
-                        "align": "left",
-                        "text_color": "#475D70",
-                        "typography_typography": "custom",
-                        "typography_font_family": "Inter",
-                        "typography_font_size": {
+                          "size": 16.5,
+                          "sizes": []
+                        },
+                        "title_typography_font_size_mobile": {
+                          "unit": "px",
+                          "size": 16,
+                          "sizes": []
+                        },
+                        "title_typography_font_weight": "700",
+                        "title_typography_line_height": {
+                          "unit": "em",
+                          "size": 1.35,
+                          "sizes": []
+                        },
+                        "title_bottom_space": {
+                          "unit": "px",
+                          "size": 8,
+                          "sizes": []
+                        },
+                        "description_text": "CPT, ICD-10-CM, and HCPCS modifiers aligned accurately with clinical notes to justify medical necessity.",
+                        "description_color": "#475D70",
+                        "description_typography_typography": "custom",
+                        "description_typography_font_family": "Inter",
+                        "description_typography_font_size": {
                           "unit": "px",
                           "size": 13.5,
                           "sizes": []
                         },
-                        "typography_font_size_mobile": {
+                        "description_typography_font_size_mobile": {
                           "unit": "px",
                           "size": 13,
                           "sizes": []
                         },
-                        "typography_line_height": {
+                        "description_typography_line_height": {
                           "unit": "em",
                           "size": 1.55,
                           "sizes": []
@@ -966,7 +1062,7 @@
                   ]
                 },
                 {
-                  "id": "58xckt7",
+                  "id": "s8te33f",
                   "elType": "column",
                   "settings": {
                     "_column_size": 33,
@@ -1027,7 +1123,7 @@
                       "unit": "ms",
                       "size": 350
                     },
-                    "custom_css": "selector { transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1) !important; }\nselector:hover { transform: translateY(-8px) !important; }",
+                    "custom_css": "selector { transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1) !important; }\nselector:hover { transform: translateY(-8px) !important; }\nselector .elementor-icon-box-icon { margin-top: 2px !important; }",
                     "padding": {
                       "unit": "px",
                       "top": "26",
@@ -1079,63 +1175,89 @@
                   },
                   "elements": [
                     {
-                      "id": "pu27qd7",
+                      "id": "ldfuetx",
                       "elType": "widget",
-                      "widgetType": "heading",
+                      "widgetType": "icon-box",
                       "settings": {
-                        "title": "CHECK 05 - Claim Scrubber Edits Passed",
-                        "header_size": "h3",
-                        "align": "left",
-                        "title_color": "#102C40",
-                        "typography_typography": "custom",
-                        "typography_font_family": "Plus Jakarta Sans",
-                        "typography_font_size": {
+                        "selected_icon": {
+                          "value": "fas fa-microchip",
+                          "library": "fa-solid"
+                        },
+                        "icon": "fa fa-microchip",
+                        "view": "stacked",
+                        "shape": "square",
+                        "position": "left",
+                        "position_tablet": "left",
+                        "position_mobile": "left",
+                        "vertical_align": "top",
+                        "primary_color": "#EAF8F8",
+                        "secondary_color": "#179A9E",
+                        "icon_size": {
                           "unit": "px",
-                          "size": 17,
+                          "size": 20,
                           "sizes": []
                         },
-                        "typography_font_size_mobile": {
+                        "icon_padding": {
+                          "unit": "px",
+                          "size": 12,
+                          "sizes": []
+                        },
+                        "border_radius": {
+                          "unit": "px",
+                          "size": 10,
+                          "sizes": []
+                        },
+                        "icon_space": {
                           "unit": "px",
                           "size": 16,
                           "sizes": []
                         },
-                        "typography_font_weight": "700",
-                        "typography_line_height": {
-                          "unit": "em",
-                          "size": 1.3,
+                        "title_text": "CHECK 05: Claim Scrubber Edits Passed",
+                        "title_size": "h3",
+                        "title_color": "#102C40",
+                        "title_typography_typography": "custom",
+                        "title_typography_font_family": "Plus Jakarta Sans",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 17,
                           "sizes": []
                         },
-                        "_margin": {
+                        "title_typography_font_size_tablet": {
                           "unit": "px",
-                          "top": "0",
-                          "right": "0",
-                          "bottom": "10",
-                          "left": "0",
-                          "isLinked": false
-                        }
-                      }
-                    },
-                    {
-                      "id": "gfyigng",
-                      "elType": "widget",
-                      "widgetType": "text-editor",
-                      "settings": {
-                        "editor": "<p>Evaluated through StelleCloud™ rules engine to catch NCCI bundle conflicts and modifier errors.</p>",
-                        "align": "left",
-                        "text_color": "#475D70",
-                        "typography_typography": "custom",
-                        "typography_font_family": "Inter",
-                        "typography_font_size": {
+                          "size": 16.5,
+                          "sizes": []
+                        },
+                        "title_typography_font_size_mobile": {
+                          "unit": "px",
+                          "size": 16,
+                          "sizes": []
+                        },
+                        "title_typography_font_weight": "700",
+                        "title_typography_line_height": {
+                          "unit": "em",
+                          "size": 1.35,
+                          "sizes": []
+                        },
+                        "title_bottom_space": {
+                          "unit": "px",
+                          "size": 8,
+                          "sizes": []
+                        },
+                        "description_text": "Evaluated through StelleCloud™ rules engine to catch NCCI bundle conflicts and modifier errors.",
+                        "description_color": "#475D70",
+                        "description_typography_typography": "custom",
+                        "description_typography_font_family": "Inter",
+                        "description_typography_font_size": {
                           "unit": "px",
                           "size": 13.5,
                           "sizes": []
                         },
-                        "typography_font_size_mobile": {
+                        "description_typography_font_size_mobile": {
                           "unit": "px",
                           "size": 13,
                           "sizes": []
                         },
-                        "typography_line_height": {
+                        "description_typography_line_height": {
                           "unit": "em",
                           "size": 1.55,
                           "sizes": []
@@ -1153,7 +1275,7 @@
                   ]
                 },
                 {
-                  "id": "c45aufx",
+                  "id": "sj1t6oq",
                   "elType": "column",
                   "settings": {
                     "_column_size": 33,
@@ -1214,7 +1336,7 @@
                       "unit": "ms",
                       "size": 350
                     },
-                    "custom_css": "selector { transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1) !important; }\nselector:hover { transform: translateY(-8px) !important; }",
+                    "custom_css": "selector { transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1) !important; }\nselector:hover { transform: translateY(-8px) !important; }\nselector .elementor-icon-box-icon { margin-top: 2px !important; }",
                     "padding": {
                       "unit": "px",
                       "top": "26",
@@ -1266,63 +1388,89 @@
                   },
                   "elements": [
                     {
-                      "id": "8p8vpev",
+                      "id": "bl3ni19",
                       "elType": "widget",
-                      "widgetType": "heading",
+                      "widgetType": "icon-box",
                       "settings": {
-                        "title": "CHECK 06 - Payer-Specific Rules Applied",
-                        "header_size": "h3",
-                        "align": "left",
-                        "title_color": "#102C40",
-                        "typography_typography": "custom",
-                        "typography_font_family": "Plus Jakarta Sans",
-                        "typography_font_size": {
+                        "selected_icon": {
+                          "value": "fas fa-sliders-h",
+                          "library": "fa-solid"
+                        },
+                        "icon": "fa fa-sliders-h",
+                        "view": "stacked",
+                        "shape": "square",
+                        "position": "left",
+                        "position_tablet": "left",
+                        "position_mobile": "left",
+                        "vertical_align": "top",
+                        "primary_color": "#EAF8F8",
+                        "secondary_color": "#179A9E",
+                        "icon_size": {
                           "unit": "px",
-                          "size": 17,
+                          "size": 20,
                           "sizes": []
                         },
-                        "typography_font_size_mobile": {
+                        "icon_padding": {
+                          "unit": "px",
+                          "size": 12,
+                          "sizes": []
+                        },
+                        "border_radius": {
+                          "unit": "px",
+                          "size": 10,
+                          "sizes": []
+                        },
+                        "icon_space": {
                           "unit": "px",
                           "size": 16,
                           "sizes": []
                         },
-                        "typography_font_weight": "700",
-                        "typography_line_height": {
-                          "unit": "em",
-                          "size": 1.3,
+                        "title_text": "CHECK 06: Payer-Specific Rules Applied",
+                        "title_size": "h3",
+                        "title_color": "#102C40",
+                        "title_typography_typography": "custom",
+                        "title_typography_font_family": "Plus Jakarta Sans",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 17,
                           "sizes": []
                         },
-                        "_margin": {
+                        "title_typography_font_size_tablet": {
                           "unit": "px",
-                          "top": "0",
-                          "right": "0",
-                          "bottom": "10",
-                          "left": "0",
-                          "isLinked": false
-                        }
-                      }
-                    },
-                    {
-                      "id": "xeb9rdi",
-                      "elType": "widget",
-                      "widgetType": "text-editor",
-                      "settings": {
-                        "editor": "<p>Carrier-specific billing guidelines applied so claims meet local clearinghouse requirements first pass.</p>",
-                        "align": "left",
-                        "text_color": "#475D70",
-                        "typography_typography": "custom",
-                        "typography_font_family": "Inter",
-                        "typography_font_size": {
+                          "size": 16.5,
+                          "sizes": []
+                        },
+                        "title_typography_font_size_mobile": {
+                          "unit": "px",
+                          "size": 16,
+                          "sizes": []
+                        },
+                        "title_typography_font_weight": "700",
+                        "title_typography_line_height": {
+                          "unit": "em",
+                          "size": 1.35,
+                          "sizes": []
+                        },
+                        "title_bottom_space": {
+                          "unit": "px",
+                          "size": 8,
+                          "sizes": []
+                        },
+                        "description_text": "Carrier-specific billing guidelines applied so claims meet local clearinghouse requirements first pass.",
+                        "description_color": "#475D70",
+                        "description_typography_typography": "custom",
+                        "description_typography_font_family": "Inter",
+                        "description_typography_font_size": {
                           "unit": "px",
                           "size": 13.5,
                           "sizes": []
                         },
-                        "typography_font_size_mobile": {
+                        "description_typography_font_size_mobile": {
                           "unit": "px",
                           "size": 13,
                           "sizes": []
                         },
-                        "typography_line_height": {
+                        "description_typography_line_height": {
                           "unit": "em",
                           "size": 1.55,
                           "sizes": []
