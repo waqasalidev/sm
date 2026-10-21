@@ -1,0 +1,591 @@
+/**
+ * StelleMed Elementor Addon - Core Styling
+ * Ultra-lightweight, zero dependency CSS for StelleMed widgets & templates
+ */
+
+:root {
+  --sm-navy: #102C40;
+  --sm-navy-dark: #0A1B28;
+  --sm-navy-light: #163C57;
+  --sm-teal: #179A9E;
+  --sm-teal-hover: #1EB2B7;
+  --sm-teal-light: #EAF8F8;
+  --sm-teal-accent: #38D4D8;
+  --sm-white: #FFFFFF;
+  --sm-bg-page: #F8FBFC;
+  --sm-text-primary: #0F202E;
+  --sm-text-secondary: #475D70;
+  --sm-text-muted: #738A9E;
+  --sm-text-light: #F0F6FA;
+  --sm-border: #E2ECF2;
+  --sm-radius-sm: 6px;
+  --sm-radius-md: 10px;
+  --sm-radius-lg: 16px;
+  --sm-radius-xl: 24px;
+}
+
+/* Base Utility Classes */
+.sm-container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.sm-section-header {
+  margin-bottom: 44px;
+}
+.sm-section-header.text-center {
+  text-align: center;
+}
+
+.sm-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--sm-teal);
+  background: var(--sm-teal-light);
+  padding: 6px 14px;
+  border-radius: 9999px;
+  margin-bottom: 14px;
+}
+.sm-eyebrow.dark-theme {
+  background: rgba(56, 212, 216, 0.15);
+  color: var(--sm-teal-accent);
+}
+
+.sm-title {
+  font-size: clamp(1.8rem, 3.2vw, 2.5rem);
+  font-weight: 800;
+  color: var(--sm-navy);
+  line-height: 1.25;
+  margin: 0 0 14px 0;
+}
+.sm-title.dark-theme {
+  color: var(--sm-white);
+}
+
+.sm-desc {
+  font-size: 1.05rem;
+  color: var(--sm-text-secondary);
+  line-height: 1.6;
+  max-width: 680px;
+  margin: 0 auto;
+}
+.sm-desc.dark-theme {
+  color: #A3B9CC;
+}
+
+.sm-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-weight: 700;
+  font-size: 0.9375rem;
+  padding: 13px 26px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  text-decoration: none;
+  border: none;
+}
+.sm-btn-primary {
+  background-color: var(--sm-teal);
+  color: #FFFFFF !important;
+  box-shadow: 0 4px 14px rgba(23, 154, 158, 0.3);
+}
+.sm-btn-primary:hover {
+  background-color: var(--sm-teal-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(23, 154, 158, 0.4);
+}
+
+/* ==========================================================================
+   1. ROI CALCULATOR WIDGET
+   ========================================================================== */
+.sm-roi-section {
+  background: linear-gradient(135deg, #102C40 0%, #0D2333 100%);
+  color: var(--sm-white);
+  padding: 80px 0;
+  border-radius: var(--sm-radius-xl);
+  margin: 20px 0;
+}
+
+.sm-roi-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: var(--sm-radius-xl);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.sm-roi-grid {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.sm-roi-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.sm-roi-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sm-roi-label-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sm-roi-label {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: var(--sm-text-light);
+}
+
+.sm-roi-val {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--sm-teal-accent);
+}
+
+.sm-roi-slider {
+  width: 100%;
+  height: 8px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.2);
+  outline: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+}
+.sm-roi-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--sm-teal);
+  box-shadow: 0 0 10px rgba(23, 154, 158, 0.7);
+  cursor: pointer;
+  border: 2px solid #FFFFFF;
+}
+
+.sm-roi-select {
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: var(--sm-radius-md);
+  background-color: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #FFFFFF;
+  font-size: 0.9375rem;
+  outline: none;
+}
+.sm-roi-select option {
+  background-color: var(--sm-navy);
+  color: #FFFFFF;
+}
+
+.sm-roi-results {
+  background: linear-gradient(135deg, rgba(23, 154, 158, 0.2) 0%, rgba(16, 44, 64, 0.6) 100%);
+  border: 1.5px solid rgba(56, 212, 216, 0.4);
+  border-radius: var(--sm-radius-lg);
+  padding: 32px 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.3);
+}
+
+.sm-roi-highlight-title {
+  font-size: 0.8125rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #A3B9CC;
+  font-weight: 700;
+}
+
+.sm-roi-amount {
+  font-size: clamp(2rem, 3.5vw, 2.8rem);
+  font-weight: 800;
+  color: var(--sm-teal-accent);
+  line-height: 1.1;
+}
+
+.sm-roi-metrics-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  padding: 14px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.sm-roi-metric-label {
+  font-size: 0.75rem;
+  color: #A3B9CC;
+  text-transform: uppercase;
+}
+
+.sm-roi-metric-num {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-top: 4px;
+}
+
+/* ==========================================================================
+   2. SIX CHECKS QUALITY ASSURANCE WIDGET
+   ========================================================================== */
+.sm-six-checks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 24px;
+}
+
+.sm-check-card {
+  padding: 24px;
+  border-radius: var(--sm-radius-md);
+  background-color: #FFFFFF;
+  border: 1px solid var(--sm-border);
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  box-shadow: 0 2px 6px rgba(16, 44, 64, 0.04);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.sm-check-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(16, 44, 64, 0.08);
+  border-color: rgba(23, 154, 158, 0.3);
+}
+
+.sm-check-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: var(--sm-radius-sm);
+  background: var(--sm-teal-light);
+  color: var(--sm-teal);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 1.25rem;
+}
+
+.sm-check-badge {
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: var(--sm-teal);
+  letter-spacing: 0.5px;
+  margin-bottom: 4px;
+  display: inline-block;
+}
+
+.sm-check-title {
+  font-size: 1.05rem;
+  color: var(--sm-navy);
+  font-weight: 700;
+  margin: 0 0 6px 0;
+}
+
+.sm-check-desc {
+  font-size: 0.875rem;
+  color: var(--sm-text-secondary);
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* ==========================================================================
+   3. REVENUE LEAKS WIDGET
+   ========================================================================== */
+.sm-leaks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  margin-bottom: 36px;
+}
+
+.sm-leak-card {
+  padding: 24px 20px;
+  border-radius: var(--sm-radius-md);
+  border: 1px solid var(--sm-border);
+  border-top: 3px solid var(--sm-teal);
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 6px rgba(16, 44, 64, 0.04);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.sm-leak-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(16, 44, 64, 0.08);
+}
+
+.sm-leak-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.sm-leak-badge {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #FEE2E2;
+  color: #DC2626;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: 800;
+  flex-shrink: 0;
+}
+
+.sm-leak-title {
+  font-size: 1.1rem;
+  color: var(--sm-navy);
+  margin: 0;
+  font-weight: 700;
+}
+
+.sm-leak-desc {
+  font-size: 0.875rem;
+  color: var(--sm-text-secondary);
+  line-height: 1.55;
+  margin: 0;
+}
+
+.sm-leaks-banner {
+  background: linear-gradient(135deg, var(--sm-navy) 0%, #103456 100%);
+  color: #FFFFFF;
+  border-radius: var(--sm-radius-lg);
+  padding: 28px 32px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  box-shadow: 0 8px 24px rgba(16, 44, 64, 0.08);
+}
+
+/* ==========================================================================
+   4. REVENUE CYCLE WORKFLOW WIDGET
+   ========================================================================== */
+.sm-workflow-header-bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+  padding: 12px 18px;
+  background: var(--sm-bg-page);
+  border-radius: var(--sm-radius-md);
+  border-left: 4px solid var(--sm-teal);
+}
+.sm-workflow-header-bar.patient {
+  border-left-color: #7C3AED;
+}
+
+.sm-workflow-steps-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+}
+.sm-workflow-steps-grid.patient {
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+.sm-workflow-step-card {
+  background: #F8FBFC;
+  border: 1px solid var(--sm-border);
+  border-radius: var(--sm-radius-md);
+  padding: 16px 12px;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.2s ease;
+}
+.sm-workflow-step-card.patient {
+  background: #FDFBFF;
+  border-color: #E9D5FF;
+}
+
+.sm-workflow-step-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.sm-workflow-step-num {
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: var(--sm-teal);
+}
+.sm-workflow-step-num.patient {
+  color: #7C3AED;
+}
+
+.sm-workflow-step-title {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--sm-navy);
+  margin-bottom: 6px;
+}
+
+.sm-workflow-step-desc {
+  font-size: 0.75rem;
+  color: var(--sm-text-secondary);
+  line-height: 1.4;
+  margin: 0;
+}
+
+/* ==========================================================================
+   5. WHY CHOOSE US WIDGET
+   ========================================================================== */
+.sm-why-section {
+  background: linear-gradient(135deg, #0A1B28 0%, #102C40 100%);
+  padding: 80px 0;
+  border-radius: var(--sm-radius-xl);
+  color: #FFFFFF;
+}
+
+.sm-why-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  margin-top: 40px;
+}
+
+.sm-why-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: var(--sm-radius-lg);
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.25s ease, border-color 0.25s ease;
+}
+.sm-why-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(56, 212, 216, 0.4);
+}
+
+.sm-why-icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 12px;
+  background: rgba(23, 154, 158, 0.2);
+  color: var(--sm-teal-accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  margin-bottom: 18px;
+}
+
+.sm-why-card-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin: 0 0 10px 0;
+}
+
+.sm-why-card-desc {
+  font-size: 0.9375rem;
+  color: #A3B9CC;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* ==========================================================================
+   6. FAQ ACCORDION WIDGET
+   ========================================================================== */
+.sm-faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.sm-faq-item {
+  background: #FFFFFF;
+  border: 1px solid var(--sm-border);
+  border-radius: var(--sm-radius-md);
+  overflow: hidden;
+  transition: all 0.2s ease;
+}
+.sm-faq-item.is-open {
+  border-color: rgba(23, 154, 158, 0.4);
+  box-shadow: 0 4px 14px rgba(16, 44, 64, 0.06);
+}
+
+.sm-faq-btn {
+  width: 100%;
+  padding: 20px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--sm-navy);
+}
+
+.sm-faq-icon {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--sm-teal-light);
+  color: var(--sm-teal);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  transition: transform 0.25s ease;
+  flex-shrink: 0;
+}
+.sm-faq-item.is-open .sm-faq-icon {
+  transform: rotate(180deg);
+}
+
+.sm-faq-content {
+  padding: 0 24px 20px 24px;
+  font-size: 0.9375rem;
+  color: var(--sm-text-secondary);
+  line-height: 1.6;
+  display: none;
+}
+.sm-faq-item.is-open .sm-faq-content {
+  display: block;
+}
+
+/* Responsive Media Queries */
+@media (max-width: 900px) {
+  .sm-roi-grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 600px) {
+  .sm-roi-card {
+    padding: 20px 16px;
+  }
+  .sm-leaks-banner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

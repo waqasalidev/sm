@@ -1,0 +1,34 @@
+{
+  "version": "0.4",
+  "title": "StelleMed - Revenue Leaks Prevention",
+  "type": "section",
+  "content": [
+    {
+      "id": "sm_leaks_sec",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "gap": "no"
+      },
+      "elements": [
+        {
+          "id": "sm_leaks_col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "sm_leaks_widget",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div class=\"sm-section\" id=\"revenue-leaks\" style=\"padding: 70px 0; background-color: var(--sm-bg-page);\">\n  <div class=\"sm-container\">\n    <div class=\"sm-section-header text-center\">\n      <div class=\"sm-eyebrow\">\n        <span>Revenue Leak Prevention</span>\n      </div>\n      <h2 class=\"sm-title\">\n        Where Practices <span style=\"color: var(--sm-teal);\">Lose Money</span>\n      </h2>\n      <p class=\"sm-desc\">\n        Revenue leaks happen at many points across the care cycle. StelleMed checks for every one of these, so no revenue is left behind.\n      </p>\n    </div>\n\n    <div class=\"sm-leaks-grid\">\n      <div class=\"sm-leak-card\">\n        <div class=\"sm-leak-header\">\n          <span class=\"sm-leak-badge\">1</span>\n          <h3 class=\"sm-leak-title\">Unbilled Visits</h3>\n        </div>\n        <p class=\"sm-leak-desc\">Patient encounters that take place but are never coded, billed, or submitted, leading to silent, permanent revenue loss.</p>\n      </div>\n\n      <div class=\"sm-leak-card\">\n        <div class=\"sm-leak-header\">\n          <span class=\"sm-leak-badge\">2</span>\n          <h3 class=\"sm-leak-title\">Denials Not Appealed</h3>\n        </div>\n        <p class=\"sm-leak-desc\">Legitimate clinical claims rejected by payers that staff simply write off instead of preparing clinical appeals.</p>\n      </div>\n\n      <div class=\"sm-leak-card\">\n        <div class=\"sm-leak-header\">\n          <span class=\"sm-leak-badge\">3</span>\n          <h3 class=\"sm-leak-title\">Underpayments</h3>\n        </div>\n        <p class=\"sm-leak-desc\">Insurers reimbursing below contracted fee schedule rates without being audited or challenged by the practice.</p>\n      </div>\n\n      <div class=\"sm-leak-card\">\n        <div class=\"sm-leak-header\">\n          <span class=\"sm-leak-badge\">4</span>\n          <h3 class=\"sm-leak-title\">Patient Balances Unpaid</h3>\n        </div>\n        <p class=\"sm-leak-desc\">High deductibles and co-pays left uncollected due to lack of upfront estimates and convenient digital payment options.</p>\n      </div>\n\n      <div class=\"sm-leak-card\">\n        <div class=\"sm-leak-header\">\n          <span class=\"sm-leak-badge\">5</span>\n          <h3 class=\"sm-leak-title\">Missed Filing Deadlines</h3>\n        </div>\n        <p class=\"sm-leak-desc\">Claims delayed past payer timely filing limits, resulting in unappealable, total forfeiture of reimbursement.</p>\n      </div>\n\n      <div class=\"sm-leak-card\">\n        <div class=\"sm-leak-header\">\n          <span class=\"sm-leak-badge\">6</span>\n          <h3 class=\"sm-leak-title\">Payments Not Posted</h3>\n        </div>\n        <p class=\"sm-leak-desc\">Checks and ERAs sitting unposted, distorting financial balances and preventing accurate secondary billing.</p>\n      </div>\n\n      <div class=\"sm-leak-card\">\n        <div class=\"sm-leak-header\">\n          <span class=\"sm-leak-badge\">7</span>\n          <h3 class=\"sm-leak-title\">Claims Rejected</h3>\n        </div>\n        <p class=\"sm-leak-desc\">Clearinghouse front-end format and demographic rejections that stall before reaching the payer adjudicator.</p>\n      </div>\n\n      <div class=\"sm-leak-card\">\n        <div class=\"sm-leak-header\">\n          <span class=\"sm-leak-badge\">8</span>\n          <h3 class=\"sm-leak-title\">No Response on Claims</h3>\n        </div>\n        <p class=\"sm-leak-desc\">Claims lost in payer black holes where no follow-up is initiated, allowing carrier statutory hold periods to lapse.</p>\n      </div>\n    </div>\n\n    <div class=\"sm-leaks-banner\">\n      <div style=\"max-width: 640px;\">\n        <div style=\"color: var(--sm-teal-accent); font-weight: 700; font-size: 0.9rem; margin-bottom: 6px;\">\n          &#128737; Full-Spectrum Financial Protection\n        </div>\n        <div style=\"font-size: 1.15rem; font-weight: 600; color: #FFFFFF; line-height: 1.4;\">\n          StelleMed checks for every one of these 8 points, so no revenue is left behind.\n        </div>\n      </div>\n\n      <a href=\"#contact\" class=\"sm-btn sm-btn-primary\">\n        <span>Let’s Find Your Missing Revenue</span>\n        <span>&rarr;</span>\n      </a>\n    </div>\n  </div>\n</div>"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
