@@ -1,0 +1,2424 @@
+{
+  "version": "0.4",
+  "title": "Patient & Practice Services - Complete Page (100% Flexbox Container)",
+  "type": "container",
+  "content": [
+    {
+      "id": "mfavw0e",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1220,
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "background_background": "gradient",
+        "background_color": "#FFFFFF",
+        "background_color_b": "#EBF6F8",
+        "background_gradient_type": "radial",
+        "background_gradient_position": "center center",
+        "padding": {
+          "unit": "px",
+          "top": "70",
+          "right": "20",
+          "bottom": "70",
+          "left": "20",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "50",
+          "right": "20",
+          "bottom": "50",
+          "left": "20",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "35",
+          "right": "16",
+          "bottom": "35",
+          "left": "16",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "lb61nav",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "<nav style=\"font-size:13.5px;font-weight:600;color:#64748B;\"><a href=\"/\" style=\"color:#64748B;text-decoration:none;\">Home</a> <span style=\"margin:0 8px;color:#94A3B8;\">&gt;</span> <a href=\"/services\" style=\"color:#64748B;text-decoration:none;\">Services</a> <span style=\"margin:0 8px;color:#94A3B8;\">&gt;</span> <span style=\"color:#179A9E;\">Patient & Practice Services</span></nav>",
+            "header_size": "span",
+            "align": "center",
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "16",
+              "left": "0",
+              "isLinked": false
+            }
+          }
+        },
+        {
+          "id": "pzfzwin",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "<span style=\"display:inline-flex;align-items:center;gap:6px;padding:6px 16px;background-color:#EAF8F8;border:1px solid #A7E8E9;border-radius:50px;color:#179A9E;font-size:12px;font-weight:800;letter-spacing:1px;text-transform:uppercase;\"><i class=\"fas fa-shield-alt\"></i> PATIENT-CENTRIC FINANCIAL CARE</span>",
+            "header_size": "span",
+            "align": "center",
+            "title_color": "#179A9E",
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "16",
+              "left": "0",
+              "isLinked": false
+            }
+          }
+        },
+        {
+          "id": "2cpx35g",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Patient & Practice <span style=\"color:#179A9E;\">Services</span>",
+            "header_size": "h1",
+            "align": "center",
+            "title_color": "#0C2340",
+            "typography_typography": "custom",
+            "typography_font_family": "Plus Jakarta Sans",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 46
+            },
+            "typography_font_weight": "800",
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "16",
+              "left": "0",
+              "isLinked": false
+            }
+          }
+        },
+        {
+          "id": "rzuaoea",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"margin:0 auto;max-width:760px;font-size:16.5px;color:#4A5568;line-height:1.65;text-align:center;\">Compassionate patient billing, transparent cost estimates, front-desk collection training, and flexible payment plans that protect provider-patient trust.</p>",
+            "text_color": "#4A5568",
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "30",
+              "left": "0",
+              "isLinked": false
+            }
+          }
+        },
+        {
+          "id": "yoktb34",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_direction_mobile": "column",
+            "flex_justify_content": "center",
+            "flex_align_items": "center",
+            "flex_gap": {
+              "unit": "px",
+              "size": 14,
+              "column": "14",
+              "row": "12"
+            }
+          },
+          "elements": [
+            {
+              "id": "my3r965",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Schedule Consultation",
+                "link": {
+                  "url": "#contact",
+                  "is_external": false,
+                  "nofollow": false
+                },
+                "button_type": "default",
+                "selected_icon": {
+                  "value": "fas fa-arrow-right",
+                  "library": "fa-solid"
+                },
+                "icon_align": "right",
+                "icon_indent": {
+                  "unit": "px",
+                  "size": 8
+                },
+                "background_color": "#179A9E",
+                "button_text_color": "#FFFFFF",
+                "background_hover_color": "#0F7B7E",
+                "hover_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "10",
+                  "right": "10",
+                  "bottom": "10",
+                  "left": "10",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "14",
+                  "right": "26",
+                  "bottom": "14",
+                  "left": "26",
+                  "isLinked": false
+                },
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14.5
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "f0w5osd",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Explore All Offerings",
+                "link": {
+                  "url": "#offerings",
+                  "is_external": false,
+                  "nofollow": false
+                },
+                "background_color": "#FFFFFF",
+                "button_text_color": "#0C2340",
+                "background_hover_color": "#F1F5F9",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1.5",
+                  "right": "1.5",
+                  "bottom": "1.5",
+                  "left": "1.5",
+                  "isLinked": true
+                },
+                "border_color": "#CBD5E1",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "10",
+                  "right": "10",
+                  "bottom": "10",
+                  "left": "10",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "14",
+                  "right": "26",
+                  "bottom": "14",
+                  "left": "26",
+                  "isLinked": false
+                },
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14.5
+                },
+                "typography_font_weight": "700"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lzcstap",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1220,
+          "sizes": []
+        },
+        "flex_direction": "row",
+        "flex_wrap": "wrap",
+        "flex_justify_content": "space-between",
+        "flex_align_items": "center",
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "border_border": "solid",
+        "border_width": {
+          "unit": "px",
+          "top": "1",
+          "right": "1",
+          "bottom": "1",
+          "left": "1",
+          "isLinked": true
+        },
+        "border_color": "#E2E8F0",
+        "border_radius": {
+          "unit": "px",
+          "top": "16",
+          "right": "16",
+          "bottom": "16",
+          "left": "16",
+          "isLinked": true
+        },
+        "box_shadow_box_shadow_type": "yes",
+        "box_shadow_box_shadow": {
+          "horizontal": 0,
+          "vertical": 10,
+          "blur": 30,
+          "spread": -5,
+          "color": "rgba(12, 35, 64, 0.08)"
+        },
+        "padding": {
+          "unit": "px",
+          "top": "24",
+          "right": "32",
+          "bottom": "24",
+          "left": "32",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "18",
+          "right": "16",
+          "bottom": "18",
+          "left": "16",
+          "isLinked": false
+        },
+        "margin": {
+          "unit": "px",
+          "top": "-30",
+          "right": "auto",
+          "bottom": "50",
+          "left": "auto",
+          "isLinked": false
+        },
+        "z_index": 3
+      },
+      "elements": [
+        {
+          "id": "e09bt11",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "width": {
+              "unit": "%",
+              "size": 24,
+              "sizes": []
+            },
+            "width_tablet": {
+              "unit": "%",
+              "size": 48,
+              "sizes": []
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100,
+              "sizes": []
+            },
+            "flex_direction": "column",
+            "flex_align_items": "center",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "0",
+              "right": "1",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            },
+            "border_color": "#E2E8F0",
+            "padding": {
+              "unit": "px",
+              "top": "8",
+              "right": "12",
+              "bottom": "8",
+              "left": "12",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "ncagchf",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "+38%",
+                "header_size": "h3",
+                "title_color": "#0C2340",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 28
+                },
+                "typography_font_weight": "800",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "2",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "slr412a",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "POS Collections Growth",
+                "header_size": "span",
+                "title_color": "#64748B",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 12.5
+                },
+                "typography_font_weight": "600"
+              }
+            }
+          ]
+        },
+        {
+          "id": "9u8xuk0",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "width": {
+              "unit": "%",
+              "size": 24,
+              "sizes": []
+            },
+            "width_tablet": {
+              "unit": "%",
+              "size": 48,
+              "sizes": []
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100,
+              "sizes": []
+            },
+            "flex_direction": "column",
+            "flex_align_items": "center",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "0",
+              "right": "1",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            },
+            "border_color": "#E2E8F0",
+            "padding": {
+              "unit": "px",
+              "top": "8",
+              "right": "12",
+              "bottom": "8",
+              "left": "12",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "n1sgd3d",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "95%",
+                "header_size": "h3",
+                "title_color": "#0C2340",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 28
+                },
+                "typography_font_weight": "800",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "2",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "q87puv3",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "First-Call Resolution",
+                "header_size": "span",
+                "title_color": "#64748B",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 12.5
+                },
+                "typography_font_weight": "600"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b3h26v6",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "width": {
+              "unit": "%",
+              "size": 24,
+              "sizes": []
+            },
+            "width_tablet": {
+              "unit": "%",
+              "size": 48,
+              "sizes": []
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100,
+              "sizes": []
+            },
+            "flex_direction": "column",
+            "flex_align_items": "center",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "0",
+              "right": "1",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            },
+            "border_color": "#E2E8F0",
+            "padding": {
+              "unit": "px",
+              "top": "8",
+              "right": "12",
+              "bottom": "8",
+              "left": "12",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "pdzk1vz",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "100%",
+                "header_size": "h3",
+                "title_color": "#0C2340",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 28
+                },
+                "typography_font_weight": "800",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "2",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "1tb420r",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "No Surprises Act Compliance",
+                "header_size": "span",
+                "title_color": "#64748B",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 12.5
+                },
+                "typography_font_weight": "600"
+              }
+            }
+          ]
+        },
+        {
+          "id": "acx03b2",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "width": {
+              "unit": "%",
+              "size": 24,
+              "sizes": []
+            },
+            "width_tablet": {
+              "unit": "%",
+              "size": 48,
+              "sizes": []
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100,
+              "sizes": []
+            },
+            "flex_direction": "column",
+            "flex_align_items": "center",
+            "border_border": "none",
+            "border_width": {
+              "unit": "px",
+              "top": "0",
+              "right": "1",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            },
+            "border_color": "#E2E8F0",
+            "padding": {
+              "unit": "px",
+              "top": "8",
+              "right": "12",
+              "bottom": "8",
+              "left": "12",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "lqwwze1",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "<3%",
+                "header_size": "h3",
+                "title_color": "#0C2340",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 28
+                },
+                "typography_font_weight": "800",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "2",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "1ueh19n",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Patient Bad Debt Rate",
+                "header_size": "span",
+                "title_color": "#64748B",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 12.5
+                },
+                "typography_font_weight": "600"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m4edtv0",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1220,
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "padding": {
+          "unit": "px",
+          "top": "50",
+          "right": "20",
+          "bottom": "70",
+          "left": "20",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "beni4m4",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "<span style=\"display:inline-flex;align-items:center;gap:6px;padding:6px 16px;background-color:#EAF8F8;border:1px solid #A7E8E9;border-radius:50px;color:#179A9E;font-size:12px;font-weight:800;letter-spacing:1px;text-transform:uppercase;\">OFFICIAL OFFERINGS</span>",
+            "header_size": "span",
+            "align": "center",
+            "title_color": "#179A9E",
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "16",
+              "left": "0",
+              "isLinked": false
+            }
+          }
+        },
+        {
+          "id": "rbos3gl",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "10 Core <span style=\"color:#179A9E;\">Patient & Practice Services</span>",
+            "header_size": "h2",
+            "align": "center",
+            "title_color": "#0C2340",
+            "typography_typography": "custom",
+            "typography_font_family": "Plus Jakarta Sans",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 38
+            },
+            "typography_font_weight": "800",
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "14",
+              "left": "0",
+              "isLinked": false
+            }
+          }
+        },
+        {
+          "id": "mqk3qzu",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"margin:0;font-size:16px;color:#4A5568;text-align:center;\">Preserving the doctor-patient relationship while accelerating practice collections.</p>",
+            "text_color": "#4A5568",
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "40",
+              "left": "0",
+              "isLinked": false
+            }
+          }
+        },
+        {
+          "id": "kq061la",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_justify_content": "space-between",
+            "flex_align_items": "stretch",
+            "flex_gap": {
+              "unit": "px",
+              "size": 24,
+              "column": "24",
+              "row": "24"
+            }
+          },
+          "elements": [
+            {
+              "id": "jksiu52",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 48.5,
+                  "sizes": []
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_direction": "column",
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#E2E8F0",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 4,
+                  "blur": 16,
+                  "spread": -2,
+                  "color": "rgba(12, 35, 64, 0.04)"
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "28",
+                  "right": "26",
+                  "bottom": "28",
+                  "left": "26",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "id": "pios42e",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Patient Medical Record",
+                    "header_size": "h3",
+                    "title_color": "#0C2340",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "typography_font_weight": "700",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "10",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "wq5qpte",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"margin:0;font-size:14px;color:#4A5568;line-height:1.6;\">Accurate demographic and medical record capture, ensuring clean clinical histories, compliant chart access, and seamless insurance cross-referencing.</p>",
+                    "text_color": "#4A5568",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "18",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "58c9eav",
+                  "elType": "widget",
+                  "widgetType": "icon-list",
+                  "settings": {
+                    "icon_list": [
+                      {
+                        "text": "Precise patient intake data auditing to prevent front-end billing discrepancies",
+                        "selected_icon": {
+                          "value": "far fa-check-circle",
+                          "library": "fa-regular"
+                        }
+                      },
+                      {
+                        "text": "Secure electronic health record indexing and HIPAA-compliant archiving",
+                        "selected_icon": {
+                          "value": "far fa-check-circle",
+                          "library": "fa-regular"
+                        }
+                      },
+                      {
+                        "text": "Streamlined chart retrieval for payer medical necessity reviews",
+                        "selected_icon": {
+                          "value": "far fa-check-circle",
+                          "library": "fa-regular"
+                        }
+                      }
+                    ],
+                    "icon_color": "#179A9E",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 13.5
+                    },
+                    "space_between": {
+                      "unit": "px",
+                      "size": 8
+                    },
+                    "text_color": "#334155",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 13
+                    },
+                    "typography_font_weight": "500"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "9zqijmq",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 48.5,
+                  "sizes": []
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_direction": "column",
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#E2E8F0",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 4,
+                  "blur": 16,
+                  "spread": -2,
+                  "color": "rgba(12, 35, 64, 0.04)"
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "28",
+                  "right": "26",
+                  "bottom": "28",
+                  "left": "26",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "id": "8joam07",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Payment Plans & Self-Pay Collections",
+                    "header_size": "h3",
+                    "title_color": "#0C2340",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "typography_font_weight": "700",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "10",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "ttxo50c",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"margin:0;font-size:14px;color:#4A5568;line-height:1.6;\">Flexible, customized monthly installment plans and recurring card-on-file schedules that empower patients to pay balances without creating bad debt.</p>",
+                    "text_color": "#4A5568",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "18",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "9r6j2fi",
+                  "elType": "widget",
+                  "widgetType": "icon-list",
+                  "settings": {
+                    "icon_list": [
+                      {
+                        "text": "Budget-friendly recurring auto-debit arrangements",
+                        "selected_icon": {
+                          "value": "far fa-check-circle",
+                          "library": "fa-regular"
+                        }
+                      },
+                      {
+                        "text": "PCI-DSS compliant encrypted card-on-file tokenization",
+                        "selected_icon": {
+                          "value": "far fa-check-circle",
+                          "library": "fa-regular"
+                        }
+                      },
+                      {
+                        "text": "Compassionate self-pay recovery protocols that preserve doctor-patient trust",
+                        "selected_icon": {
+                          "value": "far fa-check-circle",
+                          "library": "fa-regular"
+                        }
+                      }
+                    ],
+                    "icon_color": "#179A9E",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 13.5
+                    },
+                    "space_between": {
+                      "unit": "px",
+                      "size": 8
+                    },
+                    "text_color": "#334155",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 13
+                    },
+                    "typography_font_weight": "500"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "ce3q1f1",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 48.5,
+                  "sizes": []
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_direction": "column",
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#E2E8F0",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 4,
+                  "blur": 16,
+                  "spread": -2,
+                  "color": "rgba(12, 35, 64, 0.04)"
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "28",
+                  "right": "26",
+                  "bottom": "28",
+                  "left": "26",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "id": "1zu7toz",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Cost Estimates",
+                    "header_size": "h3",
+                    "title_color": "#0C2340",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "typography_font_weight": "700",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "10",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "wlwg2am",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"margin:0;font-size:14px;color:#4A5568;line-height:1.6;\">Transparent Good Faith Estimates (GFE) provided prior to scheduled clinical services, giving patients upfront clarity and maintaining full compliance with the No Surprises Act.</p>",
+                    "text_color": "#4A5568",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "18",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "yye4uav",
+                  "elType": "widget",
+                  "widgetType": "icon-list",
+                  "settings": {
+                    "icon_list": [
+                      {
+                        "text": "Pre-service deductible, copay, and coinsurance calculation",
+                        "selected_icon": {
+                          "value": "far fa-check-circle",
+                          "library": "fa-regular"
+                        }
+                      },
+                      {
+                        "text": "Itemized cost estimates for planned diagnostics and procedures",
+                        "selected_icon": {
+                          "value": "far fa-check-circle",
+                          "library": "fa-regular"
+                        }
+                      },
+                      {
+                        "text": "Reduction of post-treatment billing confusion and disputed charges",
+                        "selected_icon": {
+                          "value": "far fa-check-circle",
+                          "library": "fa-regular"
+                        }
+                      }
+                    ],
+                    "icon_color": "#179A9E",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 13.5
+                    },
+                    "space_between": {
+                      "unit": "px",
+                      "size": 8
+                    },
+                    "text_color": "#334155",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 13
+                    },
+                    "typography_font_weight": "500"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "zh2xiuo",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 48.5,
+                  "sizes": []
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_direction": "column",
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#E2E8F0",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 4,
+                  "blur": 16,
+                  "spread": -2,
+                  "color": "rgba(12, 35, 64, 0.04)"
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "28",
+                  "right": "26",
+                  "bottom": "28",
+                  "left": "26",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "id": "u0x1ddo",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Patient Billing Support",
+                    "header_size": "h3",
+                    "title_color": "#0C2340",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "typography_font_weight": "700",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "10",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "3g9yhwc",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"margin:0;font-size:14px;color:#4A5568;line-height:1.6;\">Dedicated, empathetic billing customer service answering patient questions regarding invoices, insurance balances, and Explanation of Benefits (EOB).</p>",
+                    "text_color": "#4A5568",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "18",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "p2pvfg2",
+                  "elType": "widget",
+                  "widgetType": "icon-list",
+                  "settings": {
+                    "icon_list": [
+                      {
+                        "text": "Toll-free patient support line answered by trained medical billing representatives",
+                        "selected_icon": {
+                          "value": "far fa-check-circle",
+                          "library": "fa-regular"
+                        }
+                      },
+                      {
+                        "text": "Bilingual communication support for diverse patient communities",
+                        "selected_icon": {
+                          "value": "far fa-check-circle",
+                          "library": "fa-regular"
+                        }
+                      },
+                      {
+                        "text": "Rapid first-contact resolution for billing and balance inquiries",
+                        "selected_icon": {
+                          "value": "far fa-check-circle",
+                          "library": "fa-regular"
+                        }
+                      }
+                    ],
+                    "icon_color": "#179A9E",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 13.5
+                    },
+                    "space_between": {
+                      "unit": "px",
+                      "size": 8
+                    },
+                    "text_color": "#334155",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 13
+                    },
+                    "typography_font_weight": "500"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "92s6nfl",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 48.5,
+                  "sizes": []
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_direction": "column",
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#E2E8F0",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 4,
+                  "blur": 16,
+                  "spread": -2,
+                  "color": "rgba(12, 35, 64, 0.04)"
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "28",
+                  "right": "26",
+                  "bottom": "28",
+                  "left": "26",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "id": "46wprvn",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Legacy A/R Recovery",
+                    "header_size": "h3",
+                    "title_color": "#0C2340",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "typography_font_weight": "700",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "10",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "g88c0uv",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"margin:0;font-size:14px;color:#4A5568;line-height:1.6;\">Targeted recovery projects for aged self-pay and delinquent practice receivables that have lingered over 60, 90, or 120+ days.</p>",
+                    "text_color": "#4A5568",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "18",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "4oy9toh",
+                  "elType": "widget",
+                  "widgetType": "icon-list",
+                  "settings": {
+                    "icon_list": [
+                      {
+                        "text": "Audit and cleanup of stale or unresolved patient balances",
+                        "selected_icon": {
+                          "value": "far fa-check-circle",
+                          "library": "fa-regular"
+                        }
+                      },
+                      {
+                        "text": "Ethical outreach campaigns via SMS, email, and clear paper statements",
+                        "selected_icon": {
+                          "value": "far fa-check-circle",
+                          "library": "fa-regular"
+                        }
+                      },
+                      {
+                        "text": "Substantial cash recovery from written-off or forgotten receivables",
+                        "selected_icon": {
+                          "value": "far fa-check-circle",
+                          "library": "fa-regular"
+                        }
+                      }
+                    ],
+                    "icon_color": "#179A9E",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 13.5
+                    },
+                    "space_between": {
+                      "unit": "px",
+                      "size": 8
+                    },
+                    "text_color": "#334155",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 13
+                    },
+                    "typography_font_weight": "500"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "toyqmy1",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 48.5,
+                  "sizes": []
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_direction": "column",
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#E2E8F0",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 4,
+                  "blur": 16,
+                  "spread": -2,
+                  "color": "rgba(12, 35, 64, 0.04)"
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "28",
+                  "right": "26",
+                  "bottom": "28",
+                  "left": "26",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "id": "99u74e2",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Front-Office & Scheduling Assistance",
+                    "header_size": "h3",
+                    "title_color": "#0C2340",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "typography_font_weight": "700",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "10",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "8d9kp8w",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"margin:0;font-size:14px;color:#4A5568;line-height:1.6;\">Administrative workflow guidance and scheduling coordination to eliminate bottlenecks, reduce no-shows, and collect copayments at the front desk.</p>",
+                    "text_color": "#4A5568",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "18",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "a1zsl33",
+                  "elType": "widget",
+                  "widgetType": "icon-list",
+                  "settings": {
+                    "icon_list": [
+                      {
+                        "text": "Intake scheduling optimization and appointment confirmation workflows",
+                        "selected_icon": {
+                          "value": "far fa-check-circle",
+                          "library": "fa-regular"
+                        }
+                      },
+                      {
+                        "text": "Point-of-service (POS) copay and deductible collection protocols",
+                        "selected_icon": {
+                          "value": "far fa-check-circle",
+                          "library": "fa-regular"
+                        }
+                      },
+                      {
+                        "text": "Daily schedule balancing against clinic encounter records",
+                        "selected_icon": {
+                          "value": "far fa-check-circle",
+                          "library": "fa-regular"
+                        }
+                      }
+                    ],
+                    "icon_color": "#179A9E",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 13.5
+                    },
+                    "space_between": {
+                      "unit": "px",
+                      "size": 8
+                    },
+                    "text_color": "#334155",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 13
+                    },
+                    "typography_font_weight": "500"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "z1sh3lb",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 48.5,
+                  "sizes": []
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_direction": "column",
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#E2E8F0",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 4,
+                  "blur": 16,
+                  "spread": -2,
+                  "color": "rgba(12, 35, 64, 0.04)"
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "28",
+                  "right": "26",
+                  "bottom": "28",
+                  "left": "26",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "id": "wu57uci",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Financial Reporting & KPI Dashboards",
+                    "header_size": "h3",
+                    "title_color": "#0C2340",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "typography_font_weight": "700",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "10",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "uhxg13n",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"margin:0;font-size:14px;color:#4A5568;line-height:1.6;\">Clear, comprehensive executive financial reports and real-time KPI dashboards tracking gross collections, net collection rate, and days in A/R.</p>",
+                    "text_color": "#4A5568",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "18",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "61efswm",
+                  "elType": "widget",
+                  "widgetType": "icon-list",
+                  "settings": {
+                    "icon_list": [
+                      {
+                        "text": "24/7 access to live financial metrics across all practice locations",
+                        "selected_icon": {
+                          "value": "far fa-check-circle",
+                          "library": "fa-regular"
+                        }
+                      },
+                      {
+                        "text": "Monthly reconciliation reports detailing cash flow and aging categories",
+                        "selected_icon": {
+                          "value": "far fa-check-circle",
+                          "library": "fa-regular"
+                        }
+                      },
+                      {
+                        "text": "Actionable practice health trends and physician productivity metrics",
+                        "selected_icon": {
+                          "value": "far fa-check-circle",
+                          "library": "fa-regular"
+                        }
+                      }
+                    ],
+                    "icon_color": "#179A9E",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 13.5
+                    },
+                    "space_between": {
+                      "unit": "px",
+                      "size": 8
+                    },
+                    "text_color": "#334155",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 13
+                    },
+                    "typography_font_weight": "500"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "a5yevgf",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 48.5,
+                  "sizes": []
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_direction": "column",
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#E2E8F0",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 4,
+                  "blur": 16,
+                  "spread": -2,
+                  "color": "rgba(12, 35, 64, 0.04)"
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "28",
+                  "right": "26",
+                  "bottom": "28",
+                  "left": "26",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "id": "22uqi0s",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Revenue Cycle Benchmarking",
+                    "header_size": "h3",
+                    "title_color": "#0C2340",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "typography_font_weight": "700",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "10",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "exhqawn",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"margin:0;font-size:14px;color:#4A5568;line-height:1.6;\">Measuring your practice’s financial performance against national specialty benchmarks (MGMA and HFMA standards) to identify untapped revenue opportunities.</p>",
+                    "text_color": "#4A5568",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "18",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "k6jlzth",
+                  "elType": "widget",
+                  "widgetType": "icon-list",
+                  "settings": {
+                    "icon_list": [
+                      {
+                        "text": "Specialty-specific fee schedule comparison against market percentiles",
+                        "selected_icon": {
+                          "value": "far fa-check-circle",
+                          "library": "fa-regular"
+                        }
+                      },
+                      {
+                        "text": "Clean claim rate and denial rate benchmarking against national averages",
+                        "selected_icon": {
+                          "value": "far fa-check-circle",
+                          "library": "fa-regular"
+                        }
+                      },
+                      {
+                        "text": "Strategic recommendations to enhance practice profitability",
+                        "selected_icon": {
+                          "value": "far fa-check-circle",
+                          "library": "fa-regular"
+                        }
+                      }
+                    ],
+                    "icon_color": "#179A9E",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 13.5
+                    },
+                    "space_between": {
+                      "unit": "px",
+                      "size": 8
+                    },
+                    "text_color": "#334155",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 13
+                    },
+                    "typography_font_weight": "500"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "wqmt1w7",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 48.5,
+                  "sizes": []
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_direction": "column",
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#E2E8F0",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 4,
+                  "blur": 16,
+                  "spread": -2,
+                  "color": "rgba(12, 35, 64, 0.04)"
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "28",
+                  "right": "26",
+                  "bottom": "28",
+                  "left": "26",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "id": "wr08as0",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Staff Training",
+                    "header_size": "h3",
+                    "title_color": "#0C2340",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "typography_font_weight": "700",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "10",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "a7auy9x",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"margin:0;font-size:14px;color:#4A5568;line-height:1.6;\">Comprehensive training for front-desk, administrative, and clinical staff on insurance verification, documentation guidelines, and POS collections.</p>",
+                    "text_color": "#4A5568",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "18",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "mnnggn1",
+                  "elType": "widget",
+                  "widgetType": "icon-list",
+                  "settings": {
+                    "icon_list": [
+                      {
+                        "text": "Standardized intake checklists to eliminate front-end demographic errors",
+                        "selected_icon": {
+                          "value": "far fa-check-circle",
+                          "library": "fa-regular"
+                        }
+                      },
+                      {
+                        "text": "Patient financial counseling communication scripts",
+                        "selected_icon": {
+                          "value": "far fa-check-circle",
+                          "library": "fa-regular"
+                        }
+                      },
+                      {
+                        "text": "Periodic refresher courses on evolving payer guidelines and billing rules",
+                        "selected_icon": {
+                          "value": "far fa-check-circle",
+                          "library": "fa-regular"
+                        }
+                      }
+                    ],
+                    "icon_color": "#179A9E",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 13.5
+                    },
+                    "space_between": {
+                      "unit": "px",
+                      "size": 8
+                    },
+                    "text_color": "#334155",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 13
+                    },
+                    "typography_font_weight": "500"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "0rw3jyj",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 48.5,
+                  "sizes": []
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_direction": "column",
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#E2E8F0",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 4,
+                  "blur": 16,
+                  "spread": -2,
+                  "color": "rgba(12, 35, 64, 0.04)"
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "28",
+                  "right": "26",
+                  "bottom": "28",
+                  "left": "26",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "id": "o2gcera",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "New-Practice Start-Up Support",
+                    "header_size": "h3",
+                    "title_color": "#0C2340",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "typography_font_weight": "700",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "10",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "jzujiix",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"margin:0;font-size:14px;color:#4A5568;line-height:1.6;\">Turnkey operational setup for new healthcare practices, encompassing provider enrollment, EHR/PM configuration, fee schedule design, and billing workflows.</p>",
+                    "text_color": "#4A5568",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "18",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "me1557s",
+                  "elType": "widget",
+                  "widgetType": "icon-list",
+                  "settings": {
+                    "icon_list": [
+                      {
+                        "text": "Initial Medicare, Medicaid, and commercial payer credentialing fast-track",
+                        "selected_icon": {
+                          "value": "far fa-check-circle",
+                          "library": "fa-regular"
+                        }
+                      },
+                      {
+                        "text": "Clearinghouse gateway setup and practice management configuration",
+                        "selected_icon": {
+                          "value": "far fa-check-circle",
+                          "library": "fa-regular"
+                        }
+                      },
+                      {
+                        "text": "Complete operational onboarding to ensure immediate cash flow",
+                        "selected_icon": {
+                          "value": "far fa-check-circle",
+                          "library": "fa-regular"
+                        }
+                      }
+                    ],
+                    "icon_color": "#179A9E",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 13.5
+                    },
+                    "space_between": {
+                      "unit": "px",
+                      "size": 8
+                    },
+                    "text_color": "#334155",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 13
+                    },
+                    "typography_font_weight": "500"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cqb4ls3",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1220,
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "background_background": "classic",
+        "background_color": "#081D30",
+        "border_radius": {
+          "unit": "px",
+          "top": "20",
+          "right": "20",
+          "bottom": "20",
+          "left": "20",
+          "isLinked": true
+        },
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "24",
+          "bottom": "60",
+          "left": "24",
+          "isLinked": false
+        },
+        "margin": {
+          "unit": "px",
+          "top": "20",
+          "right": "auto",
+          "bottom": "40",
+          "left": "auto",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "i2l08ew",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Transform Your Practice's Patient Financial Experience",
+            "header_size": "h2",
+            "align": "center",
+            "title_color": "#FFFFFF",
+            "typography_typography": "custom",
+            "typography_font_family": "Plus Jakarta Sans",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 34
+            },
+            "typography_font_weight": "800",
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "14",
+              "left": "0",
+              "isLinked": false
+            }
+          }
+        },
+        {
+          "id": "krqugij",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"margin:0 auto;max-width:680px;font-size:16px;color:#94A3B8;line-height:1.6;text-align:center;\">Empower your front office, increase collections, and preserve patient relationships.</p>",
+            "text_color": "#94A3B8",
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "28",
+              "left": "0",
+              "isLinked": false
+            }
+          }
+        },
+        {
+          "id": "rhceprx",
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+            "text": "Schedule Practice Consultation",
+            "link": {
+              "url": "#contact",
+              "is_external": false,
+              "nofollow": false
+            },
+            "selected_icon": {
+              "value": "fas fa-arrow-right",
+              "library": "fa-solid"
+            },
+            "icon_align": "right",
+            "icon_indent": {
+              "unit": "px",
+              "size": 8
+            },
+            "background_color": "#179A9E",
+            "button_text_color": "#FFFFFF",
+            "background_hover_color": "#0F7B7E",
+            "hover_color": "#FFFFFF",
+            "border_radius": {
+              "unit": "px",
+              "top": "10",
+              "right": "10",
+              "bottom": "10",
+              "left": "10",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "14",
+              "right": "26",
+              "bottom": "14",
+              "left": "26",
+              "isLinked": false
+            },
+            "typography_typography": "custom",
+            "typography_font_family": "Plus Jakarta Sans",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 14.5
+            },
+            "typography_font_weight": "700"
+          }
+        }
+      ]
+    }
+  ]
+}
