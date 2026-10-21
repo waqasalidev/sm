@@ -1,17 +1,29 @@
 {
   "version": "0.4",
-  "title": "Medical Billing & Revenue Cycle Management - Hero Section (100% Native Elementor)",
-  "type": "section",
+  "title": "Medical Billing & Revenue Cycle Management - Hero Section (Elementor Flexbox Container)",
+  "type": "container",
   "content": [
     {
-      "id": "gdjtuqb",
-      "elType": "section",
+      "id": "qb8h3y6",
+      "elType": "container",
+      "isInner": false,
       "settings": {
-        "layout": "boxed",
-        "content_width": {
+        "content_width": "boxed",
+        "boxed_width": {
           "unit": "px",
           "size": 1220,
           "sizes": []
+        },
+        "flex_direction": "row",
+        "flex_direction_tablet": "column",
+        "flex_direction_mobile": "column",
+        "flex_wrap": "wrap",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": 48,
+          "column": "48",
+          "row": "40"
         },
         "padding": {
           "unit": "px",
@@ -45,32 +57,38 @@
       },
       "elements": [
         {
-          "id": "4rrfzg9",
-          "elType": "column",
+          "id": "fjv69ze",
+          "elType": "container",
+          "isInner": true,
           "settings": {
-            "_column_size": 58,
-            "_column_size_tablet": 100,
-            "_column_size_mobile": 100,
-            "padding": {
-              "unit": "px",
-              "top": "0",
-              "right": "30",
-              "bottom": "0",
-              "left": "0",
-              "isLinked": false
+            "content_width": "full",
+            "width": {
+              "unit": "%",
+              "size": 55,
+              "sizes": []
             },
-            "padding_tablet": {
+            "width_tablet": {
+              "unit": "%",
+              "size": 100,
+              "sizes": []
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100,
+              "sizes": []
+            },
+            "flex_direction": "column",
+            "flex_align_items": "flex-start",
+            "flex_gap": {
               "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "40",
-              "left": "0",
-              "isLinked": false
+              "size": 0,
+              "column": "0",
+              "row": "0"
             }
           },
           "elements": [
             {
-              "id": "ms8inhj",
+              "id": "om6iuo4",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -97,7 +115,7 @@
               }
             },
             {
-              "id": "8v92qt7",
+              "id": "i5csofk",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -144,7 +162,7 @@
               }
             },
             {
-              "id": "n2vh5nr",
+              "id": "zsyj2k8",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
@@ -179,7 +197,7 @@
               }
             },
             {
-              "id": "b9khsgu",
+              "id": "d14uz49",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -206,113 +224,21 @@
               }
             },
             {
-              "id": "jxc38tt",
-              "elType": "widget",
-              "widgetType": "button",
+              "id": "5bydhpm",
+              "elType": "container",
+              "isInner": true,
               "settings": {
-                "text": "Let’s Find Your Missing Revenue →",
-                "link": {
-                  "url": "#consultation-modal",
-                  "is_external": false,
-                  "nofollow": false
-                },
-                "align": "left",
-                "size": "md",
-                "background_color": "#179A9E",
-                "button_text_color": "#FFFFFF",
-                "typography_typography": "custom",
-                "typography_font_family": "Plus Jakarta Sans",
-                "typography_font_size": {
+                "content_width": "full",
+                "flex_direction": "row",
+                "flex_wrap": "wrap",
+                "flex_align_items": "center",
+                "flex_gap": {
                   "unit": "px",
-                  "size": 15.5,
-                  "sizes": []
+                  "size": 16,
+                  "column": "16",
+                  "row": "12"
                 },
-                "typography_font_weight": "700",
-                "border_radius": {
-                  "unit": "px",
-                  "top": "10",
-                  "right": "10",
-                  "bottom": "10",
-                  "left": "10",
-                  "isLinked": true
-                },
-                "button_box_shadow_box_shadow": {
-                  "horizontal": 0,
-                  "vertical": 8,
-                  "blur": 22,
-                  "spread": 0,
-                  "color": "rgba(23, 154, 158, 0.32)"
-                },
-                "button_padding": {
-                  "unit": "px",
-                  "top": "15",
-                  "right": "28",
-                  "bottom": "15",
-                  "left": "28",
-                  "isLinked": false
-                },
-                "_element_width": "auto",
-                "_margin": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "16",
-                  "bottom": "44",
-                  "left": "0",
-                  "isLinked": false
-                }
-              }
-            },
-            {
-              "id": "dejb1ez",
-              "elType": "widget",
-              "widgetType": "button",
-              "settings": {
-                "text": "Explore Our Services",
-                "link": {
-                  "url": "#services",
-                  "is_external": false,
-                  "nofollow": false
-                },
-                "align": "left",
-                "size": "md",
-                "background_color": "transparent",
-                "button_text_color": "#102C40",
-                "border_border": "solid",
-                "border_width": {
-                  "unit": "px",
-                  "top": "1.5",
-                  "right": "1.5",
-                  "bottom": "1.5",
-                  "left": "1.5",
-                  "isLinked": true
-                },
-                "border_color": "#102C40",
-                "typography_typography": "custom",
-                "typography_font_family": "Plus Jakarta Sans",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 15.5,
-                  "sizes": []
-                },
-                "typography_font_weight": "700",
-                "border_radius": {
-                  "unit": "px",
-                  "top": "10",
-                  "right": "10",
-                  "bottom": "10",
-                  "left": "10",
-                  "isLinked": true
-                },
-                "button_padding": {
-                  "unit": "px",
-                  "top": "14",
-                  "right": "26",
-                  "bottom": "14",
-                  "left": "26",
-                  "isLinked": false
-                },
-                "_element_width": "auto",
-                "_margin": {
+                "margin": {
                   "unit": "px",
                   "top": "0",
                   "right": "0",
@@ -320,21 +246,135 @@
                   "left": "0",
                   "isLinked": false
                 }
-              }
+              },
+              "elements": [
+                {
+                  "id": "5px79la",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Let’s Find Your Missing Revenue →",
+                    "link": {
+                      "url": "#consultation-modal",
+                      "is_external": false,
+                      "nofollow": false
+                    },
+                    "align": "left",
+                    "size": "md",
+                    "background_color": "#179A9E",
+                    "button_text_color": "#FFFFFF",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 15.5,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "700",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "10",
+                      "right": "10",
+                      "bottom": "10",
+                      "left": "10",
+                      "isLinked": true
+                    },
+                    "button_box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 8,
+                      "blur": 22,
+                      "spread": 0,
+                      "color": "rgba(23, 154, 158, 0.32)"
+                    },
+                    "button_padding": {
+                      "unit": "px",
+                      "top": "15",
+                      "right": "28",
+                      "bottom": "15",
+                      "left": "28",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "ik77u7i",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Explore Our Services",
+                    "link": {
+                      "url": "#services",
+                      "is_external": false,
+                      "nofollow": false
+                    },
+                    "align": "left",
+                    "size": "md",
+                    "background_color": "transparent",
+                    "button_text_color": "#102C40",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1.5",
+                      "right": "1.5",
+                      "bottom": "1.5",
+                      "left": "1.5",
+                      "isLinked": true
+                    },
+                    "border_color": "#102C40",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 15.5,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "700",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "10",
+                      "right": "10",
+                      "bottom": "10",
+                      "left": "10",
+                      "isLinked": true
+                    },
+                    "button_padding": {
+                      "unit": "px",
+                      "top": "14",
+                      "right": "26",
+                      "bottom": "14",
+                      "left": "26",
+                      "isLinked": false
+                    }
+                  }
+                }
+              ]
             },
             {
-              "id": "r7cmyku",
-              "elType": "section",
+              "id": "53hzc6n",
+              "elType": "container",
+              "isInner": true,
               "settings": {
                 "content_width": "full",
-                "gap": "default",
-                "border_top_border": "solid",
-                "border_top_width": {
+                "flex_direction": "row",
+                "flex_direction_mobile": "column",
+                "flex_wrap": "wrap",
+                "flex_align_items": "flex-start",
+                "flex_gap": {
                   "unit": "px",
-                  "size": 1,
-                  "sizes": []
+                  "size": 20,
+                  "column": "20",
+                  "row": "14"
                 },
-                "border_top_color": "rgba(226, 232, 240, 0.85)",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "border_color": "rgba(226, 232, 240, 0.85)",
                 "padding": {
                   "unit": "px",
                   "top": "24",
@@ -346,15 +386,25 @@
               },
               "elements": [
                 {
-                  "id": "b216kud",
-                  "elType": "column",
+                  "id": "b66to94",
+                  "elType": "container",
+                  "isInner": true,
                   "settings": {
-                    "_column_size": 33.33,
-                    "_column_size_mobile": 100
+                    "content_width": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 30,
+                      "sizes": []
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    }
                   },
                   "elements": [
                     {
-                      "id": "pbdvufa",
+                      "id": "4rzh1yc",
                       "elType": "widget",
                       "widgetType": "icon-box",
                       "settings": {
@@ -399,15 +449,25 @@
                   ]
                 },
                 {
-                  "id": "cdzy203",
-                  "elType": "column",
+                  "id": "kz5k86n",
+                  "elType": "container",
+                  "isInner": true,
                   "settings": {
-                    "_column_size": 33.33,
-                    "_column_size_mobile": 100
+                    "content_width": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 33,
+                      "sizes": []
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    }
                   },
                   "elements": [
                     {
-                      "id": "qm4lzil",
+                      "id": "ux1a1ix",
                       "elType": "widget",
                       "widgetType": "icon-box",
                       "settings": {
@@ -452,15 +512,25 @@
                   ]
                 },
                 {
-                  "id": "mpgv64i",
-                  "elType": "column",
+                  "id": "gj60mac",
+                  "elType": "container",
+                  "isInner": true,
                   "settings": {
-                    "_column_size": 33.33,
-                    "_column_size_mobile": 100
+                    "content_width": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 33,
+                      "sizes": []
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    }
                   },
                   "elements": [
                     {
-                      "id": "fnwokj0",
+                      "id": "87eox72",
                       "elType": "widget",
                       "widgetType": "icon-box",
                       "settings": {
@@ -509,111 +579,136 @@
           ]
         },
         {
-          "id": "xzg5h7e",
-          "elType": "column",
+          "id": "ch7a12r",
+          "elType": "container",
+          "isInner": true,
           "settings": {
-            "_column_size": 42,
-            "_column_size_tablet": 100,
-            "_column_size_mobile": 100,
+            "content_width": "full",
+            "width": {
+              "unit": "%",
+              "size": 40,
+              "sizes": []
+            },
+            "width_tablet": {
+              "unit": "%",
+              "size": 100,
+              "sizes": []
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100,
+              "sizes": []
+            },
             "position": "relative",
-            "padding": {
-              "unit": "px",
-              "top": "10",
-              "right": "10",
-              "bottom": "10",
-              "left": "10",
-              "isLinked": true
-            }
+            "flex_direction": "column",
+            "flex_align_items": "center",
+            "flex_justify_content": "center"
           },
           "elements": [
             {
-              "id": "tzsy79h",
-              "elType": "widget",
-              "widgetType": "image",
+              "id": "6ling2g",
+              "elType": "container",
+              "isInner": true,
               "settings": {
-                "image": {
-                  "url": "https://raw.githubusercontent.com/waqasalidev/sm/main/src/assets/stellemed-physician.png",
-                  "id": ""
-                },
-                "image_size": "full",
-                "align": "center",
-                "border_border": "solid",
-                "border_width": {
-                  "unit": "px",
-                  "top": "4",
-                  "right": "4",
-                  "bottom": "4",
-                  "left": "4",
-                  "isLinked": true
-                },
-                "border_color": "#FFFFFF",
-                "border_radius": {
-                  "unit": "px",
-                  "top": "28",
-                  "right": "28",
-                  "bottom": "28",
-                  "left": "28",
-                  "isLinked": true
-                },
-                "box_shadow_box_shadow": {
-                  "horizontal": 14,
-                  "vertical": -14,
-                  "blur": 0,
-                  "spread": 0,
-                  "color": "rgba(23, 154, 158, 0.38)"
-                },
-                "custom_css": "selector { position: relative; }\nselector::before { content: ''; position: absolute; inset: -14px -14px 14px 14px; border-radius: 34px; background: linear-gradient(135deg, rgba(23, 154, 158, 0.35) 0%, rgba(16, 44, 64, 0.12) 100%); transform: rotate(2.5deg); z-index: -1; pointer-events: none; }\nselector img { border: 4px solid #FFFFFF !important; border-radius: 28px !important; box-shadow: 0 24px 50px rgba(16, 44, 64, 0.16) !important; width: 100% !important; height: 480px !important; object-fit: cover !important; display: block !important; }",
-                "_position": "relative",
-                "_z_index": 2
-              }
-            },
-            {
-              "id": "cv6gf2a",
-              "elType": "widget",
-              "widgetType": "heading",
-              "settings": {
-                "title": "<span style=\"display:inline-flex;align-items:center;gap:8px;background:rgba(10, 30, 47, 0.95);color:#FFFFFF;padding:9px 18px;border-radius:30px;font-size:13px;font-weight:700;box-shadow:0 10px 25px rgba(10,30,47,0.35);border:1px solid rgba(255,255,255,0.15);\"><i class=\"fas fa-award\" style=\"color:#38D4D8;\"></i> 98% Clean Claim Rate</span>",
-                "header_size": "span",
-                "align": "right",
-                "_position": "absolute",
-                "_offset_orientation_h": "end",
-                "_offset_x": {
-                  "unit": "px",
-                  "size": -12,
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 100,
                   "sizes": []
                 },
-                "_offset_orientation_v": "start",
-                "_offset_y": {
-                  "unit": "px",
-                  "size": 24,
-                  "sizes": []
+                "position": "relative"
+              },
+              "elements": [
+                {
+                  "id": "kfyxyww",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://raw.githubusercontent.com/waqasalidev/sm/main/src/assets/stellemed-physician.png",
+                      "id": ""
+                    },
+                    "image_size": "full",
+                    "align": "center",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "4",
+                      "right": "4",
+                      "bottom": "4",
+                      "left": "4",
+                      "isLinked": true
+                    },
+                    "border_color": "#FFFFFF",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "28",
+                      "right": "28",
+                      "bottom": "28",
+                      "left": "28",
+                      "isLinked": true
+                    },
+                    "box_shadow_box_shadow": {
+                      "horizontal": 14,
+                      "vertical": -14,
+                      "blur": 0,
+                      "spread": 0,
+                      "color": "rgba(23, 154, 158, 0.38)"
+                    },
+                    "custom_css": "selector { position: relative; }\nselector::before { content: ''; position: absolute; inset: -14px -14px 14px 14px; border-radius: 34px; background: linear-gradient(135deg, rgba(23, 154, 158, 0.35) 0%, rgba(16, 44, 64, 0.12) 100%); transform: rotate(2.5deg); z-index: -1; pointer-events: none; }\nselector img { border: 4px solid #FFFFFF !important; border-radius: 28px !important; box-shadow: 0 24px 50px rgba(16, 44, 64, 0.16) !important; width: 100% !important; height: 480px !important; object-fit: cover !important; display: block !important; }",
+                    "_position": "relative",
+                    "_z_index": 2
+                  }
                 },
-                "_z_index": 5
-              }
-            },
-            {
-              "id": "ceahxa0",
-              "elType": "widget",
-              "widgetType": "heading",
-              "settings": {
-                "title": "<div style=\"display:flex;align-items:center;gap:14px;background:#FFFFFF;padding:13px 20px;border-radius:18px;box-shadow:0 16px 36px rgba(16,44,64,0.16);border:1px solid #E2E8F0;\"><div style=\"width:44px;height:44px;background:#059669;border-radius:12px;display:flex;align-items:center;justify-content:center;color:#FFFFFF;font-size:20px;\"><i class=\"fas fa-chart-line\"></i></div><div><div style=\"color:#102C40;font-size:15px;font-weight:800;line-height:1.2;\">25+ Years <span style=\"color:#059669;font-weight:700;\">Tech Heritage</span></div><div style=\"color:#64748B;font-size:11.5px;font-weight:500;margin-top:3px;\">Backed by Corvit &amp; StelleCloud</div></div></div>",
-                "header_size": "div",
-                "align": "left",
-                "_position": "absolute",
-                "_offset_orientation_h": "start",
-                "_offset_x": {
-                  "unit": "px",
-                  "size": -16,
-                  "sizes": []
+                {
+                  "id": "iaflhy8",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "<span style=\"display:inline-flex;align-items:center;gap:8px;background:rgba(10, 30, 47, 0.95);color:#FFFFFF;padding:9px 18px;border-radius:30px;font-size:13px;font-weight:700;box-shadow:0 10px 25px rgba(10,30,47,0.35);border:1px solid rgba(255,255,255,0.15);\"><i class=\"fas fa-award\" style=\"color:#38D4D8;\"></i> 98% Clean Claim Rate</span>",
+                    "header_size": "span",
+                    "align": "right",
+                    "_position": "absolute",
+                    "_offset_orientation_h": "end",
+                    "_offset_x": {
+                      "unit": "px",
+                      "size": -12,
+                      "sizes": []
+                    },
+                    "_offset_orientation_v": "start",
+                    "_offset_y": {
+                      "unit": "px",
+                      "size": 24,
+                      "sizes": []
+                    },
+                    "_z_index": 5
+                  }
                 },
-                "_offset_orientation_v": "end",
-                "_offset_y": {
-                  "unit": "px",
-                  "size": -22,
-                  "sizes": []
-                },
-                "_z_index": 5
-              }
+                {
+                  "id": "fe3qg47",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "<div style=\"display:flex;align-items:center;gap:14px;background:#FFFFFF;padding:13px 20px;border-radius:18px;box-shadow:0 16px 36px rgba(16,44,64,0.16);border:1px solid #E2E8F0;\"><div style=\"width:44px;height:44px;background:#059669;border-radius:12px;display:flex;align-items:center;justify-content:center;color:#FFFFFF;font-size:20px;\"><i class=\"fas fa-chart-line\"></i></div><div><div style=\"color:#102C40;font-size:15px;font-weight:800;line-height:1.2;\">25+ Years <span style=\"color:#059669;font-weight:700;\">Tech Heritage</span></div><div style=\"color:#64748B;font-size:11.5px;font-weight:500;margin-top:3px;\">Backed by Corvit &amp; StelleCloud</div></div></div>",
+                    "header_size": "div",
+                    "align": "left",
+                    "_position": "absolute",
+                    "_offset_orientation_h": "start",
+                    "_offset_x": {
+                      "unit": "px",
+                      "size": -16,
+                      "sizes": []
+                    },
+                    "_offset_orientation_v": "end",
+                    "_offset_y": {
+                      "unit": "px",
+                      "size": -22,
+                      "sizes": []
+                    },
+                    "_z_index": 5
+                  }
+                }
+              ]
             }
           ]
         }
