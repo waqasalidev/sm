@@ -4,7 +4,7 @@
   "type": "container",
   "content": [
     {
-      "id": "790x397",
+      "id": "qqchoyo",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -61,18 +61,26 @@
           "left": "20",
           "isLinked": true
         },
+        "_margin": {
+          "unit": "px",
+          "top": "0",
+          "right": "auto",
+          "bottom": "36",
+          "left": "auto",
+          "isLinked": false
+        },
         "margin": {
           "unit": "px",
           "top": "0",
           "right": "auto",
-          "bottom": "32",
+          "bottom": "36",
           "left": "auto",
           "isLinked": false
         }
       },
       "elements": [
         {
-          "id": "snmon9e",
+          "id": "2ydolra",
           "elType": "container",
           "isInner": true,
           "settings": {
@@ -97,7 +105,7 @@
           },
           "elements": [
             {
-              "id": "cqqj3lr",
+              "id": "vukrfli",
               "elType": "container",
               "isInner": true,
               "settings": {
@@ -122,7 +130,7 @@
               },
               "elements": [
                 {
-                  "id": "tlydzn3",
+                  "id": "iki9nzu",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -135,7 +143,7 @@
               ]
             },
             {
-              "id": "9m7u1ag",
+              "id": "gu3u6dl",
               "elType": "container",
               "isInner": true,
               "settings": {
@@ -146,6 +154,14 @@
                   "sizes": []
                 },
                 "position": "absolute",
+                "_margin": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "16",
+                  "isLinked": false
+                },
                 "margin": {
                   "unit": "px",
                   "top": "16",
@@ -155,7 +171,7 @@
                   "isLinked": false
                 },
                 "background_background": "classic",
-                "background_color": "rgba(12, 35, 64, 0.85)",
+                "background_color": "rgba(12, 35, 64, 0.88)",
                 "border_radius": {
                   "unit": "px",
                   "top": "6",
@@ -167,21 +183,21 @@
                 "padding": {
                   "unit": "px",
                   "top": "4",
-                  "right": "10",
+                  "right": "12",
                   "bottom": "4",
-                  "left": "10",
+                  "left": "12",
                   "isLinked": false
                 },
                 "z_index": 2
               },
               "elements": [
                 {
-                  "id": "qtzdfog",
+                  "id": "bzpkkng",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
                     "title": "Cloud Infrastructure",
-                    "header_size": "span",
+                    "header_size": "div",
                     "title_color": "#FFFFFF",
                     "typography_typography": "custom",
                     "typography_font_size": {
@@ -194,17 +210,25 @@
               ]
             },
             {
-              "id": "nyctldi",
+              "id": "pgvcxnz",
               "elType": "container",
               "isInner": true,
               "settings": {
                 "content_width": "full",
                 "width": {
                   "unit": "px",
-                  "size": 160,
+                  "size": 170,
                   "sizes": []
                 },
                 "position": "absolute",
+                "_margin": {
+                  "unit": "px",
+                  "top": "auto",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "auto",
+                  "isLinked": false
+                },
                 "margin": {
                   "unit": "px",
                   "top": "auto",
@@ -225,9 +249,9 @@
                 },
                 "padding": {
                   "unit": "px",
-                  "top": "6",
+                  "top": "7",
                   "right": "14",
-                  "bottom": "6",
+                  "bottom": "7",
                   "left": "14",
                   "isLinked": false
                 },
@@ -235,12 +259,12 @@
               },
               "elements": [
                 {
-                  "id": "22jdrwt",
+                  "id": "toya5ox",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
                     "title": "99.9% Uptime SLA",
-                    "header_size": "span",
+                    "header_size": "div",
                     "align": "center",
                     "title_color": "#FFFFFF",
                     "typography_typography": "custom",
@@ -256,7 +280,7 @@
           ]
         },
         {
-          "id": "n3a73zv",
+          "id": "2p08hlc",
           "elType": "container",
           "isInner": true,
           "settings": {
@@ -280,20 +304,28 @@
             "flex_align_items": "flex-start",
             "flex_gap": {
               "unit": "px",
-              "size": 0,
-              "column": "0",
-              "row": "0"
+              "size": 14,
+              "column": "14",
+              "row": "14"
             }
           },
           "elements": [
             {
-              "id": "f8wvpu1",
+              "id": "l721ndu",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
-                "title": "<span style=\"display:inline-block;padding:5px 12px;background-color:#EAF8F8;border:1px solid #A7E8E9;border-radius:50px;color:#179A9E;font-size:10.5px;font-weight:800;letter-spacing:0.8px;text-transform:uppercase;\">CLOUD AUTOMATION, BI-DIRECTIONAL EHR INTEGRATION & 24/7 DASHBOARDS</span>",
-                "header_size": "span",
+                "title": "<div style=\"display:inline-block;padding:6px 14px;background-color:#EAF8F8;border:1px solid #A7E8E9;border-radius:50px;color:#179A9E;font-size:11px;font-weight:800;letter-spacing:0.8px;text-transform:uppercase;margin-bottom:12px;line-height:1.4;\">CLOUD AUTOMATION, ADVANCED TOOLS, AND SEAMLESS EHR & EMR ARCHITECTURE</div>",
+                "header_size": "div",
                 "title_color": "#179A9E",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "12",
+                  "left": "0",
+                  "isLinked": false
+                },
                 "margin": {
                   "unit": "px",
                   "top": "0",
@@ -305,7 +337,7 @@
               }
             },
             {
-              "id": "6m9z2ru",
+              "id": "0e3cwmk",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -316,65 +348,89 @@
                 "typography_font_family": "Plus Jakarta Sans",
                 "typography_font_size": {
                   "unit": "px",
-                  "size": 26
+                  "size": 28
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 22
                 },
                 "typography_font_weight": "800",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.25
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "14",
+                  "left": "0",
+                  "isLinked": false
+                },
                 "margin": {
                   "unit": "px",
                   "top": "0",
                   "right": "0",
-                  "bottom": "12",
+                  "bottom": "14",
                   "left": "0",
                   "isLinked": false
                 }
               }
             },
             {
-              "id": "i8xdln7",
+              "id": "f23y7sv",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "<p style=\"margin:0;font-size:14.5px;color:#4A5568;line-height:1.65;\">Plug into modern revenue cycle technology without changing your EHR. Our bi-directional interfaces, automated ERA auto-posting, and real-time dashboards give you complete transparency.</p>",
+                "editor": "<p style=\"margin:0;font-size:15px;color:#4A5568;line-height:1.7;\">Modern revenue cycle management requires modern tech. StelleMed integrates directly into your existing EHR/EMR or provides custom automations to eliminate friction.</p>",
                 "text_color": "#4A5568",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "18",
+                  "left": "0",
+                  "isLinked": false
+                },
                 "margin": {
                   "unit": "px",
                   "top": "0",
                   "right": "0",
-                  "bottom": "16",
+                  "bottom": "18",
                   "left": "0",
                   "isLinked": false
                 }
               }
             },
             {
-              "id": "ne8h4jg",
+              "id": "mek6yrg",
               "elType": "widget",
               "widgetType": "icon-list",
               "settings": {
                 "icon_list": [
                   {
-                    "text": "StelleCloud™ rules engine with automated claim conflict scrubbing",
+                    "text": "Direct API & HL7/FHIR integrations with Epic, Cerner, AthenaHealth, and 50+ EHRs",
                     "selected_icon": {
                       "value": "far fa-check-circle",
                       "library": "fa-regular"
                     }
                   },
                   {
-                    "text": "Direct bi-directional EHR sync with Epic, Athena, eCW, Kareo & Cerner",
+                    "text": "StelleCloud clearinghouse engine with real-time scrub & 24hr rejection resolution",
                     "selected_icon": {
                       "value": "far fa-check-circle",
                       "library": "fa-regular"
                     }
                   },
                   {
-                    "text": "Executive web & mobile dashboards for real-time days-in-A/R tracking",
+                    "text": "Business intelligence dashboards with key RCM KPIs updated daily",
                     "selected_icon": {
                       "value": "far fa-check-circle",
                       "library": "fa-regular"
                     }
                   },
                   {
-                    "text": "AES-256 bank-grade encryption and strict SOC-2/HIPAA compliance",
+                    "text": "Dedicated IT & engineering team ensuring continuous uptime & data security",
                     "selected_icon": {
                       "value": "far fa-check-circle",
                       "library": "fa-regular"
@@ -384,20 +440,32 @@
                 "icon_color": "#179A9E",
                 "icon_size": {
                   "unit": "px",
-                  "size": 14
+                  "size": 15
                 },
                 "space_between": {
                   "unit": "px",
-                  "size": 10
+                  "size": 12
                 },
                 "text_color": "#1E293B",
                 "typography_typography": "custom",
                 "typography_font_family": "Plus Jakarta Sans",
                 "typography_font_size": {
                   "unit": "px",
-                  "size": 13.5
+                  "size": 14
                 },
                 "typography_font_weight": "500",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.5
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "24",
+                  "left": "0",
+                  "isLinked": false
+                },
                 "margin": {
                   "unit": "px",
                   "top": "0",
@@ -409,7 +477,7 @@
               }
             },
             {
-              "id": "j2b4blm",
+              "id": "pd1e9j6",
               "elType": "container",
               "isInner": true,
               "settings": {
@@ -420,11 +488,27 @@
                   "size": 12,
                   "column": "12",
                   "row": "12"
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "6",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "6",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
                 }
               },
               "elements": [
                 {
-                  "id": "4s496ui",
+                  "id": "8wysdqj",
                   "elType": "widget",
                   "widgetType": "button",
                   "settings": {
@@ -457,23 +541,23 @@
                     },
                     "padding": {
                       "unit": "px",
-                      "top": "11",
-                      "right": "20",
-                      "bottom": "11",
-                      "left": "20",
+                      "top": "12",
+                      "right": "22",
+                      "bottom": "12",
+                      "left": "22",
                       "isLinked": false
                     },
                     "typography_typography": "custom",
                     "typography_font_family": "Plus Jakarta Sans",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 13.5
+                      "size": 14
                     },
                     "typography_font_weight": "700"
                   }
                 },
                 {
-                  "id": "nkzteg8",
+                  "id": "iu2cyj6",
                   "elType": "widget",
                   "widgetType": "button",
                   "settings": {
@@ -506,17 +590,17 @@
                     },
                     "padding": {
                       "unit": "px",
-                      "top": "11",
-                      "right": "20",
-                      "bottom": "11",
-                      "left": "20",
+                      "top": "12",
+                      "right": "22",
+                      "bottom": "12",
+                      "left": "22",
                       "isLinked": false
                     },
                     "typography_typography": "custom",
                     "typography_font_family": "Plus Jakarta Sans",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 13.5
+                      "size": 14
                     },
                     "typography_font_weight": "700"
                   }

@@ -4,7 +4,7 @@
   "type": "container",
   "content": [
     {
-      "id": "zwnwrpu",
+      "id": "3sfoomj",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -16,37 +16,51 @@
         },
         "flex_direction": "column",
         "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": 16,
+          "column": "16",
+          "row": "16"
+        },
         "padding": {
           "unit": "px",
-          "top": "60",
+          "top": "70",
           "right": "20",
-          "bottom": "60",
+          "bottom": "70",
           "left": "20",
           "isLinked": false
         }
       },
       "elements": [
         {
-          "id": "jxwsaje",
+          "id": "pfuhtfg",
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
-            "title": "<span style=\"display:inline-flex;align-items:center;gap:6px;padding:6px 16px;background-color:#EAF8F8;border:1px solid #A7E8E9;border-radius:50px;color:#179A9E;font-size:12px;font-weight:800;letter-spacing:1px;text-transform:uppercase;\">MEDICAL SPECIALTY EXPERTISE</span>",
-            "header_size": "span",
+            "title": "<div style=\"display:inline-flex;align-items:center;gap:6px;padding:6px 18px;background-color:#EAF8F8;border:1px solid #A7E8E9;border-radius:50px;color:#179A9E;font-size:12px;font-weight:800;letter-spacing:1px;text-transform:uppercase;margin-bottom:14px;line-height:1.4;\">MEDICAL SPECIALTY EXPERTISE</div>",
+            "header_size": "div",
             "align": "center",
             "title_color": "#179A9E",
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "14",
+              "left": "0",
+              "isLinked": false
+            },
             "margin": {
               "unit": "px",
               "top": "0",
               "right": "0",
-              "bottom": "16",
+              "bottom": "14",
               "left": "0",
               "isLinked": false
             }
           }
         },
         {
-          "id": "rhywszl",
+          "id": "21zromd",
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
@@ -60,7 +74,27 @@
               "unit": "px",
               "size": 38
             },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 30
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 26
+            },
             "typography_font_weight": "800",
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.25
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "14",
+              "left": "0",
+              "isLinked": false
+            },
             "margin": {
               "unit": "px",
               "top": "0",
@@ -72,12 +106,20 @@
           }
         },
         {
-          "id": "mqwxtgn",
+          "id": "gmqv5wh",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
-            "editor": "<p style=\"margin:0;font-size:16px;color:#4A5568;text-align:center;\">Every medical discipline operates under unique payer guidelines, documentation hurdles, and fee schedules. Our certified billing teams have dedicated specialty pods.</p>",
+            "editor": "<p style=\"margin:0 auto;max-width:760px;font-size:16px;color:#4A5568;line-height:1.65;text-align:center;\">Every medical discipline operates under unique payer guidelines, documentation hurdles, and fee schedules. Our certified billing teams have dedicated specialty pods.</p>",
             "text_color": "#4A5568",
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "36",
+              "left": "0",
+              "isLinked": false
+            },
             "margin": {
               "unit": "px",
               "top": "0",
@@ -89,7 +131,7 @@
           }
         },
         {
-          "id": "vz1h7kg",
+          "id": "rqkzszy",
           "elType": "container",
           "isInner": true,
           "settings": {
@@ -107,7 +149,7 @@
           },
           "elements": [
             {
-              "id": "dmebr96",
+              "id": "99rvwjh",
               "elType": "container",
               "isInner": true,
               "settings": {
@@ -128,6 +170,12 @@
                   "sizes": []
                 },
                 "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 10,
+                  "column": "10",
+                  "row": "10"
+                },
                 "background_background": "classic",
                 "background_color": "#FFFFFF",
                 "border_border": "solid",
@@ -155,11 +203,27 @@
                   "bottom": "24",
                   "left": "20",
                   "isLinked": true
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
                 }
               },
               "elements": [
                 {
-                  "id": "cjp58rh",
+                  "id": "lx47tfa",
                   "elType": "widget",
                   "widgetType": "icon",
                   "settings": {
@@ -171,7 +235,15 @@
                     "primary_color": "#179A9E",
                     "size": {
                       "unit": "px",
-                      "size": 22
+                      "size": 24
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "12",
+                      "left": "0",
+                      "isLinked": false
                     },
                     "margin": {
                       "unit": "px",
@@ -184,7 +256,7 @@
                   }
                 },
                 {
-                  "id": "4rtvscw",
+                  "id": "z2ren3m",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -195,32 +267,60 @@
                     "typography_font_family": "Plus Jakarta Sans",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 15
+                      "size": 16
                     },
                     "typography_font_weight": "700",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.3
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "8",
+                      "left": "0",
+                      "isLinked": false
+                    },
                     "margin": {
                       "unit": "px",
                       "top": "0",
                       "right": "0",
-                      "bottom": "6",
+                      "bottom": "8",
                       "left": "0",
                       "isLinked": false
                     }
                   }
                 },
                 {
-                  "id": "sh83c7z",
+                  "id": "1qgw9r2",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "<p style=\"margin:0;font-size:12.5px;color:#64748B;line-height:1.5;\">Complex multi-code visits, preventive wellness (AWV), chronic care management (CCM).</p>",
-                    "text_color": "#64748B"
+                    "editor": "<p style=\"margin:0;font-size:13px;color:#64748B;line-height:1.55;\">Complex multi-code visits, preventive wellness (AWV), chronic care management (CCM).</p>",
+                    "text_color": "#64748B",
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
                   }
                 }
               ]
             },
             {
-              "id": "9c0b32p",
+              "id": "na2p3to",
               "elType": "container",
               "isInner": true,
               "settings": {
@@ -241,6 +341,12 @@
                   "sizes": []
                 },
                 "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 10,
+                  "column": "10",
+                  "row": "10"
+                },
                 "background_background": "classic",
                 "background_color": "#FFFFFF",
                 "border_border": "solid",
@@ -268,11 +374,27 @@
                   "bottom": "24",
                   "left": "20",
                   "isLinked": true
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
                 }
               },
               "elements": [
                 {
-                  "id": "vv5rx4b",
+                  "id": "g3zvd9o",
                   "elType": "widget",
                   "widgetType": "icon",
                   "settings": {
@@ -284,7 +406,15 @@
                     "primary_color": "#179A9E",
                     "size": {
                       "unit": "px",
-                      "size": 22
+                      "size": 24
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "12",
+                      "left": "0",
+                      "isLinked": false
                     },
                     "margin": {
                       "unit": "px",
@@ -297,7 +427,7 @@
                   }
                 },
                 {
-                  "id": "ilhw92c",
+                  "id": "u0nxfuf",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -308,32 +438,60 @@
                     "typography_font_family": "Plus Jakarta Sans",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 15
+                      "size": 16
                     },
                     "typography_font_weight": "700",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.3
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "8",
+                      "left": "0",
+                      "isLinked": false
+                    },
                     "margin": {
                       "unit": "px",
                       "top": "0",
                       "right": "0",
-                      "bottom": "6",
+                      "bottom": "8",
                       "left": "0",
                       "isLinked": false
                     }
                   }
                 },
                 {
-                  "id": "z87k3m8",
+                  "id": "a3w8hor",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "<p style=\"margin:0;font-size:12.5px;color:#64748B;line-height:1.5;\">Cath lab interventions, echocardiography, nuclear imaging, and modifier 25/59 optimization.</p>",
-                    "text_color": "#64748B"
+                    "editor": "<p style=\"margin:0;font-size:13px;color:#64748B;line-height:1.55;\">Cath lab interventions, echocardiography, nuclear imaging, and modifier 25/59 optimization.</p>",
+                    "text_color": "#64748B",
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
                   }
                 }
               ]
             },
             {
-              "id": "mcoesno",
+              "id": "9u9e01s",
               "elType": "container",
               "isInner": true,
               "settings": {
@@ -354,6 +512,12 @@
                   "sizes": []
                 },
                 "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 10,
+                  "column": "10",
+                  "row": "10"
+                },
                 "background_background": "classic",
                 "background_color": "#FFFFFF",
                 "border_border": "solid",
@@ -381,11 +545,27 @@
                   "bottom": "24",
                   "left": "20",
                   "isLinked": true
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
                 }
               },
               "elements": [
                 {
-                  "id": "e12c2nh",
+                  "id": "51fw8t3",
                   "elType": "widget",
                   "widgetType": "icon",
                   "settings": {
@@ -397,7 +577,15 @@
                     "primary_color": "#179A9E",
                     "size": {
                       "unit": "px",
-                      "size": 22
+                      "size": 24
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "12",
+                      "left": "0",
+                      "isLinked": false
                     },
                     "margin": {
                       "unit": "px",
@@ -410,7 +598,7 @@
                   }
                 },
                 {
-                  "id": "fo1z7jh",
+                  "id": "m20q8kg",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -421,32 +609,60 @@
                     "typography_font_family": "Plus Jakarta Sans",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 15
+                      "size": 16
                     },
                     "typography_font_weight": "700",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.3
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "8",
+                      "left": "0",
+                      "isLinked": false
+                    },
                     "margin": {
                       "unit": "px",
                       "top": "0",
                       "right": "0",
-                      "bottom": "6",
+                      "bottom": "8",
                       "left": "0",
                       "isLinked": false
                     }
                   }
                 },
                 {
-                  "id": "8g2zbom",
+                  "id": "g3q85ze",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "<p style=\"margin:0;font-size:12.5px;color:#64748B;line-height:1.5;\">Surgical bundles, implant billing, DME pre-authorizations, and physical therapy cross-overs.</p>",
-                    "text_color": "#64748B"
+                    "editor": "<p style=\"margin:0;font-size:13px;color:#64748B;line-height:1.55;\">Surgical bundles, implant billing, DME pre-authorizations, and physical therapy cross-overs.</p>",
+                    "text_color": "#64748B",
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
                   }
                 }
               ]
             },
             {
-              "id": "8v58l72",
+              "id": "gcbr3dy",
               "elType": "container",
               "isInner": true,
               "settings": {
@@ -467,6 +683,12 @@
                   "sizes": []
                 },
                 "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 10,
+                  "column": "10",
+                  "row": "10"
+                },
                 "background_background": "classic",
                 "background_color": "#FFFFFF",
                 "border_border": "solid",
@@ -494,11 +716,27 @@
                   "bottom": "24",
                   "left": "20",
                   "isLinked": true
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
                 }
               },
               "elements": [
                 {
-                  "id": "5t9miwj",
+                  "id": "yvc1y3d",
                   "elType": "widget",
                   "widgetType": "icon",
                   "settings": {
@@ -510,7 +748,15 @@
                     "primary_color": "#179A9E",
                     "size": {
                       "unit": "px",
-                      "size": 22
+                      "size": 24
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "12",
+                      "left": "0",
+                      "isLinked": false
                     },
                     "margin": {
                       "unit": "px",
@@ -523,7 +769,7 @@
                   }
                 },
                 {
-                  "id": "1bc17pg",
+                  "id": "0llyake",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -534,32 +780,60 @@
                     "typography_font_family": "Plus Jakarta Sans",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 15
+                      "size": 16
                     },
                     "typography_font_weight": "700",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.3
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "8",
+                      "left": "0",
+                      "isLinked": false
+                    },
                     "margin": {
                       "unit": "px",
                       "top": "0",
                       "right": "0",
-                      "bottom": "6",
+                      "bottom": "8",
                       "left": "0",
                       "isLinked": false
                     }
                   }
                 },
                 {
-                  "id": "1nuapfj",
+                  "id": "zjf066e",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "<p style=\"margin:0;font-size:12.5px;color:#64748B;line-height:1.5;\">Psychotherapy, IOP, medication management, and specialized telehealth coding rules.</p>",
-                    "text_color": "#64748B"
+                    "editor": "<p style=\"margin:0;font-size:13px;color:#64748B;line-height:1.55;\">Psychotherapy, IOP, medication management, and specialized telehealth coding rules.</p>",
+                    "text_color": "#64748B",
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
                   }
                 }
               ]
             },
             {
-              "id": "ldgfuq2",
+              "id": "47scg8b",
               "elType": "container",
               "isInner": true,
               "settings": {
@@ -580,6 +854,12 @@
                   "sizes": []
                 },
                 "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 10,
+                  "column": "10",
+                  "row": "10"
+                },
                 "background_background": "classic",
                 "background_color": "#FFFFFF",
                 "border_border": "solid",
@@ -607,11 +887,27 @@
                   "bottom": "24",
                   "left": "20",
                   "isLinked": true
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
                 }
               },
               "elements": [
                 {
-                  "id": "8cex1ze",
+                  "id": "ue2p32e",
                   "elType": "widget",
                   "widgetType": "icon",
                   "settings": {
@@ -623,7 +919,15 @@
                     "primary_color": "#179A9E",
                     "size": {
                       "unit": "px",
-                      "size": 22
+                      "size": 24
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "12",
+                      "left": "0",
+                      "isLinked": false
                     },
                     "margin": {
                       "unit": "px",
@@ -636,7 +940,7 @@
                   }
                 },
                 {
-                  "id": "fv7xqox",
+                  "id": "5u4sxxq",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -647,32 +951,60 @@
                     "typography_font_family": "Plus Jakarta Sans",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 15
+                      "size": 16
                     },
                     "typography_font_weight": "700",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.3
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "8",
+                      "left": "0",
+                      "isLinked": false
+                    },
                     "margin": {
                       "unit": "px",
                       "top": "0",
                       "right": "0",
-                      "bottom": "6",
+                      "bottom": "8",
                       "left": "0",
                       "isLinked": false
                     }
                   }
                 },
                 {
-                  "id": "r1qjg5e",
+                  "id": "hn2mm46",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "<p style=\"margin:0;font-size:12.5px;color:#64748B;line-height:1.5;\">Vaccine administration bundles, developmental screenings, and Medicaid managed care plans.</p>",
-                    "text_color": "#64748B"
+                    "editor": "<p style=\"margin:0;font-size:13px;color:#64748B;line-height:1.55;\">Vaccine administration bundles, developmental screenings, and Medicaid managed care plans.</p>",
+                    "text_color": "#64748B",
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
                   }
                 }
               ]
             },
             {
-              "id": "c14comj",
+              "id": "ba9qnsi",
               "elType": "container",
               "isInner": true,
               "settings": {
@@ -693,6 +1025,12 @@
                   "sizes": []
                 },
                 "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 10,
+                  "column": "10",
+                  "row": "10"
+                },
                 "background_background": "classic",
                 "background_color": "#FFFFFF",
                 "border_border": "solid",
@@ -720,11 +1058,27 @@
                   "bottom": "24",
                   "left": "20",
                   "isLinked": true
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
                 }
               },
               "elements": [
                 {
-                  "id": "o75k8if",
+                  "id": "8basify",
                   "elType": "widget",
                   "widgetType": "icon",
                   "settings": {
@@ -736,7 +1090,15 @@
                     "primary_color": "#179A9E",
                     "size": {
                       "unit": "px",
-                      "size": 22
+                      "size": 24
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "12",
+                      "left": "0",
+                      "isLinked": false
                     },
                     "margin": {
                       "unit": "px",
@@ -749,7 +1111,7 @@
                   }
                 },
                 {
-                  "id": "94fk0ue",
+                  "id": "tpmp1wp",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -760,32 +1122,60 @@
                     "typography_font_family": "Plus Jakarta Sans",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 15
+                      "size": 16
                     },
                     "typography_font_weight": "700",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.3
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "8",
+                      "left": "0",
+                      "isLinked": false
+                    },
                     "margin": {
                       "unit": "px",
                       "top": "0",
                       "right": "0",
-                      "bottom": "6",
+                      "bottom": "8",
                       "left": "0",
                       "isLinked": false
                     }
                   }
                 },
                 {
-                  "id": "ywafyyn",
+                  "id": "xoyrfkd",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "<p style=\"margin:0;font-size:12.5px;color:#64748B;line-height:1.5;\">ASC billing, anesthesia coordination, pre-op clearance, and high-dollar claim appeals.</p>",
-                    "text_color": "#64748B"
+                    "editor": "<p style=\"margin:0;font-size:13px;color:#64748B;line-height:1.55;\">ASC billing, anesthesia coordination, pre-op clearance, and high-dollar claim appeals.</p>",
+                    "text_color": "#64748B",
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
                   }
                 }
               ]
             },
             {
-              "id": "4chvooc",
+              "id": "viv61dg",
               "elType": "container",
               "isInner": true,
               "settings": {
@@ -806,6 +1196,12 @@
                   "sizes": []
                 },
                 "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 10,
+                  "column": "10",
+                  "row": "10"
+                },
                 "background_background": "classic",
                 "background_color": "#FFFFFF",
                 "border_border": "solid",
@@ -833,11 +1229,27 @@
                   "bottom": "24",
                   "left": "20",
                   "isLinked": true
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
                 }
               },
               "elements": [
                 {
-                  "id": "mg4hych",
+                  "id": "beaoezf",
                   "elType": "widget",
                   "widgetType": "icon",
                   "settings": {
@@ -849,7 +1261,15 @@
                     "primary_color": "#179A9E",
                     "size": {
                       "unit": "px",
-                      "size": 22
+                      "size": 24
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "12",
+                      "left": "0",
+                      "isLinked": false
                     },
                     "margin": {
                       "unit": "px",
@@ -862,7 +1282,7 @@
                   }
                 },
                 {
-                  "id": "22hdl3f",
+                  "id": "814nqgq",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -873,32 +1293,60 @@
                     "typography_font_family": "Plus Jakarta Sans",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 15
+                      "size": 16
                     },
                     "typography_font_weight": "700",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.3
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "8",
+                      "left": "0",
+                      "isLinked": false
+                    },
                     "margin": {
                       "unit": "px",
                       "top": "0",
                       "right": "0",
-                      "bottom": "6",
+                      "bottom": "8",
                       "left": "0",
                       "isLinked": false
                     }
                   }
                 },
                 {
-                  "id": "3lnzn69",
+                  "id": "6c7emmt",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "<p style=\"margin:0;font-size:12.5px;color:#64748B;line-height:1.5;\">High-volume rapid charge capture, same-day verification, and occupational medicine billing.</p>",
-                    "text_color": "#64748B"
+                    "editor": "<p style=\"margin:0;font-size:13px;color:#64748B;line-height:1.55;\">High-volume rapid charge capture, same-day verification, and occupational medicine billing.</p>",
+                    "text_color": "#64748B",
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
                   }
                 }
               ]
             },
             {
-              "id": "3stgsu4",
+              "id": "zhwtxwk",
               "elType": "container",
               "isInner": true,
               "settings": {
@@ -919,6 +1367,12 @@
                   "sizes": []
                 },
                 "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 10,
+                  "column": "10",
+                  "row": "10"
+                },
                 "background_background": "classic",
                 "background_color": "#FFFFFF",
                 "border_border": "solid",
@@ -946,11 +1400,27 @@
                   "bottom": "24",
                   "left": "20",
                   "isLinked": true
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
                 }
               },
               "elements": [
                 {
-                  "id": "jz6skgm",
+                  "id": "w363l2y",
                   "elType": "widget",
                   "widgetType": "icon",
                   "settings": {
@@ -962,7 +1432,15 @@
                     "primary_color": "#179A9E",
                     "size": {
                       "unit": "px",
-                      "size": 22
+                      "size": 24
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "12",
+                      "left": "0",
+                      "isLinked": false
                     },
                     "margin": {
                       "unit": "px",
@@ -975,7 +1453,7 @@
                   }
                 },
                 {
-                  "id": "7kdmo37",
+                  "id": "jm1lrdh",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -986,26 +1464,54 @@
                     "typography_font_family": "Plus Jakarta Sans",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 15
+                      "size": 16
                     },
                     "typography_font_weight": "700",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.3
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "8",
+                      "left": "0",
+                      "isLinked": false
+                    },
                     "margin": {
                       "unit": "px",
                       "top": "0",
                       "right": "0",
-                      "bottom": "6",
+                      "bottom": "8",
                       "left": "0",
                       "isLinked": false
                     }
                   }
                 },
                 {
-                  "id": "xtgq27x",
+                  "id": "tp8jvr7",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "<p style=\"margin:0;font-size:12.5px;color:#64748B;line-height:1.5;\">Timed 8-minute rule calculations, functional progress reporting, and plan-of-care caps.</p>",
-                    "text_color": "#64748B"
+                    "editor": "<p style=\"margin:0;font-size:13px;color:#64748B;line-height:1.55;\">Timed 8-minute rule calculations, functional progress reporting, and plan-of-care caps.</p>",
+                    "text_color": "#64748B",
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
                   }
                 }
               ]

@@ -1,10 +1,10 @@
 {
   "version": "0.4",
-  "title": "Services Overview - Hero Section (100% Flexbox Container)",
+  "title": "Services Overview - 1. Hero Banner (100% Flexbox Container)",
   "type": "container",
   "content": [
     {
-      "id": "uokkr9f",
+      "id": "rme2psi",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -18,9 +18,9 @@
         "flex_align_items": "center",
         "flex_gap": {
           "unit": "px",
-          "size": 0,
-          "column": "0",
-          "row": "0"
+          "size": 18,
+          "column": "18",
+          "row": "18"
         },
         "background_background": "gradient",
         "background_color": "#FFFFFF",
@@ -54,44 +54,60 @@
       },
       "elements": [
         {
-          "id": "hf7rfag",
+          "id": "bq5non1",
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
-            "title": "<nav style=\"font-size:13.5px;font-weight:600;color:#64748B;\"><a href=\"/\" style=\"color:#64748B;text-decoration:none;\">Home</a> <span style=\"margin:0 8px;color:#94A3B8;\">&gt;</span> <span style=\"color:#179A9E;\">Services Overview</span></nav>",
-            "header_size": "span",
+            "title": "<nav style=\"font-size:13.5px;font-weight:600;color:#64748B;display:inline-block;margin-bottom:12px;\"><a href=\"/\" style=\"color:#64748B;text-decoration:none;\">Home</a> <span style=\"margin:0 8px;color:#94A3B8;\">&gt;</span> <span style=\"color:#179A9E;\">Services Overview</span></nav>",
+            "header_size": "div",
             "align": "center",
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "12",
+              "left": "0",
+              "isLinked": false
+            },
             "margin": {
               "unit": "px",
               "top": "0",
               "right": "0",
-              "bottom": "16",
+              "bottom": "12",
               "left": "0",
               "isLinked": false
             }
           }
         },
         {
-          "id": "i9wv458",
+          "id": "4mnz5wp",
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
-            "title": "<span style=\"display:inline-flex;align-items:center;gap:6px;padding:6px 16px;background-color:#EAF8F8;border:1px solid #A7E8E9;border-radius:50px;color:#179A9E;font-size:12px;font-weight:800;letter-spacing:1px;text-transform:uppercase;\"><i class=\"fas fa-chart-pie\"></i> FULL-SPECTRUM REVENUE CYCLE MANAGEMENT</span>",
-            "header_size": "span",
+            "title": "<div style=\"display:inline-flex;align-items:center;gap:6px;padding:6px 18px;background-color:#EAF8F8;border:1px solid #A7E8E9;border-radius:50px;color:#179A9E;font-size:12px;font-weight:800;letter-spacing:1px;text-transform:uppercase;margin-bottom:14px;line-height:1.4;\"><i class=\"fas fa-chart-pie\" style=\"font-size:12px;\"></i> FULL-SPECTRUM REVENUE CYCLE MANAGEMENT</div>",
+            "header_size": "div",
             "align": "center",
             "title_color": "#179A9E",
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "14",
+              "left": "0",
+              "isLinked": false
+            },
             "margin": {
               "unit": "px",
               "top": "0",
               "right": "0",
-              "bottom": "16",
+              "bottom": "14",
               "left": "0",
               "isLinked": false
             }
           }
         },
         {
-          "id": "hl78o8x",
+          "id": "qqht2e0",
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
@@ -116,11 +132,19 @@
             "typography_font_weight": "800",
             "typography_line_height": {
               "unit": "em",
-              "size": 1.15
+              "size": 1.2
             },
             "typography_letter_spacing": {
               "unit": "px",
               "size": -0.5
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "16",
+              "left": "0",
+              "isLinked": false
             },
             "margin": {
               "unit": "px",
@@ -133,11 +157,11 @@
           }
         },
         {
-          "id": "w1x7y1z",
+          "id": "7xcs8ph",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
-            "editor": "<p style=\"margin:0 auto;max-width:760px;font-size:16.5px;color:#4A5568;line-height:1.65;text-align:center;\">Whether you need end-to-end medical billing, targeted insurance denial recovery, or practice workflow modernization, StelleMed provides the certified expertise and technology to optimize your clinical cash flow.</p>",
+            "editor": "<p style=\"margin:0 auto;max-width:760px;font-size:16.5px;color:#4A5568;line-height:1.7;text-align:center;\">Whether you need end-to-end medical billing, targeted insurance denial recovery, or practice workflow modernization, StelleMed provides the certified expertise and technology to optimize your clinical cash flow.</p>",
             "typography_typography": "custom",
             "typography_font_family": "Plus Jakarta Sans",
             "typography_font_size": {
@@ -146,18 +170,26 @@
             },
             "typography_font_weight": "400",
             "text_color": "#4A5568",
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "28",
+              "left": "0",
+              "isLinked": false
+            },
             "margin": {
               "unit": "px",
               "top": "0",
               "right": "0",
-              "bottom": "30",
+              "bottom": "28",
               "left": "0",
               "isLinked": false
             }
           }
         },
         {
-          "id": "j8nlhoz",
+          "id": "9c5ab3z",
           "elType": "container",
           "isInner": true,
           "settings": {
@@ -171,11 +203,27 @@
               "size": 14,
               "column": "14",
               "row": "12"
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "8",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            },
+            "margin": {
+              "unit": "px",
+              "top": "8",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
             }
           },
           "elements": [
             {
-              "id": "w5nioq6",
+              "id": "0ntnq0v",
               "elType": "widget",
               "widgetType": "button",
               "settings": {
@@ -225,7 +273,7 @@
               }
             },
             {
-              "id": "q06kerz",
+              "id": "r3fmboj",
               "elType": "widget",
               "widgetType": "button",
               "settings": {

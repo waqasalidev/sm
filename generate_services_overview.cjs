@@ -7,13 +7,25 @@ function createId() {
 
 const outDir = path.join(__dirname, 'elementor-editable-templates');
 
+// Helper to save Elementor template and matching plain-text JSON
+function saveTemplate(name, contentNode, title) {
+  const tpl = {
+    version: "0.4",
+    title: title,
+    type: "container",
+    content: Array.isArray(contentNode) ? contentNode : [contentNode]
+  };
+  fs.writeFileSync(path.join(outDir, `${name}.json`), JSON.stringify(tpl, null, 2), 'utf8');
+  fs.writeFileSync(path.join(outDir, `${name.replace('-elementor', '-plain-text')}.json`), JSON.stringify(tpl), 'utf8');
+  console.log(`Saved: ${name}.json`);
+}
+
 // ============================================================================
-// PAGE 1: SERVICES OVERVIEW PAGE
-// Matching user screenshot: media_1792620962803.png
+// PAGE 1: SERVICES OVERVIEW (Matching media_1792620962803.png)
 // ============================================================================
 
-// Section 1: Hero Banner
-const heroSection = {
+// SECTION 1: HERO SECTION
+const servicesHeroSection = {
   id: createId(),
   elType: "container",
   isInner: false,
@@ -22,7 +34,7 @@ const heroSection = {
     boxed_width: { unit: "px", size: 1220, sizes: [] },
     flex_direction: "column",
     flex_align_items: "center",
-    flex_gap: { unit: "px", size: 0, column: "0", row: "0" },
+    flex_gap: { unit: "px", size: 18, column: "18", row: "18" },
     background_background: "gradient",
     background_color: "#FFFFFF",
     background_color_b: "#EBF6F8",
@@ -39,26 +51,28 @@ const heroSection = {
       elType: "widget",
       widgetType: "heading",
       settings: {
-        title: `<nav style="font-size:13.5px;font-weight:600;color:#64748B;"><a href="/" style="color:#64748B;text-decoration:none;">Home</a> <span style="margin:0 8px;color:#94A3B8;">&gt;</span> <span style="color:#179A9E;">Services Overview</span></nav>`,
-        header_size: "span",
+        title: `<nav style="font-size:13.5px;font-weight:600;color:#64748B;display:inline-block;margin-bottom:12px;"><a href="/" style="color:#64748B;text-decoration:none;">Home</a> <span style="margin:0 8px;color:#94A3B8;">&gt;</span> <span style="color:#179A9E;">Services Overview</span></nav>`,
+        header_size: "div",
         align: "center",
-        margin: { unit: "px", top: "0", right: "0", bottom: "16", left: "0", isLinked: false }
+        _margin: { unit: "px", top: "0", right: "0", bottom: "12", left: "0", isLinked: false },
+        margin: { unit: "px", top: "0", right: "0", bottom: "12", left: "0", isLinked: false }
       }
     },
-    // Pill
+    // Eyebrow Pill Badge
     {
       id: createId(),
       elType: "widget",
       widgetType: "heading",
       settings: {
-        title: `<span style="display:inline-flex;align-items:center;gap:6px;padding:6px 16px;background-color:#EAF8F8;border:1px solid #A7E8E9;border-radius:50px;color:#179A9E;font-size:12px;font-weight:800;letter-spacing:1px;text-transform:uppercase;"><i class=\"fas fa-chart-pie\"></i> FULL-SPECTRUM REVENUE CYCLE MANAGEMENT</span>`,
-        header_size: "span",
+        title: `<div style="display:inline-flex;align-items:center;gap:6px;padding:6px 18px;background-color:#EAF8F8;border:1px solid #A7E8E9;border-radius:50px;color:#179A9E;font-size:12px;font-weight:800;letter-spacing:1px;text-transform:uppercase;margin-bottom:14px;line-height:1.4;"><i class="fas fa-chart-pie" style="font-size:12px;"></i> FULL-SPECTRUM REVENUE CYCLE MANAGEMENT</div>`,
+        header_size: "div",
         align: "center",
         title_color: "#179A9E",
-        margin: { unit: "px", top: "0", right: "0", bottom: "16", left: "0", isLinked: false }
+        _margin: { unit: "px", top: "0", right: "0", bottom: "14", left: "0", isLinked: false },
+        margin: { unit: "px", top: "0", right: "0", bottom: "14", left: "0", isLinked: false }
       }
     },
-    // Heading
+    // Main Heading
     {
       id: createId(),
       elType: "widget",
@@ -74,27 +88,29 @@ const heroSection = {
         typography_font_size_tablet: { unit: "px", size: 36 },
         typography_font_size_mobile: { unit: "px", size: 30 },
         typography_font_weight: "800",
-        typography_line_height: { unit: "em", size: 1.15 },
+        typography_line_height: { unit: "em", size: 1.2 },
         typography_letter_spacing: { unit: "px", size: -0.5 },
+        _margin: { unit: "px", top: "0", right: "0", bottom: "16", left: "0", isLinked: false },
         margin: { unit: "px", top: "0", right: "0", bottom: "16", left: "0", isLinked: false }
       }
     },
-    // Subtitle
+    // Subtitle Description
     {
       id: createId(),
       elType: "widget",
       widgetType: "text-editor",
       settings: {
-        editor: "<p style=\"margin:0 auto;max-width:760px;font-size:16.5px;color:#4A5568;line-height:1.65;text-align:center;\">Whether you need end-to-end medical billing, targeted insurance denial recovery, or practice workflow modernization, StelleMed provides the certified expertise and technology to optimize your clinical cash flow.</p>",
+        editor: `<p style="margin:0 auto;max-width:760px;font-size:16.5px;color:#4A5568;line-height:1.7;text-align:center;">Whether you need end-to-end medical billing, targeted insurance denial recovery, or practice workflow modernization, StelleMed provides the certified expertise and technology to optimize your clinical cash flow.</p>`,
         typography_typography: "custom",
         typography_font_family: "Plus Jakarta Sans",
         typography_font_size: { unit: "px", size: 16.5 },
         typography_font_weight: "400",
         text_color: "#4A5568",
-        margin: { unit: "px", top: "0", right: "0", bottom: "30", left: "0", isLinked: false }
+        _margin: { unit: "px", top: "0", right: "0", bottom: "28", left: "0", isLinked: false },
+        margin: { unit: "px", top: "0", right: "0", bottom: "28", left: "0", isLinked: false }
       }
     },
-    // Buttons
+    // Action Buttons Row
     {
       id: createId(),
       elType: "container",
@@ -105,7 +121,9 @@ const heroSection = {
         flex_direction_mobile: "column",
         flex_justify_content: "center",
         flex_align_items: "center",
-        flex_gap: { unit: "px", size: 14, column: "14", row: "12" }
+        flex_gap: { unit: "px", size: 14, column: "14", row: "12" },
+        _margin: { unit: "px", top: "8", right: "0", bottom: "0", left: "0", isLinked: false },
+        margin: { unit: "px", top: "8", right: "0", bottom: "0", left: "0", isLinked: false }
       },
       elements: [
         {
@@ -162,7 +180,7 @@ const heroSection = {
   ]
 };
 
-// Section 2: Header for Three Pillars
+// SECTION 2: THREE PILLARS HEADER (The previously missing section!)
 const pillarsHeaderSection = {
   id: createId(),
   elType: "container",
@@ -172,7 +190,8 @@ const pillarsHeaderSection = {
     boxed_width: { unit: "px", size: 1220, sizes: [] },
     flex_direction: "column",
     flex_align_items: "center",
-    padding: { unit: "px", top: "70", right: "20", bottom: "30", left: "20", isLinked: false }
+    flex_gap: { unit: "px", size: 16, column: "16", row: "16" },
+    padding: { unit: "px", top: "80", right: "20", bottom: "40", left: "20", isLinked: false }
   },
   elements: [
     {
@@ -180,11 +199,12 @@ const pillarsHeaderSection = {
       elType: "widget",
       widgetType: "heading",
       settings: {
-        title: `<span style="display:inline-flex;align-items:center;gap:6px;padding:6px 16px;background-color:#EAF8F8;border:1px solid #A7E8E9;border-radius:50px;color:#179A9E;font-size:12px;font-weight:800;letter-spacing:1px;text-transform:uppercase;">OUR CORE SERVICE PILLARS</span>`,
-        header_size: "span",
+        title: `<div style="display:inline-flex;align-items:center;gap:6px;padding:6px 18px;background-color:#EAF8F8;border:1px solid #A7E8E9;border-radius:50px;color:#179A9E;font-size:12px;font-weight:800;letter-spacing:1px;text-transform:uppercase;margin-bottom:14px;line-height:1.4;">OUR THREE-PILLAR APPROACH</div>`,
+        header_size: "div",
         align: "center",
         title_color: "#179A9E",
-        margin: { unit: "px", top: "0", right: "0", bottom: "16", left: "0", isLinked: false }
+        _margin: { unit: "px", top: "0", right: "0", bottom: "14", left: "0", isLinked: false },
+        margin: { unit: "px", top: "0", right: "0", bottom: "14", left: "0", isLinked: false }
       }
     },
     {
@@ -199,8 +219,12 @@ const pillarsHeaderSection = {
         typography_typography: "custom",
         typography_font_family: "Plus Jakarta Sans",
         typography_font_size: { unit: "px", size: 40 },
+        typography_font_size_tablet: { unit: "px", size: 32 },
+        typography_font_size_mobile: { unit: "px", size: 26 },
         typography_font_weight: "800",
-        margin: { unit: "px", top: "0", right: "0", bottom: "14", left: "0", isLinked: false }
+        typography_line_height: { unit: "em", size: 1.25 },
+        _margin: { unit: "px", top: "0", right: "0", bottom: "16", left: "0", isLinked: false },
+        margin: { unit: "px", top: "0", right: "0", bottom: "16", left: "0", isLinked: false }
       }
     },
     {
@@ -208,15 +232,22 @@ const pillarsHeaderSection = {
       elType: "widget",
       widgetType: "text-editor",
       settings: {
-        editor: "<p style=\"margin:0;font-size:16px;color:#4A5568;text-align:center;\">Each pillar is designed to seamlessly integrate with your existing workflow, relieving clinical staff and maximizing collections.</p>",
-        text_color: "#4A5568"
+        editor: `<p style="margin:0 auto;max-width:720px;font-size:16.5px;color:#4A5568;line-height:1.65;text-align:center;">Each pillar is designed to seamlessly integrate with your existing workflow, relieving clinical staff and maximizing collections.</p>`,
+        typography_typography: "custom",
+        typography_font_family: "Plus Jakarta Sans",
+        typography_font_size: { unit: "px", size: 16.5 },
+        text_color: "#4A5568",
+        _margin: { unit: "px", top: "0", right: "0", bottom: "10", left: "0", isLinked: false },
+        margin: { unit: "px", top: "0", right: "0", bottom: "10", left: "0", isLinked: false }
       }
     }
   ]
 };
 
-// Helper: Pillar Detailed Card (Flex Container)
-function createPillarRow(isImageLeft, data) {
+// HELPER: Generate Pillar Detailed Card Container
+// isImageLeft = true -> [Image (Left), Content (Right)]
+// isImageLeft = false -> [Content (Left), Image (Right)] (as in Pillar 2 of media_1792620962803.png)
+function createPillarCard(isImageLeft, data) {
   const imageBox = {
     id: createId(),
     elType: "container",
@@ -253,7 +284,7 @@ function createPillarRow(isImageLeft, data) {
           }
         ]
       },
-      // Top-Left Badge (e.g. Core Engine)
+      // Top-Left Badge (Dark Navy Pill)
       {
         id: createId(),
         elType: "container",
@@ -262,11 +293,12 @@ function createPillarRow(isImageLeft, data) {
           content_width: "full",
           width: { unit: "px", size: 120, sizes: [] },
           position: "absolute",
+          _margin: { unit: "px", top: "16", right: "0", bottom: "0", left: "16", isLinked: false },
           margin: { unit: "px", top: "16", right: "0", bottom: "0", left: "16", isLinked: false },
           background_background: "classic",
-          background_color: "rgba(12, 35, 64, 0.85)",
+          background_color: "rgba(12, 35, 64, 0.88)",
           border_radius: { unit: "px", top: "6", right: "6", bottom: "6", left: "6", isLinked: true },
-          padding: { unit: "px", top: "4", right: "10", bottom: "4", left: "10", isLinked: false },
+          padding: { unit: "px", top: "4", right: "12", bottom: "4", left: "12", isLinked: false },
           z_index: 2
         },
         elements: [
@@ -276,7 +308,7 @@ function createPillarRow(isImageLeft, data) {
             widgetType: "heading",
             settings: {
               title: data.badge,
-              header_size: "span",
+              header_size: "div",
               title_color: "#FFFFFF",
               typography_typography: "custom",
               typography_font_size: { unit: "px", size: 11 },
@@ -285,20 +317,21 @@ function createPillarRow(isImageLeft, data) {
           }
         ]
       },
-      // Bottom-Right Stat Pill (e.g. 98% Clean Claim Rate)
+      // Bottom-Right Stat Pill (Teal Pill)
       {
         id: createId(),
         elType: "container",
         isInner: true,
         settings: {
           content_width: "full",
-          width: { unit: "px", size: 160, sizes: [] },
+          width: { unit: "px", size: 170, sizes: [] },
           position: "absolute",
+          _margin: { unit: "px", top: "auto", right: "16", bottom: "16", left: "auto", isLinked: false },
           margin: { unit: "px", top: "auto", right: "16", bottom: "16", left: "auto", isLinked: false },
           background_background: "classic",
           background_color: "#179A9E",
           border_radius: { unit: "px", top: "50", right: "50", bottom: "50", left: "50", isLinked: true },
-          padding: { unit: "px", top: "6", right: "14", bottom: "6", left: "14", isLinked: false },
+          padding: { unit: "px", top: "7", right: "14", bottom: "7", left: "14", isLinked: false },
           z_index: 2
         },
         elements: [
@@ -308,7 +341,7 @@ function createPillarRow(isImageLeft, data) {
             widgetType: "heading",
             settings: {
               title: data.stat,
-              header_size: "span",
+              header_size: "div",
               align: "center",
               title_color: "#FFFFFF",
               typography_typography: "custom",
@@ -332,18 +365,19 @@ function createPillarRow(isImageLeft, data) {
       width_mobile: { unit: "%", size: 100, sizes: [] },
       flex_direction: "column",
       flex_align_items: "flex-start",
-      flex_gap: { unit: "px", size: 0, column: "0", row: "0" }
+      flex_gap: { unit: "px", size: 14, column: "14", row: "14" }
     },
     elements: [
-      // Tagline Eyebrow Pill
+      // Eyebrow Pill Badge (header_size: "div", display: inline-block, explicit bottom margin & line-height)
       {
         id: createId(),
         elType: "widget",
         widgetType: "heading",
         settings: {
-          title: `<span style="display:inline-block;padding:5px 12px;background-color:#EAF8F8;border:1px solid #A7E8E9;border-radius:50px;color:#179A9E;font-size:10.5px;font-weight:800;letter-spacing:0.8px;text-transform:uppercase;">${data.tagline}</span>`,
-          header_size: "span",
+          title: `<div style="display:inline-block;padding:6px 14px;background-color:#EAF8F8;border:1px solid #A7E8E9;border-radius:50px;color:#179A9E;font-size:11px;font-weight:800;letter-spacing:0.8px;text-transform:uppercase;margin-bottom:12px;line-height:1.4;">${data.tagline}</div>`,
+          header_size: "div",
           title_color: "#179A9E",
+          _margin: { unit: "px", top: "0", right: "0", bottom: "12", left: "0", isLinked: false },
           margin: { unit: "px", top: "0", right: "0", bottom: "12", left: "0", isLinked: false }
         }
       },
@@ -358,23 +392,27 @@ function createPillarRow(isImageLeft, data) {
           title_color: "#0C2340",
           typography_typography: "custom",
           typography_font_family: "Plus Jakarta Sans",
-          typography_font_size: { unit: "px", size: 26 },
+          typography_font_size: { unit: "px", size: 28 },
+          typography_font_size_mobile: { unit: "px", size: 22 },
           typography_font_weight: "800",
-          margin: { unit: "px", top: "0", right: "0", bottom: "12", left: "0", isLinked: false }
+          typography_line_height: { unit: "em", size: 1.25 },
+          _margin: { unit: "px", top: "0", right: "0", bottom: "14", left: "0", isLinked: false },
+          margin: { unit: "px", top: "0", right: "0", bottom: "14", left: "0", isLinked: false }
         }
       },
-      // Desc
+      // Description
       {
         id: createId(),
         elType: "widget",
         widgetType: "text-editor",
         settings: {
-          editor: `<p style="margin:0;font-size:14.5px;color:#4A5568;line-height:1.65;">${data.desc}</p>`,
+          editor: `<p style="margin:0;font-size:15px;color:#4A5568;line-height:1.7;">${data.desc}</p>`,
           text_color: "#4A5568",
-          margin: { unit: "px", top: "0", right: "0", bottom: "16", left: "0", isLinked: false }
+          _margin: { unit: "px", top: "0", right: "0", bottom: "18", left: "0", isLinked: false },
+          margin: { unit: "px", top: "0", right: "0", bottom: "18", left: "0", isLinked: false }
         }
       },
-      // Bullets
+      // Bullet Checklist
       {
         id: createId(),
         elType: "widget",
@@ -385,13 +423,15 @@ function createPillarRow(isImageLeft, data) {
             selected_icon: { value: "far fa-check-circle", library: "fa-regular" }
           })),
           icon_color: "#179A9E",
-          icon_size: { unit: "px", size: 14 },
-          space_between: { unit: "px", size: 10 },
+          icon_size: { unit: "px", size: 15 },
+          space_between: { unit: "px", size: 12 },
           text_color: "#1E293B",
           typography_typography: "custom",
           typography_font_family: "Plus Jakarta Sans",
-          typography_font_size: { unit: "px", size: 13.5 },
+          typography_font_size: { unit: "px", size: 14 },
           typography_font_weight: "500",
+          typography_line_height: { unit: "em", size: 1.5 },
+          _margin: { unit: "px", top: "0", right: "0", bottom: "24", left: "0", isLinked: false },
           margin: { unit: "px", top: "0", right: "0", bottom: "24", left: "0", isLinked: false }
         }
       },
@@ -403,7 +443,9 @@ function createPillarRow(isImageLeft, data) {
         settings: {
           content_width: "full",
           flex_direction: "row",
-          flex_gap: { unit: "px", size: 12, column: "12", row: "12" }
+          flex_gap: { unit: "px", size: 12, column: "12", row: "12" },
+          _margin: { unit: "px", top: "6", right: "0", bottom: "0", left: "0", isLinked: false },
+          margin: { unit: "px", top: "6", right: "0", bottom: "0", left: "0", isLinked: false }
         },
         elements: [
           {
@@ -421,10 +463,10 @@ function createPillarRow(isImageLeft, data) {
               background_hover_color: "#0F7B7E",
               hover_color: "#FFFFFF",
               border_radius: { unit: "px", top: "10", right: "10", bottom: "10", left: "10", isLinked: true },
-              padding: { unit: "px", top: "11", right: "20", bottom: "11", left: "20", isLinked: false },
+              padding: { unit: "px", top: "12", right: "22", bottom: "12", left: "22", isLinked: false },
               typography_typography: "custom",
               typography_font_family: "Plus Jakarta Sans",
-              typography_font_size: { unit: "px", size: 13.5 },
+              typography_font_size: { unit: "px", size: 14 },
               typography_font_weight: "700"
             }
           },
@@ -442,10 +484,10 @@ function createPillarRow(isImageLeft, data) {
               border_width: { unit: "px", top: "1", right: "1", bottom: "1", left: "1", isLinked: true },
               border_color: "#CBD5E1",
               border_radius: { unit: "px", top: "10", right: "10", bottom: "10", left: "10", isLinked: true },
-              padding: { unit: "px", top: "11", right: "20", bottom: "11", left: "20", isLinked: false },
+              padding: { unit: "px", top: "12", right: "22", bottom: "12", left: "22", isLinked: false },
               typography_typography: "custom",
               typography_font_family: "Plus Jakarta Sans",
-              typography_font_size: { unit: "px", size: 13.5 },
+              typography_font_size: { unit: "px", size: 14 },
               typography_font_weight: "700"
             }
           }
@@ -454,6 +496,9 @@ function createPillarRow(isImageLeft, data) {
     ]
   };
 
+  // When isImageLeft is true: [imageBox, contentBox] (Image Left, Content Right)
+  // When isImageLeft is false: [contentBox, imageBox] (Content Left, Image Right)
+  // flex_direction is always "row" on desktop! No double-reversal!
   return {
     id: createId(),
     elType: "container",
@@ -461,7 +506,7 @@ function createPillarRow(isImageLeft, data) {
     settings: {
       content_width: "boxed",
       boxed_width: { unit: "px", size: 1220, sizes: [] },
-      flex_direction: isImageLeft ? "row" : "row-reverse",
+      flex_direction: "row",
       flex_direction_tablet: "column",
       flex_direction_mobile: "column",
       flex_justify_content: "space-between",
@@ -475,64 +520,86 @@ function createPillarRow(isImageLeft, data) {
       border_radius: { unit: "px", top: "20", right: "20", bottom: "20", left: "20", isLinked: true },
       padding: { unit: "px", top: "36", right: "36", bottom: "36", left: "36", isLinked: true },
       padding_mobile: { unit: "px", top: "24", right: "20", bottom: "24", left: "20", isLinked: true },
-      margin: { unit: "px", top: "0", right: "auto", bottom: "32", left: "auto", isLinked: false }
+      _margin: { unit: "px", top: "0", right: "auto", bottom: "36", left: "auto", isLinked: false },
+      margin: { unit: "px", top: "0", right: "auto", bottom: "36", left: "auto", isLinked: false }
     },
     elements: isImageLeft ? [imageBox, contentBox] : [contentBox, imageBox]
   };
 }
 
-// Pillar 1 Data
+// Pillar 1 Data (Insurance & Payer Services)
 const pillar1Data = {
   badge: "Core Engine",
-  stat: "98% Clean Claim Rate",
+  stat: "99.2% Clean Claim Rate",
   imageUrl: "https://raw.githubusercontent.com/waqasalidev/sm/main/public/service1.jpg",
-  tagline: "END-TO-END PAYER ADJUDICATION & MAXIMUM LEGAL REIMBURSEMENT",
+  tagline: "END-TO-END THIRD-PARTY PAYER COLLECTIONS FOR HEALTHCARE PROVIDERS",
   title: "Insurance & Payer Services",
-  desc: "We manage your entire payer relationship from initial eligibility checking to clean claim submission, aggressive denial appeals, and aging A/R recovery.",
+  desc: "We manage your entire payer billing cycle from initial eligibility checking to clean claim submission, aggressive denial appeals, and aging A/R recovery.",
   link: "/services/insurance-payer",
   bullets: [
-    "Real-time 270/271 eligibility verification 48 hours prior to service",
-    "Certified AAPC/AHIMA medical coding & modifier accuracy auditing",
-    "Automated clearinghouse scrubbing with 3M+ dynamic rules",
-    "Clinical appeals team that overturns 85%+ of disputed denials"
+    "Real-time 270/271 eligibility checking within 15 seconds prior to service",
+    "Certified AAPC/AHIMA medical coding & routine accuracy audits",
+    "Automated CMS-1500 and UB-04 EDI submission with 24-48 hr turnaround",
+    "Clinical appeals written for complex A/R denials and aging revenue"
   ]
 };
 
-// Pillar 2 Data
+// Pillar 2 Data (Patient & Practice Services)
 const pillar2Data = {
   badge: "Patient Centric",
-  stat: "+38% POS Collections",
+  stat: "+30% POS Collections",
   imageUrl: "https://raw.githubusercontent.com/waqasalidev/sm/main/public/service2.jpg",
-  tagline: "TRANSPARENT PATIENT FINANCIAL CARE & PRACTICE WORKFLOW EFFICIENCY",
+  tagline: "TRANSPARENT PATIENT FINANCIAL COUNSELING AND OUT-OF-POCKET RESOLUTION",
   title: "Patient & Practice Services",
-  desc: "Protect patient relationships while increasing point-of-service collections. We deliver transparent estimates, empathetic call support, and front-desk coaching.",
+  desc: "Patient responsibility is an increasing percentage of practice revenue. We make payment transparent, accessible, and compliant with No Surprises Act regulations.",
   link: "/services/patient-practice",
   bullets: [
     "No Surprises Act compliant Good Faith Estimates (GFE)",
-    "Compassionate bilingual patient billing helpline with 95% resolution",
-    "Paperless digital statements via SMS text and encrypted email links",
-    "Front-desk intake scripts & point-of-service collection training"
+    "Omni-channel patient billing via SMS, email, and paper statements",
+    "Point-of-service payment collection tools and digital checkout",
+    "Dedicated patient billing support team for courteous financial resolution"
   ]
 };
 
-// Pillar 3 Data
+// Pillar 3 Data (Technology & Support)
 const pillar3Data = {
   badge: "Cloud Infrastructure",
   stat: "99.9% Uptime SLA",
   imageUrl: "https://raw.githubusercontent.com/waqasalidev/sm/main/public/service3.jpg",
-  tagline: "CLOUD AUTOMATION, BI-DIRECTIONAL EHR INTEGRATION & 24/7 DASHBOARDS",
+  tagline: "CLOUD AUTOMATION, ADVANCED TOOLS, AND SEAMLESS EHR & EMR ARCHITECTURE",
   title: "Technology & Support",
-  desc: "Plug into modern revenue cycle technology without changing your EHR. Our bi-directional interfaces, automated ERA auto-posting, and real-time dashboards give you complete transparency.",
+  desc: "Modern revenue cycle management requires modern tech. StelleMed integrates directly into your existing EHR/EMR or provides custom automations to eliminate friction.",
   link: "/services/technology-support",
   bullets: [
-    "StelleCloud™ rules engine with automated claim conflict scrubbing",
-    "Direct bi-directional EHR sync with Epic, Athena, eCW, Kareo & Cerner",
-    "Executive web & mobile dashboards for real-time days-in-A/R tracking",
-    "AES-256 bank-grade encryption and strict SOC-2/HIPAA compliance"
+    "Direct API & HL7/FHIR integrations with Epic, Cerner, AthenaHealth, and 50+ EHRs",
+    "StelleCloud clearinghouse engine with real-time scrub & 24hr rejection resolution",
+    "Business intelligence dashboards with key RCM KPIs updated daily",
+    "Dedicated IT & engineering team ensuring continuous uptime & data security"
   ]
 };
 
-// Section 6: Tailored for Your Clinical Specialty (8 Cards)
+// SECTION: UNIFIED THREE PILLARS SECTION (Header + 3 Cards all in one master container!)
+const unifiedThreePillarsSection = {
+  id: createId(),
+  elType: "container",
+  isInner: false,
+  settings: {
+    content_width: "boxed",
+    boxed_width: { unit: "px", size: 1220, sizes: [] },
+    flex_direction: "column",
+    flex_align_items: "center",
+    flex_gap: { unit: "px", size: 36, column: "36", row: "36" },
+    padding: { unit: "px", top: "70", right: "20", bottom: "50", left: "20", isLinked: false }
+  },
+  elements: [
+    pillarsHeaderSection,
+    createPillarCard(true, pillar1Data),
+    createPillarCard(false, pillar2Data),
+    createPillarCard(true, pillar3Data)
+  ]
+};
+
+// SECTION: MEDICAL SPECIALTY EXPERTISE (8 CARDS)
 const specialtiesOverview = [
   { icon: "fas fa-stethoscope", name: "Internal & Family Medicine", desc: "Complex multi-code visits, preventive wellness (AWV), chronic care management (CCM)." },
   { icon: "fas fa-heartbeat", name: "Cardiology & Vascular", desc: "Cath lab interventions, echocardiography, nuclear imaging, and modifier 25/59 optimization." },
@@ -555,13 +622,16 @@ const specialtyOverviewCards = specialtiesOverview.map(s => {
       width_tablet: { unit: "%", size: 48, sizes: [] },
       width_mobile: { unit: "%", size: 100, sizes: [] },
       flex_direction: "column",
+      flex_gap: { unit: "px", size: 10, column: "10", row: "10" },
       background_background: "classic",
       background_color: "#FFFFFF",
       border_border: "solid",
       border_width: { unit: "px", top: "1", right: "1", bottom: "1", left: "1", isLinked: true },
       border_color: "#E2E8F0",
       border_radius: { unit: "px", top: "14", right: "14", bottom: "14", left: "14", isLinked: true },
-      padding: { unit: "px", top: "24", right: "20", bottom: "24", left: "20", isLinked: true }
+      padding: { unit: "px", top: "24", right: "20", bottom: "24", left: "20", isLinked: true },
+      _margin: { unit: "px", top: "0", right: "0", bottom: "0", left: "0", isLinked: false },
+      margin: { unit: "px", top: "0", right: "0", bottom: "0", left: "0", isLinked: false }
     },
     elements: [
       {
@@ -572,7 +642,8 @@ const specialtyOverviewCards = specialtiesOverview.map(s => {
           selected_icon: { value: s.icon, library: "fa-solid" },
           view: "default",
           primary_color: "#179A9E",
-          size: { unit: "px", size: 22 },
+          size: { unit: "px", size: 24 },
+          _margin: { unit: "px", top: "0", right: "0", bottom: "12", left: "0", isLinked: false },
           margin: { unit: "px", top: "0", right: "0", bottom: "12", left: "0", isLinked: false }
         }
       },
@@ -586,9 +657,11 @@ const specialtyOverviewCards = specialtiesOverview.map(s => {
           title_color: "#0C2340",
           typography_typography: "custom",
           typography_font_family: "Plus Jakarta Sans",
-          typography_font_size: { unit: "px", size: 15 },
+          typography_font_size: { unit: "px", size: 16 },
           typography_font_weight: "700",
-          margin: { unit: "px", top: "0", right: "0", bottom: "6", left: "0", isLinked: false }
+          typography_line_height: { unit: "em", size: 1.3 },
+          _margin: { unit: "px", top: "0", right: "0", bottom: "8", left: "0", isLinked: false },
+          margin: { unit: "px", top: "0", right: "0", bottom: "8", left: "0", isLinked: false }
         }
       },
       {
@@ -596,8 +669,10 @@ const specialtyOverviewCards = specialtiesOverview.map(s => {
         elType: "widget",
         widgetType: "text-editor",
         settings: {
-          editor: `<p style="margin:0;font-size:12.5px;color:#64748B;line-height:1.5;">${s.desc}</p>`,
-          text_color: "#64748B"
+          editor: `<p style="margin:0;font-size:13px;color:#64748B;line-height:1.55;">${s.desc}</p>`,
+          text_color: "#64748B",
+          _margin: { unit: "px", top: "0", right: "0", bottom: "0", left: "0", isLinked: false },
+          margin: { unit: "px", top: "0", right: "0", bottom: "0", left: "0", isLinked: false }
         }
       }
     ]
@@ -613,7 +688,8 @@ const specialtiesSection = {
     boxed_width: { unit: "px", size: 1220, sizes: [] },
     flex_direction: "column",
     flex_align_items: "center",
-    padding: { unit: "px", top: "60", right: "20", bottom: "60", left: "20", isLinked: false }
+    flex_gap: { unit: "px", size: 16, column: "16", row: "16" },
+    padding: { unit: "px", top: "70", right: "20", bottom: "70", left: "20", isLinked: false }
   },
   elements: [
     {
@@ -621,11 +697,12 @@ const specialtiesSection = {
       elType: "widget",
       widgetType: "heading",
       settings: {
-        title: `<span style="display:inline-flex;align-items:center;gap:6px;padding:6px 16px;background-color:#EAF8F8;border:1px solid #A7E8E9;border-radius:50px;color:#179A9E;font-size:12px;font-weight:800;letter-spacing:1px;text-transform:uppercase;">MEDICAL SPECIALTY EXPERTISE</span>`,
-        header_size: "span",
+        title: `<div style="display:inline-flex;align-items:center;gap:6px;padding:6px 18px;background-color:#EAF8F8;border:1px solid #A7E8E9;border-radius:50px;color:#179A9E;font-size:12px;font-weight:800;letter-spacing:1px;text-transform:uppercase;margin-bottom:14px;line-height:1.4;">MEDICAL SPECIALTY EXPERTISE</div>`,
+        header_size: "div",
         align: "center",
         title_color: "#179A9E",
-        margin: { unit: "px", top: "0", right: "0", bottom: "16", left: "0", isLinked: false }
+        _margin: { unit: "px", top: "0", right: "0", bottom: "14", left: "0", isLinked: false },
+        margin: { unit: "px", top: "0", right: "0", bottom: "14", left: "0", isLinked: false }
       }
     },
     {
@@ -640,7 +717,11 @@ const specialtiesSection = {
         typography_typography: "custom",
         typography_font_family: "Plus Jakarta Sans",
         typography_font_size: { unit: "px", size: 38 },
+        typography_font_size_tablet: { unit: "px", size: 30 },
+        typography_font_size_mobile: { unit: "px", size: 26 },
         typography_font_weight: "800",
+        typography_line_height: { unit: "em", size: 1.25 },
+        _margin: { unit: "px", top: "0", right: "0", bottom: "14", left: "0", isLinked: false },
         margin: { unit: "px", top: "0", right: "0", bottom: "14", left: "0", isLinked: false }
       }
     },
@@ -649,12 +730,13 @@ const specialtiesSection = {
       elType: "widget",
       widgetType: "text-editor",
       settings: {
-        editor: "<p style=\"margin:0;font-size:16px;color:#4A5568;text-align:center;\">Every medical discipline operates under unique payer guidelines, documentation hurdles, and fee schedules. Our certified billing teams have dedicated specialty pods.</p>",
+        editor: `<p style="margin:0 auto;max-width:760px;font-size:16px;color:#4A5568;line-height:1.65;text-align:center;">Every medical discipline operates under unique payer guidelines, documentation hurdles, and fee schedules. Our certified billing teams have dedicated specialty pods.</p>`,
         text_color: "#4A5568",
+        _margin: { unit: "px", top: "0", right: "0", bottom: "36", left: "0", isLinked: false },
         margin: { unit: "px", top: "0", right: "0", bottom: "36", left: "0", isLinked: false }
       }
     },
-    // Grid
+    // Grid Container (4 columns on desktop, 2 on tablet, 1 on mobile)
     {
       id: createId(),
       elType: "container",
@@ -672,7 +754,7 @@ const specialtiesSection = {
   ]
 };
 
-// Section 7: Bottom CTA Banner
+// SECTION: BOTTOM CTA BANNER
 const bottomCTASection = {
   id: createId(),
   elType: "container",
@@ -682,10 +764,12 @@ const bottomCTASection = {
     boxed_width: { unit: "px", size: 1220, sizes: [] },
     flex_direction: "column",
     flex_align_items: "center",
+    flex_gap: { unit: "px", size: 14, column: "14", row: "14" },
     background_background: "classic",
     background_color: "#081D30",
     border_radius: { unit: "px", top: "20", right: "20", bottom: "20", left: "20", isLinked: true },
     padding: { unit: "px", top: "60", right: "24", bottom: "60", left: "24", isLinked: false },
+    _margin: { unit: "px", top: "20", right: "auto", bottom: "40", left: "auto", isLinked: false },
     margin: { unit: "px", top: "20", right: "auto", bottom: "40", left: "auto", isLinked: false }
   },
   elements: [
@@ -701,7 +785,11 @@ const bottomCTASection = {
         typography_typography: "custom",
         typography_font_family: "Plus Jakarta Sans",
         typography_font_size: { unit: "px", size: 34 },
+        typography_font_size_tablet: { unit: "px", size: 28 },
+        typography_font_size_mobile: { unit: "px", size: 24 },
         typography_font_weight: "800",
+        typography_line_height: { unit: "em", size: 1.25 },
+        _margin: { unit: "px", top: "0", right: "0", bottom: "14", left: "0", isLinked: false },
         margin: { unit: "px", top: "0", right: "0", bottom: "14", left: "0", isLinked: false }
       }
     },
@@ -710,9 +798,10 @@ const bottomCTASection = {
       elType: "widget",
       widgetType: "text-editor",
       settings: {
-        editor: "<p style=\"margin:0 auto;max-width:680px;font-size:16px;color:#94A3B8;line-height:1.6;text-align:center;\">We evaluate your existing billing drift, EHR software, and monthly claim volume to create a tailored fully managed RCM strategy.</p>",
+        editor: `<p style="margin:0 auto;max-width:680px;font-size:16px;color:#94A3B8;line-height:1.65;text-align:center;">We evaluate your existing billing drift, EHR software, and monthly claim volume to create a hybrid or fully managed RCM strategy.</p>`,
         text_color: "#94A3B8",
-        margin: { unit: "px", top: "0", right: "0", bottom: "28", left: "0", isLinked: false }
+        _margin: { unit: "px", top: "0", right: "0", bottom: "26", left: "0", isLinked: false },
+        margin: { unit: "px", top: "0", right: "0", bottom: "26", left: "0", isLinked: false }
       }
     },
     {
@@ -740,41 +829,114 @@ const bottomCTASection = {
   ]
 };
 
-// Full Services Overview Page
+// Full Services Overview Page (Exact order matching media_1792620962803.png)
 const completeServicesOverviewPage = {
   version: "0.4",
   title: "Services Overview - Complete Page (100% Flexbox Container)",
   type: "container",
   content: [
-    heroSection,
+    servicesHeroSection,
     pillarsHeaderSection,
-    createPillarRow(true, pillar1Data),
-    createPillarRow(false, pillar2Data),
-    createPillarRow(true, pillar3Data),
+    createPillarCard(true, pillar1Data),
+    createPillarCard(false, pillar2Data),
+    createPillarCard(true, pillar3Data),
     specialtiesSection,
     bottomCTASection
   ]
 };
 
-// Save individual section files & full page
-function saveTemplate(name, contentNode, title) {
-  const tpl = {
-    version: "0.4",
-    title: title,
-    type: "container",
-    content: Array.isArray(contentNode) ? contentNode : [contentNode]
-  };
-  fs.writeFileSync(path.join(outDir, `${name}.json`), JSON.stringify(tpl, null, 2), 'utf8');
-  fs.writeFileSync(path.join(outDir, `${name.replace('-elementor', '-plain-text')}.json`), JSON.stringify(tpl), 'utf8');
-  console.log(`Saved: ${name}.json`);
-}
+// ============================================================================
+// SAVE SECTION-BY-SECTION FILES FOR SERVICES OVERVIEW
+// ============================================================================
 
-saveTemplate('services-overview-1-hero-elementor', heroSection, "Services Overview - Hero Section (100% Flexbox Container)");
-saveTemplate('services-overview-2-pillar-insurance-elementor', createPillarRow(true, pillar1Data), "Services Overview - Insurance & Payer Pillar (100% Flexbox Container)");
-saveTemplate('services-overview-3-pillar-patient-elementor', createPillarRow(false, pillar2Data), "Services Overview - Patient & Practice Pillar (100% Flexbox Container)");
-saveTemplate('services-overview-4-pillar-tech-elementor', createPillarRow(true, pillar3Data), "Services Overview - Technology & Support Pillar (100% Flexbox Container)");
-saveTemplate('services-overview-5-specialties-elementor', specialtiesSection, "Services Overview - Specialties Tailored (100% Flexbox Container)");
-saveTemplate('services-overview-6-cta-elementor', bottomCTASection, "Services Overview - CTA Banner (100% Flexbox Container)");
-saveTemplate('services-overview-complete-page-elementor', completeServicesOverviewPage.content, "Services Overview - Complete Page (100% Flexbox Container)");
+// 1. Hero Section
+saveTemplate(
+  'services-overview-1-hero-elementor', 
+  servicesHeroSection, 
+  "Services Overview - 1. Hero Banner (100% Flexbox Container)"
+);
 
-console.log("Services Overview templates successfully generated!");
+// 2. Three Pillars Section Header (The missing title section!)
+saveTemplate(
+  'services-overview-2-pillars-header-elementor', 
+  pillarsHeaderSection, 
+  "Services Overview - 2. Three Pillars Header (100% Flexbox Container)"
+);
+
+// 3. Pillar 1: Insurance & Payer Services Card
+saveTemplate(
+  'services-overview-3-pillar-insurance-elementor', 
+  createPillarCard(true, pillar1Data), 
+  "Services Overview - 3. Pillar 1: Insurance & Payer (100% Flexbox Container)"
+);
+
+// 4. Pillar 2: Patient & Practice Services Card (Fixed layout: Content Left, Image Right)
+saveTemplate(
+  'services-overview-4-pillar-patient-elementor', 
+  createPillarCard(false, pillar2Data), 
+  "Services Overview - 4. Pillar 2: Patient & Practice (100% Flexbox Container)"
+);
+
+// 5. Pillar 3: Technology & Support Card
+saveTemplate(
+  'services-overview-5-pillar-tech-elementor', 
+  createPillarCard(true, pillar3Data), 
+  "Services Overview - 5. Pillar 3: Technology & Support (100% Flexbox Container)"
+);
+
+// 6. All Three Pillars Combined (Optional unified section containing Header + all 3 cards)
+saveTemplate(
+  'services-overview-three-pillars-all-elementor', 
+  unifiedThreePillarsSection, 
+  "Services Overview - Three Pillars All-in-One Section (100% Flexbox Container)"
+);
+
+// 7. Clinical Specialties Section
+saveTemplate(
+  'services-overview-6-specialties-elementor', 
+  specialtiesSection, 
+  "Services Overview - 6. Clinical Specialties (100% Flexbox Container)"
+);
+
+// 8. Bottom CTA Banner
+saveTemplate(
+  'services-overview-7-cta-elementor', 
+  bottomCTASection, 
+  "Services Overview - 7. CTA Banner (100% Flexbox Container)"
+);
+
+// Also update the old filenames so any existing references work flawlessly
+saveTemplate(
+  'services-overview-2-pillar-insurance-elementor', 
+  createPillarCard(true, pillar1Data), 
+  "Services Overview - Insurance & Payer Pillar (100% Flexbox Container)"
+);
+saveTemplate(
+  'services-overview-3-pillar-patient-elementor', 
+  createPillarCard(false, pillar2Data), 
+  "Services Overview - Patient & Practice Pillar (100% Flexbox Container)"
+);
+saveTemplate(
+  'services-overview-4-pillar-tech-elementor', 
+  createPillarCard(true, pillar3Data), 
+  "Services Overview - Technology & Support Pillar (100% Flexbox Container)"
+);
+saveTemplate(
+  'services-overview-5-specialties-elementor', 
+  specialtiesSection, 
+  "Services Overview - Specialties Tailored (100% Flexbox Container)"
+);
+saveTemplate(
+  'services-overview-6-cta-elementor', 
+  bottomCTASection, 
+  "Services Overview - CTA Banner (100% Flexbox Container)"
+);
+
+// Complete Page
+saveTemplate(
+  'services-overview-complete-page-elementor', 
+  completeServicesOverviewPage.content, 
+  "Services Overview - Complete Page (100% Flexbox Container)"
+);
+
+console.log("\nServices Overview templates updated with zero column/section and no heading collisions!");

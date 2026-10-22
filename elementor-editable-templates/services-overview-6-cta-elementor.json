@@ -4,7 +4,7 @@
   "type": "container",
   "content": [
     {
-      "id": "djdq1nu",
+      "id": "hkpclqz",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -16,6 +16,12 @@
         },
         "flex_direction": "column",
         "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": 14,
+          "column": "14",
+          "row": "14"
+        },
         "background_background": "classic",
         "background_color": "#081D30",
         "border_radius": {
@@ -34,6 +40,14 @@
           "left": "24",
           "isLinked": false
         },
+        "_margin": {
+          "unit": "px",
+          "top": "20",
+          "right": "auto",
+          "bottom": "40",
+          "left": "auto",
+          "isLinked": false
+        },
         "margin": {
           "unit": "px",
           "top": "20",
@@ -45,7 +59,7 @@
       },
       "elements": [
         {
-          "id": "p6fpefy",
+          "id": "o15xnfw",
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
@@ -59,7 +73,27 @@
               "unit": "px",
               "size": 34
             },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 28
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 24
+            },
             "typography_font_weight": "800",
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.25
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "14",
+              "left": "0",
+              "isLinked": false
+            },
             "margin": {
               "unit": "px",
               "top": "0",
@@ -71,24 +105,32 @@
           }
         },
         {
-          "id": "buc33cd",
+          "id": "bz9cvy2",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
-            "editor": "<p style=\"margin:0 auto;max-width:680px;font-size:16px;color:#94A3B8;line-height:1.6;text-align:center;\">We evaluate your existing billing drift, EHR software, and monthly claim volume to create a tailored fully managed RCM strategy.</p>",
+            "editor": "<p style=\"margin:0 auto;max-width:680px;font-size:16px;color:#94A3B8;line-height:1.65;text-align:center;\">We evaluate your existing billing drift, EHR software, and monthly claim volume to create a hybrid or fully managed RCM strategy.</p>",
             "text_color": "#94A3B8",
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "26",
+              "left": "0",
+              "isLinked": false
+            },
             "margin": {
               "unit": "px",
               "top": "0",
               "right": "0",
-              "bottom": "28",
+              "bottom": "26",
               "left": "0",
               "isLinked": false
             }
           }
         },
         {
-          "id": "7tgjkw7",
+          "id": "ue4tyhw",
           "elType": "widget",
           "widgetType": "button",
           "settings": {
