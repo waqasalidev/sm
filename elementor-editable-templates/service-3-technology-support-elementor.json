@@ -1,10 +1,10 @@
 {
   "version": "0.4",
-  "title": "Technology & Support Services - Complete Page (100% Flexbox Container)",
+  "title": "Technology & Practice Growth - Complete Page (100% Flexbox Container, Exact Screenshot Match)",
   "type": "container",
   "content": [
     {
-      "id": "kbv5vx5",
+      "id": "8atynii",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -54,11 +54,11 @@
       },
       "elements": [
         {
-          "id": "raxnsid",
+          "id": "t2smfmz",
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
-            "title": "<nav style=\"font-size:13.5px;font-weight:600;color:#64748B;display:inline-block;margin-bottom:12px;\"><a href=\"/\" style=\"color:#64748B;text-decoration:none;\">Home</a> <span style=\"margin:0 8px;color:#94A3B8;\">&gt;</span> <a href=\"/services\" style=\"color:#64748B;text-decoration:none;\">Services</a> <span style=\"margin:0 8px;color:#94A3B8;\">&gt;</span> <span style=\"color:#179A9E;\">Technology & Support</span></nav>",
+            "title": "<nav style=\"font-size:13.5px;font-weight:600;color:#64748B;display:inline-block;margin-bottom:12px;\"><a href=\"/\" style=\"color:#64748B;text-decoration:none;\">Home</a> <span style=\"margin:0 8px;color:#94A3B8;\">&gt;</span> <a href=\"/services\" style=\"color:#64748B;text-decoration:none;\">Services</a> <span style=\"margin:0 8px;color:#94A3B8;\">&gt;</span> <span style=\"color:#179A9E;\">Technology &amp; Support</span></nav>",
             "header_size": "div",
             "align": "center",
             "_margin": {
@@ -80,11 +80,11 @@
           }
         },
         {
-          "id": "dyu31qg",
+          "id": "4czvvbn",
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
-            "title": "<div style=\"display:inline-flex;align-items:center;gap:6px;padding:6px 18px;background-color:#EAF8F8;border:1px solid #A7E8E9;border-radius:50px;color:#179A9E;font-size:12px;font-weight:800;letter-spacing:1px;text-transform:uppercase;margin-bottom:14px;line-height:1.4;\"><i class=\"fas fa-shield-alt\" style=\"font-size:12px;\"></i> POWERED BY STELLECLOUD™</div>",
+            "title": "<div style=\"display:inline-flex;align-items:center;gap:6px;padding:6px 18px;background-color:#EAF8F8;border:1px solid #A7E8E9;border-radius:50px;color:#179A9E;font-size:12px;font-weight:800;letter-spacing:1px;text-transform:uppercase;margin-bottom:14px;line-height:1.4;\"><i class=\"fas fa-microchip\" style=\"font-size:12px;\"></i> TECHNOLOGY &amp; IT SUPPORT / PRACTICE GROWTH</div>",
             "header_size": "div",
             "align": "center",
             "title_color": "#179A9E",
@@ -107,11 +107,11 @@
           }
         },
         {
-          "id": "hmrz8ry",
+          "id": "txk6pdt",
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
-            "title": "Technology & <span style=\"color:#179A9E;\">Support</span>",
+            "title": "Technology & Practice Growth",
             "header_size": "h1",
             "align": "center",
             "title_color": "#0C2340",
@@ -153,11 +153,11 @@
           }
         },
         {
-          "id": "82i9o95",
+          "id": "rn08fvu",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
-            "editor": "<p style=\"margin:0 auto;max-width:760px;font-size:16.5px;color:#4A5568;line-height:1.7;text-align:center;\">Enterprise cloud infrastructure, automated claim scrubbers, bi-directional EHR integration, and dedicated IT support tailored for modern healthcare.</p>",
+            "editor": "<p style=\"margin:0 auto;max-width:760px;font-size:16.5px;color:#4A5568;line-height:1.7;text-align:center;\">Backed by Corvit and StelleCloud with 25+ years of tech experience — providing secure client portals, real-time dashboards, cybersecurity, managed IT, and digital growth services.</p>",
             "text_color": "#4A5568",
             "_margin": {
               "unit": "px",
@@ -178,7 +178,7 @@
           }
         },
         {
-          "id": "x2tfsej",
+          "id": "v5t1xrm",
           "elType": "container",
           "isInner": true,
           "settings": {
@@ -212,7 +212,7 @@
           },
           "elements": [
             {
-              "id": "aqzjldr",
+              "id": "2azfphi",
               "elType": "widget",
               "widgetType": "button",
               "settings": {
@@ -224,10 +224,10 @@
                 },
                 "button_type": "default",
                 "selected_icon": {
-                  "value": "fas fa-arrow-right",
+                  "value": "fas fa-desktop",
                   "library": "fa-solid"
                 },
-                "icon_align": "right",
+                "icon_align": "left",
                 "icon_indent": {
                   "unit": "px",
                   "size": 8
@@ -262,19 +262,30 @@
               }
             },
             {
-              "id": "2ltnhis",
+              "id": "76z5jvw",
               "elType": "widget",
               "widgetType": "button",
               "settings": {
-                "text": "Explore All Offerings",
+                "text": "Let’s Find Your Missing Revenue",
                 "link": {
-                  "url": "#offerings",
+                  "url": "tel:15169797418",
                   "is_external": false,
                   "nofollow": false
+                },
+                "button_type": "default",
+                "selected_icon": {
+                  "value": "fas fa-search-dollar",
+                  "library": "fa-solid"
+                },
+                "icon_align": "left",
+                "icon_indent": {
+                  "unit": "px",
+                  "size": 8
                 },
                 "background_color": "#FFFFFF",
                 "button_text_color": "#0C2340",
                 "background_hover_color": "#F1F5F9",
+                "hover_color": "#0C2340",
                 "border_border": "solid",
                 "border_width": {
                   "unit": "px",
@@ -315,579 +326,7 @@
       ]
     },
     {
-      "id": "imp1cfk",
-      "elType": "container",
-      "isInner": false,
-      "settings": {
-        "content_width": "boxed",
-        "boxed_width": {
-          "unit": "px",
-          "size": 1220,
-          "sizes": []
-        },
-        "flex_direction": "row",
-        "flex_wrap": "wrap",
-        "flex_justify_content": "space-between",
-        "flex_align_items": "center",
-        "background_background": "classic",
-        "background_color": "#FFFFFF",
-        "border_border": "solid",
-        "border_width": {
-          "unit": "px",
-          "top": "1",
-          "right": "1",
-          "bottom": "1",
-          "left": "1",
-          "isLinked": true
-        },
-        "border_color": "#E2E8F0",
-        "border_radius": {
-          "unit": "px",
-          "top": "16",
-          "right": "16",
-          "bottom": "16",
-          "left": "16",
-          "isLinked": true
-        },
-        "box_shadow_box_shadow_type": "yes",
-        "box_shadow_box_shadow": {
-          "horizontal": 0,
-          "vertical": 10,
-          "blur": 30,
-          "spread": -5,
-          "color": "rgba(12, 35, 64, 0.08)"
-        },
-        "padding": {
-          "unit": "px",
-          "top": "24",
-          "right": "32",
-          "bottom": "24",
-          "left": "32",
-          "isLinked": false
-        },
-        "padding_mobile": {
-          "unit": "px",
-          "top": "18",
-          "right": "16",
-          "bottom": "18",
-          "left": "16",
-          "isLinked": false
-        },
-        "_margin": {
-          "unit": "px",
-          "top": "-30",
-          "right": "auto",
-          "bottom": "40",
-          "left": "auto",
-          "isLinked": false
-        },
-        "margin": {
-          "unit": "px",
-          "top": "-30",
-          "right": "auto",
-          "bottom": "40",
-          "left": "auto",
-          "isLinked": false
-        },
-        "z_index": 3
-      },
-      "elements": [
-        {
-          "id": "36gvmf0",
-          "elType": "container",
-          "isInner": true,
-          "settings": {
-            "content_width": "full",
-            "width": {
-              "unit": "%",
-              "size": 24,
-              "sizes": []
-            },
-            "width_tablet": {
-              "unit": "%",
-              "size": 48,
-              "sizes": []
-            },
-            "width_mobile": {
-              "unit": "%",
-              "size": 100,
-              "sizes": []
-            },
-            "flex_direction": "column",
-            "flex_align_items": "center",
-            "flex_gap": {
-              "unit": "px",
-              "size": 4,
-              "column": "4",
-              "row": "4"
-            },
-            "border_border": "solid",
-            "border_width": {
-              "unit": "px",
-              "top": "0",
-              "right": "1",
-              "bottom": "0",
-              "left": "0",
-              "isLinked": false
-            },
-            "border_color": "#E2E8F0",
-            "padding": {
-              "unit": "px",
-              "top": "8",
-              "right": "12",
-              "bottom": "8",
-              "left": "12",
-              "isLinked": false
-            }
-          },
-          "elements": [
-            {
-              "id": "8d9q3v9",
-              "elType": "widget",
-              "widgetType": "heading",
-              "settings": {
-                "title": "99.9%",
-                "header_size": "h3",
-                "align": "center",
-                "title_color": "#0C2340",
-                "typography_typography": "custom",
-                "typography_font_family": "Plus Jakarta Sans",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 30
-                },
-                "typography_font_weight": "800",
-                "typography_line_height": {
-                  "unit": "em",
-                  "size": 1.2
-                },
-                "_margin": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "4",
-                  "left": "0",
-                  "isLinked": false
-                },
-                "margin": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "4",
-                  "left": "0",
-                  "isLinked": false
-                }
-              }
-            },
-            {
-              "id": "o3uogw5",
-              "elType": "widget",
-              "widgetType": "heading",
-              "settings": {
-                "title": "Cloud Uptime SLA",
-                "header_size": "div",
-                "align": "center",
-                "title_color": "#64748B",
-                "typography_typography": "custom",
-                "typography_font_family": "Plus Jakarta Sans",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 13
-                },
-                "typography_font_weight": "600",
-                "_margin": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "0",
-                  "left": "0",
-                  "isLinked": false
-                },
-                "margin": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "0",
-                  "left": "0",
-                  "isLinked": false
-                }
-              }
-            }
-          ]
-        },
-        {
-          "id": "4sh5uqr",
-          "elType": "container",
-          "isInner": true,
-          "settings": {
-            "content_width": "full",
-            "width": {
-              "unit": "%",
-              "size": 24,
-              "sizes": []
-            },
-            "width_tablet": {
-              "unit": "%",
-              "size": 48,
-              "sizes": []
-            },
-            "width_mobile": {
-              "unit": "%",
-              "size": 100,
-              "sizes": []
-            },
-            "flex_direction": "column",
-            "flex_align_items": "center",
-            "flex_gap": {
-              "unit": "px",
-              "size": 4,
-              "column": "4",
-              "row": "4"
-            },
-            "border_border": "solid",
-            "border_width": {
-              "unit": "px",
-              "top": "0",
-              "right": "1",
-              "bottom": "0",
-              "left": "0",
-              "isLinked": false
-            },
-            "border_color": "#E2E8F0",
-            "padding": {
-              "unit": "px",
-              "top": "8",
-              "right": "12",
-              "bottom": "8",
-              "left": "12",
-              "isLinked": false
-            }
-          },
-          "elements": [
-            {
-              "id": "tamf8pg",
-              "elType": "widget",
-              "widgetType": "heading",
-              "settings": {
-                "title": "256-Bit",
-                "header_size": "h3",
-                "align": "center",
-                "title_color": "#0C2340",
-                "typography_typography": "custom",
-                "typography_font_family": "Plus Jakarta Sans",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 30
-                },
-                "typography_font_weight": "800",
-                "typography_line_height": {
-                  "unit": "em",
-                  "size": 1.2
-                },
-                "_margin": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "4",
-                  "left": "0",
-                  "isLinked": false
-                },
-                "margin": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "4",
-                  "left": "0",
-                  "isLinked": false
-                }
-              }
-            },
-            {
-              "id": "bfudxjd",
-              "elType": "widget",
-              "widgetType": "heading",
-              "settings": {
-                "title": "AES Data Encryption",
-                "header_size": "div",
-                "align": "center",
-                "title_color": "#64748B",
-                "typography_typography": "custom",
-                "typography_font_family": "Plus Jakarta Sans",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 13
-                },
-                "typography_font_weight": "600",
-                "_margin": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "0",
-                  "left": "0",
-                  "isLinked": false
-                },
-                "margin": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "0",
-                  "left": "0",
-                  "isLinked": false
-                }
-              }
-            }
-          ]
-        },
-        {
-          "id": "6vi54et",
-          "elType": "container",
-          "isInner": true,
-          "settings": {
-            "content_width": "full",
-            "width": {
-              "unit": "%",
-              "size": 24,
-              "sizes": []
-            },
-            "width_tablet": {
-              "unit": "%",
-              "size": 48,
-              "sizes": []
-            },
-            "width_mobile": {
-              "unit": "%",
-              "size": 100,
-              "sizes": []
-            },
-            "flex_direction": "column",
-            "flex_align_items": "center",
-            "flex_gap": {
-              "unit": "px",
-              "size": 4,
-              "column": "4",
-              "row": "4"
-            },
-            "border_border": "solid",
-            "border_width": {
-              "unit": "px",
-              "top": "0",
-              "right": "1",
-              "bottom": "0",
-              "left": "0",
-              "isLinked": false
-            },
-            "border_color": "#E2E8F0",
-            "padding": {
-              "unit": "px",
-              "top": "8",
-              "right": "12",
-              "bottom": "8",
-              "left": "12",
-              "isLinked": false
-            }
-          },
-          "elements": [
-            {
-              "id": "es9e873",
-              "elType": "widget",
-              "widgetType": "heading",
-              "settings": {
-                "title": "50+",
-                "header_size": "h3",
-                "align": "center",
-                "title_color": "#0C2340",
-                "typography_typography": "custom",
-                "typography_font_family": "Plus Jakarta Sans",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 30
-                },
-                "typography_font_weight": "800",
-                "typography_line_height": {
-                  "unit": "em",
-                  "size": 1.2
-                },
-                "_margin": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "4",
-                  "left": "0",
-                  "isLinked": false
-                },
-                "margin": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "4",
-                  "left": "0",
-                  "isLinked": false
-                }
-              }
-            },
-            {
-              "id": "tsvb5h3",
-              "elType": "widget",
-              "widgetType": "heading",
-              "settings": {
-                "title": "Major EHRs Integrated",
-                "header_size": "div",
-                "align": "center",
-                "title_color": "#64748B",
-                "typography_typography": "custom",
-                "typography_font_family": "Plus Jakarta Sans",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 13
-                },
-                "typography_font_weight": "600",
-                "_margin": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "0",
-                  "left": "0",
-                  "isLinked": false
-                },
-                "margin": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "0",
-                  "left": "0",
-                  "isLinked": false
-                }
-              }
-            }
-          ]
-        },
-        {
-          "id": "7459q0y",
-          "elType": "container",
-          "isInner": true,
-          "settings": {
-            "content_width": "full",
-            "width": {
-              "unit": "%",
-              "size": 24,
-              "sizes": []
-            },
-            "width_tablet": {
-              "unit": "%",
-              "size": 48,
-              "sizes": []
-            },
-            "width_mobile": {
-              "unit": "%",
-              "size": 100,
-              "sizes": []
-            },
-            "flex_direction": "column",
-            "flex_align_items": "center",
-            "flex_gap": {
-              "unit": "px",
-              "size": 4,
-              "column": "4",
-              "row": "4"
-            },
-            "border_border": "none",
-            "border_width": {
-              "unit": "px",
-              "top": "0",
-              "right": "1",
-              "bottom": "0",
-              "left": "0",
-              "isLinked": false
-            },
-            "border_color": "#E2E8F0",
-            "padding": {
-              "unit": "px",
-              "top": "8",
-              "right": "12",
-              "bottom": "8",
-              "left": "12",
-              "isLinked": false
-            }
-          },
-          "elements": [
-            {
-              "id": "jcs8zpi",
-              "elType": "widget",
-              "widgetType": "heading",
-              "settings": {
-                "title": "<15 Mins",
-                "header_size": "h3",
-                "align": "center",
-                "title_color": "#0C2340",
-                "typography_typography": "custom",
-                "typography_font_family": "Plus Jakarta Sans",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 30
-                },
-                "typography_font_weight": "800",
-                "typography_line_height": {
-                  "unit": "em",
-                  "size": 1.2
-                },
-                "_margin": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "4",
-                  "left": "0",
-                  "isLinked": false
-                },
-                "margin": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "4",
-                  "left": "0",
-                  "isLinked": false
-                }
-              }
-            },
-            {
-              "id": "tchy74n",
-              "elType": "widget",
-              "widgetType": "heading",
-              "settings": {
-                "title": "Helpdesk SLA Response",
-                "header_size": "div",
-                "align": "center",
-                "title_color": "#64748B",
-                "typography_typography": "custom",
-                "typography_font_family": "Plus Jakarta Sans",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 13
-                },
-                "typography_font_weight": "600",
-                "_margin": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "0",
-                  "left": "0",
-                  "isLinked": false
-                },
-                "margin": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "0",
-                  "left": "0",
-                  "isLinked": false
-                }
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "ql3y7nn",
+      "id": "rxbc9z3",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -898,595 +337,105 @@
           "sizes": []
         },
         "flex_direction": "column",
-        "flex_align_items": "center",
+        "flex_align_items": "flex-start",
         "flex_gap": {
           "unit": "px",
-          "size": 16,
-          "column": "16",
-          "row": "16"
-        },
-        "background_background": "classic",
-        "background_color": "#FFFFFF",
-        "border_border": "solid",
-        "border_width": {
-          "unit": "px",
-          "top": "1",
-          "right": "1",
-          "bottom": "1",
-          "left": "1",
-          "isLinked": true
-        },
-        "border_color": "#E2E8F0",
-        "border_radius": {
-          "unit": "px",
-          "top": "20",
-          "right": "20",
-          "bottom": "20",
-          "left": "20",
-          "isLinked": true
-        },
-        "padding": {
-          "unit": "px",
-          "top": "40",
-          "right": "24",
-          "bottom": "40",
-          "left": "24",
-          "isLinked": false
-        },
-        "_margin": {
-          "unit": "px",
-          "top": "10",
-          "right": "auto",
-          "bottom": "40",
-          "left": "auto",
-          "isLinked": false
-        },
-        "margin": {
-          "unit": "px",
-          "top": "10",
-          "right": "auto",
-          "bottom": "40",
-          "left": "auto",
-          "isLinked": false
-        }
-      },
-      "elements": [
-        {
-          "id": "ze18lxz",
-          "elType": "widget",
-          "widgetType": "heading",
-          "settings": {
-            "title": "<div style=\"display:inline-flex;align-items:center;gap:6px;padding:5px 16px;background-color:#EAF8F8;border:1px solid #A7E8E9;border-radius:50px;color:#179A9E;font-size:11.5px;font-weight:800;letter-spacing:1px;text-transform:uppercase;margin-bottom:8px;line-height:1.4;\"><i class=\"fas fa-server\"></i> INTEROPERABILITY ENGINE</div>",
-            "header_size": "div",
-            "align": "center",
-            "title_color": "#179A9E",
-            "_margin": {
-              "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "8",
-              "left": "0",
-              "isLinked": false
-            },
-            "margin": {
-              "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "8",
-              "left": "0",
-              "isLinked": false
-            }
-          }
-        },
-        {
-          "id": "l6aw8pq",
-          "elType": "widget",
-          "widgetType": "heading",
-          "settings": {
-            "title": "StelleCloud™ Architecture & Security Gateway",
-            "header_size": "h2",
-            "align": "center",
-            "title_color": "#0C2340",
-            "typography_typography": "custom",
-            "typography_font_family": "Plus Jakarta Sans",
-            "typography_font_size": {
-              "unit": "px",
-              "size": 28
-            },
-            "typography_font_weight": "800",
-            "typography_line_height": {
-              "unit": "em",
-              "size": 1.25
-            },
-            "_margin": {
-              "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "16",
-              "left": "0",
-              "isLinked": false
-            },
-            "margin": {
-              "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "16",
-              "left": "0",
-              "isLinked": false
-            }
-          }
-        },
-        {
-          "id": "bu75mqd",
-          "elType": "container",
-          "isInner": true,
-          "settings": {
-            "content_width": "full",
-            "flex_direction": "row",
-            "flex_wrap": "wrap",
-            "flex_justify_content": "center",
-            "flex_align_items": "center",
-            "flex_gap": {
-              "unit": "px",
-              "size": 14,
-              "column": "14",
-              "row": "14"
-            }
-          },
-          "elements": [
-            {
-              "id": "b3txcr7",
-              "elType": "container",
-              "isInner": true,
-              "settings": {
-                "content_width": "full",
-                "flex_direction": "row",
-                "flex_align_items": "center",
-                "flex_gap": {
-                  "unit": "px",
-                  "size": 10,
-                  "column": "10",
-                  "row": "10"
-                },
-                "background_background": "classic",
-                "background_color": "#F8FAFC",
-                "border_border": "solid",
-                "border_width": {
-                  "unit": "px",
-                  "top": "1",
-                  "right": "1",
-                  "bottom": "1",
-                  "left": "1",
-                  "isLinked": true
-                },
-                "border_color": "#E2E8F0",
-                "border_radius": {
-                  "unit": "px",
-                  "top": "10",
-                  "right": "10",
-                  "bottom": "10",
-                  "left": "10",
-                  "isLinked": true
-                },
-                "padding": {
-                  "unit": "px",
-                  "top": "12",
-                  "right": "18",
-                  "bottom": "12",
-                  "left": "16",
-                  "isLinked": false
-                }
-              },
-              "elements": [
-                {
-                  "id": "6iqhfv0",
-                  "elType": "widget",
-                  "widgetType": "icon",
-                  "settings": {
-                    "selected_icon": {
-                      "value": "fas fa-sync-alt",
-                      "library": "fa-solid"
-                    },
-                    "view": "default",
-                    "primary_color": "#179A9E",
-                    "size": {
-                      "unit": "px",
-                      "size": 16
-                    }
-                  }
-                },
-                {
-                  "id": "3e33i2e",
-                  "elType": "widget",
-                  "widgetType": "heading",
-                  "settings": {
-                    "title": "Bi-Directional HL7/FHIR Engine",
-                    "header_size": "div",
-                    "title_color": "#0C2340",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Plus Jakarta Sans",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 13.5
-                    },
-                    "typography_font_weight": "700"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "jmxs3lv",
-              "elType": "container",
-              "isInner": true,
-              "settings": {
-                "content_width": "full",
-                "flex_direction": "row",
-                "flex_align_items": "center",
-                "flex_gap": {
-                  "unit": "px",
-                  "size": 10,
-                  "column": "10",
-                  "row": "10"
-                },
-                "background_background": "classic",
-                "background_color": "#F8FAFC",
-                "border_border": "solid",
-                "border_width": {
-                  "unit": "px",
-                  "top": "1",
-                  "right": "1",
-                  "bottom": "1",
-                  "left": "1",
-                  "isLinked": true
-                },
-                "border_color": "#E2E8F0",
-                "border_radius": {
-                  "unit": "px",
-                  "top": "10",
-                  "right": "10",
-                  "bottom": "10",
-                  "left": "10",
-                  "isLinked": true
-                },
-                "padding": {
-                  "unit": "px",
-                  "top": "12",
-                  "right": "18",
-                  "bottom": "12",
-                  "left": "16",
-                  "isLinked": false
-                }
-              },
-              "elements": [
-                {
-                  "id": "1a65lyx",
-                  "elType": "widget",
-                  "widgetType": "icon",
-                  "settings": {
-                    "selected_icon": {
-                      "value": "fas fa-filter",
-                      "library": "fa-solid"
-                    },
-                    "view": "default",
-                    "primary_color": "#179A9E",
-                    "size": {
-                      "unit": "px",
-                      "size": 16
-                    }
-                  }
-                },
-                {
-                  "id": "0gvyl4l",
-                  "elType": "widget",
-                  "widgetType": "heading",
-                  "settings": {
-                    "title": "Real-Time 3M+ Scrubbing Rules",
-                    "header_size": "div",
-                    "title_color": "#0C2340",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Plus Jakarta Sans",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 13.5
-                    },
-                    "typography_font_weight": "700"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mifvz7r",
-              "elType": "container",
-              "isInner": true,
-              "settings": {
-                "content_width": "full",
-                "flex_direction": "row",
-                "flex_align_items": "center",
-                "flex_gap": {
-                  "unit": "px",
-                  "size": 10,
-                  "column": "10",
-                  "row": "10"
-                },
-                "background_background": "classic",
-                "background_color": "#F8FAFC",
-                "border_border": "solid",
-                "border_width": {
-                  "unit": "px",
-                  "top": "1",
-                  "right": "1",
-                  "bottom": "1",
-                  "left": "1",
-                  "isLinked": true
-                },
-                "border_color": "#E2E8F0",
-                "border_radius": {
-                  "unit": "px",
-                  "top": "10",
-                  "right": "10",
-                  "bottom": "10",
-                  "left": "10",
-                  "isLinked": true
-                },
-                "padding": {
-                  "unit": "px",
-                  "top": "12",
-                  "right": "18",
-                  "bottom": "12",
-                  "left": "16",
-                  "isLinked": false
-                }
-              },
-              "elements": [
-                {
-                  "id": "mjl34bx",
-                  "elType": "widget",
-                  "widgetType": "icon",
-                  "settings": {
-                    "selected_icon": {
-                      "value": "fas fa-file-invoice-dollar",
-                      "library": "fa-solid"
-                    },
-                    "view": "default",
-                    "primary_color": "#179A9E",
-                    "size": {
-                      "unit": "px",
-                      "size": 16
-                    }
-                  }
-                },
-                {
-                  "id": "bu1p8bs",
-                  "elType": "widget",
-                  "widgetType": "heading",
-                  "settings": {
-                    "title": "Automated 835 Remit Auto-Poster",
-                    "header_size": "div",
-                    "title_color": "#0C2340",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Plus Jakarta Sans",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 13.5
-                    },
-                    "typography_font_weight": "700"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "c5lmdo8",
-              "elType": "container",
-              "isInner": true,
-              "settings": {
-                "content_width": "full",
-                "flex_direction": "row",
-                "flex_align_items": "center",
-                "flex_gap": {
-                  "unit": "px",
-                  "size": 10,
-                  "column": "10",
-                  "row": "10"
-                },
-                "background_background": "classic",
-                "background_color": "#F8FAFC",
-                "border_border": "solid",
-                "border_width": {
-                  "unit": "px",
-                  "top": "1",
-                  "right": "1",
-                  "bottom": "1",
-                  "left": "1",
-                  "isLinked": true
-                },
-                "border_color": "#E2E8F0",
-                "border_radius": {
-                  "unit": "px",
-                  "top": "10",
-                  "right": "10",
-                  "bottom": "10",
-                  "left": "10",
-                  "isLinked": true
-                },
-                "padding": {
-                  "unit": "px",
-                  "top": "12",
-                  "right": "18",
-                  "bottom": "12",
-                  "left": "16",
-                  "isLinked": false
-                }
-              },
-              "elements": [
-                {
-                  "id": "dtg3t38",
-                  "elType": "widget",
-                  "widgetType": "icon",
-                  "settings": {
-                    "selected_icon": {
-                      "value": "fas fa-lock",
-                      "library": "fa-solid"
-                    },
-                    "view": "default",
-                    "primary_color": "#179A9E",
-                    "size": {
-                      "unit": "px",
-                      "size": 16
-                    }
-                  }
-                },
-                {
-                  "id": "9j08ocj",
-                  "elType": "widget",
-                  "widgetType": "heading",
-                  "settings": {
-                    "title": "SOC-2 Type II & HIPAA Certified",
-                    "header_size": "div",
-                    "title_color": "#0C2340",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Plus Jakarta Sans",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 13.5
-                    },
-                    "typography_font_weight": "700"
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "ikurkfx",
-      "elType": "container",
-      "isInner": false,
-      "settings": {
-        "content_width": "boxed",
-        "boxed_width": {
-          "unit": "px",
-          "size": 1220,
-          "sizes": []
-        },
-        "flex_direction": "column",
-        "flex_align_items": "center",
-        "flex_gap": {
-          "unit": "px",
-          "size": 16,
-          "column": "16",
-          "row": "16"
+          "size": 24,
+          "column": "24",
+          "row": "24"
         },
         "padding": {
           "unit": "px",
           "top": "50",
           "right": "20",
-          "bottom": "60",
+          "bottom": "45",
           "left": "20",
           "isLinked": false
         }
       },
       "elements": [
         {
-          "id": "mdktsa5",
-          "elType": "widget",
-          "widgetType": "heading",
+          "id": "doqc5mb",
+          "elType": "container",
+          "isInner": true,
           "settings": {
-            "title": "<div style=\"display:inline-flex;align-items:center;gap:6px;padding:6px 18px;background-color:#EAF8F8;border:1px solid #A7E8E9;border-radius:50px;color:#179A9E;font-size:12px;font-weight:800;letter-spacing:1px;text-transform:uppercase;margin-bottom:14px;line-height:1.4;\">CORE CLOUD SYSTEMS</div>",
-            "header_size": "div",
-            "align": "center",
-            "title_color": "#179A9E",
-            "_margin": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_align_items": "flex-start",
+            "flex_gap": {
               "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "14",
-              "left": "0",
-              "isLinked": false
-            },
-            "margin": {
-              "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "14",
-              "left": "0",
-              "isLinked": false
+              "size": 6,
+              "column": "6",
+              "row": "6"
             }
-          }
+          },
+          "elements": [
+            {
+              "id": "5nbjpmy",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "<div style=\"display:inline-flex;align-items:center;gap:6px;padding:4px 12px;background-color:#EAF8F8;border:1px solid #A7E8E9;border-radius:4px;color:#179A9E;font-size:11px;font-weight:800;letter-spacing:1px;text-transform:uppercase;\"><i class=\"fas fa-server\"></i> GROUP 01</div>",
+                "header_size": "div",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "4",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "4",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "qqki7ib",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Healthcare Technology & Infrastructure",
+                "header_size": "h2",
+                "title_color": "#0C2340",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 28
+                },
+                "typography_font_weight": "800",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.25
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            }
+          ]
         },
         {
-          "id": "ah3gvj7",
-          "elType": "widget",
-          "widgetType": "heading",
-          "settings": {
-            "title": "Healthcare Technology & <span style=\"color:#179A9E;\">Infrastructure</span>",
-            "header_size": "h2",
-            "align": "center",
-            "title_color": "#0C2340",
-            "typography_typography": "custom",
-            "typography_font_family": "Plus Jakarta Sans",
-            "typography_font_size": {
-              "unit": "px",
-              "size": 36
-            },
-            "typography_font_size_tablet": {
-              "unit": "px",
-              "size": 30
-            },
-            "typography_font_size_mobile": {
-              "unit": "px",
-              "size": 24
-            },
-            "typography_font_weight": "800",
-            "typography_line_height": {
-              "unit": "em",
-              "size": 1.25
-            },
-            "_margin": {
-              "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "14",
-              "left": "0",
-              "isLinked": false
-            },
-            "margin": {
-              "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "14",
-              "left": "0",
-              "isLinked": false
-            }
-          }
-        },
-        {
-          "id": "2dx6y60",
-          "elType": "widget",
-          "widgetType": "text-editor",
-          "settings": {
-            "editor": "<p style=\"margin:0 auto;max-width:760px;font-size:16px;color:#4A5568;line-height:1.65;text-align:center;\">Empowering providers with real-time transparency, automated scrubbing, and seamless EHR sync.</p>",
-            "text_color": "#4A5568",
-            "_margin": {
-              "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "36",
-              "left": "0",
-              "isLinked": false
-            },
-            "margin": {
-              "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "36",
-              "left": "0",
-              "isLinked": false
-            }
-          }
-        },
-        {
-          "id": "w5og5sp",
+          "id": "91yo1bs",
           "elType": "container",
           "isInner": true,
           "settings": {
@@ -1497,26 +446,26 @@
             "flex_align_items": "stretch",
             "flex_gap": {
               "unit": "px",
-              "size": 24,
-              "column": "24",
-              "row": "24"
+              "size": 20,
+              "column": "20",
+              "row": "20"
             }
           },
           "elements": [
             {
-              "id": "7gqa85k",
+              "id": "qjrrxhs",
               "elType": "container",
               "isInner": true,
               "settings": {
                 "content_width": "full",
                 "width": {
                   "unit": "%",
-                  "size": 48.5,
+                  "size": 23.5,
                   "sizes": []
                 },
                 "width_tablet": {
                   "unit": "%",
-                  "size": 100,
+                  "size": 48,
                   "sizes": []
                 },
                 "width_mobile": {
@@ -1555,16 +504,16 @@
                 "box_shadow_box_shadow": {
                   "horizontal": 0,
                   "vertical": 4,
-                  "blur": 16,
-                  "spread": -2,
-                  "color": "rgba(12, 35, 64, 0.04)"
+                  "blur": 18,
+                  "spread": -3,
+                  "color": "rgba(12, 35, 64, 0.05)"
                 },
                 "padding": {
                   "unit": "px",
                   "top": "28",
-                  "right": "26",
+                  "right": "24",
                   "bottom": "28",
-                  "left": "26",
+                  "left": "24",
                   "isLinked": true
                 },
                 "_margin": {
@@ -1586,20 +535,20 @@
               },
               "elements": [
                 {
-                  "id": "o5vjp1g",
+                  "id": "0rp6vuk",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
-                    "title": "Bi-Directional EHR Integration",
+                    "title": "Secure Client Portal",
                     "header_size": "h3",
                     "title_color": "#0C2340",
                     "typography_typography": "custom",
                     "typography_font_family": "Plus Jakarta Sans",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 19
+                      "size": 18
                     },
-                    "typography_font_weight": "700",
+                    "typography_font_weight": "800",
                     "typography_line_height": {
                       "unit": "em",
                       "size": 1.25
@@ -1608,7 +557,7 @@
                       "unit": "px",
                       "top": "0",
                       "right": "0",
-                      "bottom": "10",
+                      "bottom": "6",
                       "left": "0",
                       "isLinked": false
                     },
@@ -1616,24 +565,24 @@
                       "unit": "px",
                       "top": "0",
                       "right": "0",
-                      "bottom": "10",
+                      "bottom": "6",
                       "left": "0",
                       "isLinked": false
                     }
                   }
                 },
                 {
-                  "id": "v1r9wqy",
+                  "id": "hjtxiq7",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "<p style=\"margin:0;font-size:14.5px;color:#4A5568;line-height:1.65;\">Seamless two-way data synchronization with leading EHRs including Epic, Cerner, AthenaHealth, eClinicalWorks, Kareo, NextGen, and 50+ specialty platforms.</p>",
+                    "editor": "<p style=\"margin:0;font-size:13.5px;color:#4A5568;line-height:1.65;\">Encrypted, role-based cloud portal giving practice administrators and physicians 24/7 visibility into claim batches, denial queues, patient accounts, and daily cash deposits.</p>",
                     "text_color": "#4A5568",
                     "_margin": {
                       "unit": "px",
                       "top": "0",
                       "right": "0",
-                      "bottom": "16",
+                      "bottom": "14",
                       "left": "0",
                       "isLinked": false
                     },
@@ -1641,34 +590,34 @@
                       "unit": "px",
                       "top": "0",
                       "right": "0",
-                      "bottom": "16",
+                      "bottom": "14",
                       "left": "0",
                       "isLinked": false
                     }
                   }
                 },
                 {
-                  "id": "6p29fr2",
+                  "id": "zus9a6e",
                   "elType": "widget",
                   "widgetType": "icon-list",
                   "settings": {
                     "icon_list": [
                       {
-                        "text": "No manual double-entry of patient demographics or clinical charges",
+                        "text": "Live encounter tracking and claim adjudication status",
                         "selected_icon": {
                           "value": "far fa-check-circle",
                           "library": "fa-regular"
                         }
                       },
                       {
-                        "text": "Real-time schedule synchronization and appointment check-in feeds",
+                        "text": "Bi-directional document sharing and HIPAA-compliant messaging",
                         "selected_icon": {
                           "value": "far fa-check-circle",
                           "library": "fa-regular"
                         }
                       },
                       {
-                        "text": "Direct write-back of payment receipts and clearinghouse statuses into your EHR",
+                        "text": "Exportable financial ledgers and practice analytics",
                         "selected_icon": {
                           "value": "far fa-check-circle",
                           "library": "fa-regular"
@@ -1689,9 +638,13 @@
                     "typography_font_family": "Plus Jakarta Sans",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 13.5
+                      "size": 13
                     },
                     "typography_font_weight": "500",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.5
+                    },
                     "_margin": {
                       "unit": "px",
                       "top": "0",
@@ -1713,19 +666,19 @@
               ]
             },
             {
-              "id": "7ea6sf8",
+              "id": "2wlb7aq",
               "elType": "container",
               "isInner": true,
               "settings": {
                 "content_width": "full",
                 "width": {
                   "unit": "%",
-                  "size": 48.5,
+                  "size": 23.5,
                   "sizes": []
                 },
                 "width_tablet": {
                   "unit": "%",
-                  "size": 100,
+                  "size": 48,
                   "sizes": []
                 },
                 "width_mobile": {
@@ -1764,16 +717,16 @@
                 "box_shadow_box_shadow": {
                   "horizontal": 0,
                   "vertical": 4,
-                  "blur": 16,
-                  "spread": -2,
-                  "color": "rgba(12, 35, 64, 0.04)"
+                  "blur": 18,
+                  "spread": -3,
+                  "color": "rgba(12, 35, 64, 0.05)"
                 },
                 "padding": {
                   "unit": "px",
                   "top": "28",
-                  "right": "26",
+                  "right": "24",
                   "bottom": "28",
-                  "left": "26",
+                  "left": "24",
                   "isLinked": true
                 },
                 "_margin": {
@@ -1795,20 +748,20 @@
               },
               "elements": [
                 {
-                  "id": "opu88tq",
+                  "id": "v62nlzl",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
-                    "title": "StelleCloud™ Automated Claim Scrubber",
+                    "title": "Real-Time Dashboards",
                     "header_size": "h3",
                     "title_color": "#0C2340",
                     "typography_typography": "custom",
                     "typography_font_family": "Plus Jakarta Sans",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 19
+                      "size": 18
                     },
-                    "typography_font_weight": "700",
+                    "typography_font_weight": "800",
                     "typography_line_height": {
                       "unit": "em",
                       "size": 1.25
@@ -1817,7 +770,7 @@
                       "unit": "px",
                       "top": "0",
                       "right": "0",
-                      "bottom": "10",
+                      "bottom": "6",
                       "left": "0",
                       "isLinked": false
                     },
@@ -1825,24 +778,24 @@
                       "unit": "px",
                       "top": "0",
                       "right": "0",
-                      "bottom": "10",
+                      "bottom": "6",
                       "left": "0",
                       "isLinked": false
                     }
                   }
                 },
                 {
-                  "id": "inrvz69",
+                  "id": "2d2yjc7",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "<p style=\"margin:0;font-size:14.5px;color:#4A5568;line-height:1.65;\">Enterprise clearinghouse rules engine testing every charge against 3M+ payer-specific rules before EDI file generation, catching modifier errors and unbundled codes.</p>",
+                    "editor": "<p style=\"margin:0;font-size:13.5px;color:#4A5568;line-height:1.65;\">Intuitive executive business intelligence dashboards monitoring essential clinical key performance indicators (KPIs), Days in A/R, first-pass clean claim rates, and payer trends.</p>",
                     "text_color": "#4A5568",
                     "_margin": {
                       "unit": "px",
                       "top": "0",
                       "right": "0",
-                      "bottom": "16",
+                      "bottom": "14",
                       "left": "0",
                       "isLinked": false
                     },
@@ -1850,34 +803,34 @@
                       "unit": "px",
                       "top": "0",
                       "right": "0",
-                      "bottom": "16",
+                      "bottom": "14",
                       "left": "0",
                       "isLinked": false
                     }
                   }
                 },
                 {
-                  "id": "byipege",
+                  "id": "l1pvujz",
                   "elType": "widget",
                   "widgetType": "icon-list",
                   "settings": {
                     "icon_list": [
                       {
-                        "text": "Real-time identification of LCD/NCD coverage conflicts",
+                        "text": "Color-coded aging bucket breakdowns (30, 60, 90, 120+ days)",
                         "selected_icon": {
                           "value": "far fa-check-circle",
                           "library": "fa-regular"
                         }
                       },
                       {
-                        "text": "Automatic application of specialty billing rules and modifier logic",
+                        "text": "Net collection percentage and operational drift alerts",
                         "selected_icon": {
                           "value": "far fa-check-circle",
                           "library": "fa-regular"
                         }
                       },
                       {
-                        "text": "Immediate alert dashboard showing root cause before submission",
+                        "text": "Physician-by-physician productivity and revenue benchmarking",
                         "selected_icon": {
                           "value": "far fa-check-circle",
                           "library": "fa-regular"
@@ -1898,9 +851,13 @@
                     "typography_font_family": "Plus Jakarta Sans",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 13.5
+                      "size": 13
                     },
                     "typography_font_weight": "500",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.5
+                    },
                     "_margin": {
                       "unit": "px",
                       "top": "0",
@@ -1922,19 +879,19 @@
               ]
             },
             {
-              "id": "mxk0879",
+              "id": "dq0i3co",
               "elType": "container",
               "isInner": true,
               "settings": {
                 "content_width": "full",
                 "width": {
                   "unit": "%",
-                  "size": 48.5,
+                  "size": 23.5,
                   "sizes": []
                 },
                 "width_tablet": {
                   "unit": "%",
-                  "size": 100,
+                  "size": 48,
                   "sizes": []
                 },
                 "width_mobile": {
@@ -1973,16 +930,16 @@
                 "box_shadow_box_shadow": {
                   "horizontal": 0,
                   "vertical": 4,
-                  "blur": 16,
-                  "spread": -2,
-                  "color": "rgba(12, 35, 64, 0.04)"
+                  "blur": 18,
+                  "spread": -3,
+                  "color": "rgba(12, 35, 64, 0.05)"
                 },
                 "padding": {
                   "unit": "px",
                   "top": "28",
-                  "right": "26",
+                  "right": "24",
                   "bottom": "28",
-                  "left": "26",
+                  "left": "24",
                   "isLinked": true
                 },
                 "_margin": {
@@ -2004,20 +961,20 @@
               },
               "elements": [
                 {
-                  "id": "ayue3nx",
+                  "id": "wlgb32c",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
-                    "title": "Real-Time Executive Dashboards & BI Analytics",
+                    "title": "EHR & Practice Management",
                     "header_size": "h3",
                     "title_color": "#0C2340",
                     "typography_typography": "custom",
                     "typography_font_family": "Plus Jakarta Sans",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 19
+                      "size": 18
                     },
-                    "typography_font_weight": "700",
+                    "typography_font_weight": "800",
                     "typography_line_height": {
                       "unit": "em",
                       "size": 1.25
@@ -2026,7 +983,7 @@
                       "unit": "px",
                       "top": "0",
                       "right": "0",
-                      "bottom": "10",
+                      "bottom": "6",
                       "left": "0",
                       "isLinked": false
                     },
@@ -2034,24 +991,24 @@
                       "unit": "px",
                       "top": "0",
                       "right": "0",
-                      "bottom": "10",
+                      "bottom": "6",
                       "left": "0",
                       "isLinked": false
                     }
                   }
                 },
                 {
-                  "id": "5bao6k2",
+                  "id": "iad6yff",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "<p style=\"margin:0;font-size:14.5px;color:#4A5568;line-height:1.65;\">Interactive web and mobile business intelligence dashboards providing transparent, up-to-the-minute visibility into practice financial performance.</p>",
+                    "editor": "<p style=\"margin:0;font-size:13.5px;color:#4A5568;line-height:1.65;\">Direct integration and real-time synchronization with your existing Electronic Health Record (EHR) and Practice Management (PM) software without changing systems.</p>",
                     "text_color": "#4A5568",
                     "_margin": {
                       "unit": "px",
                       "top": "0",
                       "right": "0",
-                      "bottom": "16",
+                      "bottom": "14",
                       "left": "0",
                       "isLinked": false
                     },
@@ -2059,34 +1016,34 @@
                       "unit": "px",
                       "top": "0",
                       "right": "0",
-                      "bottom": "16",
+                      "bottom": "14",
                       "left": "0",
                       "isLinked": false
                     }
                   }
                 },
                 {
-                  "id": "ovjb008",
+                  "id": "6hu0gl2",
                   "elType": "widget",
                   "widgetType": "icon-list",
                   "settings": {
                     "icon_list": [
                       {
-                        "text": "Track Days in A/R, First-Pass Clean Claim Rate, and Net Collections",
+                        "text": "Seamless integrity with Epic, AthenaHealth, eClinicalWorks, Kareo, NextGen, and Cerner",
                         "selected_icon": {
                           "value": "far fa-check-circle",
                           "library": "fa-regular"
                         }
                       },
                       {
-                        "text": "Physician and provider level productivity and RVU comparisons",
+                        "text": "Automated charge capture and demographic sync elimination",
                         "selected_icon": {
                           "value": "far fa-check-circle",
                           "library": "fa-regular"
                         }
                       },
                       {
-                        "text": "Automated weekly and monthly performance reports sent to your email",
+                        "text": "Eliminated manual double-entry for clinical workflow discipline",
                         "selected_icon": {
                           "value": "far fa-check-circle",
                           "library": "fa-regular"
@@ -2107,9 +1064,13 @@
                     "typography_font_family": "Plus Jakarta Sans",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 13.5
+                      "size": 13
                     },
                     "typography_font_weight": "500",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.5
+                    },
                     "_margin": {
                       "unit": "px",
                       "top": "0",
@@ -2131,19 +1092,19 @@
               ]
             },
             {
-              "id": "b0ivs6a",
+              "id": "d12fmy4",
               "elType": "container",
               "isInner": true,
               "settings": {
                 "content_width": "full",
                 "width": {
                   "unit": "%",
-                  "size": 48.5,
+                  "size": 23.5,
                   "sizes": []
                 },
                 "width_tablet": {
                   "unit": "%",
-                  "size": 100,
+                  "size": 48,
                   "sizes": []
                 },
                 "width_mobile": {
@@ -2182,16 +1143,16 @@
                 "box_shadow_box_shadow": {
                   "horizontal": 0,
                   "vertical": 4,
-                  "blur": 16,
-                  "spread": -2,
-                  "color": "rgba(12, 35, 64, 0.04)"
+                  "blur": 18,
+                  "spread": -3,
+                  "color": "rgba(12, 35, 64, 0.05)"
                 },
                 "padding": {
                   "unit": "px",
                   "top": "28",
-                  "right": "26",
+                  "right": "24",
                   "bottom": "28",
-                  "left": "26",
+                  "left": "24",
                   "isLinked": true
                 },
                 "_margin": {
@@ -2213,20 +1174,20 @@
               },
               "elements": [
                 {
-                  "id": "164uzdr",
+                  "id": "lblqenq",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
-                    "title": "Automated ERA (835) Auto-Posting",
+                    "title": "HIPAA-Compliant Infrastructure",
                     "header_size": "h3",
                     "title_color": "#0C2340",
                     "typography_typography": "custom",
                     "typography_font_family": "Plus Jakarta Sans",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 19
+                      "size": 18
                     },
-                    "typography_font_weight": "700",
+                    "typography_font_weight": "800",
                     "typography_line_height": {
                       "unit": "em",
                       "size": 1.25
@@ -2235,7 +1196,7 @@
                       "unit": "px",
                       "top": "0",
                       "right": "0",
-                      "bottom": "10",
+                      "bottom": "6",
                       "left": "0",
                       "isLinked": false
                     },
@@ -2243,24 +1204,24 @@
                       "unit": "px",
                       "top": "0",
                       "right": "0",
-                      "bottom": "10",
+                      "bottom": "6",
                       "left": "0",
                       "isLinked": false
                     }
                   }
                 },
                 {
-                  "id": "si5yhgr",
+                  "id": "civ6yi4",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "<p style=\"margin:0;font-size:14.5px;color:#4A5568;line-height:1.65;\">Automated ingestion and line-item reconciliation of electronic remittance files, eliminating hours of manual billing clerk data entry.</p>",
+                    "editor": "<p style=\"margin:0;font-size:13.5px;color:#4A5568;line-height:1.65;\">Enterprise-grade hosting and data storage architecture adhering strictly to HIPAA, HITECH, and Omnibus regulatory security standards.</p>",
                     "text_color": "#4A5568",
                     "_margin": {
                       "unit": "px",
                       "top": "0",
                       "right": "0",
-                      "bottom": "16",
+                      "bottom": "14",
                       "left": "0",
                       "isLinked": false
                     },
@@ -2268,34 +1229,34 @@
                       "unit": "px",
                       "top": "0",
                       "right": "0",
-                      "bottom": "16",
+                      "bottom": "14",
                       "left": "0",
                       "isLinked": false
                     }
                   }
                 },
                 {
-                  "id": "57jyxo4",
+                  "id": "q6p0nky",
                   "elType": "widget",
                   "widgetType": "icon-list",
                   "settings": {
                     "icon_list": [
                       {
-                        "text": "Instant matching of electronic bank deposits against payer remits",
+                        "text": "End-to-end data encryption at rest and in transit (AES-256 + TLS 1.3)",
                         "selected_icon": {
                           "value": "far fa-check-circle",
                           "library": "fa-regular"
                         }
                       },
                       {
-                        "text": "Automated secondary billing trigger upon primary claim adjudication",
+                        "text": "Immutable audit logging for all patient health information (PHI) access",
                         "selected_icon": {
                           "value": "far fa-check-circle",
                           "library": "fa-regular"
                         }
                       },
                       {
-                        "text": "Zero human error in contractual write-offs and allowable adjustments",
+                        "text": "Routine automated compliance audits and vulnerability scanning",
                         "selected_icon": {
                           "value": "far fa-check-circle",
                           "library": "fa-regular"
@@ -2316,9 +1277,13 @@
                     "typography_font_family": "Plus Jakarta Sans",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 13.5
+                      "size": 13
                     },
                     "typography_font_weight": "500",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.5
+                    },
                     "_margin": {
                       "unit": "px",
                       "top": "0",
@@ -2344,7 +1309,7 @@
       ]
     },
     {
-      "id": "d7ek7qz",
+      "id": "dyhce4d",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -2355,123 +1320,105 @@
           "sizes": []
         },
         "flex_direction": "column",
-        "flex_align_items": "center",
+        "flex_align_items": "flex-start",
         "flex_gap": {
           "unit": "px",
-          "size": 16,
-          "column": "16",
-          "row": "16"
+          "size": 24,
+          "column": "24",
+          "row": "24"
         },
         "padding": {
           "unit": "px",
-          "top": "50",
+          "top": "45",
           "right": "20",
-          "bottom": "60",
+          "bottom": "45",
           "left": "20",
           "isLinked": false
         }
       },
       "elements": [
         {
-          "id": "zz6qmyf",
-          "elType": "widget",
-          "widgetType": "heading",
+          "id": "0d8nbpq",
+          "elType": "container",
+          "isInner": true,
           "settings": {
-            "title": "<div style=\"display:inline-flex;align-items:center;gap:6px;padding:6px 18px;background-color:#EAF8F8;border:1px solid #A7E8E9;border-radius:50px;color:#179A9E;font-size:12px;font-weight:800;letter-spacing:1px;text-transform:uppercase;margin-bottom:14px;line-height:1.4;\">DATA PROTECTION</div>",
-            "header_size": "div",
-            "align": "center",
-            "title_color": "#179A9E",
-            "_margin": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_align_items": "flex-start",
+            "flex_gap": {
               "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "14",
-              "left": "0",
-              "isLinked": false
-            },
-            "margin": {
-              "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "14",
-              "left": "0",
-              "isLinked": false
+              "size": 6,
+              "column": "6",
+              "row": "6"
             }
-          }
+          },
+          "elements": [
+            {
+              "id": "sjvstid",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "<div style=\"display:inline-flex;align-items:center;gap:6px;padding:4px 12px;background-color:#EAF8F8;border:1px solid #A7E8E9;border-radius:4px;color:#179A9E;font-size:11px;font-weight:800;letter-spacing:1px;text-transform:uppercase;\"><i class=\"fas fa-lock\"></i> GROUP 02</div>",
+                "header_size": "div",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "4",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "4",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "4cmg3xp",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Security, Backup & IT Support",
+                "header_size": "h2",
+                "title_color": "#0C2340",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 28
+                },
+                "typography_font_weight": "800",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.25
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            }
+          ]
         },
         {
-          "id": "305q8qc",
-          "elType": "widget",
-          "widgetType": "heading",
-          "settings": {
-            "title": "Security, Backup & <span style=\"color:#179A9E;\">Managed IT</span>",
-            "header_size": "h2",
-            "align": "center",
-            "title_color": "#0C2340",
-            "typography_typography": "custom",
-            "typography_font_family": "Plus Jakarta Sans",
-            "typography_font_size": {
-              "unit": "px",
-              "size": 36
-            },
-            "typography_font_size_tablet": {
-              "unit": "px",
-              "size": 30
-            },
-            "typography_font_size_mobile": {
-              "unit": "px",
-              "size": 24
-            },
-            "typography_font_weight": "800",
-            "typography_line_height": {
-              "unit": "em",
-              "size": 1.25
-            },
-            "_margin": {
-              "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "14",
-              "left": "0",
-              "isLinked": false
-            },
-            "margin": {
-              "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "14",
-              "left": "0",
-              "isLinked": false
-            }
-          }
-        },
-        {
-          "id": "otnzyuv",
-          "elType": "widget",
-          "widgetType": "text-editor",
-          "settings": {
-            "editor": "<p style=\"margin:0 auto;max-width:760px;font-size:16px;color:#4A5568;line-height:1.65;text-align:center;\">Defending clinical assets against cyber threats while guaranteeing business continuity.</p>",
-            "text_color": "#4A5568",
-            "_margin": {
-              "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "36",
-              "left": "0",
-              "isLinked": false
-            },
-            "margin": {
-              "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "36",
-              "left": "0",
-              "isLinked": false
-            }
-          }
-        },
-        {
-          "id": "66jit2h",
+          "id": "g0s5mkl",
           "elType": "container",
           "isInner": true,
           "settings": {
@@ -2482,14 +1429,14 @@
             "flex_align_items": "stretch",
             "flex_gap": {
               "unit": "px",
-              "size": 24,
-              "column": "24",
-              "row": "24"
+              "size": 20,
+              "column": "20",
+              "row": "20"
             }
           },
           "elements": [
             {
-              "id": "2zfl0hw",
+              "id": "ipb6s56",
               "elType": "container",
               "isInner": true,
               "settings": {
@@ -2501,7 +1448,7 @@
                 },
                 "width_tablet": {
                   "unit": "%",
-                  "size": 100,
+                  "size": 48,
                   "sizes": []
                 },
                 "width_mobile": {
@@ -2540,16 +1487,16 @@
                 "box_shadow_box_shadow": {
                   "horizontal": 0,
                   "vertical": 4,
-                  "blur": 16,
-                  "spread": -2,
-                  "color": "rgba(12, 35, 64, 0.04)"
+                  "blur": 18,
+                  "spread": -3,
+                  "color": "rgba(12, 35, 64, 0.05)"
                 },
                 "padding": {
                   "unit": "px",
                   "top": "28",
-                  "right": "26",
+                  "right": "24",
                   "bottom": "28",
-                  "left": "26",
+                  "left": "24",
                   "isLinked": true
                 },
                 "_margin": {
@@ -2571,20 +1518,20 @@
               },
               "elements": [
                 {
-                  "id": "jrz0t45",
+                  "id": "b6tejyj",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
-                    "title": "HIPAA Security Auditing & Compliance",
+                    "title": "Cybersecurity & Data Protection",
                     "header_size": "h3",
                     "title_color": "#0C2340",
                     "typography_typography": "custom",
                     "typography_font_family": "Plus Jakarta Sans",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 19
+                      "size": 18
                     },
-                    "typography_font_weight": "700",
+                    "typography_font_weight": "800",
                     "typography_line_height": {
                       "unit": "em",
                       "size": 1.25
@@ -2593,7 +1540,7 @@
                       "unit": "px",
                       "top": "0",
                       "right": "0",
-                      "bottom": "10",
+                      "bottom": "6",
                       "left": "0",
                       "isLinked": false
                     },
@@ -2601,24 +1548,24 @@
                       "unit": "px",
                       "top": "0",
                       "right": "0",
-                      "bottom": "10",
+                      "bottom": "6",
                       "left": "0",
                       "isLinked": false
                     }
                   }
                 },
                 {
-                  "id": "z2ocrkj",
+                  "id": "wxjq6ay",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "<p style=\"margin:0;font-size:14.5px;color:#4A5568;line-height:1.65;\">Comprehensive technical safeguards protecting electronic protected health information (ePHI) across network perimeters, endpoints, and cloud databases.</p>",
+                    "editor": "<p style=\"margin:0;font-size:13.5px;color:#4A5568;line-height:1.65;\">Multi-layered defense safeguards protecting clinical and financial assets against malware, ransomware, phishing, and unauthorized intrusion.</p>",
                     "text_color": "#4A5568",
                     "_margin": {
                       "unit": "px",
                       "top": "0",
                       "right": "0",
-                      "bottom": "16",
+                      "bottom": "14",
                       "left": "0",
                       "isLinked": false
                     },
@@ -2626,34 +1573,34 @@
                       "unit": "px",
                       "top": "0",
                       "right": "0",
-                      "bottom": "16",
+                      "bottom": "14",
                       "left": "0",
                       "isLinked": false
                     }
                   }
                 },
                 {
-                  "id": "mgrnkym",
+                  "id": "uys3lnc",
                   "elType": "widget",
                   "widgetType": "icon-list",
                   "settings": {
                     "icon_list": [
                       {
-                        "text": "Annual HIPAA Risk Assessments and technical vulnerability scans",
+                        "text": "Endpoint detection, firewall monitoring, and perimeter access control",
                         "selected_icon": {
                           "value": "far fa-check-circle",
                           "library": "fa-regular"
                         }
                       },
                       {
-                        "text": "Role-based access control (RBAC) and multi-factor authentication (MFA)",
+                        "text": "Multi-Factor Authentication (MFA) across all administrative tools",
                         "selected_icon": {
                           "value": "far fa-check-circle",
                           "library": "fa-regular"
                         }
                       },
                       {
-                        "text": "Strict Business Associate Agreement (BAA) execution with all vendors",
+                        "text": "Continuous threat monitoring powered by parent IT group standards",
                         "selected_icon": {
                           "value": "far fa-check-circle",
                           "library": "fa-regular"
@@ -2674,9 +1621,13 @@
                     "typography_font_family": "Plus Jakarta Sans",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 13.5
+                      "size": 13
                     },
                     "typography_font_weight": "500",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.5
+                    },
                     "_margin": {
                       "unit": "px",
                       "top": "0",
@@ -2698,7 +1649,7 @@
               ]
             },
             {
-              "id": "xmxacm6",
+              "id": "gtprud8",
               "elType": "container",
               "isInner": true,
               "settings": {
@@ -2710,7 +1661,7 @@
                 },
                 "width_tablet": {
                   "unit": "%",
-                  "size": 100,
+                  "size": 48,
                   "sizes": []
                 },
                 "width_mobile": {
@@ -2749,16 +1700,16 @@
                 "box_shadow_box_shadow": {
                   "horizontal": 0,
                   "vertical": 4,
-                  "blur": 16,
-                  "spread": -2,
-                  "color": "rgba(12, 35, 64, 0.04)"
+                  "blur": 18,
+                  "spread": -3,
+                  "color": "rgba(12, 35, 64, 0.05)"
                 },
                 "padding": {
                   "unit": "px",
                   "top": "28",
-                  "right": "26",
+                  "right": "24",
                   "bottom": "28",
-                  "left": "26",
+                  "left": "24",
                   "isLinked": true
                 },
                 "_margin": {
@@ -2780,20 +1731,20 @@
               },
               "elements": [
                 {
-                  "id": "7wa7loo",
+                  "id": "axiel3y",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
-                    "title": "Automated Encrypted Off-Site Backups",
+                    "title": "Backup & Disaster Recovery",
                     "header_size": "h3",
                     "title_color": "#0C2340",
                     "typography_typography": "custom",
                     "typography_font_family": "Plus Jakarta Sans",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 19
+                      "size": 18
                     },
-                    "typography_font_weight": "700",
+                    "typography_font_weight": "800",
                     "typography_line_height": {
                       "unit": "em",
                       "size": 1.25
@@ -2802,7 +1753,7 @@
                       "unit": "px",
                       "top": "0",
                       "right": "0",
-                      "bottom": "10",
+                      "bottom": "6",
                       "left": "0",
                       "isLinked": false
                     },
@@ -2810,24 +1761,24 @@
                       "unit": "px",
                       "top": "0",
                       "right": "0",
-                      "bottom": "10",
+                      "bottom": "6",
                       "left": "0",
                       "isLinked": false
                     }
                   }
                 },
                 {
-                  "id": "m4mmwv7",
+                  "id": "csl74qe",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "<p style=\"margin:0;font-size:14.5px;color:#4A5568;line-height:1.65;\">Continuous, automated backups of clinical databases and billing files encrypted with AES-256 and stored across redundant geographic cloud centers.</p>",
+                    "editor": "<p style=\"margin:0;font-size:13.5px;color:#4A5568;line-height:1.65;\">Automated, redundant cloud backups ensuring zero data loss and immediate failover capabilities in the event of hardware failure, outage, or cyber emergency.</p>",
                     "text_color": "#4A5568",
                     "_margin": {
                       "unit": "px",
                       "top": "0",
                       "right": "0",
-                      "bottom": "16",
+                      "bottom": "14",
                       "left": "0",
                       "isLinked": false
                     },
@@ -2835,34 +1786,34 @@
                       "unit": "px",
                       "top": "0",
                       "right": "0",
-                      "bottom": "16",
+                      "bottom": "14",
                       "left": "0",
                       "isLinked": false
                     }
                   }
                 },
                 {
-                  "id": "oprper7",
+                  "id": "hvwchib",
                   "elType": "widget",
                   "widgetType": "icon-list",
                   "settings": {
                     "icon_list": [
                       {
-                        "text": "Immutable snapshot backups protecting against ransomware encryption",
+                        "text": "Continuous and encrypted data snapshot intervals",
                         "selected_icon": {
                           "value": "far fa-check-circle",
                           "library": "fa-regular"
                         }
                       },
                       {
-                        "text": "Point-in-time database restoration with guaranteed RPO under 1 hour",
+                        "text": "Strict Recovery Point Objective (RPO) and Recovery Time Objective (RTO)",
                         "selected_icon": {
                           "value": "far fa-check-circle",
                           "library": "fa-regular"
                         }
                       },
                       {
-                        "text": "Annual disaster recovery and failover simulation drills",
+                        "text": "Regular disaster recovery drills and cloud failover validation",
                         "selected_icon": {
                           "value": "far fa-check-circle",
                           "library": "fa-regular"
@@ -2883,9 +1834,13 @@
                     "typography_font_family": "Plus Jakarta Sans",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 13.5
+                      "size": 13
                     },
                     "typography_font_weight": "500",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.5
+                    },
                     "_margin": {
                       "unit": "px",
                       "top": "0",
@@ -2907,7 +1862,7 @@
               ]
             },
             {
-              "id": "oq9pnli",
+              "id": "rsh373z",
               "elType": "container",
               "isInner": true,
               "settings": {
@@ -2919,7 +1874,7 @@
                 },
                 "width_tablet": {
                   "unit": "%",
-                  "size": 100,
+                  "size": 48,
                   "sizes": []
                 },
                 "width_mobile": {
@@ -2958,16 +1913,16 @@
                 "box_shadow_box_shadow": {
                   "horizontal": 0,
                   "vertical": 4,
-                  "blur": 16,
-                  "spread": -2,
-                  "color": "rgba(12, 35, 64, 0.04)"
+                  "blur": 18,
+                  "spread": -3,
+                  "color": "rgba(12, 35, 64, 0.05)"
                 },
                 "padding": {
                   "unit": "px",
                   "top": "28",
-                  "right": "26",
+                  "right": "24",
                   "bottom": "28",
-                  "left": "26",
+                  "left": "24",
                   "isLinked": true
                 },
                 "_margin": {
@@ -2989,20 +1944,20 @@
               },
               "elements": [
                 {
-                  "id": "owjvnjp",
+                  "id": "jfrxpxo",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
-                    "title": "24/7 Healthcare IT Helpdesk Support",
+                    "title": "Managed IT & Helpdesk",
                     "header_size": "h3",
                     "title_color": "#0C2340",
                     "typography_typography": "custom",
                     "typography_font_family": "Plus Jakarta Sans",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 19
+                      "size": 18
                     },
-                    "typography_font_weight": "700",
+                    "typography_font_weight": "800",
                     "typography_line_height": {
                       "unit": "em",
                       "size": 1.25
@@ -3011,7 +1966,7 @@
                       "unit": "px",
                       "top": "0",
                       "right": "0",
-                      "bottom": "10",
+                      "bottom": "6",
                       "left": "0",
                       "isLinked": false
                     },
@@ -3019,24 +1974,24 @@
                       "unit": "px",
                       "top": "0",
                       "right": "0",
-                      "bottom": "10",
+                      "bottom": "6",
                       "left": "0",
                       "isLinked": false
                     }
                   }
                 },
                 {
-                  "id": "d2q1pzc",
+                  "id": "i7rvbox",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "<p style=\"margin:0;font-size:14.5px;color:#4A5568;line-height:1.65;\">Dedicated medical IT specialists providing rapid technical support for clinic hardware, printers, scanners, EHR interfaces, and workstations.</p>",
+                    "editor": "<p style=\"margin:0;font-size:13.5px;color:#4A5568;line-height:1.65;\">Prompt, specialized technical helpdesk support for medical practice hardware, network peripherals, EDI gateways, and practice software issues.</p>",
                     "text_color": "#4A5568",
                     "_margin": {
                       "unit": "px",
                       "top": "0",
                       "right": "0",
-                      "bottom": "16",
+                      "bottom": "14",
                       "left": "0",
                       "isLinked": false
                     },
@@ -3044,34 +1999,34 @@
                       "unit": "px",
                       "top": "0",
                       "right": "0",
-                      "bottom": "16",
+                      "bottom": "14",
                       "left": "0",
                       "isLinked": false
                     }
                   }
                 },
                 {
-                  "id": "ie6mmbr",
+                  "id": "jyv3osn",
                   "elType": "widget",
                   "widgetType": "icon-list",
                   "settings": {
                     "icon_list": [
                       {
-                        "text": "Under 15-minute SLA response time for critical clinic tickets",
+                        "text": "Dedicated support engineers familiar with clinical workflows",
                         "selected_icon": {
                           "value": "far fa-check-circle",
                           "library": "fa-regular"
                         }
                       },
                       {
-                        "text": "Remote screen-share troubleshooting for provider workstations",
+                        "text": "Rapid resolution of clearinghouse EDI transmission errors",
                         "selected_icon": {
                           "value": "far fa-check-circle",
                           "library": "fa-regular"
                         }
                       },
                       {
-                        "text": "Proactive patch management and antivirus endpoint protection",
+                        "text": "Workstation, network, and scanner troubleshooting",
                         "selected_icon": {
                           "value": "far fa-check-circle",
                           "library": "fa-regular"
@@ -3092,9 +2047,13 @@
                     "typography_font_family": "Plus Jakarta Sans",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 13.5
+                      "size": 13
                     },
                     "typography_font_weight": "500",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.5
+                    },
                     "_margin": {
                       "unit": "px",
                       "top": "0",
@@ -3120,7 +2079,7 @@
       ]
     },
     {
-      "id": "98zbgjb",
+      "id": "64590v1",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -3131,16 +2090,16 @@
           "sizes": []
         },
         "flex_direction": "column",
-        "flex_align_items": "center",
+        "flex_align_items": "flex-start",
         "flex_gap": {
           "unit": "px",
-          "size": 16,
-          "column": "16",
-          "row": "16"
+          "size": 24,
+          "column": "24",
+          "row": "24"
         },
         "padding": {
           "unit": "px",
-          "top": "50",
+          "top": "45",
           "right": "20",
           "bottom": "60",
           "left": "20",
@@ -3149,105 +2108,87 @@
       },
       "elements": [
         {
-          "id": "usulpy8",
-          "elType": "widget",
-          "widgetType": "heading",
+          "id": "hija8pz",
+          "elType": "container",
+          "isInner": true,
           "settings": {
-            "title": "<div style=\"display:inline-flex;align-items:center;gap:6px;padding:6px 18px;background-color:#EAF8F8;border:1px solid #A7E8E9;border-radius:50px;color:#179A9E;font-size:12px;font-weight:800;letter-spacing:1px;text-transform:uppercase;margin-bottom:14px;line-height:1.4;\">PATIENT ACQUISITION</div>",
-            "header_size": "div",
-            "align": "center",
-            "title_color": "#179A9E",
-            "_margin": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_align_items": "flex-start",
+            "flex_gap": {
               "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "14",
-              "left": "0",
-              "isLinked": false
-            },
-            "margin": {
-              "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "14",
-              "left": "0",
-              "isLinked": false
+              "size": 6,
+              "column": "6",
+              "row": "6"
             }
-          }
+          },
+          "elements": [
+            {
+              "id": "kdce3sx",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "<div style=\"display:inline-flex;align-items:center;gap:6px;padding:4px 12px;background-color:#EAF8F8;border:1px solid #A7E8E9;border-radius:4px;color:#179A9E;font-size:11px;font-weight:800;letter-spacing:1px;text-transform:uppercase;\"><i class=\"fas fa-bullhorn\"></i> GROUP 03</div>",
+                "header_size": "div",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "4",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "4",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "iy016lx",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Digital Marketing & Practice Growth",
+                "header_size": "h2",
+                "title_color": "#0C2340",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 28
+                },
+                "typography_font_weight": "800",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.25
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            }
+          ]
         },
         {
-          "id": "hiyvonz",
-          "elType": "widget",
-          "widgetType": "heading",
-          "settings": {
-            "title": "Digital Marketing & <span style=\"color:#179A9E;\">Practice Growth</span>",
-            "header_size": "h2",
-            "align": "center",
-            "title_color": "#0C2340",
-            "typography_typography": "custom",
-            "typography_font_family": "Plus Jakarta Sans",
-            "typography_font_size": {
-              "unit": "px",
-              "size": 36
-            },
-            "typography_font_size_tablet": {
-              "unit": "px",
-              "size": 30
-            },
-            "typography_font_size_mobile": {
-              "unit": "px",
-              "size": 24
-            },
-            "typography_font_weight": "800",
-            "typography_line_height": {
-              "unit": "em",
-              "size": 1.25
-            },
-            "_margin": {
-              "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "14",
-              "left": "0",
-              "isLinked": false
-            },
-            "margin": {
-              "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "14",
-              "left": "0",
-              "isLinked": false
-            }
-          }
-        },
-        {
-          "id": "6xm5u5x",
-          "elType": "widget",
-          "widgetType": "text-editor",
-          "settings": {
-            "editor": "<p style=\"margin:0 auto;max-width:760px;font-size:16px;color:#4A5568;line-height:1.65;text-align:center;\">Expanding your patient volume with medical SEO, websites, and reputation management.</p>",
-            "text_color": "#4A5568",
-            "_margin": {
-              "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "36",
-              "left": "0",
-              "isLinked": false
-            },
-            "margin": {
-              "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "36",
-              "left": "0",
-              "isLinked": false
-            }
-          }
-        },
-        {
-          "id": "2lvh6uv",
+          "id": "o7pxrie",
           "elType": "container",
           "isInner": true,
           "settings": {
@@ -3258,26 +2199,26 @@
             "flex_align_items": "stretch",
             "flex_gap": {
               "unit": "px",
-              "size": 24,
-              "column": "24",
-              "row": "24"
+              "size": 20,
+              "column": "20",
+              "row": "20"
             }
           },
           "elements": [
             {
-              "id": "dkxja5d",
+              "id": "qqoop8s",
               "elType": "container",
               "isInner": true,
               "settings": {
                 "content_width": "full",
                 "width": {
                   "unit": "%",
-                  "size": 31.8,
+                  "size": 23.5,
                   "sizes": []
                 },
                 "width_tablet": {
                   "unit": "%",
-                  "size": 100,
+                  "size": 48,
                   "sizes": []
                 },
                 "width_mobile": {
@@ -3316,16 +2257,16 @@
                 "box_shadow_box_shadow": {
                   "horizontal": 0,
                   "vertical": 4,
-                  "blur": 16,
-                  "spread": -2,
-                  "color": "rgba(12, 35, 64, 0.04)"
+                  "blur": 18,
+                  "spread": -3,
+                  "color": "rgba(12, 35, 64, 0.05)"
                 },
                 "padding": {
                   "unit": "px",
                   "top": "28",
-                  "right": "26",
+                  "right": "24",
                   "bottom": "28",
-                  "left": "26",
+                  "left": "24",
                   "isLinked": true
                 },
                 "_margin": {
@@ -3347,20 +2288,20 @@
               },
               "elements": [
                 {
-                  "id": "mmrcxwm",
+                  "id": "vkha7q4",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
-                    "title": "Medical Website Design & Development",
+                    "title": "Social Media Management",
                     "header_size": "h3",
                     "title_color": "#0C2340",
                     "typography_typography": "custom",
                     "typography_font_family": "Plus Jakarta Sans",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 19
+                      "size": 18
                     },
-                    "typography_font_weight": "700",
+                    "typography_font_weight": "800",
                     "typography_line_height": {
                       "unit": "em",
                       "size": 1.25
@@ -3369,7 +2310,7 @@
                       "unit": "px",
                       "top": "0",
                       "right": "0",
-                      "bottom": "10",
+                      "bottom": "6",
                       "left": "0",
                       "isLinked": false
                     },
@@ -3377,24 +2318,24 @@
                       "unit": "px",
                       "top": "0",
                       "right": "0",
-                      "bottom": "10",
+                      "bottom": "6",
                       "left": "0",
                       "isLinked": false
                     }
                   }
                 },
                 {
-                  "id": "1990at4",
+                  "id": "gxindo1",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "<p style=\"margin:0;font-size:14.5px;color:#4A5568;line-height:1.65;\">Modern, ADA-compliant, mobile-optimized medical websites engineered to convert prospective patients into scheduled appointments.</p>",
+                    "editor": "<p style=\"margin:0;font-size:13.5px;color:#4A5568;line-height:1.65;\">Professional management of practice social media profiles to educate patients, promote clinical services, and build patient community engagement.</p>",
                     "text_color": "#4A5568",
                     "_margin": {
                       "unit": "px",
                       "top": "0",
                       "right": "0",
-                      "bottom": "16",
+                      "bottom": "14",
                       "left": "0",
                       "isLinked": false
                     },
@@ -3402,34 +2343,34 @@
                       "unit": "px",
                       "top": "0",
                       "right": "0",
-                      "bottom": "16",
+                      "bottom": "14",
                       "left": "0",
                       "isLinked": false
                     }
                   }
                 },
                 {
-                  "id": "rzqmxfq",
+                  "id": "dq4f2gc",
                   "elType": "widget",
                   "widgetType": "icon-list",
                   "settings": {
                     "icon_list": [
                       {
-                        "text": "Online appointment booking and digital patient intake forms",
+                        "text": "Healthcare-compliant educational post creation and curation",
                         "selected_icon": {
                           "value": "far fa-check-circle",
                           "library": "fa-regular"
                         }
                       },
                       {
-                        "text": "Fast load speeds optimized for Google Core Web Vitals",
+                        "text": "Active reputation management and community interaction",
                         "selected_icon": {
                           "value": "far fa-check-circle",
                           "library": "fa-regular"
                         }
                       },
                       {
-                        "text": "HIPAA-compliant secure form submissions and patient communication",
+                        "text": "Multi-platform presence across LinkedIn, Facebook, and Instagram",
                         "selected_icon": {
                           "value": "far fa-check-circle",
                           "library": "fa-regular"
@@ -3450,9 +2391,13 @@
                     "typography_font_family": "Plus Jakarta Sans",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 13.5
+                      "size": 13
                     },
                     "typography_font_weight": "500",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.5
+                    },
                     "_margin": {
                       "unit": "px",
                       "top": "0",
@@ -3474,19 +2419,19 @@
               ]
             },
             {
-              "id": "l0czgq8",
+              "id": "jq2lne3",
               "elType": "container",
               "isInner": true,
               "settings": {
                 "content_width": "full",
                 "width": {
                   "unit": "%",
-                  "size": 31.8,
+                  "size": 23.5,
                   "sizes": []
                 },
                 "width_tablet": {
                   "unit": "%",
-                  "size": 100,
+                  "size": 48,
                   "sizes": []
                 },
                 "width_mobile": {
@@ -3525,16 +2470,16 @@
                 "box_shadow_box_shadow": {
                   "horizontal": 0,
                   "vertical": 4,
-                  "blur": 16,
-                  "spread": -2,
-                  "color": "rgba(12, 35, 64, 0.04)"
+                  "blur": 18,
+                  "spread": -3,
+                  "color": "rgba(12, 35, 64, 0.05)"
                 },
                 "padding": {
                   "unit": "px",
                   "top": "28",
-                  "right": "26",
+                  "right": "24",
                   "bottom": "28",
-                  "left": "26",
+                  "left": "24",
                   "isLinked": true
                 },
                 "_margin": {
@@ -3556,20 +2501,20 @@
               },
               "elements": [
                 {
-                  "id": "tne4xso",
+                  "id": "rro52ty",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
-                    "title": "Local Healthcare SEO & Google Maps Optimization",
+                    "title": "SEO & Local Search",
                     "header_size": "h3",
                     "title_color": "#0C2340",
                     "typography_typography": "custom",
                     "typography_font_family": "Plus Jakarta Sans",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 19
+                      "size": 18
                     },
-                    "typography_font_weight": "700",
+                    "typography_font_weight": "800",
                     "typography_line_height": {
                       "unit": "em",
                       "size": 1.25
@@ -3578,7 +2523,7 @@
                       "unit": "px",
                       "top": "0",
                       "right": "0",
-                      "bottom": "10",
+                      "bottom": "6",
                       "left": "0",
                       "isLinked": false
                     },
@@ -3586,24 +2531,24 @@
                       "unit": "px",
                       "top": "0",
                       "right": "0",
-                      "bottom": "10",
+                      "bottom": "6",
                       "left": "0",
                       "isLinked": false
                     }
                   }
                 },
                 {
-                  "id": "n6z939a",
+                  "id": "fe55mv9",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "<p style=\"margin:0;font-size:14.5px;color:#4A5568;line-height:1.65;\">Targeted search engine optimization to rank your practice at the top of local search results and Google Maps for high-value specialty keywords.</p>",
+                    "editor": "<p style=\"margin:0;font-size:13.5px;color:#4A5568;line-height:1.65;\">Targeted medical search engine optimization and Google Business Profile management ensuring your clinic ranks at the top for local patients seeking specialized care.</p>",
                     "text_color": "#4A5568",
                     "_margin": {
                       "unit": "px",
                       "top": "0",
                       "right": "0",
-                      "bottom": "16",
+                      "bottom": "14",
                       "left": "0",
                       "isLinked": false
                     },
@@ -3611,34 +2556,34 @@
                       "unit": "px",
                       "top": "0",
                       "right": "0",
-                      "bottom": "16",
+                      "bottom": "14",
                       "left": "0",
                       "isLinked": false
                     }
                   }
                 },
                 {
-                  "id": "gamp3ka",
+                  "id": "z5gsmrl",
                   "elType": "widget",
                   "widgetType": "icon-list",
                   "settings": {
                     "icon_list": [
                       {
-                        "text": "Google Business Profile optimization and weekly clinical updates",
+                        "text": "Continuous practice citation and ranking profile calibration",
                         "selected_icon": {
                           "value": "far fa-check-circle",
                           "library": "fa-regular"
                         }
                       },
                       {
-                        "text": "Specialty procedure content creation and medical schema markup",
+                        "text": "Hyper-local medical keyword targeting ensuring high-intent traffic",
                         "selected_icon": {
                           "value": "far fa-check-circle",
                           "library": "fa-regular"
                         }
                       },
                       {
-                        "text": "Targeted citation building across authoritative healthcare directories",
+                        "text": "Proven organic practice brand position and patient growth",
                         "selected_icon": {
                           "value": "far fa-check-circle",
                           "library": "fa-regular"
@@ -3659,9 +2604,13 @@
                     "typography_font_family": "Plus Jakarta Sans",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 13.5
+                      "size": 13
                     },
                     "typography_font_weight": "500",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.5
+                    },
                     "_margin": {
                       "unit": "px",
                       "top": "0",
@@ -3683,19 +2632,19 @@
               ]
             },
             {
-              "id": "t8qku4q",
+              "id": "1r4isig",
               "elType": "container",
               "isInner": true,
               "settings": {
                 "content_width": "full",
                 "width": {
                   "unit": "%",
-                  "size": 31.8,
+                  "size": 23.5,
                   "sizes": []
                 },
                 "width_tablet": {
                   "unit": "%",
-                  "size": 100,
+                  "size": 48,
                   "sizes": []
                 },
                 "width_mobile": {
@@ -3734,16 +2683,16 @@
                 "box_shadow_box_shadow": {
                   "horizontal": 0,
                   "vertical": 4,
-                  "blur": 16,
-                  "spread": -2,
-                  "color": "rgba(12, 35, 64, 0.04)"
+                  "blur": 18,
+                  "spread": -3,
+                  "color": "rgba(12, 35, 64, 0.05)"
                 },
                 "padding": {
                   "unit": "px",
                   "top": "28",
-                  "right": "26",
+                  "right": "24",
                   "bottom": "28",
-                  "left": "26",
+                  "left": "24",
                   "isLinked": true
                 },
                 "_margin": {
@@ -3765,20 +2714,20 @@
               },
               "elements": [
                 {
-                  "id": "5a9amiz",
+                  "id": "30ttgb8",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
-                    "title": "Reputation & 5-Star Review Generation",
+                    "title": "Website Design & Development",
                     "header_size": "h3",
                     "title_color": "#0C2340",
                     "typography_typography": "custom",
                     "typography_font_family": "Plus Jakarta Sans",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 19
+                      "size": 18
                     },
-                    "typography_font_weight": "700",
+                    "typography_font_weight": "800",
                     "typography_line_height": {
                       "unit": "em",
                       "size": 1.25
@@ -3787,7 +2736,7 @@
                       "unit": "px",
                       "top": "0",
                       "right": "0",
-                      "bottom": "10",
+                      "bottom": "6",
                       "left": "0",
                       "isLinked": false
                     },
@@ -3795,24 +2744,24 @@
                       "unit": "px",
                       "top": "0",
                       "right": "0",
-                      "bottom": "10",
+                      "bottom": "6",
                       "left": "0",
                       "isLinked": false
                     }
                   }
                 },
                 {
-                  "id": "3jrzrl2",
+                  "id": "4hdqi1t",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "<p style=\"margin:0;font-size:14.5px;color:#4A5568;line-height:1.65;\">Automated post-visit patient satisfaction surveys and positive review generation to elevate your clinic’s online reputation across Google and WebMD.</p>",
+                    "editor": "<p style=\"margin:0;font-size:13.5px;color:#4A5568;line-height:1.65;\">Modern, fast, mobile-responsive, and ADA/HIPAA-compliant healthcare websites built to convert prospective patients into scheduled appointments.</p>",
                     "text_color": "#4A5568",
                     "_margin": {
                       "unit": "px",
                       "top": "0",
                       "right": "0",
-                      "bottom": "16",
+                      "bottom": "14",
                       "left": "0",
                       "isLinked": false
                     },
@@ -3820,34 +2769,34 @@
                       "unit": "px",
                       "top": "0",
                       "right": "0",
-                      "bottom": "16",
+                      "bottom": "14",
                       "left": "0",
                       "isLinked": false
                     }
                   }
                 },
                 {
-                  "id": "xujpjm7",
+                  "id": "3y722i7",
                   "elType": "widget",
                   "widgetType": "icon-list",
                   "settings": {
                     "icon_list": [
                       {
-                        "text": "Automated SMS review requests sent following successful visits",
+                        "text": "Clear, intuitive direct-to-EHR digital patient intake appointment booking",
                         "selected_icon": {
                           "value": "far fa-check-circle",
                           "library": "fa-regular"
                         }
                       },
                       {
-                        "text": "Proactive sentiment tracking to address patient dissatisfaction",
+                        "text": "Ultra-fast responsive architecture and mobile page load speeds",
                         "selected_icon": {
                           "value": "far fa-check-circle",
                           "library": "fa-regular"
                         }
                       },
                       {
-                        "text": "Consistent 5-star brand presence across top healthcare review directories",
+                        "text": "Secure patient intake forms and relationship repositories",
                         "selected_icon": {
                           "value": "far fa-check-circle",
                           "library": "fa-regular"
@@ -3868,9 +2817,226 @@
                     "typography_font_family": "Plus Jakarta Sans",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 13.5
+                      "size": 13
                     },
                     "typography_font_weight": "500",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.5
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "zpx2nuc",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 23.5,
+                  "sizes": []
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 48,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 12,
+                  "column": "12",
+                  "row": "12"
+                },
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#E2E8F0",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 4,
+                  "blur": 18,
+                  "spread": -3,
+                  "color": "rgba(12, 35, 64, 0.05)"
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "28",
+                  "right": "24",
+                  "bottom": "28",
+                  "left": "24",
+                  "isLinked": true
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [
+                {
+                  "id": "vwtdf4o",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Branding & Content Creation",
+                    "header_size": "h3",
+                    "title_color": "#0C2340",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "typography_font_weight": "800",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.25
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "6",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "6",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "g02x8da",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"margin:0;font-size:13.5px;color:#4A5568;line-height:1.65;\">High-value medical practice branding, logo design, patient education brochures, and authoritative clinical content that establish practice expertise.</p>",
+                    "text_color": "#4A5568",
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "14",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "14",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "pfqmzsg",
+                  "elType": "widget",
+                  "widgetType": "icon-list",
+                  "settings": {
+                    "icon_list": [
+                      {
+                        "text": "Polished collateral identity guides, color schemes, and logos",
+                        "selected_icon": {
+                          "value": "far fa-check-circle",
+                          "library": "fa-regular"
+                        }
+                      },
+                      {
+                        "text": "Clear patient-facing fee transparency sheets and brochures",
+                        "selected_icon": {
+                          "value": "far fa-check-circle",
+                          "library": "fa-regular"
+                        }
+                      },
+                      {
+                        "text": "Provider bios, clinical service overviews, and healthcare articles",
+                        "selected_icon": {
+                          "value": "far fa-check-circle",
+                          "library": "fa-regular"
+                        }
+                      }
+                    ],
+                    "icon_color": "#179A9E",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "space_between": {
+                      "unit": "px",
+                      "size": 9
+                    },
+                    "text_color": "#334155",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 13
+                    },
+                    "typography_font_weight": "500",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.5
+                    },
                     "_margin": {
                       "unit": "px",
                       "top": "0",
@@ -3896,7 +3062,7 @@
       ]
     },
     {
-      "id": "pmkc98l",
+      "id": "i0int82",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -3934,7 +3100,7 @@
         },
         "_margin": {
           "unit": "px",
-          "top": "30",
+          "top": "20",
           "right": "auto",
           "bottom": "40",
           "left": "auto",
@@ -3942,7 +3108,7 @@
         },
         "margin": {
           "unit": "px",
-          "top": "30",
+          "top": "20",
           "right": "auto",
           "bottom": "40",
           "left": "auto",
@@ -3951,11 +3117,11 @@
       },
       "elements": [
         {
-          "id": "50z6n87",
+          "id": "6v4d86u",
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
-            "title": "Modernize Your Healthcare Practice Technology Today",
+            "title": "Ready to Modernize Your Practice Technology?",
             "header_size": "h2",
             "align": "center",
             "title_color": "#FFFFFF",
@@ -3964,14 +3130,6 @@
             "typography_font_size": {
               "unit": "px",
               "size": 34
-            },
-            "typography_font_size_tablet": {
-              "unit": "px",
-              "size": 28
-            },
-            "typography_font_size_mobile": {
-              "unit": "px",
-              "size": 24
             },
             "typography_font_weight": "800",
             "typography_line_height": {
@@ -3997,11 +3155,11 @@
           }
         },
         {
-          "id": "pr6px73",
+          "id": "ll94rkq",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
-            "editor": "<p style=\"margin:0 auto;max-width:680px;font-size:16px;color:#94A3B8;line-height:1.65;text-align:center;\">Experience seamless EHR sync, real-time dashboards, and ironclad HIPAA compliance with StelleCloud.</p>",
+            "editor": "<p style=\"margin:0 auto;max-width:680px;font-size:16px;color:#94A3B8;line-height:1.65;text-align:center;\">Experience the combined power of certified medical billing and enterprise IT infrastructure. Let’s find your missing revenue.</p>",
             "text_color": "#94A3B8",
             "_margin": {
               "unit": "px",
@@ -4022,11 +3180,11 @@
           }
         },
         {
-          "id": "y0109x7",
+          "id": "n3rh0si",
           "elType": "widget",
           "widgetType": "button",
           "settings": {
-            "text": "Request StelleCloud Demo",
+            "text": "Let’s Find Your Missing Revenue",
             "link": {
               "url": "#contact",
               "is_external": false,

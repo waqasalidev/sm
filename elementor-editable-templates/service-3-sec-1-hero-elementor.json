@@ -1,10 +1,10 @@
 {
   "version": "0.4",
-  "title": "Technology & Support - 1. Hero Banner (100% Flexbox Container)",
+  "title": "Technology & Growth - 1. Hero Banner (100% Flexbox Container)",
   "type": "container",
   "content": [
     {
-      "id": "kbv5vx5",
+      "id": "8atynii",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -54,11 +54,11 @@
       },
       "elements": [
         {
-          "id": "raxnsid",
+          "id": "t2smfmz",
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
-            "title": "<nav style=\"font-size:13.5px;font-weight:600;color:#64748B;display:inline-block;margin-bottom:12px;\"><a href=\"/\" style=\"color:#64748B;text-decoration:none;\">Home</a> <span style=\"margin:0 8px;color:#94A3B8;\">&gt;</span> <a href=\"/services\" style=\"color:#64748B;text-decoration:none;\">Services</a> <span style=\"margin:0 8px;color:#94A3B8;\">&gt;</span> <span style=\"color:#179A9E;\">Technology & Support</span></nav>",
+            "title": "<nav style=\"font-size:13.5px;font-weight:600;color:#64748B;display:inline-block;margin-bottom:12px;\"><a href=\"/\" style=\"color:#64748B;text-decoration:none;\">Home</a> <span style=\"margin:0 8px;color:#94A3B8;\">&gt;</span> <a href=\"/services\" style=\"color:#64748B;text-decoration:none;\">Services</a> <span style=\"margin:0 8px;color:#94A3B8;\">&gt;</span> <span style=\"color:#179A9E;\">Technology &amp; Support</span></nav>",
             "header_size": "div",
             "align": "center",
             "_margin": {
@@ -80,11 +80,11 @@
           }
         },
         {
-          "id": "dyu31qg",
+          "id": "4czvvbn",
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
-            "title": "<div style=\"display:inline-flex;align-items:center;gap:6px;padding:6px 18px;background-color:#EAF8F8;border:1px solid #A7E8E9;border-radius:50px;color:#179A9E;font-size:12px;font-weight:800;letter-spacing:1px;text-transform:uppercase;margin-bottom:14px;line-height:1.4;\"><i class=\"fas fa-shield-alt\" style=\"font-size:12px;\"></i> POWERED BY STELLECLOUD™</div>",
+            "title": "<div style=\"display:inline-flex;align-items:center;gap:6px;padding:6px 18px;background-color:#EAF8F8;border:1px solid #A7E8E9;border-radius:50px;color:#179A9E;font-size:12px;font-weight:800;letter-spacing:1px;text-transform:uppercase;margin-bottom:14px;line-height:1.4;\"><i class=\"fas fa-microchip\" style=\"font-size:12px;\"></i> TECHNOLOGY &amp; IT SUPPORT / PRACTICE GROWTH</div>",
             "header_size": "div",
             "align": "center",
             "title_color": "#179A9E",
@@ -107,11 +107,11 @@
           }
         },
         {
-          "id": "hmrz8ry",
+          "id": "txk6pdt",
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
-            "title": "Technology & <span style=\"color:#179A9E;\">Support</span>",
+            "title": "Technology & Practice Growth",
             "header_size": "h1",
             "align": "center",
             "title_color": "#0C2340",
@@ -153,11 +153,11 @@
           }
         },
         {
-          "id": "82i9o95",
+          "id": "rn08fvu",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
-            "editor": "<p style=\"margin:0 auto;max-width:760px;font-size:16.5px;color:#4A5568;line-height:1.7;text-align:center;\">Enterprise cloud infrastructure, automated claim scrubbers, bi-directional EHR integration, and dedicated IT support tailored for modern healthcare.</p>",
+            "editor": "<p style=\"margin:0 auto;max-width:760px;font-size:16.5px;color:#4A5568;line-height:1.7;text-align:center;\">Backed by Corvit and StelleCloud with 25+ years of tech experience — providing secure client portals, real-time dashboards, cybersecurity, managed IT, and digital growth services.</p>",
             "text_color": "#4A5568",
             "_margin": {
               "unit": "px",
@@ -178,7 +178,7 @@
           }
         },
         {
-          "id": "x2tfsej",
+          "id": "v5t1xrm",
           "elType": "container",
           "isInner": true,
           "settings": {
@@ -212,7 +212,7 @@
           },
           "elements": [
             {
-              "id": "aqzjldr",
+              "id": "2azfphi",
               "elType": "widget",
               "widgetType": "button",
               "settings": {
@@ -224,10 +224,10 @@
                 },
                 "button_type": "default",
                 "selected_icon": {
-                  "value": "fas fa-arrow-right",
+                  "value": "fas fa-desktop",
                   "library": "fa-solid"
                 },
-                "icon_align": "right",
+                "icon_align": "left",
                 "icon_indent": {
                   "unit": "px",
                   "size": 8
@@ -262,19 +262,30 @@
               }
             },
             {
-              "id": "2ltnhis",
+              "id": "76z5jvw",
               "elType": "widget",
               "widgetType": "button",
               "settings": {
-                "text": "Explore All Offerings",
+                "text": "Let’s Find Your Missing Revenue",
                 "link": {
-                  "url": "#offerings",
+                  "url": "tel:15169797418",
                   "is_external": false,
                   "nofollow": false
+                },
+                "button_type": "default",
+                "selected_icon": {
+                  "value": "fas fa-search-dollar",
+                  "library": "fa-solid"
+                },
+                "icon_align": "left",
+                "icon_indent": {
+                  "unit": "px",
+                  "size": 8
                 },
                 "background_color": "#FFFFFF",
                 "button_text_color": "#0C2340",
                 "background_hover_color": "#F1F5F9",
+                "hover_color": "#0C2340",
                 "border_border": "solid",
                 "border_width": {
                   "unit": "px",
