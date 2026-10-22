@@ -1,0 +1,113 @@
+{
+  "version": "0.4",
+  "title": "StelleMed - Header Top Utility Strip (100% Flexbox Container)",
+  "type": "container",
+  "content": [
+    {
+      "id": "83lz3z2",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#EBF7F7",
+        "border_border": "solid",
+        "border_width": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "1",
+          "left": "0",
+          "isLinked": false
+        },
+        "border_color": "#D6EEEE",
+        "padding": {
+          "unit": "px",
+          "top": "8",
+          "right": "20",
+          "bottom": "8",
+          "left": "20",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "78h97ip",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1220,
+              "sizes": []
+            },
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_justify_content": "space-between",
+            "flex_align_items": "center",
+            "flex_gap": {
+              "unit": "px",
+              "size": 12,
+              "column": "12",
+              "row": "8"
+            }
+          },
+          "elements": [
+            {
+              "id": "dyc4d1s",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "<div style=\"display:inline-flex;align-items:center;flex-wrap:wrap;gap:8px;font-size:12px;font-family:'Plus Jakarta Sans',sans-serif;\">\n              <span style=\"display:inline-flex;align-items:center;gap:6px;color:#179A9E;font-weight:700;\">\n                <span style=\"display:inline-block;width:7px;height:7px;background-color:#179A9E;border-radius:50%;\"></span>\n                <i class=\"fas fa-shield-alt\" style=\"font-size:12px;\"></i>\n                <span>Trusted Medical Billing &amp; Healthcare Solutions</span>\n              </span>\n              <span style=\"color:#CBD5E1;margin:0 4px;\">|</span>\n              <span style=\"color:#64748B;font-weight:500;\">HIPAA Compliant Infrastructure Powered by StelleCloud™</span>\n            </div>",
+                "header_size": "div",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "upezxd0",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "<div style=\"display:inline-flex;align-items:center;gap:14px;font-size:12px;font-family:'Plus Jakarta Sans',sans-serif;\">\n              <a href=\"mailto:info@stellemed.com\" style=\"display:inline-flex;align-items:center;gap:6px;color:#1E293B;font-weight:600;text-decoration:none;\">\n                <i class=\"far fa-envelope\" style=\"color:#179A9E;font-size:13px;\"></i>\n                <span>info@stellemed.com</span>\n              </a>\n              <span style=\"color:#CBD5E1;\">|</span>\n              <a href=\"tel:15169797418\" style=\"display:inline-flex;align-items:center;gap:6px;color:#1E293B;font-weight:600;text-decoration:none;\">\n                <i class=\"fas fa-phone-alt\" style=\"color:#179A9E;font-size:12px;\"></i>\n                <span>+1 (516) 979-7418</span>\n              </a>\n              <a href=\"#login\" style=\"display:inline-flex;align-items:center;gap:6px;background-color:#0C2340;color:#FFFFFF;font-weight:700;font-size:12px;padding:6px 14px;border-radius:6px;text-decoration:none;margin-left:4px;transition:background-color 0.2s;\">\n                <i class=\"fas fa-lock\" style=\"font-size:11px;\"></i>\n                <span>Client Login</span>\n              </a>\n            </div>",
+                "header_size": "div",
+                "align": "right",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
