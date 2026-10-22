@@ -4,7 +4,7 @@
   "type": "container",
   "content": [
     {
-      "id": "vud5758",
+      "id": "rvkcd4r",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -54,11 +54,11 @@
       },
       "elements": [
         {
-          "id": "h0nu8wn",
+          "id": "uaog7dp",
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
-            "title": "<nav style=\"font-size:13.5px;font-weight:600;color:#64748B;display:inline-block;margin-bottom:12px;\"><a href=\"/\" style=\"color:#64748B;text-decoration:none;\">Home</a> <span style=\"margin:0 8px;color:#94A3B8;\">&gt;</span> <a href=\"/services\" style=\"color:#64748B;text-decoration:none;\">Services</a> <span style=\"margin:0 8px;color:#94A3B8;\">&gt;</span> <span style=\"color:#179A9E;\">Patient & Practice Services</span></nav>",
+            "title": "<nav style=\"font-size:13.5px;font-weight:600;color:#64748B;display:inline-block;margin-bottom:12px;\"><a href=\"/\" style=\"color:#64748B;text-decoration:none;\">Home</a> <span style=\"margin:0 8px;color:#94A3B8;\">&gt;</span> <a href=\"/services\" style=\"color:#64748B;text-decoration:none;\">Services</a> <span style=\"margin:0 8px;color:#94A3B8;\">&gt;</span> <span style=\"color:#179A9E;\">Patient &amp; Practice Services</span></nav>",
             "header_size": "div",
             "align": "center",
             "_margin": {
@@ -80,11 +80,11 @@
           }
         },
         {
-          "id": "ybzgk7h",
+          "id": "mhh0qo3",
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
-            "title": "<div style=\"display:inline-flex;align-items:center;gap:6px;padding:6px 18px;background-color:#EAF8F8;border:1px solid #A7E8E9;border-radius:50px;color:#179A9E;font-size:12px;font-weight:800;letter-spacing:1px;text-transform:uppercase;margin-bottom:14px;line-height:1.4;\"><i class=\"fas fa-shield-alt\" style=\"font-size:12px;\"></i> PATIENT FINANCIAL CARE & PRACTICE WORKFLOW</div>",
+            "title": "<div style=\"display:inline-flex;align-items:center;gap:6px;padding:6px 18px;background-color:#EAF8F8;border:1px solid #A7E8E9;border-radius:50px;color:#179A9E;font-size:12px;font-weight:800;letter-spacing:1px;text-transform:uppercase;margin-bottom:14px;line-height:1.4;\"><i class=\"fas fa-user-shield\" style=\"font-size:12px;\"></i> OFFICIAL BOOKLET SERVICES</div>",
             "header_size": "div",
             "align": "center",
             "title_color": "#179A9E",
@@ -107,11 +107,11 @@
           }
         },
         {
-          "id": "c43sfse",
+          "id": "25p1tqx",
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
-            "title": "Patient & <span style=\"color:#179A9E;\">Practice Services</span>",
+            "title": "Patient & Practice Services",
             "header_size": "h1",
             "align": "center",
             "title_color": "#0C2340",
@@ -153,11 +153,11 @@
           }
         },
         {
-          "id": "8emxajn",
+          "id": "8dvostl",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
-            "editor": "<p style=\"margin:0 auto;max-width:760px;font-size:16.5px;color:#4A5568;line-height:1.7;text-align:center;\">Protect patient relationships, increase point-of-service collections, and modernize clinical operations with transparent estimates and front-desk coaching.</p>",
+            "editor": "<p style=\"margin:0 auto;max-width:760px;font-size:16.5px;color:#4A5568;line-height:1.7;text-align:center;\">Empower your practice with clear cost estimates, patient billing customer care, flexible payment plans, staff training, KPI reporting, and start-up support.</p>",
             "text_color": "#4A5568",
             "_margin": {
               "unit": "px",
@@ -178,7 +178,7 @@
           }
         },
         {
-          "id": "lykoe6i",
+          "id": "p2b81fu",
           "elType": "container",
           "isInner": true,
           "settings": {
@@ -212,11 +212,11 @@
           },
           "elements": [
             {
-              "id": "peqwxeb",
+              "id": "t1s8b33",
               "elType": "widget",
               "widgetType": "button",
               "settings": {
-                "text": "Schedule Patient Workflow Audit",
+                "text": "Request Practice Workflow Audit",
                 "link": {
                   "url": "#contact",
                   "is_external": false,
@@ -224,10 +224,10 @@
                 },
                 "button_type": "default",
                 "selected_icon": {
-                  "value": "fas fa-arrow-right",
+                  "value": "fas fa-clipboard-check",
                   "library": "fa-solid"
                 },
-                "icon_align": "right",
+                "icon_align": "left",
                 "icon_indent": {
                   "unit": "px",
                   "size": 8
@@ -262,19 +262,30 @@
               }
             },
             {
-              "id": "tgvpbaw",
+              "id": "zbmfvgh",
               "elType": "widget",
               "widgetType": "button",
               "settings": {
-                "text": "Explore All Offerings",
+                "text": "Let’s Find Your Missing Revenue",
                 "link": {
-                  "url": "#offerings",
+                  "url": "tel:15169797418",
                   "is_external": false,
                   "nofollow": false
+                },
+                "button_type": "default",
+                "selected_icon": {
+                  "value": "fas fa-search-dollar",
+                  "library": "fa-solid"
+                },
+                "icon_align": "left",
+                "icon_indent": {
+                  "unit": "px",
+                  "size": 8
                 },
                 "background_color": "#FFFFFF",
                 "button_text_color": "#0C2340",
                 "background_hover_color": "#F1F5F9",
+                "hover_color": "#0C2340",
                 "border_border": "solid",
                 "border_width": {
                   "unit": "px",
