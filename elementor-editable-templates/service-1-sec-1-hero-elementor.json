@@ -4,7 +4,7 @@
   "type": "container",
   "content": [
     {
-      "id": "a4nmidw",
+      "id": "k94wt7d",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -54,11 +54,11 @@
       },
       "elements": [
         {
-          "id": "fq26wfl",
+          "id": "h17aa43",
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
-            "title": "<nav style=\"font-size:13.5px;font-weight:600;color:#64748B;display:inline-block;margin-bottom:12px;\"><a href=\"/\" style=\"color:#64748B;text-decoration:none;\">Home</a> <span style=\"margin:0 8px;color:#94A3B8;\">&gt;</span> <a href=\"/services\" style=\"color:#64748B;text-decoration:none;\">Services</a> <span style=\"margin:0 8px;color:#94A3B8;\">&gt;</span> <span style=\"color:#179A9E;\">Insurance & Payer Services</span></nav>",
+            "title": "<nav style=\"font-size:13.5px;font-weight:600;color:#64748B;display:inline-block;margin-bottom:12px;\"><a href=\"/\" style=\"color:#64748B;text-decoration:none;\">Home</a> <span style=\"margin:0 8px;color:#94A3B8;\">&gt;</span> <a href=\"/services\" style=\"color:#64748B;text-decoration:none;\">Services</a> <span style=\"margin:0 8px;color:#94A3B8;\">&gt;</span> <span style=\"color:#179A9E;\">Insurance &amp; Payer Services</span></nav>",
             "header_size": "div",
             "align": "center",
             "_margin": {
@@ -80,11 +80,11 @@
           }
         },
         {
-          "id": "ladfyuc",
+          "id": "uz27rbg",
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
-            "title": "<div style=\"display:inline-flex;align-items:center;gap:6px;padding:6px 18px;background-color:#EAF8F8;border:1px solid #A7E8E9;border-radius:50px;color:#179A9E;font-size:12px;font-weight:800;letter-spacing:1px;text-transform:uppercase;margin-bottom:14px;line-height:1.4;\"><i class=\"fas fa-shield-alt\" style=\"font-size:12px;\"></i> OFFICIAL BOOKLET SERVICES</div>",
+            "title": "<div style=\"display:inline-flex;align-items:center;gap:6px;padding:6px 18px;background-color:#EAF8F8;border:1px solid #A7E8E9;border-radius:50px;color:#179A9E;font-size:12px;font-weight:800;letter-spacing:1px;text-transform:uppercase;margin-bottom:14px;line-height:1.4;\"><i class=\"fas fa-file-invoice-dollar\" style=\"font-size:12px;\"></i> COMPREHENSIVE PAYER ADJUDICATION</div>",
             "header_size": "div",
             "align": "center",
             "title_color": "#179A9E",
@@ -107,11 +107,11 @@
           }
         },
         {
-          "id": "phsl0yb",
+          "id": "o8zkvn3",
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
-            "title": "Insurance & <span style=\"color:#179A9E;\">Payer Services</span>",
+            "title": "Insurance & Payer Services",
             "header_size": "h1",
             "align": "center",
             "title_color": "#0C2340",
@@ -153,7 +153,7 @@
           }
         },
         {
-          "id": "92ed6lx",
+          "id": "3zvfsdn",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
@@ -178,7 +178,7 @@
           }
         },
         {
-          "id": "ukf2y51",
+          "id": "mymq4in",
           "elType": "container",
           "isInner": true,
           "settings": {
@@ -212,11 +212,11 @@
           },
           "elements": [
             {
-              "id": "t3xhghe",
+              "id": "zi2au22",
               "elType": "widget",
               "widgetType": "button",
               "settings": {
-                "text": "Request Payer Billing Audit",
+                "text": "Request Practice Clinical Audit",
                 "link": {
                   "url": "#contact",
                   "is_external": false,
@@ -224,10 +224,10 @@
                 },
                 "button_type": "default",
                 "selected_icon": {
-                  "value": "fas fa-arrow-right",
+                  "value": "fas fa-shield-alt",
                   "library": "fa-solid"
                 },
-                "icon_align": "right",
+                "icon_align": "left",
                 "icon_indent": {
                   "unit": "px",
                   "size": 8
@@ -262,19 +262,30 @@
               }
             },
             {
-              "id": "59peqkl",
+              "id": "9l6z787",
               "elType": "widget",
               "widgetType": "button",
               "settings": {
-                "text": "Explore All Offerings",
+                "text": "Let’s Find Your Missing Revenue",
                 "link": {
-                  "url": "#offerings",
+                  "url": "tel:15169797418",
                   "is_external": false,
                   "nofollow": false
+                },
+                "button_type": "default",
+                "selected_icon": {
+                  "value": "fas fa-search-dollar",
+                  "library": "fa-solid"
+                },
+                "icon_align": "left",
+                "icon_indent": {
+                  "unit": "px",
+                  "size": 8
                 },
                 "background_color": "#FFFFFF",
                 "button_text_color": "#0C2340",
                 "background_hover_color": "#F1F5F9",
+                "hover_color": "#0C2340",
                 "border_border": "solid",
                 "border_width": {
                   "unit": "px",
