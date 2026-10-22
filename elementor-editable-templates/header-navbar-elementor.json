@@ -1,10 +1,10 @@
 {
   "version": "0.4",
-  "title": "StelleMed - Global TopBar & Sticky Navbar (100% Flexbox Container)",
+  "title": "StelleMed - Global TopBar & Sticky Navbar with Dropdowns (100% Flexbox Container)",
   "type": "container",
   "content": [
     {
-      "id": "7pbvp7q",
+      "id": "4zm2z71",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -27,7 +27,7 @@
       },
       "elements": [
         {
-          "id": "83lz3z2",
+          "id": "mc6hv6f",
           "elType": "container",
           "isInner": true,
           "settings": {
@@ -51,11 +51,27 @@
               "bottom": "8",
               "left": "20",
               "isLinked": false
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            },
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
             }
           },
           "elements": [
             {
-              "id": "78h97ip",
+              "id": "24np44t",
               "elType": "container",
               "isInner": true,
               "settings": {
@@ -78,7 +94,7 @@
               },
               "elements": [
                 {
-                  "id": "dyc4d1s",
+                  "id": "4lzvs3n",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -103,11 +119,11 @@
                   }
                 },
                 {
-                  "id": "upezxd0",
+                  "id": "okczlgv",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
-                    "title": "<div style=\"display:inline-flex;align-items:center;gap:14px;font-size:12px;font-family:'Plus Jakarta Sans',sans-serif;\">\n              <a href=\"mailto:info@stellemed.com\" style=\"display:inline-flex;align-items:center;gap:6px;color:#1E293B;font-weight:600;text-decoration:none;\">\n                <i class=\"far fa-envelope\" style=\"color:#179A9E;font-size:13px;\"></i>\n                <span>info@stellemed.com</span>\n              </a>\n              <span style=\"color:#CBD5E1;\">|</span>\n              <a href=\"tel:15169797418\" style=\"display:inline-flex;align-items:center;gap:6px;color:#1E293B;font-weight:600;text-decoration:none;\">\n                <i class=\"fas fa-phone-alt\" style=\"color:#179A9E;font-size:12px;\"></i>\n                <span>+1 (516) 979-7418</span>\n              </a>\n              <a href=\"#login\" style=\"display:inline-flex;align-items:center;gap:6px;background-color:#0C2340;color:#FFFFFF;font-weight:700;font-size:12px;padding:6px 14px;border-radius:6px;text-decoration:none;margin-left:4px;transition:background-color 0.2s;\">\n                <i class=\"fas fa-lock\" style=\"font-size:11px;\"></i>\n                <span>Client Login</span>\n              </a>\n            </div>",
+                    "title": "<div style=\"display:inline-flex;align-items:center;gap:14px;font-size:12px;font-family:'Plus Jakarta Sans',sans-serif;\">\n              <a href=\"mailto:info@stellemed.com\" style=\"display:inline-flex;align-items:center;gap:6px;color:#1E293B;font-weight:600;text-decoration:none;\">\n                <i class=\"far fa-envelope\" style=\"color:#179A9E;font-size:13px;\"></i>\n                <span>info@stellemed.com</span>\n              </a>\n              <span style=\"color:#CBD5E1;\">|</span>\n              <a href=\"tel:15169797418\" style=\"display:inline-flex;align-items:center;gap:6px;color:#1E293B;font-weight:600;text-decoration:none;\">\n                <i class=\"fas fa-phone-alt\" style=\"color:#179A9E;font-size:12px;\"></i>\n                <span>+1 (516) 979-7418</span>\n              </a>\n              <a href=\"#contact\" style=\"display:inline-flex;align-items:center;gap:6px;background-color:#0C2340;color:#FFFFFF;font-weight:700;font-size:12px;padding:6px 14px;border-radius:6px;text-decoration:none;margin-left:4px;transition:background-color 0.2s;\">\n                <i class=\"fas fa-lock\" style=\"font-size:11px;\"></i>\n                <span>Client Login</span>\n              </a>\n            </div>",
                     "header_size": "div",
                     "align": "right",
                     "_margin": {
@@ -133,7 +149,7 @@
           ]
         },
         {
-          "id": "sby96gv",
+          "id": "gmwetna",
           "elType": "container",
           "isInner": true,
           "settings": {
@@ -155,11 +171,28 @@
               "bottom": "14",
               "left": "20",
               "isLinked": false
-            }
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            },
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            },
+            "z_index": 999
           },
           "elements": [
             {
-              "id": "cz1ud3s",
+              "id": "gh9t506",
               "elType": "container",
               "isInner": true,
               "settings": {
@@ -181,7 +214,7 @@
               },
               "elements": [
                 {
-                  "id": "87jkxwr",
+                  "id": "lk0l1mw",
                   "elType": "container",
                   "isInner": true,
                   "settings": {
@@ -202,7 +235,7 @@
                   },
                   "elements": [
                     {
-                      "id": "zw2ndou",
+                      "id": "qmmwj1s",
                       "elType": "widget",
                       "widgetType": "heading",
                       "settings": {
@@ -229,7 +262,7 @@
                   ]
                 },
                 {
-                  "id": "9bhavxo",
+                  "id": "gng73i9",
                   "elType": "container",
                   "isInner": true,
                   "settings": {
@@ -239,18 +272,18 @@
                     "flex_justify_content": "center",
                     "flex_gap": {
                       "unit": "px",
-                      "size": 24,
-                      "column": "24",
+                      "size": 20,
+                      "column": "20",
                       "row": "14"
                     }
                   },
                   "elements": [
                     {
-                      "id": "dyedceu",
+                      "id": "26zltb7",
                       "elType": "widget",
                       "widgetType": "heading",
                       "settings": {
-                        "title": "<nav style=\"display:inline-flex;align-items:center;gap:26px;font-family:'Plus Jakarta Sans',sans-serif;\">\n                  <a href=\"/\" style=\"display:inline-block;padding:7px 18px;background-color:#EAF8F8;border-radius:8px;color:#179A9E;font-size:14.5px;font-weight:700;text-decoration:none;\">Home</a>\n                  <a href=\"/services\" style=\"display:inline-flex;align-items:center;gap:4px;color:#0C2340;font-size:14.5px;font-weight:700;text-decoration:none;transition:color 0.2s;\">\n                    <span>Services</span>\n                    <i class=\"fas fa-chevron-down\" style=\"font-size:10.5px;color:#0C2340;margin-top:1px;\"></i>\n                  </a>\n                  <a href=\"/about\" style=\"color:#0C2340;font-size:14.5px;font-weight:700;text-decoration:none;transition:color 0.2s;\">About Us</a>\n                  <a href=\"/resources\" style=\"display:inline-flex;align-items:center;gap:4px;color:#0C2340;font-size:14.5px;font-weight:700;text-decoration:none;transition:color 0.2s;\">\n                    <span>Resources</span>\n                    <i class=\"fas fa-chevron-down\" style=\"font-size:10.5px;color:#0C2340;margin-top:1px;\"></i>\n                  </a>\n                  <a href=\"/contact\" style=\"color:#0C2340;font-size:14.5px;font-weight:700;text-decoration:none;transition:color 0.2s;\">Contact</a>\n                </nav>",
+                        "title": "<nav>\n                  <style>\n                    .sm-nav-list {\n                      display: inline-flex;\n                      align-items: center;\n                      gap: 10px;\n                      margin: 0;\n                      padding: 0;\n                      list-style: none;\n                      font-family: 'Plus Jakarta Sans', sans-serif;\n                    }\n                    .sm-item {\n                      position: relative;\n                      padding: 6px 0;\n                    }\n                    .sm-link {\n                      display: inline-flex;\n                      align-items: center;\n                      gap: 4px;\n                      padding: 8px 14px;\n                      color: #0C2340;\n                      font-size: 14.5px;\n                      font-weight: 700;\n                      text-decoration: none;\n                      border-radius: 8px;\n                      transition: all 0.2s ease;\n                    }\n                    .sm-link:hover {\n                      color: #179A9E;\n                      background-color: rgba(23, 154, 158, 0.06);\n                    }\n                    .sm-link.active {\n                      background-color: #EAF8F8;\n                      color: #179A9E;\n                    }\n                    .sm-menu {\n                      position: absolute;\n                      top: 100%;\n                      left: 0;\n                      min-width: 270px;\n                      background: #FFFFFF;\n                      border: 1px solid #E2E8F0;\n                      border-radius: 12px;\n                      box-shadow: 0 12px 32px rgba(12, 35, 64, 0.12);\n                      padding: 8px;\n                      margin: 0;\n                      list-style: none;\n                      opacity: 0;\n                      visibility: hidden;\n                      transform: translateY(8px);\n                      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);\n                      z-index: 99999;\n                    }\n                    .sm-item:hover .sm-menu,\n                    .sm-item:focus-within .sm-menu {\n                      opacity: 1;\n                      visibility: visible;\n                      transform: translateY(0);\n                    }\n                    .sm-menu-link {\n                      display: flex;\n                      align-items: center;\n                      gap: 10px;\n                      padding: 10px 14px;\n                      color: #0C2340;\n                      font-size: 13.5px;\n                      font-weight: 600;\n                      text-decoration: none;\n                      border-radius: 8px;\n                      transition: all 0.2s ease;\n                    }\n                    .sm-menu-link i {\n                      color: #179A9E;\n                      font-size: 13.5px;\n                      width: 18px;\n                      text-align: center;\n                    }\n                    .sm-menu-link:hover {\n                      background-color: #F1FBFB;\n                      color: #179A9E;\n                      padding-left: 17px;\n                    }\n                  </style>\n\n                  <ul class=\"sm-nav-list\">\n                    <!-- 1. Home -->\n                    <li class=\"sm-item\">\n                      <a href=\"/\" class=\"sm-link active\">Home</a>\n                    </li>\n\n                    <!-- 2. Services (with 3 Sub-Services Dropdown) -->\n                    <li class=\"sm-item\">\n                      <a href=\"/services\" class=\"sm-link\">\n                        <span>Services</span>\n                        <i class=\"fas fa-chevron-down\" style=\"font-size:10px;margin-left:2px;\"></i>\n                      </a>\n                      <ul class=\"sm-menu\">\n                        <li>\n                          <a href=\"/services/insurance-payer\" class=\"sm-menu-link\">\n                            <i class=\"fas fa-file-invoice-dollar\"></i>\n                            <span>Insurance &amp; Payer Services</span>\n                          </a>\n                        </li>\n                        <li>\n                          <a href=\"/services/patient-practice\" class=\"sm-menu-link\">\n                            <i class=\"fas fa-user-shield\"></i>\n                            <span>Patient &amp; Practice Services</span>\n                          </a>\n                        </li>\n                        <li>\n                          <a href=\"/services/technology-support\" class=\"sm-menu-link\">\n                            <i class=\"fas fa-server\"></i>\n                            <span>Technology &amp; Support</span>\n                          </a>\n                        </li>\n                      </ul>\n                    </li>\n\n                    <!-- 3. About Us -->\n                    <li class=\"sm-item\">\n                      <a href=\"/about\" class=\"sm-link\">About Us</a>\n                    </li>\n\n                    <!-- 4. Resources (with Calculator, How It Works, FAQ Dropdown) -->\n                    <li class=\"sm-item\">\n                      <a href=\"/resources\" class=\"sm-link\">\n                        <span>Resources</span>\n                        <i class=\"fas fa-chevron-down\" style=\"font-size:10px;margin-left:2px;\"></i>\n                      </a>\n                      <ul class=\"sm-menu\">\n                        <li>\n                          <a href=\"/#roi-calculator\" class=\"sm-menu-link\">\n                            <i class=\"fas fa-calculator\"></i>\n                            <span>Revenue Recovery Calculator</span>\n                          </a>\n                        </li>\n                        <li>\n                          <a href=\"/#how-it-works\" class=\"sm-menu-link\">\n                            <i class=\"fas fa-project-diagram\"></i>\n                            <span>How It Works</span>\n                          </a>\n                        </li>\n                        <li>\n                          <a href=\"/#faq\" class=\"sm-menu-link\">\n                            <i class=\"fas fa-question-circle\"></i>\n                            <span>Knowledge-Based FAQ</span>\n                          </a>\n                        </li>\n                      </ul>\n                    </li>\n\n                    <!-- 5. Contact -->\n                    <li class=\"sm-item\">\n                      <a href=\"#contact\" class=\"sm-link\">Contact</a>\n                    </li>\n                  </ul>\n                </nav>",
                         "header_size": "div",
                         "align": "center",
                         "_margin": {
@@ -274,7 +307,7 @@
                   ]
                 },
                 {
-                  "id": "svftk99",
+                  "id": "0nby7b0",
                   "elType": "widget",
                   "widgetType": "button",
                   "settings": {
